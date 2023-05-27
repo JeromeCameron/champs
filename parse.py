@@ -54,38 +54,61 @@ class Athlete(BaseModel):
     gender: str
 
 
+def isfloat(num):
+    try:
+        float(num)
+        return True
+    except ValueError:
+        return False
+
+
 def parse_race_event(data, event, year):
     """Parse details for race events - Finals"""
 
     lst = []
+    other_details = []
+    get_name = []
+    athlete_name = ""
+
     parshal = data.partition("Finals                          ")[2]
     results = parshal.partition("=======")[0].splitlines()
 
     for line in results:
-        row = list(filter(None, line.split(" ")))
+        other_details = list(filter(None, line.split(" ")))
 
-        if "#" in row:
-            row.remove("#")
-            row.pop(1)
-            # print(row)
+    for line in results:
+        get_name = list(filter(None, line.split("   ")))
+        if get_name != []:
+            athlete_name = get_name[0].rsplit(" ")
+            print(get_name)
+            athlete_name = [i for i in athlete_name if i]
+            athlete_name = " ".join(athlete_name[3:])
+
+        if "#" in other_details:
+            other_details.remove("#")
+            other_details.pop(1)
+
+            if "--" in other_details:
+                other_details.append("")
 
         try:
             result = Result(
-                event=event[3] + " " + event[4] + " " + event[5],
-                gender=event[1],
+                event=event[4] + " " + event[5] + " " + event[6],
+                gender=event[2],
                 clas_s=event[event.index("Class") + 1],
                 heat=None,
                 typ=event[-1][:-5],
-                wind=None if int(event[3]) > 200 else row[-2],
-                name=row[1] + " " + row[2],
+                wind=None if int(event[4]) > 200 else other_details[-2],
+                name=athlete_name,
                 year=year,
-                position=row[0],
-                school=row[3] + " " + row[4],
-                mark=row[-2] if int(event[3]) > 200 else row[-3],
-                points=row[-1],
+                position=other_details[0],
+                school=get_name[1].strip(),
+                mark=other_details[-2] if int(event[4]) > 200 else other_details[-3],
+                points=other_details[-1],
             )
+            # print(len(other_details))
 
-        except IndexError:
+        except (IndexError, ValueError):
             continue
 
         lst.append(result)
@@ -95,7 +118,7 @@ def parse_race_event(data, event, year):
 if __name__ == "__main__":
     """main starts here"""
 
-file_path = "pages/18/#1 Boys 16-19 100 Meter Dash CLASS 1 BOYS Finals.html"
+file_path = "pages/18/Event 7 Boys 16-19 400 Meter Hurdles CLASS 1 BOYS Finals.html"
 with open(file_path) as file:
     page = file.read()
     html = HTMLParser(page)
@@ -104,4 +127,4 @@ with open(file_path) as file:
     event = filename.split(" ")
 
     r = parse_race_event(data, event, "23")
-    print(r)
+    # rich.print(r)
