@@ -1,6 +1,7 @@
 from models import Result
 
 
+# ---------------------------------------------------------------------
 def isfloat(num):
     try:
         float(num)
@@ -9,83 +10,151 @@ def isfloat(num):
         return False
 
 
-def parse_race_event(data, event, year):
-    """Parse details for race events - Finals"""
+# ---------------------------------------------------------------------
 
-    lst = []
-    other_details = []
-    count = 0
-    get_name = []
 
-    parshal = data.partition("Finals                          ")[2]
-    results = parshal.partition("=======")[0].splitlines()
-    results2 = parshal.partition("=======")[0].splitlines()
+def get_athlete_name(result: list) -> str:
+    """Returns athlete name"""
 
-    for line in results2:
-        other_details = list(filter(None, line.split(" ")))
+    athlete_name = ""
 
-        athlete_name = ""
+    lst: list = list(filter(None, result.split("   ")))
 
-        get_name = list(filter(None, results[count].split("   ")))
+    if " " in lst:  # remove empty strings
+        lst.remove(" ")
 
-        if " " in get_name:
-            get_name.remove(" ")
+    if lst != []:  # ignore empty lists
+        athlete_name = lst[0].rsplit(" ")
 
-        if get_name != [] and len(get_name) == 4:
-            athlete_name = get_name[0].rsplit(" ")
-            athlete_name = [i for i in athlete_name if i]
+        if len(athlete_name) < 5 and "--" not in athlete_name:
+            athlete_name = lst[1].rsplit(" ")
 
-            if len(athlete_name) == 5:
-                athlete_name = " ".join(athlete_name[3:])
-            else:
-                athlete_name = " ".join(athlete_name[1:])
+        athlete_name = [i for i in athlete_name if i]
 
-        elif get_name != [] and len(get_name) == 5 and int(event[4]) > 200:
-            athlete_name = get_name[1].rsplit(" ")
-            athlete_name = [i for i in athlete_name if i]
+        if len(athlete_name) >= 5:
+            athlete_name = " ".join(athlete_name[3:])
+        else:
             athlete_name = " ".join(athlete_name[1:])
 
-        elif get_name != [] and len(get_name) == 5 and int(event[4]) <= 200:
-            athlete_name = get_name[0].rsplit(" ")
-            athlete_name = [i for i in athlete_name if i]
-            athlete_name = (
-                " ".join(athlete_name[3:])
-                if len(athlete_name) > 3
-                else " ".join(athlete_name[1:])
-            )
+    return athlete_name
 
-        count += 1
 
-        if "#" in other_details:
-            other_details.remove("#")
-            other_details.pop(1)
+# ---------------------------------------------------------------------
+
+
+def get_event_details(event: list) -> list:
+    """Return event deatils"""
+    event_details: list = []
+
+    event_name = event[4] + " " + event[5] + " " + event[6]
+    gender = event[2]
+    clas_s = event[event.index("Class") + 1]
+
+    if "Finals.Html" in event:
+        heat = None
+    else:
+        heat = ""  # add heat details
+
+    typ = event[-1][:-5]
+    event_details.extend([event_name, gender, clas_s, heat, typ])
+
+    return event_details
+
+
+# ---------------------------------------------------------------------
+
+
+def get_school(result: list, event: list) -> str:
+    """Returns School Name"""
+
+    school = ""
+
+    lst: list = list(filter(None, result.split("   ")))
+
+    if " " in lst:  # remove empty strings
+        lst.remove(" ")
+
+    if " JURY REINSTATE" in lst:  # remove empty strings
+        lst.pop(lst.index(" JURY REINSTATE"))
+
+    if lst != []:  # ignore empty lists
+        if int(event[4]) < 200:
+            school = lst[1].rsplit(" ")
+        else:
+            school = lst[-3].rsplit(" ")
+
+        school = [i for i in school if i]
+
+        school = " ".join(school[0:])
+
+    return school
+
+
+# ---------------------------------------------------------------------
+
+
+def parse_race_event(data, event, year):
+    """Parse details for race events [100m to 1500m events] - Finals"""
+
+    lst: list = []  # will contian all results details
+    other_details = []
+
+    # Split original data into manageble trunks
+    parshal = data.partition("Finals                          ")[2]
+    results = parshal.partition("=======")[0].splitlines()
+
+    # Get event details
+    event_details: list = get_event_details(event)
+
+    for line in results:
+        # Loop through results and parse details
+
+        athlete: str = get_athlete_name(line)
+        school: str = get_school(line, event)
+        other_details = list(filter(None, line.split(" ")))
+
+        # Get other race details
+        if other_details != []:
+            if "#" in other_details:
+                other_details.remove("#")
+                other_details.pop(1)
 
             if "--" in other_details:
                 other_details.append("")
 
-        try:
+            position = other_details[0] if other_details[0].isdigit() else 0
+
+            # ----------points------------------
+            if int(position) > 8 or int(position) == 0:
+                points = 0
+            else:
+                points = other_details[-1]
+            # ----------mark------------------
+            if int(event[4]) > 200:
+                mark = other_details[-2]
+            else:
+                mark = other_details[-3]
+
+            if int(position) > 8:
+                # gets mark if athlete is out of the top 8 finishers
+                mark = other_details[-1]
+            # ----------------------------
+            # create pydantic dataclass
             result = Result(
-                event=event[4] + " " + event[5] + " " + event[6],
-                gender=event[2],
-                clas_s=event[event.index("Class") + 1],
-                heat=None,
-                typ=event[-1][:-5],
+                event=event_details[0],
+                gender=event_details[1],
+                clas_s=event_details[2],
+                heat=event_details[3],
+                typ=event_details[4],
                 wind=None if int(event[4]) > 200 else other_details[-2],
-                name=athlete_name,
+                name=athlete,
                 year=year,
                 position=other_details[0],
-                school=get_name[-3].strip()
-                if int(event[4]) > 200
-                else get_name[1].strip(),
-                mark=other_details[-2] if int(event[4]) > 200 else other_details[-3],
-                points="0" if int(other_details[0]) > 8 else other_details[-1],
+                school=school,
+                mark=mark,
+                points=points,
             )
-            if int(result.position) > 8:
-                result.mark = other_details[-1]
 
-        except (IndexError, ValueError):
-            continue
-
-        lst.append(result)
+            lst.append(result)
 
     return lst

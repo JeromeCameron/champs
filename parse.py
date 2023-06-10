@@ -18,7 +18,15 @@ THROWS = ["Shot", "Discuss", "Javeline"]
 if __name__ == "__main__":
     """main starts here"""
 
-file_path = "pages/23/Event 6 Boys 16-19 110 Meter Hurdles CLASS 1 BOYS Finals.html"
+    # pages/18/Event 19 Boys 14-15 110 Meter Hurdles CLASS 2 BOYS Finals.html
+    # pages\18\Event 7 Boys 16-19 400 Meter Hurdles CLASS 1 BOYS Finals.html
+    # pages\23\Event 1 Boys 16-19 100 Meter Dash CLASS 1 BOYS Finals.html
+    # pages\23\Event 82 Girls 13-19 400 Meter Hurdles OPEN Finals.html
+    # pages\23\Event 59 Girls 15-16 100 Meter Hurdles CLASS 2 Finals.html
+    # pages\19\Event 32 Boys 10-13 100 Meter Hurdles CLASS 3 BOYS Finals.html
+    # pages\21\Event 6 Boys 16-19 110 Meter Hurdles CLASS 1 BOYS Finals.html
+
+file_path = "pages/21/Event 6 Boys 16-19 110 Meter Hurdles CLASS 1 BOYS Finals.html"
 
 with open(file_path) as file:
     page = file.read()
@@ -26,6 +34,8 @@ with open(file_path) as file:
     data = html.text()
     filename = os.path.basename(file_path).title()
     event = filename.split(" ")
+    year = file_path.split("/")
 
     r = parse_race_event(data, event, "23")
-    print(r)
+    # for result in r:
+    #     rich.print(result)
