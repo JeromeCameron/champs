@@ -1,71 +1,43 @@
-import httpx
 from selectolax.parser import HTMLParser
-from urllib.parse import urljoin
 import rich
+import pandas as pd
+from datetime import date
 import os
-import asyncio
+from get_races import parse_race_event
+from get_field_events import parse_field_event
 
-BASE_URL = "https://issasports.com/results/"
 PATH = "pages/"
-
-
-async def get_links(year: str, client) -> dict[str, str]:
-    """Get page event links"""
-    links = {}
-    substring = "last"
-
-    try:
-        url = f"champs{year}/evtindex.htm"
-        resp = await client.get(urljoin(BASE_URL, url))
-        html = HTMLParser(resp.text)
-        tags = html.css("a")
-
-        for tag in tags:
-            href = tag.attributes["href"]
-            if substring not in href:  # type: ignore
-                links[href] = tag.text()
-    except:
-        print(f"error getting page")
-
-    return links
-
-
-async def get_pages(link: str, year: str, name: str, client):
-    """Get and save result pages"""
-
-    # create folder if not exist
-    path = f"pages/{year}"
-    if not os.path.exists(path):
-        os.mkdir(path)
-
-        # download and save page in folder
-        url = f"champs{year}/{link}"
-        resp = await client.get(urljoin(BASE_URL, url))
-        filepath = os.path.join(path, f"{name}.html")
-
-        with open(filepath, "w") as page:
-            page.write(resp.text)
-
-
-async def main():
-    """Main Function"""
-
-    async with httpx.AsyncClient() as client:
-        # get data
-        year = 12
-
-        while year <= 23:
-            links = await get_links(year=str(year), client=client)
-
-            if links:
-                for key, value in links.items():
-                    rich.print(f"Getting {value}")
-                    await get_pages(link=key, year=str(year), name=value, client=client)
-
-            year += 1
+SPRINT = ["100", "200", "400"]
+HURDLE = ["60", "80", "100", "110", "400"]
+MIDDLE_DISTANCE = ["800", "1500"]
+LONG_DISTANCE = ["3000", "500"]
+RELAY = ["4x100", "4x400", "1600"]
+JUMP = ["Long", "Triple", "High", "Pole"]
+THROWS = ["Shot", "Discuss", "Javeline"]
 
 
 if __name__ == "__main__":
     """main starts here"""
 
-    asyncio.run(main())
+    # pages/18/Event 19 Boys 14-15 110 Meter Hurdles CLASS 2 BOYS Finals.html
+    # pages\18\Event 7 Boys 16-19 400 Meter Hurdles CLASS 1 BOYS Finals.html
+    # pages\23\Event 1 Boys 16-19 100 Meter Dash CLASS 1 BOYS Finals.html
+    # pages\23\Event 82 Girls 13-19 400 Meter Hurdles OPEN Finals.html
+    # pages\23\Event 59 Girls 15-16 100 Meter Hurdles CLASS 2 Finals.html
+    # pages\19\Event 32 Boys 10-13 100 Meter Hurdles CLASS 3 BOYS Finals.html
+    # pages\21\Event 6 Boys 16-19 110 Meter Hurdles CLASS 1 BOYS Finals.html
+    # pages\23\Event 9 Boys 16-19 High Jump CLASS 1 BOYS Finals.html
+
+file_path = "pages/23/Event 9 Boys 16-19 High Jump CLASS 1 BOYS Finals.html"
+
+with open(file_path) as file:
+    page = file.read()
+    html = HTMLParser(page)
+    data = html.text()
+    filename = os.path.basename(file_path).title()
+    event = filename.split(" ")
+    year = file_path.split("/")[1]
+
+    r = parse_field_event(data, event, year)
+    # for result in r:
+    #     rich.print(result)
