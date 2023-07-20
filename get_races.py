@@ -126,18 +126,28 @@ def parse_race_event(data, event, year):
 
             # ----------points------------------
             if int(position) > 8 or int(position) == 0:
-                points = 0
+                points = "0"
             else:
                 points = other_details[-1]
+
             # ----------mark------------------
-            if int(event[4]) > 200:
+            if int(event[4]) > 200 and len(points) < 3:
                 mark = other_details[-2]
+            elif int(event[4]) > 4 and len(points) > 3:
+                mark = other_details[-4]
             else:
                 mark = other_details[-3]
 
             if int(position) > 8:
                 # gets mark if athlete is out of the top 8 finishers
                 mark = other_details[-1]
+            # ----------------------------
+            if len(points) > 3:
+                points = other_details[-2]
+                wind = other_details[-3]
+            else:
+                wind = other_details[-2]
+
             # ----------------------------
             # create pydantic dataclass
             result = Result(
@@ -146,7 +156,7 @@ def parse_race_event(data, event, year):
                 clas_s=event_details[2],
                 heat=event_details[3],
                 typ=event_details[4],
-                wind=None if int(event[4]) > 200 else other_details[-2],
+                wind=None if int(event[4]) > 200 else wind,
                 name=athlete,
                 year=year,
                 position=other_details[0],
