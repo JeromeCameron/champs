@@ -85,40 +85,39 @@ def parse_relay_event(data, event, year):
         # Loop through results and parse details
         school: str = get_school(line, event)
         other_details = list(filter(None, line.split("  ")))
-        print(other_details)
+
         # Get other race details
-        if other_details != []:
+        if (
+            other_details != []
+            and len(other_details) > 1
+            and ")" not in other_details[0]
+        ):
             if "#" in other_details:
                 other_details.remove("#")
-                other_details.pop(1)
 
             # if "--" in other_details:
             #     other_details.append("")
 
-            # if "--" not in other_details:
-            #     mark = other_details[-2]
-            #     points = other_details[-1]
-            # else:
-            #     mark = other_details[-3]
-            #     points = "0"
+            mark = other_details[1]
+            points = other_details[2]
 
             # ----------------------------
             # create pydantic dataclass
-            # result = Result(
-            #     event=event_details[0],
-            #     gender=event_details[1],
-            #     clas_s=event_details[2],
-            #     heat=event_details[3],
-            #     typ=event_details[4],
-            #     wind=None,
-            #     name=None,
-            #     year=year,
-            #     position=other_details[0],
-            #     school=school,
-            #     mark=mark,
-            #     points=points,
-            # )
+            result = Result(
+                event=event_details[0],
+                gender=event_details[1],
+                clas_s=event_details[2],
+                heat=event_details[3],
+                typ=event_details[4],
+                wind=None,
+                name=None,
+                year=year,
+                position=other_details[0][0],
+                school=school,
+                mark=mark,
+                points=points,
+            )
 
-            # lst.append(result)
+            lst.append(result)
 
     return lst

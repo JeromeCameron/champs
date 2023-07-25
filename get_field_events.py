@@ -98,9 +98,17 @@ def parse_field_event(data, event, year):
     event_details: list = get_event_details(event)
 
     for line in results:
-        # athlete: str = get_athlete_name(line)
-        # if athlete is not None:
-        #     athlete = athlete
+        athlete: str = get_athlete_name(line)
+        if athlete is not None:
+            athlete = athlete
+
         school: str = get_school(line, event)
-        print(school)
-        # other_details = list(filter(None, line.split(" ")))
+        if school is not None:
+            school = school
+
+        other_details = list(filter(None, line.split("    ")))
+        if len(other_details) > 2 and len(other_details) < 5:
+            if len(other_details[0]) > 1:
+                point = other_details[-1].strip()
+                mark = other_details[-2].strip()
+                print(mark)

@@ -31,7 +31,7 @@ if __name__ == "__main__":
     # pages\23\Event 8 Boys 16-19 4x100 Meter Relay CLASS 1 BOYS Finals.html
 
 
-file_path = r"pages/23/Event 8 Boys 16-19 4x100 Meter Relay CLASS 1 BOYS Finals.html"
+file_path = r"pages/23/Event 9 Boys 16-19 High Jump CLASS 1 BOYS Finals.html"
 
 with open(file_path) as file:
     page = file.read()
@@ -41,6 +41,6 @@ with open(file_path) as file:
     event = filename.split(" ")
     year = file_path.split("/")[1]
 
-    r = parse_relay_event(data, event, year)
+    r = parse_field_event(data, event, year)
     # for result in r:
     #     rich.print(result)
