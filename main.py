@@ -1,12 +1,9 @@
-from selectolax.parser import HTMLParser
 import rich
 import pandas as pd
-from datetime import date
-import os
 from get_races import parse_race_event
 from get_field_events import parse_field_event
 from get_relays import parse_relay_event
-from itertools import chain
+from utils import genearate_df
 
 PATH: str = "pages/"
 SPRINTS: list = ["100 Meter Dash", "200 Meter Dash", "400 Meter Dash"]
@@ -28,37 +25,34 @@ RACE_STAGES: list = ["Finals", "Prelims", "Semis"]
 if __name__ == "__main__":
     """main starts here"""
 
-race_type: str = RACE_STAGES[0]
-results: list = []
+sprints_df: pd.DataFrame = genearate_df(
+    func=parse_race_event, race_type="Finals", race_categories=SPRINTS, path=PATH
+)
 
-for subdir, dirs, files in os.walk(PATH):
-    for event_cat in MIDDLE_DISTANCES:
-        for file in files:
-            if (
-                file.endswith(".html")
-                and file.find(event_cat) >= 0
-                and file.find(race_type) >= 0
-            ):
-                filename = os.path.join(subdir, file)
+middle_distance_df: pd.DataFrame = genearate_df(
+    func=parse_race_event,
+    race_type="Finals",
+    race_categories=MIDDLE_DISTANCES,
+    path=PATH,
+)
 
-                with open(filename) as file:
-                    page = file.read()
-                    html = HTMLParser(page)
-                    data = html.text()
-                    file_title = os.path.basename(filename).title()
-                    event = file_title.split(" ")
-                    year = filename.split("/")[1].split("\\")[0]
+# long_distance_df: pd.DataFrame = genearate_df(
+#     func=parse_race_event,
+#     race_type="Finals",
+#     race_categories=LONG_DISTANCES,
+#     path=PATH,
+# )
 
-                    res: list = parse_race_event(data, event, year)
-                    res_dict = [x.dict() for x in res]
-                    results.append(res_dict)
+frames: list = [sprints_df, middle_distance_df]
+race_events: pd.DataFrame = pd.concat(frames)
 
-df = pd.DataFrame(list(chain.from_iterable(results)), dtype=str)
-# rich.print(df[df["clas_s"] == "2"])
-df.to_csv("csv_files/sprints.csv", index=False)
+rich.print(race_events.shape)
+rich.print(race_events.head())
+rich.print(race_events.tail())
+race_events.to_csv("csv_files/sprints.csv", index=False)
 
 # TODO: Select event to scrape ✅
 # TODO: Loop through folders for that event ✅
 # TODO: Scrape event info and save to df ✅
-# TODO: Write df data to csv File
+# TODO: Write df data to csv File ✅
 # TODO: Correct 2012 Class 1 girsl 200 meter event

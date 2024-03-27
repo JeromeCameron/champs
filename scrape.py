@@ -55,7 +55,7 @@ async def main():
 
     async with httpx.AsyncClient(verify=False) as client:
         # get data
-        year = 24
+        year = None  # Set at run
 
         while year <= 24:
             links = await get_links(year=str(year), client=client)
