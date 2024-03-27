@@ -4,6 +4,9 @@ from urllib.parse import urljoin
 import rich
 import os
 import asyncio
+import ssl
+
+context = ssl._create_unverified_context()
 
 BASE_URL = "https://issasports.com/results/"
 PATH = "pages/"
@@ -38,23 +41,23 @@ async def get_pages(link: str, year: str, name: str, client):
     if not os.path.exists(path):
         os.mkdir(path)
 
-        # download and save page in folder
-        url = f"champs{year}/{link}"
-        resp = await client.get(urljoin(BASE_URL, url))
-        filepath = os.path.join(path, f"{name}.html")
+    # download and save page in folder
+    url = f"champs{year}/{link}"
+    resp = await client.get(urljoin(BASE_URL, url))
+    filepath = os.path.join(path, f"{name.replace(':','')}.html")
 
-        with open(filepath, "w") as page:
-            page.write(resp.text)
+    with open(filepath, "w") as page:
+        page.write(resp.text)
 
 
 async def main():
     """Main Function"""
 
-    async with httpx.AsyncClient() as client:
+    async with httpx.AsyncClient(verify=False) as client:
         # get data
-        year = 12
+        year = 24
 
-        while year <= 23:
+        while year <= 24:
             links = await get_links(year=str(year), client=client)
 
             if links:

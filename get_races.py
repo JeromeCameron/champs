@@ -22,19 +22,21 @@ def get_athlete_name(result: list) -> str:
 
     if " " in lst:  # remove empty strings
         lst.remove(" ")
+    try:
+        if lst != []:  # ignore empty lists
+            athlete_name = lst[0].rsplit(" ")
 
-    if lst != []:  # ignore empty lists
-        athlete_name = lst[0].rsplit(" ")
+            if len(athlete_name) < 5 and "--" not in athlete_name:
+                athlete_name = lst[1].rsplit(" ")
 
-        if len(athlete_name) < 5 and "--" not in athlete_name:
-            athlete_name = lst[1].rsplit(" ")
+            athlete_name = [i for i in athlete_name if i]
 
-        athlete_name = [i for i in athlete_name if i]
-
-        if len(athlete_name) >= 5:
-            athlete_name = " ".join(athlete_name[3:])
-        else:
-            athlete_name = " ".join(athlete_name[1:])
+            if len(athlete_name) >= 5:
+                athlete_name = " ".join(athlete_name[3:])
+            else:
+                athlete_name = " ".join(athlete_name[1:])
+    except IndexError:
+        athlete_name = "nil"
 
     return athlete_name
 
@@ -76,17 +78,18 @@ def get_school(result: list, event: list) -> str:
 
     if " JURY REINSTATE" in lst:  # remove empty strings
         lst.pop(lst.index(" JURY REINSTATE"))
+    try:
+        if lst != []:  # ignore empty lists
+            if int(event[4]) < 200:
+                school = lst[1].rsplit(" ")
+            else:
+                school = lst[-3].rsplit(" ")
 
-    if lst != []:  # ignore empty lists
-        if int(event[4]) < 200:
-            school = lst[1].rsplit(" ")
-        else:
-            school = lst[-3].rsplit(" ")
+            school = [i for i in school if i]
 
-        school = [i for i in school if i]
-
-        school = " ".join(school[0:])
-
+            school = " ".join(school[0:])
+    except IndexError:
+        school = "nil"
     return school
 
 

@@ -6,41 +6,59 @@ import os
 from get_races import parse_race_event
 from get_field_events import parse_field_event
 from get_relays import parse_relay_event
+from itertools import chain
 
-PATH = "pages/"
-SPRINT = ["100", "200", "400"]
-HURDLE = ["60", "80", "100", "110", "400"]
-MIDDLE_DISTANCE = ["800", "1500"]
-LONG_DISTANCE = ["3000", "500"]
-RELAY = ["4x100", "4x400", "1600"]
-JUMP = ["Long", "Triple", "High", "Pole"]
-THROWS = ["Shot", "Discuss", "Javeline"]
+PATH: str = "pages/"
+SPRINTS: list = ["100 Meter Dash", "200 Meter Dash", "400 Meter Dash"]
+HURDLES: list = [
+    "60 Meter Hurdles",
+    "80 Meter Hurdles",
+    "100 Meter Hurdles",
+    "110 Meter Hurdles",
+    "400 Meter Hurdles",
+]
+MIDDLE_DISTANCES: list = ["800 Meter Run", "1500 Meter Run"]
+LONG_DISTANCES: list = ["2000 Meter Steeplechase", "3000 Meter Run", "5000 Meter Run"]
+RELAYS: list = ["4x100 Meter Relay", "4x400 Meter Relay", "1600 Sprint Medley"]
+JUMPS: list = ["Long Jump", "Triple Jump", "High Jump", "Pole Vault"]
+THROWS: list = ["Shot Put", "Discus Throw", "Javelin Throw"]
+RACE_STAGES: list = ["Finals", "Prelims", "Semis"]
 
 
 if __name__ == "__main__":
     """main starts here"""
 
-    # pages/18/Event 19 Boys 14-15 110 Meter Hurdles CLASS 2 BOYS Finals.html
-    # pages\18\Event 7 Boys 16-19 400 Meter Hurdles CLASS 1 BOYS Finals.html
-    # pages\23\Event 1 Boys 16-19 100 Meter Dash CLASS 1 BOYS Finals.html
-    # pages\23\Event 82 Girls 13-19 400 Meter Hurdles OPEN Finals.html
-    # pages\23\Event 59 Girls 15-16 100 Meter Hurdles CLASS 2 Finals.html
-    # pages\19\Event 32 Boys 10-13 100 Meter Hurdles CLASS 3 BOYS Finals.html
-    # pages\21\Event 6 Boys 16-19 110 Meter Hurdles CLASS 1 BOYS Finals.html
-    # pages\23\Event 9 Boys 16-19 High Jump CLASS 1 BOYS Finals.html
-    # pages\23\Event 8 Boys 16-19 4x100 Meter Relay CLASS 1 BOYS Finals.html
+race_type: str = RACE_STAGES[0]
+results: list = []
 
+for subdir, dirs, files in os.walk(PATH):
+    for event_cat in MIDDLE_DISTANCES:
+        for file in files:
+            if (
+                file.endswith(".html")
+                and file.find(event_cat) >= 0
+                and file.find(race_type) >= 0
+            ):
+                filename = os.path.join(subdir, file)
 
-file_path = r"pages/23/Event 9 Boys 16-19 High Jump CLASS 1 BOYS Finals.html"
+                with open(filename) as file:
+                    page = file.read()
+                    html = HTMLParser(page)
+                    data = html.text()
+                    file_title = os.path.basename(filename).title()
+                    event = file_title.split(" ")
+                    year = filename.split("/")[1].split("\\")[0]
 
-with open(file_path) as file:
-    page = file.read()
-    html = HTMLParser(page)
-    data = html.text()
-    filename = os.path.basename(file_path).title()
-    event = filename.split(" ")
-    year = file_path.split("/")[1]
+                    res: list = parse_race_event(data, event, year)
+                    res_dict = [x.dict() for x in res]
+                    results.append(res_dict)
 
-    r = parse_field_event(data, event, year)
-    # for result in r:
-    #     rich.print(result)
+df = pd.DataFrame(list(chain.from_iterable(results)), dtype=str)
+# rich.print(df[df["clas_s"] == "2"])
+df.to_csv("csv_files/sprints.csv", index=False)
+
+# TODO: Select event to scrape ✅
+# TODO: Loop through folders for that event ✅
+# TODO: Scrape event info and save to df ✅
+# TODO: Write df data to csv File
+# TODO: Correct 2012 Class 1 girsl 200 meter event
