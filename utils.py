@@ -2,6 +2,7 @@ import os
 import pandas as pd
 from selectolax.parser import HTMLParser
 from itertools import chain
+import asyncio
 
 
 def genearate_df(

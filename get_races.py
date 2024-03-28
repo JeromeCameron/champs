@@ -50,7 +50,10 @@ def get_event_details(event: list) -> list:
 
     event_name = event[4] + " " + event[5] + " " + event[6]
     gender = event[2]
-    clas_s = event[event.index("Class") + 1]
+    try:
+        clas_s = event[event.index("Class") + 1]
+    except:
+        clas_s = "Open"
 
     if "Finals.Html" in event:
         heat = None
@@ -66,7 +69,7 @@ def get_event_details(event: list) -> list:
 # ---------------------------------------------------------------------
 
 
-def get_school(result: list, event: list) -> str:
+def get_school(result: list, event: list, year: int) -> str:
     """Returns School Name"""
 
     school = ""
@@ -82,6 +85,8 @@ def get_school(result: list, event: list) -> str:
         if lst != []:  # ignore empty lists
             if int(event[4]) < 200:
                 school = lst[1].rsplit(" ")
+            elif int(year) == 24 and len(lst) > 4:
+                school = lst[-4].rsplit(" ")
             else:
                 school = lst[-3].rsplit(" ")
 
@@ -113,7 +118,7 @@ def parse_race_event(data, event, year):
         # Loop through results and parse details
 
         athlete: str = get_athlete_name(line)
-        school: str = get_school(line, event)
+        school: str = get_school(line, event, year)
         other_details = list(filter(None, line.split(" ")))
 
         # Get other race details

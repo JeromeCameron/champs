@@ -54,6 +54,8 @@ def get_school(result: list, event: list) -> str:
 
     if lst != []:  # ignore empty lists
         school = lst[0].rsplit(" ")
+        if school[-1] == "'A'":
+            school.pop(-1)
         school = [i for i in school if i]
 
         try:
@@ -61,7 +63,7 @@ def get_school(result: list, event: list) -> str:
                 school = " ".join(school[1:])
         except:
             school = " ".join(school[0:])
-
+        school = school.replace("--", "")
     return school
 
 
@@ -95,12 +97,20 @@ def parse_relay_event(data, event, year):
             if "#" in other_details:
                 other_details.remove("#")
 
+            if "'A'" in other_details:
+                other_details.remove("'A'")
+
+            if " " in other_details:
+                other_details.remove(" ")
+
             # if "--" in other_details:
             #     other_details.append("")
-
             mark = other_details[1]
-            points = other_details[2]
 
+            if len(other_details) > 2:
+                points = other_details[-1]
+            else:
+                points = 0
             # ----------------------------
             # create pydantic dataclass
             result = Result(
