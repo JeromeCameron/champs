@@ -24,7 +24,7 @@ TRACK_EVENTS: list = [
 ]
 RELAYS: list = ["4x100 Meter Relay", "4x400 Meter Relay", "1600 Sprint Medley"]
 MULTI_EVENTS: list = ["Dec", "Hept"]
-JUMPS: list = ["Long Jump", "Triple Jump", "High Jump", "Pole Vault"]
+JUMPS: list = ["Triple Jump"]  # ["Long Jump", "Triple Jump", "High Jump", "Pole Vault"]
 THROWS: list = ["Shot Put", "Discus Throw", "Javelin Throw"]
 RACE_STAGES: list = ["Finals", "Prelims", "Semis"]
 
@@ -32,27 +32,36 @@ RACE_STAGES: list = ["Finals", "Prelims", "Semis"]
 if __name__ == "__main__":
     """main starts here"""
 
-    track_events_df: pd.DataFrame = genearate_df(
-        func=parse_race_event,
+    # track_events_df: pd.DataFrame = genearate_df(
+    #     func=parse_race_event,
+    #     race_type="Finals",
+    #     race_categories=TRACK_EVENTS,
+    #     path=PATH,
+    # )
+
+    # relays_df: pd.DataFrame = genearate_df(
+    #     func=parse_relay_event,
+    #     race_type="Finals",
+    #     race_categories=RELAYS,
+    #     path=PATH,
+    # )
+
+    field_events_df: pd.DataFrame = genearate_df(
+        func=parse_field_event,
         race_type="Finals",
-        race_categories=TRACK_EVENTS,
+        race_categories=JUMPS,
         path=PATH,
     )
 
-    relays_df: pd.DataFrame = genearate_df(
-        func=parse_relay_event,
-        race_type="Finals",
-        race_categories=RELAYS,
-        path=PATH,
-    )
+    rich.print(field_events_df)
 
-frames: list = [track_events_df, relays_df]
-race_events: pd.DataFrame = pd.concat(frames)
+# frames: list = [track_events_df, relays_df]
+# race_events: pd.DataFrame = pd.concat(frames)
 
-rich.print(race_events.shape)
-rich.print(race_events.head())
-rich.print(race_events.tail())
-race_events.to_csv("csv_files/race_events.csv", index=False)
+# rich.print(race_events.shape)
+# rich.print(race_events.head())
+# rich.print(race_events.tail())
+field_events_df.to_csv("csv_files/field_events.csv", index=False)
 
 
 # TODO: Select event to scrape ✅
@@ -62,5 +71,7 @@ race_events.to_csv("csv_files/race_events.csv", index=False)
 # TODO: Function to read long distance info ✅
 # TODO: Function to read hurdles info ✅
 # TODO: Function to read relays info ✅
+# TODO: Add 2024 check in field events function
+# TODO: What to do if no series data
 # TODO: Function to read field events info
 # TODO: Correct 2012 Class 1 girls 200 meter event

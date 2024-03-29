@@ -1,0 +1,353 @@
+event,gender,clas_s,typ,wind,name,year,position,school,series,mark,points
+Triple Jump,Boys,Open,Finals,1.2,"Pullen, Clive",12,1,17 Kingston College,"['2', 'Robinson,', 'Demar', '18', 'Calabar', 'High', 'School', '15.34m', '0.2', '7']",15.71m,9
+Triple Jump,Boys,Open,Finals,-1.1,"Dunkley, Fitzroy",12,3,19 Jamaica College,"['4', 'Smith,', 'Owen', '18', 'Calabar', 'High', 'School', '14.43m', '-1.4', '5']",15.07m,6
+Triple Jump,Boys,Open,Finals,-1.1,"Phynn, Nicholas",12,5,17 Jamaica College,"['6', 'Rookwood,', 'Alex', '17', 'Hydel', 'High', 'School', '14.39m', '0.2', '3']",J14.43m,4
+Triple Jump,Boys,Open,Finals,-0.5,"Ricketts, Michane",12,7,17 Edwin Allen,"['8', 'Blake,', 'Jevaun', '17', ""Wolmers'"", 'Boys', 'SC', '14.18m', '0.2', '1']",14.34m,2
+Triple Jump,Boys,Open,Finals,-1.2,"Battick, Javon",12,9,17 St. Jago High,"['10', 'Benjamin,', 'Carlington', '19', 'Kingston', 'College', '13.67m', '-1.0']",13.82m,0
+Triple Jump,Boys,Open,Finals,-0.7,"Lynch, Romario",12,11,17 St.Elizabeth Tec,"['--', 'Hyde,', 'Javauny', '16', ""Wolmers'"", 'Boys', 'SC', 'ND', 'NWI']",13.42m,0
+Triple Jump,Girls,Open,Finals,-2.1,"Allen, Sabina",12,1,17 Vere Technical High,"['2', 'Lawrence,', 'Shardia', '16', 'Vere', 'Technical', 'High', '12.40m', '-0.8', '7']",12.83m,9
+Triple Jump,Girls,Open,Finals,0.4,"James, Opal",12,3,17 St.Elizabeth Tec,"['4', 'Moncrieffe,', 'Tamara', '16', 'Holmwood', 'Technical', '11.89m', '-1.2', '5']",12.13m,6
+Triple Jump,Girls,Open,Finals,0.7,"Carty, Amanda",12,5,15 Hydel High School,"['6', 'MC', 'Kay,', 'Shenelle', '18', 'Convent', 'OF', 'Mercy', '11.73m', '-0.6', '3']",11.82m,4
+Triple Jump,Girls,Open,Finals,0.4,"Coombs, Latavia",12,7,16 Holmwood Technical,"['8', 'Williamson,', 'Kimberly', '18', 'Edwin', 'Allen', 'High', '11.55m', 'NWI', '1']",11.72m,2
+Triple Jump,Girls,Open,Finals,0.9,"Walters, Tamoya",12,9,18 St. Jago High,"['10', 'Chambers,', 'Kishna', 'Gaye', '16', 'St.Elizabeth', 'Tec', '11.39m', '-1.7']",11.49m,0
+Triple Jump,Girls,Open,Finals,NWI,"Broomfield, Robiann",12,11,19 Immaculate Conce,"['12', 'Bryan,', 'Donique', '16', 'Edwin', 'Allen', 'High', '11.34m', '0.5']",11.38m,0
+Triple Jump,Girls,Open,Finals,-0.2,"Kerr, Britny",12,13,15 Hydel High School,"['14', 'Morgan,', 'Safia', '16', 'Immaculate', 'Conce', '11.29m', '0.4']",11.31m,0
+Triple Jump,Girls,Open,Finals,NWI,"Williams, Shantal",12,15,19 Excelsior High,"['--', 'Reid,', 'Rusheen', '18', 'The', 'Queens', 'School', 'FOUL']",11.20m,0
+Triple Jump,Girls,Open,Finals,FOUL,"Lean, Chelsi",12,,16 ST Andrew High,"['--', 'Thompson,', 'Kavanja', '19', 'St.', 'Jago', 'High', 'FOUL']",FOUL,['FOUL']
+Triple Jump,Boys,1,Finals,1.3,Clayton Brown,14,1,Jamaica College,"['2', 'Obrien', 'Wasome', 'Jamaica', 'College', '15.60m', '2.6', '7']",15.68m,9
+Triple Jump,Boys,1,Finals,1.9,Odaine Lewis,14,3,Cornwall College,"['4', 'Jordan', 'Scott', 'Campion', 'College', '15.55m', '2.3', '5']",15.59m,6
+Triple Jump,Boys,1,Finals,1.2,Michane Ricketts,14,5,Edwin Allen High,"['6', 'Javauny', 'Hyde', ""Wolmer's"", 'Hig', '15.02m', '0.9', '3']",15.04m,4
+Triple Jump,Boys,1,Finals,3.0,Travis Riley,14,7,Calabar High,"['8', 'Anthony', 'Bailey', 'Munro', 'College', '14.60m', '3.2', '1']",14.98m,2
+Triple Jump,Boys,1,Finals,1.8,Otheny Carridice,14,9,Holmwood Tech,"['10', 'Gavin', 'Montaque', 'St.', 'Mary', 'High', '13.84m', '1.6']",13.91m,0
+Triple Jump,Boys,1,Finals,2.2,Gavin Gibson,14,11,Kingston College,"['12', 'Odel', 'Murphy', 'Hydel', 'High', '13.70m', '-0.1']",13.75m,0
+Triple Jump,Girls,Open,Finals,0.9,Tamara Moncrieffe,14,1,Holmwood Tech,"['2', 'Shardia', 'Lawrence', 'Hydel', 'High', '12.92m', '1.3', '7']",13.51m,9
+Triple Jump,Girls,Open,Finals,2.4,Sabina Allen,14,3,St. Jago High,"['4', 'Claudette', 'Allen', 'Edwin', 'Allen', 'High', '12.71m', '2.1', '5']",12.83m,6
+Triple Jump,Girls,Open,Finals,0.3,Latavia Coombs,14,5,Holmwood Tech,"['6', 'Britny', 'Kerr', 'Hydel', 'High', '12.63m', '1.6', '3']",12.68m,4
+Triple Jump,Girls,Open,Finals,1.0,Shamoya Mcneil,14,7,St. Jago High,"['8', 'Shanique', 'Wright', 'Manchester', 'High', '12.27m', '1.6', '1']",12.62m,2
+Triple Jump,Girls,Open,Finals,0.3,Shanice Lewis,14,9,Edwin Allen High,"['10', 'Natasha', 'Patterson', ""Wolmer's"", 'Hig', '11.05m', '1.1']",11.15m,0
+Triple Jump,Girls,Open,Finals,FOUL,Ave-Anna Venair,14,,Excelsior High,"['--', 'Danielle', 'Spence', ""Wolmer's"", 'Hig', 'FOUL']",FOUL,['FOUL']
+Triple Jump,Girls,Open,Finals,FOUL,Shennare Williams,14,,Vere Technical High,"['--', 'Myesha', 'Nott', ""Rusea's"", 'High', 'FOUL']",FOUL,"['', '', '', 'FOUL']"
+Triple Jump,Girls,Open,Finals,FOUL,Daila Gayle,14,,Vere Technical High,"['--', 'Karisiah', 'Green', 'St.', 'Elizabet', 'FOUL']",FOUL,"['', '', '', 'FOUL']"
+Triple Jump,Girls,Open,Finals,FOUL,Sharzan Richards,14,,Manchester High,[],FOUL,"['', '', '', 'FOUL']"
+Triple Jump,Boys,2,Finals,3.8,Javier Lowe,14,1,Calabar High,"['2', 'Ouekie', 'Wright', 'St.', 'Elizabet', '14.49m', '2.3', '7']",14.75m,9
+Triple Jump,Boys,2,Finals,1.6,Paketo Dudley,14,3,Jamaica College,"['4', 'Alrick', 'Ottey', 'Cornwall', 'College', '14.33m', '2.1', '5']",14.43m,6
+Triple Jump,Boys,2,Finals,4.7,Shemar Stona,14,5,Kingston College,"['6', 'Brian-neil', 'Robinson', 'St.', 'Elizabet', '13.75m', '1.9', '3']",14.03m,4
+Triple Jump,Boys,2,Finals,3.4,Gabriel Allen,14,7,Calabar High,"['8', 'Sadiki', 'Morgan', ""Wolmer's"", 'Hig', '13.70m', '3.9', '1']",13.72m,2
+Triple Jump,Boys,2,Finals,3.4,Dameon Creary,14,9,Wolmer's Hig,"['10', 'Tevin', 'Dunn', 'Munro', 'College', '13.61m', '4.4']",13.66m,0
+Triple Jump,Boys,2,Finals,4.4,Shammawi Wellington,14,11,Kingston College,"['12', 'Andre', 'Douglas', 'Jamaica', 'College', '13.49m', '3.8']",13.57m,0
+Triple Jump,Boys,2,Finals,1.8,Nathaniel Jordan,14,13,Cedric Titus High,"['14', 'Ayoka', 'Campbell', 'Excelsior', 'High', '12.89m', '2.6']",13.29m,0
+Triple Jump,Boys,2,Finals,1.8,Phillipe Barnett,14,15,Excelsior High,"['16', 'Xavier', 'Ricketts', 'Munro', 'College', '12.24m', '4.4']",12.80m,0
+Triple Jump,Boys,2,Finals,FOUL,Ronaldo Cawley,14,,St. Jago High,[],FOUL,"['', 'FOUL']"
+Triple Jump,Boys,1,Finals,2.9,Obrien Wasome,15,1,Jamaica College,"['2', 'Clayton', 'Brown', 'Jamaica', 'College', '16.04mR', '2.0', '7']",16.24m,9
+Triple Jump,Boys,1,Finals,2.4,Jordan Scott,15,3,Campion College,"['4', 'Odaine', 'Lewis', 'Cornwall', 'College', '15.63m', '2.4', '5']",15.78m,6
+Triple Jump,Boys,1,Finals,2.4,Javier Lowe,15,5,Calabar High,"['6', 'Travis', 'Riley', 'Calabar', 'High', 'J15.60m', '3.8', '3']",15.60m,4
+Triple Jump,Boys,1,Finals,1.0,Errol Ennis,15,7,Kingston College,"['8', 'Alrick', 'Ottey', 'Cornwall', 'College', '15.07m', '1.0', '1']",15.38m,2
+Triple Jump,Boys,1,Finals,1.5,Odel Murphy,15,9,Hydel High,"['10', 'Lexux', 'Brown', 'St.', 'Elizabeth', '14.51m', '3.7']",14.71m,0
+Triple Jump,Boys,1,Finals,3.9,Shown-D Thompson,15,11,St. Jago High,"['12', 'Ouekie', 'Wright', 'St.', 'Elizabeth', '13.91m', '1.7']",14.46m,0
+Triple Jump,Boys,1,Finals,0.3,Gavin Montaque,15,13,St. Mary High,"['14', 'Rashid', 'Allen', 'Manchester', 'High', '13.63m', '3.1']",13.85m,0
+Triple Jump,Boys,1,Finals,1.0,Carey Mcleod,15,15,Garvey Maceo High,[],13.39m,0
+Triple Jump,Girls,Open,Finals,6.8,Tamara Moncrieffe,15,1,Holmwood Techn,"['2', 'Shardia', 'Lawrence', 'Hydel', 'High', '13.14m', '2.1', '7']",13.92m,9
+Triple Jump,Girls,Open,Finals,3.0,Shanique Wright,15,3,Manchester High,"['4', 'Danique', 'Bryan', 'Edwin', 'Allen', 'High', '12.80m', '2.5', '5']",12.92m,6
+Triple Jump,Girls,Open,Finals,2.6,Nhayilla Renteria,15,5,St. Jago High,"['6', 'Latavia', 'Coombs', 'Holmwood', 'Techn', '12.46m', '7.2', '3']",12.53m,4
+Triple Jump,Girls,Open,Finals,3.7,Danielle Spence,15,7,Wolmer's High,"['8', 'Britny', 'Kerr', 'Hydel', 'High', '12.23m', '0.1', '1']",12.34m,2
+Triple Jump,Girls,Open,Finals,4.7,Lorean Murray,15,9,St. Andrew High,"['10', 'Hanifah', 'Abdulqadir', 'St.', 'Jago', 'High', '12.01m', '2.1']",12.15m,0
+Triple Jump,Girls,Open,Finals,1.0,Shennare Williams,15,11,Vere Technical High,"['12', 'Sharzan', 'Richards', 'Manchester', 'High', '11.60m', '0.6']",11.83m,0
+Triple Jump,Girls,Open,Finals,0.7,Ave-Anna Venair,15,13,Excelsior High,"['14', 'Lotavia', 'Brown', 'Edwin', 'Allen', 'High', '11.47m', '4.2']",11.48m,0
+Triple Jump,Girls,Open,Finals,4.2,Fiona Barnes,15,15,Vere Technical High,"['16', 'Myesha', 'Nott', ""Rusea's"", 'High', '11.29m', '2.5']",11.42m,0
+Triple Jump,Girls,Open,Finals,4.3,Karisiah Green,15,17,St. Elizabeth,"['--', 'Romae', 'Quarrie', 'Campion', 'College', 'FOUL']",11.23m,0
+Triple Jump,Girls,Open,Finals,FOUL,Ramoya Grandison,15,,Wolmer's High,[],FOUL,"['', 'FOUL']"
+Triple Jump,Boys,2,Finals,-0.3,Paketo Dudley,15,1,Jamaica College,"['2', 'Lushane', 'Wilson', 'St.', 'Jago', 'High', '14.24m', '-0.4', '7']",14.51m,9
+Triple Jump,Boys,2,Finals,-0.9,Devonte Bancroft,15,3,Kingston College,"['4', 'Dameon', 'Creary', ""Wolmer's"", 'High', '13.99m', '0.1', '5']",14.01m,6
+Triple Jump,Boys,2,Finals,-1.1,Daniel Allen,15,5,Calabar High,"['6', 'Joel', 'Morgan', 'Excelsior', 'High', '13.50m', '-0.1', '3']",13.62m,4
+Triple Jump,Boys,2,Finals,-0.5,Joshua Smickle,15,7,Camperdown High,"['8', 'Safin', 'Wills', 'Jamaica', 'College', '13.44m', '-0.3', '1']",13.47m,2
+Triple Jump,Boys,2,Finals,-1.2,Owayne Owens,15,9,Cornwall College,"['10', 'Terrol', 'Wilson', 'Kingston', 'College', '13.27m', '0.1']",13.37m,0
+Triple Jump,Boys,2,Finals,-1.3,Kristoffe Clifford,15,11,Calabar High,"['11', 'Kobe-jordan', 'Rhooms', 'Cornwall', 'College', '13.19m', '-0.2']",13.19m,0
+Triple Jump,Boys,2,Finals,-1.0,Shemar Miller,15,13,St. Elizabeth,"['14', 'Kevon', 'Bennett', 'St.', 'Elizabeth', '12.91m', '-0.5']",12.97m,0
+Triple Jump,Boys,2,Finals,-1.4,Ansel Gray,15,15,Petersfield High,"['16', 'Phillipe', 'Barnett', 'Excelsior', 'High', '12.47m', '-0.7']",12.48m,0
+Triple Jump,Boys,2,Finals,-0.2,Keyshan Davis,15,17,St. Jago High,"['18', 'Shevaughn', 'Allen', 'Green', 'Pond', 'High', '12.01m', '0.1']",12.18m,0
+Triple Jump,Boys,1,Finals,-1.9,Obrien Wasome,16,1,Jamaica College,"['15.70m(-1.1)', '15.72m(-1.4)', '16.39m(-1.9)', '13.96m(0.3)', 'PASS', 'PASS']",16.39mR,9
+Triple Jump,Boys,1,Finals,0.3,Javier Lowe,16,2,Calabar High,"['15.70m(-1.5)', '16.04m(-1.2)', '15.41m(-0.8)', 'FOUL', '16.10m(0.3)', '15.55m(0.5)']",16.10m,7
+Triple Jump,Boys,1,Finals,-0.4,Jordan Scott,16,3,Campion College,"['FOUL', '15.94m(-0.4)', '15.44m(-1.4)', 'FOUL', 'PASS', '15.79m(0.3)']",15.94m,6
+Triple Jump,Boys,1,Finals,-0.5,Clayton Brown,16,4,Jamaica College,"['14.96m(-1.8)', '15.27m(-1.7)', '15.52m(-1.2)', '15.18m(-0.1)', 'FOUL', '15.62m(-0.5)']",15.62m,5
+Triple Jump,Boys,1,Finals,-1.2,Tevin Dunn,16,5,Munro College,"['14.79m(-1.2)', '13.89m(-1.3)', 'FOUL', '14.42m(-1.0)', 'FOUL', '14.62m(0.4)']",14.79m,4
+Triple Jump,Boys,1,Finals,1.2,Shown-d Thompson,16,6,St. Jago High,"['13.93m(-2.1)', '13.90m(-1.4)', '14.41m(-0.8)', '14.40m(-0.2)', 'FOUL', '14.76m(1.2)']",14.76m,3
+Triple Jump,Boys,1,Finals,-1.0,Ryan Brown,16,7,Old Harbour High,"['14.36m(-1.3)', 'FOUL', '14.14m(-1.3)', '14.63m(-1.0)', '14.33m(0.5)', '14.45m(1.2)']",14.63m,2
+Triple Jump,Boys,1,Finals,1.3,Gabriel Allen,16,8,Calabar High,"['FOUL', '13.94m(-1.3)', '14.40m(-1.0)', '14.31m(-0.7)', 'FOUL', '14.50m(1.3)']",14.50m,1
+Triple Jump,Boys,1,Finals,-1.1,Sadiki Morgan,16,9,Wolmer boy,"['FOUL', '13.90m(-1.1)', '13.70m(-1.4)']",13.90m,0
+Triple Jump,Boys,1,Finals,-1.2,Kobe-jordan Rhooms,16,10,Cornwall College,"['13.20m(-1.8)', '13.69m(-1.2)', '13.55m(-1.5)']",13.69m,0
+Triple Jump,Boys,1,Finals,-1.6,Shemar Miller,16,11,St. Elizabeth,"['FOUL', '13.45m(-1.6)', 'FOUL']",13.45m,0
+Triple Jump,Boys,1,Finals,FOUL,Ouekie Wright,16,,St. Elizabeth,"['FOUL', 'PASS', 'PASS']",FOUL,"['', 'FOUL']"
+Triple Jump,Girls,Open,Finals,3.7,Samara Spencer,16,1,Hydel High,"['2', 'Tissanna', 'Hickling', 'St.', 'Jago', 'High', '12.96m', '5.1', '7']",13.02m,9
+Triple Jump,Girls,Open,Finals,4.7,Danielle Spence,16,3,Wolmer Girl,"['4', 'Britny', 'Kerr', 'Hydel', 'High', '12.61m', '4.7', '5']",12.86m,6
+Triple Jump,Girls,Open,Finals,8.1,Myesha Nott,16,5,Rusea's High,"['6', 'Leone', 'Farquharson', 'Campion', 'College', '12.28m', '2.2', '3']",12.34m,4
+Triple Jump,Girls,Open,Finals,5.7,Jody-ann Petrie,16,7,St. Jago High,"['8', 'Cathilee', 'Mullings', 'Holmwood', '12.15m', '3.1', '1']",12.24m,2
+Triple Jump,Girls,Open,Finals,5.2,Sharzan Richards,16,9,Manchester High,"['10', 'Fiona', 'Barnes', 'Vere', 'Technical', 'High', '12.02m', '3.1']",12.14m,0
+Triple Jump,Girls,Open,Finals,2.5,Lorean Murray,16,11,St. Andrew,"['12', ""D'Andra"", 'Morris', 'Camperdown', 'High', '11.76m', '2.1']",12.01m,0
+Triple Jump,Girls,Open,Finals,3.3,Lotavia Brown,16,13,Edwin Allen High,"['14', 'Adrianna', 'Miller', 'St.', 'Elizabeth', '11.49m', '3.5']",11.52m,0
+Triple Jump,Girls,Open,Finals,3.0,Ruthanne Mcclymont,16,15,Manchester High,"['--', 'Trisanya', 'Mitchell', 'Wolmer', 'Girl', 'ND', 'NWI']",11.31m,0
+Triple Jump,Girls,Open,Finals,FOUL,Desiree-gift Mills,16,,Cedar Grove,"['--', 'Innahsuy', 'Malcom', 'Green', 'Pond', 'High', 'FOUL']",FOUL,"['', '', '', 'FOUL']"
+Triple Jump,Girls,Open,Finals,FOUL,Colistia Baker,16,,Petersfield High,"['--', 'Peter-Gay', 'McKenzie', 'Edwin', 'Allen', 'High', 'FOUL']",FOUL,"['', '', 'FOUL']"
+Triple Jump,Boys,2,Finals,5.5,Malik Cunningham,16,1,Jamaica College,"['2', 'Owayne', 'Owens', 'Cornwall', 'College', '14.41m', '0.9', '7']",14.53m,9
+Triple Jump,Boys,2,Finals,4.7,Safin Wills,16,3,Jamaica College,"['4', 'Kristoffe', 'Clifford', 'Calabar', 'High', '14.32m', '0.2', '5']",14.35m,6
+Triple Jump,Boys,2,Finals,1.3,Terrol Wilson,16,5,Kingston College,"['6', 'Ricardo', 'Clarke', 'Calabar', 'High', '14.04m', '2.8', '3']",14.06m,4
+Triple Jump,Boys,2,Finals,0.8,Joel Morgan,16,7,Excelsior High,"['8', 'Recardo', 'Jackson', 'St.', 'Jago', 'High', '13.71m', '2.5', '1']",13.95m,2
+Triple Jump,Boys,2,Finals,2.0,Shacquille Lowe,16,9,Kingston College,"['10', 'Keyshan', 'Davis', 'St.', 'Jago', 'High', '13.36m', '2.8']",13.38m,0
+Triple Jump,Boys,2,Finals,3.5,Causwell Hyde,16,11,Munro College,"['12', 'Shevaughn', 'Allen', 'Green', 'Pond', 'High', '12.77m', '3.5']",13.05m,0
+Triple Jump,Boys,2,Finals,3.4,Rantano Roberts,16,13,Camperdown High,"['14', 'Miguel', 'Alexander', 'Petersfield', 'High', '12.53m', '2.0']",12.59m,0
+Triple Jump,Boys,2,Finals,2.8,Tevaughn Tate,16,15,Petersfield High,[],12.17m,0
+Triple Jump,Boys,1,Finals,1.5,Carey Mcleod,17,1,Kingston College,"['2', 'Tevin', 'Dunn', 'Munro', 'College', '15.46m', '3.0', '7']",15.72m,9
+Triple Jump,Boys,1,Finals,1.3,Safin Wills,17,3,Jamaica College,"['4', 'Andre', 'Douglas', 'Jamaica', 'College', '15.11m', '1.1', '5']",15.32m,6
+Triple Jump,Boys,1,Finals,1.6,Gabriel Allen,17,5,Calabar High,"['6', 'Lushane', 'Wilson', 'St.', 'Jago', 'High', '14.97m', '0.8', '3']",15.03m,4
+Triple Jump,Boys,1,Finals,0.9,Sadiki Morgan,17,7,Wolmer's,"['8', 'Daniel', 'Allen', 'Calabar', 'High', '14.76m', '0.3', '1']",14.89m,2
+Triple Jump,Boys,1,Finals,1.0,Recardo Jackson,17,9,St. Jago High,"['10', 'Owayne', 'Owens', 'Cornwall', 'College', '14.58m', '2.5']",14.61m,0
+Triple Jump,Boys,1,Finals,2.3,Terrol Wilson,17,11,Kingston College,"['12', 'Kobe-jordan', 'Rhooms', 'Cornwall', 'College', '14.47m', '1.2']",14.56m,0
+Triple Jump,Boys,1,Finals,3.4,Causwell Hyde,17,13,Munro College,[],13.95m,0
+Triple Jump,Boys,2,Finals,-0.7,Michael Beecher,17,1,Jamaica College,"['2', 'Shacquille', 'Lowe', 'Kingston', 'College', '14.21m', '-0.9', '7']",14.70m,9
+Triple Jump,Boys,2,Finals,-3.0,Nikaoli Williams,17,3,Calabar High,"['4', 'Nicholos', 'Richards', 'Kingston', 'College', '13.84m', '-1.5', '5']",13.96m,6
+Triple Jump,Boys,2,Finals,-1.0,Akeem Brown,17,5,Jamaica College,"['6', 'Richard', 'Campbell', 'Calabar', 'High', '13.66m', '-1.0', '3']",13.77m,4
+Triple Jump,Boys,2,Finals,-0.9,Astley Davis,17,7,Camperdown High,"['8', 'Chevaughn', 'Parkinso', 'Titchfield', 'High', '13.00m', '-0.9', '1']",13.19m,2
+Triple Jump,Boys,2,Finals,NWI,Brian Smith,17,9,St. Jago High,"['10', 'Omari', 'Mckenzie', 'Cornwall', 'College', '12.95m', '-1.5']",12.96m,0
+Triple Jump,Boys,2,Finals,-1.2,Dorian Douglas,17,11,Munro College,"['12', 'Alex', 'Brown', 'Camperdown', 'High', '12.17m', '-1.9']",12.86m,0
+Triple Jump,Girls,Open,Finals,2.1,Tissanna Hickling,17,1,St. Jago High,"['2', 'Myesha', 'Nott', ""Rusea's"", 'High', '13.05m', '3.7', '7']",13.39m,9
+Triple Jump,Girls,Open,Finals,5.9,Keneva Headley,17,3,Holmwood,"['4', 'Danielle', 'Spence', 'St.', 'Jago', 'High', '12.97m', '2.2', '5']",J13.05m,6
+Triple Jump,Girls,Open,Finals,6.2,Lotavia Brown,17,5,Edwin Allen High,"['6', 'Lorean', 'Murray', 'St.', 'Andrew', '12.58m', '3.7', '3']",12.90m,4
+Triple Jump,Girls,Open,Finals,4.3,Lamara Distin,17,7,Vere Technical High,"['8', 'Ave-anna', 'Venair', 'Excelsior', 'High', '12.02m', '1.3', '1']",12.50m,2
+Triple Jump,Girls,Open,Finals,2.6,Leone Farquharson,17,9,Campion College,"['10', 'Rhianna', 'Phipps', 'Hydel', 'High', '11.84m', '5.3']",11.87m,0
+Triple Jump,Girls,Open,Finals,1.9,D'Andra Morris,17,11,Camperdown High,"['12', 'Faithlyn', 'Irving', 'Holmwood', '11.32m', '1.7']",11.66m,0
+Triple Jump,Girls,Open,Finals,5.1,Iman Francis,17,13,Gaynstead High,"['14', 'Amanda', 'Pinkney', 'Gaynstead', 'High', '11.22m', '3.4']",11.28m,0
+Triple Jump,Girls,Open,Finals,FOUL,Monique Williams,17,,Steths,"['--', 'Toni-shay', 'Stewart', 'Mannings', 'High', 'FOUL']",FOUL,['FOUL']
+Triple Jump,Girls,Open,Finals,FOUL,Samantha Chin,17,,Immaculate,"['--', 'Kadesha', 'Burke', 'Vere', 'Technical', 'High', 'FOUL']",FOUL,['FOUL']
+Triple Jump,Girls,Open,Finals,FOUL,Tanique Cameron,17,,Edwin Allen High,"['--', 'Colistia', 'Baker', 'Petersfield', 'High', 'FOUL']",FOUL,"['', '', 'FOUL']"
+Triple Jump,Boys,1,Finals,-0.6,Malik Cunni,18,1,Jamaica College,"['15.05m(0.3)', '15.59m(-0.6)', '15.58m(-1.1)', '15.55m(0.3)', 'FOUL', 'FOUL']",15.59m ,9
+Triple Jump,Boys,1,Finals,-0.6,Safin Wills,18,2,Jamaica College,"['14.82m(0.9)', '15.57m(-0.6)', '15.10m(-1.1)', '15.14m(-0.5)', '15.42m(1.2)', '14.11m(-0.6)']",15.57m ,7
+Triple Jump,Boys,1,Finals,-0.4,Terrol Wils,18,3,Kingston College,"['FOUL', '14.51m(-0.2)', '14.89m(-1.3)', '15.12m(-0.4)', 'FOUL', '14.68m(-1.1)']",15.12m ,6
+Triple Jump,Boys,1,Finals,-0.8,Owayne Owen,18,4,Cornwall College,"['13.92m(0.2)', '14.42m(-1.6)', '14.57m(-1.7)', '14.25m(-1.0)', '14.58m(-0.2)', '14.80m(-0.8)']",14.80m ,5
+Triple Jump,Boys,1,Finals,0.7,Lushane Wil,18,5,St. Jago High,"['14.15m(-0.0)', '14.48m(-0.4)', 'FOUL', 'FOUL', '13.97m(0.7)', '14.75m(0.7)']",14.75m ,4
+Triple Jump,Boys,1,Finals,0.4,Daniel Alle,18,6,Calabar High,"['14.57m(0.4)', 'FOUL(+0.0)', '14.06m(-0.8)', '14.14m(-0.8)', '14.37m(0.2)', '14.17m(1.2)']",14.57m ,3
+Triple Jump,Boys,1,Finals,0.2,Recardo Jac,18,7,St. Jago High,"['14.26m(0.2)', 'FOUL', '14.04m(-1.6)', '14.20m(-1.8)', '13.92m(0.7)', 'FOUL']",14.26m ,2
+Triple Jump,Boys,1,Finals,NWI,Joshua Smik,18,8,Wolmer's,"['13.91m(-0.0)', '13.43m(0.3)', 'FOUL', 'FOUL', 'PASS', 'FOUL']",13.91m,1
+Triple Jump,Boys,1,Finals,-0.4,Astley Davi,18,9,Camperdown High,"['FOUL', '13.88m(-0.4)', 'FOUL']",13.88m,0
+Triple Jump,Boys,1,Finals,-0.8,Sadiki Morg,18,10,Wolmer's,"['FOUL', 'FOUL', '13.76m(-0.8)']",13.76m,0
+Triple Jump,Boys,1,Finals,-1.5,Richard Cam,18,11,Calabar High,"['FOUL', '13.73m(-1.5)', '13.40m(-0.8)']",13.73m,0
+Triple Jump,Boys,1,Finals,1.1,Shacquille,18,12,Kingston College,"['13.65m(1.1)', 'FOUL', 'FOUL']",13.65m,0
+Triple Jump,Boys,1,Finals,-1.2,Chevaughn P,18,13,Titchfield High,"['13.15m(1.0)', '13.36m(-1.1)', '13.37m(-1.2)']",13.37m,0
+Triple Jump,Boys,1,Finals,FOUL,Miguel Alex,18,,Petersfield High,"['FOUL', 'FOUL', 'FOUL']",FOUL,"['', '', 'FOUL']"
+Triple Jump,Boys,2,Finals,-1.9,Apalos Edwa,18,1,Jamaica College,"['14.59m(-0.9)', '14.60m(-1.9)', '15.05m(-1.9)', '14.40m(-1.4)', 'FOUL', '14.89m(-2.2)']",15.05mR,9
+Triple Jump,Boys,2,Finals,-0.2,Luke Brown,18,2,Calabar High,"['14.27m(0.4)', '14.64m(-0.2)', '14.72m(-0.2)', '14.37m(-1.3)', '14.61m(-2.2)', 'FOUL']",14.72m ,7
+Triple Jump,Boys,2,Finals,-0.8,Jaheim Cox,18,3,Kingston College,"['14.58m(-0.8)', '13.92m(-0.4)', 'PASS', '14.03m(-0.9)', 'PASS', '14.15m(-0.1)']",14.58m ,6
+Triple Jump,Boys,2,Finals,-0.8,Omari Mcken,18,4,Cornwall College,"['13.99m(-0.8)', '13.89m(-1.6)', '13.35m(-2.1)', '13.53m(-2.3)', '13.45m(-1.8)', '12.28m(-2.2)']",13.99m ,5
+Triple Jump,Boys,2,Finals,-1.5,Jerome Camp,18,5,Calabar High,"['13.69m(-1.1)', '13.96m(-2.0)', '13.52m(-2.0)', '12.80m(-2.2)', '13.98m(-1.5)', '13.74m(-0.4)']",13.98m ,4
+Triple Jump,Boys,2,Finals,-1.5,Jhavor Benn,18,6,Steths,"['FOUL', 'FOUL', '13.60m(-1.1)', '13.53m(-2.0)', '13.48m(-1.4)', '13.80m(-1.5)']",13.80m ,3
+Triple Jump,Boys,2,Finals,-1.4,Jai Lewin,18,7,Jamaica College,"['13.22m(0.2)', '13.70m(0.1)', '13.10m(-1.9)', '13.76m(-1.4)', '13.70m(-3.1)', '13.40m(-1.4)']",13.76m ,2
+Triple Jump,Boys,2,Finals,-1.1,Davion Will,18,8,Kingston College,"['12.73m(-0.6)', '13.22m(-1.9)', '13.45m(-1.1)', 'FOUL', '12.74m(-2.1)', 'PASS']",13.45m,1
+Triple Jump,Boys,2,Finals,-0.9,Malik Drumm,18,9,Wolmer's,"['11.30m(-0.9)', '12.87m(-0.9)', '12.80m(-1.8)']",12.87m,0
+Triple Jump,Boys,2,Finals,-1.7,Chadane Bro,18,10,St. Jago High,"['FOUL', 'FOUL', '12.57m(-1.7)']",12.57m,0
+Triple Jump,Boys,2,Finals,FOUL,Iangelo Atk,18,,Wolmer's,"['FOUL', 'FOUL', 'FOUL']",FOUL,"['', '', 'FOUL']"
+Triple Jump,Girls,Open,Finals,0.3,Keneva Head,18,1,Holmwood,"['12.67m(0.1)', '12.55m(1.8)', '12.78m(0.4)', '12.97m(0.6)', '13.12m(0.3)', '13.01m(0.6)']",13.12m ,9
+Triple Jump,Girls,Open,Finals,+0.0,Ackelia Smi,18,2,Edwin Allen High,"['12.47m(+0.0)', '12.57m(0.7)', '11.63m(-0.0)', '12.51m(0.7)', '12.82m(0.8)', '12.94m(+0.0)']",12.94m ,7
+Triple Jump,Girls,Open,Finals,0.7,Lotavia Bro,18,3,Edwin Allen High,"['FOUL', '12.90m(0.7)', '12.43m(0.1)', 'FOUL', 'FOUL', '12.89m(-0.4)']",12.90m ,6
+Triple Jump,Girls,Open,Finals,0.5,Lamara Dist,18,4,Vere Technical High,"['12.05m(2.1)', '12.07m(0.4)', 'PASS', '12.21m(1.0)', '12.49m(0.5)', '12.44m(0.4)']",12.49m ,5
+Triple Jump,Girls,Open,Finals,0.2,Leone Farqu,18,5,Campion College,"['FOUL', '11.95m(0.3)', '11.87m(-0.2)', '12.21m(1.4)', 'FOUL', '12.31m(0.2)']",12.31m ,4
+Triple Jump,Girls,Open,Finals,0.4,Faithlyn Ir,18,6,Holmwood,"['12.27m(0.4)', '12.00m(0.5)', '12.23m(0.9)', '11.91m(1.0)', '11.79m(0.4)', '12.09m(-0.0)']",12.27m ,3
+Triple Jump,Girls,Open,Finals,1.3,Velecia Wil,18,7,Hydel High,"['11.68m(0.7)', '12.01m(1.3)', 'FOUL', '11.66m(0.7)', '11.49m(0.6)', 'FOUL']",12.01m ,2
+Triple Jump,Girls,Open,Finals,0.3,Shanika Rob,18,8,Camperdown High,"['11.55m(0.4)', '11.94m(0.3)', '11.48m(0.7)', 'FOUL', 'FOUL', 'FOUL']",11.94m,1
+Triple Jump,Girls,Open,Finals,1.8,Monief Hesl,18,9,Camperdown High,"['11.84m(1.8)', '11.47m(0.8)', '11.78m(0.2)']",11.84m,0
+Triple Jump,Girls,Open,Finals,1.3,Ashalee Bro,18,10,Immaculate,"['11.82m(1.3)', 'FOUL', 'FOUL']",11.82m,0
+Triple Jump,Girls,Open,Finals,1.7,Amanda Pink,18,11,Gaynstead High,"['11.59m(0.1)', '11.63m(2.0)', '11.74m(1.7)']",11.74m,0
+Triple Jump,Girls,Open,Finals,1.8,Toni-ann Fa,18,12,Wolmer's,"['11.21m(1.8)', 'FOUL', 'FOUL']",11.21m,0
+Triple Jump,Girls,Open,Finals,0.2,Carla Lawso,18,13,Hydel High,"['FOUL', 'FOUL', '11.19m(0.2)']",11.19m,0
+Triple Jump,Girls,Open,Finals,0.1,Monique Wil,18,14,Steths,"['FOUL', 'FOUL', '11.14m(0.1)']",11.14m,0
+Triple Jump,Girls,Open,Finals,0.6,Dayshanae H,18,15,St. Jago High,"['FOUL', '11.10m(0.6)', 'FOUL']",11.10m,0
+Triple Jump,Girls,Open,Finals,FOUL,Elaine Robi,18,,The Queens School,"['FOUL', 'FOUL', 'FOUL']",FOUL,"['', 'FOUL']"
+Triple Jump,Girls,Open,Finals,FOUL,Ashley Lewi,18,,St. Andrew,"['FOUL', 'FOUL', 'FOUL']",FOUL,['FOUL']
+Triple Jump,Girls,Open,Finals,FOUL,Shaneika St,18,,Mannings High,"['FOUL', 'FOUL', 'FOUL']",FOUL,"['', 'FOUL']"
+Triple Jump,Girls,Open,Finals,FOUL,Tannekee St,18,,Wolmer's,"['FOUL', 'FOUL', 'FOUL']",FOUL,"['', '', 'FOUL']"
+Triple Jump,Boys,1,Finals,-0.6,Terrol Wils,19,1,Kingston College,"['15.13m(-1.3)', 'FOUL', '15.20m(-0.8)', 'FOUL', 'FOUL', '15.79m(-0.6)']",15.79m ,9
+Triple Jump,Boys,1,Finals,-1.1,Apalos Edwa,19,2,Jamaica College,"['15.57m(-0.8)', '14.13m(-0.6)', '14.85m(-1.0)', '14.75m(-0.6)', '15.64m(-1.1)', '15.18m(-1.4)']",15.64m ,7
+Triple Jump,Boys,1,Finals,-0.8,Shakwon Cok,19,3,Kingston College,"['FOUL', 'FOUL', '14.95m(-1.0)', '15.56m(-0.8)', 'FOUL', 'FOUL']",15.56m ,6
+Triple Jump,Boys,1,Finals,-1.2,Safin Wills,19,4,Jamaica College,"['15.24m(-0.8)', 'FOUL', '15.34m(-1.2)', 'FOUL', 'FOUL', '14.99m(-1.7)']",15.34m ,5
+Triple Jump,Boys,1,Finals,-1.4,Richard Cam,19,5,Calabar High,"['13.92m(-1.1)', '14.75m(-1.4)', '14.06m(-1.3)', '14.50m(-0.6)', '14.51m(-0.8)', '14.15m(-0.5)']",14.75m ,4
+Triple Jump,Boys,1,Finals,-0.7,Astley Davi,19,6,Camperdown High,"['14.72m(-0.7)', '13.84m(-1.0)', '13.12m(+0.0)', '13.62m(-0.5)', 'FOUL(-1.9)', 'FOUL(-1.3)']",14.72m ,3
+Triple Jump,Boys,1,Finals,-0.5,Chevaughn P,19,7,Titchfield High,"['13.78m(-1.0)', '13.87m(-1.5)', '14.43m(-1.5)', '14.53m(-0.5)', '14.34m(-0.7)', '13.86m(-0.9)']",14.53m ,2
+Triple Jump,Boys,1,Finals,-0.6,Recardo Jac,19,8,St. Jago High,"['14.47m(-0.6)', '14.11m(-0.5)', '14.37m(-1.4)', '13.20m(-1.3)', '14.16m(-1.0)', '13.06m(-1.8)']",14.47m ,1
+Triple Jump,Boys,1,Finals,-0.7,Tyrell John,19,9,Calabar High,"['14.08m(-0.7)', 'FOUL', '13.55m(-1.8)']",14.08m ,0
+Triple Jump,Boys,1,Finals,-1.1,Waukeem Wal,19,10,Wolmer's Hig,"['13.60m(-0.8)', 'FOUL', '13.93m(-1.1)']",13.93m,0
+Triple Jump,Boys,1,Finals,-0.7,Jhavor Benn,19,11,St. Elizabet,"['13.82m(-0.7)', '13.68m(-1.7)', '13.92m(-0.7)']",13.92m,0
+Triple Jump,Boys,1,Finals,-1.7,Omari Mcken,19,12,Cornwall College,"['13.43m(-1.7)', 'FOUL', 'PASS']",13.43m,0
+Triple Jump,Boys,2,Finals,-1.4,Luke Brown,19,1,Calabar High,"['12.81m(-2.3)', '15.51m(-1.4)', 'PASS', '15.45m(-1.0)', '14.18m(-1.5)', '15.23m(-1.2)']",15.51mR,9
+Triple Jump,Boys,2,Finals,-1.8,Jordan Turn,19,2,Calabar High,"['15.01m(-1.0)', 'FOUL', '14.90m(-1.2)', '14.93m(-1.4)', '14.86m(-1.4)', '15.10m(-1.8)']",15.10m ,7
+Triple Jump,Boys,2,Finals,-1.4,Jaheim Cox,19,3,Kingston College,"['14.63m(-1.7)', '14.64m(-1.4)', '14.34m(-0.4)', '14.13m(-1.1)', 'FOUL', 'FOUL']",14.64m ,6
+Triple Jump,Boys,2,Finals,-1.4,Rajaun Rick,19,4,Jamaica College,"['14.14m(-1.5)', '13.85m(-2.3)', '14.27m(-1.1)', 'FOUL', '14.13m(-1.4)', '14.60m(-1.4)']",14.60m ,5
+Triple Jump,Boys,2,Finals,-1.3,Tajae Franc,19,5,Kingston College,"['13.67m(-1.8)', 'FOUL', '13.43m(-0.9)', '13.62m(-0.9)', '13.95m(-1.3)', '13.18m(-1.2)']",13.95m ,4
+Triple Jump,Boys,2,Finals,-0.5,Iangelo Atk,19,6,Wolmer's Hig,"['13.62m(-0.3)', '13.48m(-1.5)', '13.20m(-1.5)', '13.51m(-1.6)', 'FOUL', '13.85m(-0.5)']",13.85m ,3
+Triple Jump,Boys,2,Finals,-1.0,Johnathan B,19,7,Jamaica College,"['FOUL', '13.71m(-1.5)', '13.84m(-1.0)', 'FOUL', '13.11m(-1.4)', '13.80m(-0.9)']",13.84m ,2
+Triple Jump,Boys,2,Finals,-1.3,Tyrique Whe,19,8,Wolmer's Hig,"['13.30m(-1.4)', '13.44m(-1.9)', '13.10m(-2.0)', 'FOUL', '13.29m(-1.1)', '13.75m(-1.3)']",13.75m ,1
+Triple Jump,Boys,2,Finals,-2.0,Royan Walte,19,9,Petersfield High,"['13.16m(-1.1)', '13.22m(-2.0)', '13.14m(-1.6)']",13.22m,0
+Triple Jump,Boys,2,Finals,-1.7,Junior Alle,19,10,Petersfield High,"['FOUL', '12.65m(-1.7)', '12.35m(-2.0)']",12.65m,0
+Triple Jump,Boys,2,Finals,-0.9,Dejone Raym,19,11,St. Elizabet,"['12.58m(-0.9)', '11.33m(-0.9)', '11.24m(-0.8)']",12.58m,0
+Triple Jump,Boys,2,Finals,-1.4,Kyle-anthon,19,12,Excelsior High,"['11.90m(-1.4)', '11.74m(-1.6)', '11.82m(-1.2)']",11.90m,0
+Triple Jump,Girls,Open,Finals,0.5,Lamara Dist,19,1,Hydel High,"['13.09m(0.5)', 'PASS', 'PASS', '12.97m(0.6)', '12.86m(0.8)', '13.37m(0.5)']",13.37m ,9
+Triple Jump,Girls,Open,Finals,7,Rhianna Phi,19,2,Hydel High,"['13.37m(1.3)', 'PASS', 'PASS', '11.72m(0.1)', '12.53m(0.2)', 'FOUL']",1.3,7
+Triple Jump,Girls,Open,Finals,0.4,Ackelia Smi,19,3,Edwin Allen High,"['13.09m(1.3)', '12.84m(-0.6)', '12.68m(1.4)', '13.06m(0.2)', '13.09m(0.8)', '13.15m(0.4)']",13.15m ,6
+Triple Jump,Girls,Open,Finals,5,Lotavia Bro,19,4,Edwin Allen High,"['12.95m(2.1)', '12.63m(0.2)', '13.15m(0.9)', '12.30m(1.4)', '12.84m(0.3)', '12.72m(0.1)']",0.9,5
+Triple Jump,Girls,Open,Finals,0.1,Samantha Ji,19,5,Holmwood Tec,"['FOUL', '12.10m(2.0)', '12.50m(0.1)', 'FOUL', '12.09m(0.3)', '12.03m(0.4)']",12.50m ,4
+Triple Jump,Girls,Open,Finals,0.7,Faithlyn Ir,19,6,Holmwood Tec,"['12.22m(2.3)', '12.36m(0.7)', '12.19m(2.1)', '12.15m(0.4)', '11.98m(-0.0)', '12.16m(0.2)']",12.36m ,3
+Triple Jump,Girls,Open,Finals,NWI,Tannekee St,19,7,St. Jago High,"['FOUL', '11.41m(0.7)', '11.72m(0.2)', '11.83m(-0.0)', '11.70m(-0.0)', 'FOUL']",11.83m,2
+Triple Jump,Girls,Open,Finals,-0.4,Adiana Brow,19,8,Rusea's High,"['11.48m(0.4)', '11.64m(0.5)', '11.70m(-0.4)', '11.56m(0.3)', 'FOUL', '11.65m(0.7)']",11.70m,1
+Triple Jump,Girls,Open,Finals,1.1,Elaine Robi,19,9,The Queens School,"['FOUL', 'FOUL', '11.26m(1.1)']",11.26m,0
+Triple Jump,Girls,Open,Finals,2.2,Anna-kay Ma,19,10,Rusea's High,"['FOUL', '11.20m(2.2)', 'FOUL']",11.20m,0
+Triple Jump,Girls,Open,Finals,0.1,Monique Wil,19,11,The Queens School,"['FOUL', '11.17m(0.1)', 'FOUL']",11.17m,0
+Triple Jump,Girls,Open,Finals,FOUL,Shanika Rob,19,,Excelsior High,"['FOUL', 'FOUL', 'FOUL']",FOUL,['FOUL']
+Triple Jump,Girls,Open,Finals,FOUL,Shaneika St,19,,Mannings High,"['FOUL', 'FOUL', 'PASS']",FOUL,"['', 'FOUL']"
+Triple Jump,Boys,1,Finals,4.5,Luke Brown,21,1,Calabar High,"['15.69m(3.2)', 'PASS', 'FOUL', '16.31m(4.5)', 'PASS', 'FOUL']",16.31m,9
+Triple Jump,Boys,1,Finals,1.3,Jhavor Bennett,21,2,St. Elizabet,"['15.25m(2.4)', '15.22m(0.5)', '15.31m(0.8)', 'FOUL', '15.56m(1.3)', 'PASS']",15.56m,7
+Triple Jump,Boys,1,Finals,4.4,Malik Drummond,21,3,Wolmer's Boy,"['FOUL', '13.71m(1.3)', '14.85m(2.5)', 'FOUL', '14.66m(1.5)', '15.12m(4.4)']",15.12m,6
+Triple Jump,Boys,1,Finals,4.4,Iangelo Atkinstall-Daley,21,4,Wolmer's Boy,"['14.64m(5.3)', '14.06m(2.0)', '15.11m(4.4)', '14.85m(2.2)', 'FOUL', 'PASS']",15.11m,5
+Triple Jump,Boys,1,Finals,2.6,Rajaun Ricketts,21,5,Jamaica College,"['14.57m(3.1)', '14.88m(1.3)', 'FOUL', '14.40m(0.6)', '14.94m(2.4)', '14.96m(2.6)']",14.96m,4
+Triple Jump,Boys,1,Finals,4.4,Apalos Edwards,21,6,Jamaica College,"['14.68m(1.0)', '14.90m(0.2)', 'PASS', 'FOUL', '14.93m(4.4)', '14.84m(3.2)']",14.93m,3
+Triple Jump,Boys,1,Finals,2.6,Royan Walters,21,7,Petersfield High,"['14.50m(2.6)', '14.36m(0.6)', 'FOUL', 'FOUL', 'PASS', 'PASS']",14.50m,2
+Triple Jump,Boys,1,Finals,1.8,Jevaughn Cephas,21,8,Kingston College,"['14.40m(1.8)', 'FOUL', '13.33m(3.2)', '13.76m(2.1)', '13.80m(2.1)', 'FOUL']",14.40m,1
+Triple Jump,Boys,1,Finals,3.2,Chad Gordon,21,9,St. Jago High,"['13.55m(1.0)', '13.81m(3.2)', 'FOUL']",13.81m,0
+Triple Jump,Boys,1,Finals,-0.3,Malique Parkinson,21,10,Titchfield High,"['FOUL', 'FOUL', '13.45m(-0.3)']",13.45m,0
+Triple Jump,Boys,1,Finals,FOUL,Nicholloyd Brown,21,,Calabar High,"['FOUL', 'FOUL', 'FOUL']",FOUL,"['', '', 'FOUL']"
+Triple Jump,Boys,1,Finals,FOUL,Jaheim Cox,21,,Kingston College,"['FOUL', 'PASS', 'PASS']",FOUL,"['', '', 'FOUL']"
+Triple Jump,Boys,2,Finals,1.8,Javar Thomas,21,1,Calabar High,"['15.23m(1.8)', '15.09m(1.7)', 'FOUL', '12.26m(1.9)', 'PASS', '14.90m(1.6)']",15.23m,9
+Triple Jump,Boys,2,Finals,0.8,Jaydon Hibbert,21,2,Kingston College,"['15.04m(2.4)', '15.04m(2.3)', 'PASS', '11.76m(1.0)', '13.76m(+0.0)', '15.15m(0.8)']",15.15m,7
+Triple Jump,Boys,2,Finals,1.9,Michael Curriah,21,3,Jamaica College,"['FOUL', '14.61m(1.9)', '14.28m(1.9)', '13.82m(1.0)', 'FOUL', 'FOUL']",14.61m,6
+Triple Jump,Boys,2,Finals,3.0,Nathan Wade,21,4,Calabar High,"['14.51m(0.5)', '14.55m(0.9)', '14.60m(3.0)', 'FOUL', '14.16m(-0.3)', '14.49m(2.9)']",14.60m,5
+Triple Jump,Boys,2,Finals,0.4,Matthew Hylton,21,5,Jamaica College,"['13.34m(2.1)', '13.74m(0.4)', '13.15m(1.2)', '13.10m(1.8)', '13.30m(1.8)', '13.68m(1.9)']",13.74m,4
+Triple Jump,Boys,2,Finals,3.3,Omarion Walford,21,6,St. Jago High,"['11.81m(0.2)', 'FOUL', '13.73m(3.3)', '13.13m(1.8)', 'FOUL', 'FOUL']",13.73m,3
+Triple Jump,Boys,2,Finals,1.6,Jevaughn Samuels,21,7,St. Jago High,"['12.99m(1.8)', 'FOUL', '13.53m(1.6)', '11.97m(3.2)', '12.67m(0.7)', '11.10m(1.4)']",13.53m,2
+Triple Jump,Boys,2,Finals,1.2,Renaldino Medwinter,21,8,Excelsior High,"['12.67m(1.3)', '13.06m(2.2)', '13.33m(1.2)', '13.14m(-1.5)', '12.86m(0.6)', '12.67m(-0.0)']",13.33m,1
+Triple Jump,Boys,2,Finals,2.6,Darnel Nelson,21,9,Wolmer's Boy,"['13.09m(2.6)', '12.90m(1.8)', 'FOUL']",13.09m,0
+Triple Jump,Boys,2,Finals,0.8,O'Brien Bowen,21,10,Cornwall College,"['FOUL', '12.53m(-0.1)', '12.67m(0.8)']",12.67m,0
+Triple Jump,Boys,2,Finals,2.1,David Douglas,21,11,Wolmer's Boy,"['FOUL', '12.04m(1.3)', '12.39m(2.1)']",12.39m,0
+Triple Jump,Girls,Open,Finals,0.8,Ackelia Smith,21,1,Edwin Allen High,"['13.11m(4.0)', '13.26m(2.0)', '13.42m(0.8)', 'FOUL', '13.10m(3.3)', 'PASS']",13.42m,9
+Triple Jump,Girls,Open,Finals,2.7,Velecia Williams,21,2,Hydel High,"['12.87m(2.7)', '12.47m(1.0)', '12.86m(2.6)', '12.65m(4.0)', 'FOUL', '12.49m(2.7)']",12.87m,7
+Triple Jump,Girls,Open,Finals,0.1,Kahdijah Bailey,21,3,St. Jago High,"['FOUL', '11.79m(3.5)', '12.25m(0.1)', 'FOUL', 'FOUL', 'FOUL']",12.25m,6
+Triple Jump,Girls,Open,Finals,1.2,Aaliyah Lindsay,21,4,St. Jago High,"['FOUL', 'FOUL', '11.67m(4.0)', '11.86m(2.8)', '12.13m(1.2)', '12.03m(1.6)']",12.13m,5
+Triple Jump,Girls,Open,Finals,2.1,Jo-Anna Pinnock,21,5,St. Andrew High,"['11.30m(1.1)', '11.91m(2.1)', 'FOUL', 'FOUL', '11.72m(1.3)', 'FOUL']",11.91m,4
+Triple Jump,Girls,Open,Finals,2.2,Daena Dyer,21,6,Hydel High,"['11.67m(2.2)', '11.64m(0.9)', '11.46m(2.6)', '11.62m(4.6)', '11.43m(-1.2)', '11.62m(2.8)']",11.67m,3
+Triple Jump,Girls,Open,Finals,3.7,Shackala Henry,21,7,Holmwood Technical,"['11.26m(2.0)', '11.15m(1.6)', 'FOUL', '11.29m(3.7)', 'FOUL', 'FOUL']",11.29m,2
+Triple Jump,Girls,Open,Finals,1.1,Vashti Grey,21,8,The Queen's School,"['FOUL', '11.19m(1.1)', 'FOUL', 'PASS(-0.0)', 'PASS', 'PASS']",11.19m,1
+Triple Jump,Girls,Open,Finals,FOUL,Brittania Ingram,21,,Edwin Allen High,"['FOUL', 'FOUL', 'FOUL']",FOUL,"['', '', 'FOUL']"
+Triple Jump,Boys,1,Finals,-0.2,Jaydon Hibbert,22,1,Kingston College,"['16.66m(-0.2)', 'FOUL', 'PASS', '15.67m(-0.8)', 'PASS', 'PASS']",16.66mR,9
+Triple Jump,Boys,1,Finals,-0.5,Rajaun Ricketts,22,2,Jamaica College,"['14.97m(-0.3)', '14.81m(-0.2)', '15.06m(-0.4)', '15.11m(-0.5)', 'FOUL', '15.03m(0.2)']",15.11m,7
+Triple Jump,Boys,1,Finals,-0.3,Stafon Roach,22,3,Jamaica College,"['14.90m(-0.7)', '14.92m(-0.9)', '14.91m(-0.3)', '14.76m(-0.2)', '14.81m(-0.1)', '15.00m(-0.3)']",15.00m,6
+Triple Jump,Boys,1,Finals,-0.3,Royan Walters,22,4,Petersfield High,"['14.84m(-0.5)', 'FOUL', 'FOUL', '13.58m(-0.7)', '14.28m(0.6)', '14.89m(-0.3)']",14.89m,5
+Triple Jump,Boys,1,Finals,-0.2,Ronaldo Andrews,22,5,Kingston College,"['14.51m(-0.2)', 'FOUL', '14.09m(-0.7)', '13.66m(-1.2)', 'PASS', 'PASS']",14.51m,4
+Triple Jump,Boys,1,Finals,-0.6,Javar Thomas,22,6,Calabar High,"['13.93m(-1.0)', '14.45m(-0.4)', 'FOUL', '14.47m(-0.6)', 'FOUL', '14.44m(-0.2)']",14.47m,3
+Triple Jump,Boys,1,Finals,0.3,Jordae Wilson,22,7,Cornwall College,"['FOUL', '13.99m(0.1)', '14.21m(0.3)', 'FOUL', '13.63m(-0.4)', '13.66m(-0.3)']",14.21m,2
+Triple Jump,Boys,1,Finals,-0.5,Malique Parkinson,22,8,Titchfield High,"['13.52m(-0.3)', '13.70m(-0.5)', '13.57m(-0.4)', 'FOUL', '13.62m(-0.4)', '13.33m(-0.1)']",13.70m,1
+Triple Jump,Boys,1,Finals,-0.1,Nicholloyd Brown,22,9,Calabar High,"['FOUL', 'FOUL', '13.61m(-0.1)']",13.61m,0
+Triple Jump,Boys,1,Finals,-0.4,O Bowen,22,10,Cornwall College,"['13.38m(-0.4)', '13.19m(-0.6)', 'FOUL']",13.38m,0
+Triple Jump,Boys,1,Finals,-0.9,Darnel Nelson,22,11,Wolmer's Boy,"['13.30m(-0.9)', 'FOUL', 'FOUL']",13.30m,0
+Triple Jump,Boys,1,Finals,-0.6,Jamar Reid,22,12,St. Thomas T,"['13.14m(0.1)', 'FOUL', '13.24m(-0.6)']",13.24m,0
+Triple Jump,Boys,2,Finals,-1.8,Aaron McKenzie,22,1,Kingston College,"['14.27m(-1.8)', '14.05m(-1.6)', 'PASS', 'PASS', 'PASS', 'PASS']",14.27m,9
+Triple Jump,Boys,2,Finals,-1.2,Chavez Penn,22,2,Jamaica College,"['13.98m(-1.6)', '14.22m(-1.2)', '14.09m(-1.0)', '14.08m(-1.0)', 'FOUL', '14.15m(-1.2)']",14.22m,7
+Triple Jump,Boys,2,Finals,-1.2,Euan Young,22,3,Jamaica College,"['13.50m(-2.0)', '13.81m(-1.9)', '13.57m(-2.0)', 'FOUL', '14.05m(-1.2)', '13.50m(-1.9)']",14.05m,6
+Triple Jump,Boys,2,Finals,-1.8,Rayvon Walkin,22,4,Kingston College,"['FOUL', '14.00m(-1.8)', '12.92m(-2.2)', '13.44m(-1.1)', '13.35m(-1.4)', '13.74m(-1.4)']",14.00m,5
+Triple Jump,Boys,2,Finals,-0.8,Balvin Israel,22,5,St. Jago High,"['13.89m(-1.6)', '13.66m(-2.8)', 'FOUL', '13.85m(-0.9)', '13.81m(-1.7)', '13.96m(-0.8)']",13.96m,4
+Triple Jump,Boys,2,Finals,-0.6,Nicardo Grey-Clark,22,6,Wolmer's Boy,"['13.50m(-0.6)', '13.02m(-2.0)', '12.96m(-2.0)', '12.98m(-1.4)', '12.42m(-1.4)', '12.81m(-0.6)']",13.50m,3
+Triple Jump,Boys,2,Finals,-1.2,Kenomar Jones,22,7,Cornwall College,"['FOUL', 'FOUL', '13.16m(-0.3)', '13.24m(-1.6)', '13.00m(-1.4)', '13.28m(-1.2)']",13.28m,2
+Triple Jump,Boys,2,Finals,-2.0,Kesean Rhooms,22,8,Cornwall College,"['12.79m(-1.7)', 'FOUL', '13.01m(-2.0)', '12.36m(-1.3)', '12.92m(-1.1)', '12.89m(-1.0)']",13.01m,1
+Triple Jump,Boys,2,Finals,-0.9,Jahrod Laird,22,9,Calabar High,"['FOUL', 'FOUL', '12.47m(-0.9)']",12.47m,0
+Triple Jump,Boys,2,Finals,-1.9,David Douglas,22,10,Wolmer's Boy,"['12.41m(-1.9)', 'FOUL', '12.27m(-0.7)']",12.41m,0
+Triple Jump,Boys,2,Finals,-1.7,Shevaughn Pryce,22,11,Calabar High,"['12.33m(-1.7)', 'PASS', 'FOUL']",12.33m,0
+Triple Jump,Girls,Open,Finals,-1.0,Serena Cole,22,1,Edwin Allen High,"['11.97m(-0.1)', '11.88m(-0.3)', '11.71m(-0.1)', '12.51m(-1.0)', '11.80m(-0.8)', '12.14m(-0.5)']",12.51m,9
+Triple Jump,Girls,Open,Finals,-0.1,Jade-Ann Dawkins,22,2,St. Jago High,"['FOUL', '12.09m(-0.4)', 'FOUL', '12.18m(-0.6)', '12.00m(-0.2)', '12.39m(-0.1)']",12.39m,7
+Triple Jump,Girls,Open,Finals,-0.6,Sherika Christie,22,3,Hydel High,"['11.62m(-0.4)', 'FOUL', '12.06m(0.3)', '12.04m(-0.3)', '12.30m(-0.6)', '12.16m(-0.2)']",12.30m,6
+Triple Jump,Girls,Open,Finals,-0.7,Jo-Anna Pinnock,22,4,St. Andrew High,"['11.86m(1.0)', '12.05m(-0.0)', '12.01m(-0.1)', 'PASS', '11.95m(-1.0)', '12.21m(-0.7)']",12.21m,5
+Triple Jump,Girls,Open,Finals,0.3,Rhianna Lugg,22,5,Excelsior High,"['12.19m(0.3)', '11.65m(-0.2)', 'FOUL', '11.80m(-0.3)', 'PASS', '11.86m(-0.1)']",12.19m,4
+Triple Jump,Girls,Open,Finals,0.3,Celine Riddle,22,6,Holmwood Technical,"['11.94m(0.3)', '11.56m(-0.1)', 'FOUL', '11.81m(-0.3)', '11.68m(-0.3)', '11.55m(-0.5)']",11.94m,3
+Triple Jump,Girls,Open,Finals,-0.6,Shackala Henry,22,7,Holmwood Technical,"['FOUL', '11.85m(-0.6)', 'FOUL', '11.70m(-1.1)', '11.59m(-0.2)', 'FOUL']",11.85m,2
+Triple Jump,Girls,Open,Finals,-0.3,Sabrina Atkinson,22,8,Hydel High,"['11.56m(0.3)', '11.81m(-0.3)', '11.62m(-0.4)', '11.64m(-0.1)', '11.36m(-0.2)', 'FOUL']",11.81m,1
+Triple Jump,Girls,Open,Finals,0.2,Paula-Ann Chambers,22,9,Edwin Allen High,"['11.22m(-0.4)', '11.20m(-0.3)', '11.76m(0.2)']",11.76m,0
+Triple Jump,Girls,Open,Finals,+0.0,Dayshanae Hall,22,10,St. Jago High,"['11.75m(+0.0)', '11.62m(-0.2)', 'FOUL']",11.75m,0
+Triple Jump,Girls,Open,Finals,0.3,Jade-Ann Smith,22,11,Excelsior High,"['11.57m(-0.1)', '11.19m(-0.4)', '11.66m(0.3)']",11.66m,0
+Triple Jump,Girls,Open,Finals,-0.3,Zoe Shaw,22,12,St. Andrew High,"['FOUL', 'FOUL', '11.08m(-0.3)']",11.08m,0
+Triple Jump,Boys,1,Finals,0.8,Trevon Hame,23,1,Jamaica College,"['14.99m(1.1)', '15.27m(1.4)', '15.61m(0.8)', '15.14m(-0.3)', 'PASS', 'FOUL']",15.61m ,9
+Triple Jump,Boys,1,Finals,4.2,Javar Thoma,23,2,Kingston College,"['15.37m(4.2)', 'PASS', '14.91m(0.4)', '14.10m(-0.6)', '13.99m(-0.7)', 'PASS']",15.37m ,7
+Triple Jump,Boys,1,Finals,-0.2,Kesean Rhoo,23,3,Cornwall College,"['14.38m(2.2)', '13.96m(-0.6)', '14.37m(0.9)', '14.29m(-0.0)', '14.50m(-0.2)', '13.68m(2.0)']",14.50m,6
+Triple Jump,Boys,1,Finals,1.0,Renaldino M,23,4,Excelsior High,"['14.06m(1.0)', '13.62m(1.6)', '13.49m(0.4)', 'FOUL', 'FOUL', 'FOUL']",14.06m,5
+Triple Jump,Boys,1,Finals,-1.3,Aldaine Ang,23,5,Calabar High,"['13.91m(0.7)', '13.72m(-0.2)', '13.25m(1.3)', 'FOUL', 'FOUL', '13.96m(-1.3)']",13.96m,4
+Triple Jump,Boys,1,Finals,-0.1,Ronaldo And,23,6,Kingston College,"['13.61m(1.3)', '13.88m(-0.1)', 'PASS', 'PASS', 'PASS', 'PASS']",13.88m,3
+Triple Jump,Boys,1,Finals,0.3,Najhayne Wa,23,7,Wolmer's Boy,"['13.58m(2.2)', 'FOUL', '13.87m(0.3)', 'FOUL', 'FOUL', 'FOUL']",13.87m,2
+Triple Jump,Boys,1,Finals,1.3,Darnel Nels,23,8,Wolmer's Boy,"['FOUL', '13.85m(1.3)', 'FOUL', 'FOUL', 'FOUL', 'FOUL']",13.85m,1
+Triple Jump,Boys,1,Finals,1.4,Jahbarie Ca,23,9,Calabar High,"['FOUL', '13.78m(1.4)', 'FOUL']",13.78m,0
+Triple Jump,Boys,1,Finals,1.3,Jamar Reid,23,10,St. Thomas T,"['13.55m(1.5)', '13.57m(1.3)', '13.04m(-0.2)']",13.57m,0
+Triple Jump,Boys,1,Finals,1.9,Ovane Willi,23,11,St. Mary High,"['13.46m(1.9)', 'FOUL', '13.31m(1.2)']",13.46m,0
+Triple Jump,Boys,1,Finals,2.0,Jevaughn Sa,23,12,St. Jago High,"['13.24m(2.0)', 'FOUL', 'FOUL']",13.24m,0
+Triple Jump,Boys,1,Finals,FOUL,O'Brien Bow,23,,Cornwall College,"['FOUL', 'FOUL', 'FOUL']",FOUL,"['', '', 'FOUL']"
+Triple Jump,Boys,1,Finals,NWI,Roemar Brya,23,,Morant Bay High,"['--', '#', '692', 'Uroy', 'Ryan', 'Jamaica', 'College', 'DNS', 'NWI']",DNS,"['', 'NWI']"
+Triple Jump,Boys,2,Finals,-0.6,Euan Young,23,1,Jamaica College,"['12.94m(-0.6)', '14.25m(0.2)', '14.13m(-1.2)', 'PASS', 'PASS', '14.47m(-0.6)']",14.47m,9
+Triple Jump,Boys,2,Finals,-0.1,Michael-Andre Edw,23,2,Jamaica College,"['13.75m(-0.1)', '14.19m(-0.1)', '14.05m(-1.7)', 'PASS', 'PASS', '14.10m(-0.3)']",14.19m,7
+Triple Jump,Boys,2,Finals,-0.8,Roshawn Onfroy,23,3,Kingston College,"['13.53m(-0.8)', 'FOUL', '13.45m(-1.5)', 'PASS', 'PASS', 'PASS']",13.53m,6
+Triple Jump,Boys,2,Finals,-1.1,Kijaun Williams,23,4,Calabar High,"['FOUL', '12.82m(0.6)', '13.23m(-1.1)', 'FOUL', '12.70m(-0.8)', '12.75m(0.4)']",13.23m,5
+Triple Jump,Boys,2,Finals,-0.2,Jordano Mardner,23,5,Wolmer's Boy,"['12.36m(1.1)', '12.68m(-0.2)', '11.86m(-0.7)', '12.28m(-0.5)', '11.94m(-0.4)', '11.95m(-0.7)']",12.68m,4
+Triple Jump,Boys,2,Finals,0.3,Shevaughn Pryce,23,6,Calabar High,"['12.39m(0.2)', '12.67m(0.3)', '12.65m(-0.9)', '12.23m(-0.5)', '12.12m(-0.7)', '12.61m(-0.1)']",12.67m,3
+Triple Jump,Boys,2,Finals,-1.5,Danzwell Cain,23,7,Excelsior High,"['12.27m(-1.1)', '12.45m(0.2)', '12.46m(-1.5)', '12.36m(-0.8)', '12.33m(-0.5)', '12.00m(1.3)']",12.46m,2
+Triple Jump,Boys,2,Finals,1.3,Dontae Redwood,23,8,St. Jago High,"['12.09m(0.5)', '12.40m(1.3)', '12.24m(-0.7)', 'FOUL', 'PASS', 'PASS']",12.40m,1
+Triple Jump,Boys,2,Finals,-1.1,Kishane Chin,23,9,St. Jago High,"['12.33m(-0.6)', '12.34m(-0.6)', '12.36m(-1.1)']",12.36m,0
+Triple Jump,Boys,2,Finals,-1.1,Zachary Merchant,23,10,Kingston College,"['FOUL', 'FOUL', '12.36m(-1.1)']",12.36m,0
+Triple Jump,Boys,2,Finals,-0.3,Riquelme Reid,23,11,Excelsior High,"['12.30m(0.2)', '12.34m(-0.3)', '12.18m(-0.7)']",12.34m,0
+Triple Jump,Boys,2,Finals,-1.2,Kamal Graham,23,12,Wolmer's Boy,"['11.68m(-0.9)', '12.23m(-0.6)', '12.30m(-1.2)']",12.30m,0
+Triple Jump,Boys,2,Finals,0.6,Zamar Sinclair,23,13,Manchester High,"['12.13m(0.6)', 'FOUL', '11.52m(-1.9)']",12.13m,0
+Triple Jump,Girls,Open,Finals,+0.0,Jade-Ann Da,23,1,St. Jago High,"['12.96m(-0.5)', '13.02m(+0.0)', 'FOUL', '12.91m(-0.8)', '12.88m(-0.1)', '12.75m(-0.3)']",13.02m ,9
+Triple Jump,Girls,Open,Finals,-0.1,Celine Ridd,23,2,Holmwood Technical,"['12.23m(-0.4)', '12.25m(+0.0)', '12.13m(0.5)', '11.96m(-0.7)', 'FOUL', '12.96m(-0.1)']",12.96m ,7
+Triple Jump,Girls,Open,Finals,-0.2,Richelle St,23,3,St. Elizabet,"['11.85m(-0.5)', '11.91m(0.2)', 'FOUL', '12.07m(0.3)', '12.01m(-0.5)', '12.37m(-0.2)']",12.37m ,6
+Triple Jump,Girls,Open,Finals,0.3,Jade-Ann Sm,23,4,Excelsior High,"['11.82m(-0.6)', 'FOUL', 'FOUL', '12.05m(0.3)', '11.61m(-0.5)', 'FOUL']",12.05m ,5
+Triple Jump,Girls,Open,Finals,-0.2,Rojrika Cam,23,5,St. Elizabet,"['FOUL', 'FOUL', '11.54m(0.8)', '11.58m(0.1)', '11.95m(-0.2)', '11.44m(0.1)']",11.95m,4
+Triple Jump,Girls,Open,Finals,-0.9,Jaeda Robin,23,6,Immaculate C,"['FOUL', '11.49m(0.2)', '11.53m(0.7)', '11.66m(0.3)', '11.84m(-0.9)', 'FOUL']",11.84m,3
+Triple Jump,Girls,Open,Finals,1.0,Sabrina Atk,23,7,Hydel High,"['11.70m(-0.7)', 'FOUL', '11.78m(1.0)', '11.43m(0.1)', '11.32m(0.4)', '11.69m(0.3)']",11.78m,2
+Triple Jump,Girls,Open,Finals,NWI,Davine Dick,23,8,Immaculate C,"['11.22m(-0.4)', 'FOUL', '11.34m(-0.0)', 'FOUL', 'FOUL', '11.16m(-0.3)']",11.34m,1
+Triple Jump,Girls,Open,Finals,0.1,Tawani Murr,23,9,Petersfield High,"['PASS', '11.27m(0.1)', 'FOUL']",11.27m,0
+Triple Jump,Girls,Open,Finals,FOUL,Deijanae Br,23,,Edwin Allen High,"['FOUL', 'FOUL', 'FOUL']",FOUL,"['', '', 'FOUL']"
+Triple Jump,Girls,Open,Finals,FOUL,Lori-Ann At,23,,Campion College,"['FOUL', 'FOUL', 'FOUL']",FOUL,"['', '', '', 'FOUL']"
+Triple Jump,Girls,Open,Finals,FOUL,Kahdijah Ba,23,,St. Jago High,"['FOUL', 'PASS', 'PASS']",FOUL,"['', 'FOUL']"
+Triple Jump,Girls,Open,Finals,FOUL,Julissia Kn,23,,Holmwood Technical,"['FOUL', 'FOUL', 'FOUL']",FOUL,['FOUL']
+Triple Jump,Girls,Open,Finals,FOUL,Tori-Anna I,23,,Gaynstead High,"['FOUL', 'FOUL', 'FOUL']",FOUL,['FOUL']
+Triple Jump,Girls,Open,Finals,FOUL,Jenice Dunk,23,,Hydel High,"['FOUL', 'FOUL', 'FOUL']",FOUL,['FOUL']
+Triple Jump,Girls,Open,Finals,NWI,Aeisha Ball,23,,St. Andrew High,"['--', '#', '286', 'Santae', 'Wils', 'Edwin', 'Allen', 'High', 'SCR', 'NWI']",DNS,"['', 'NWI']"
+Triple Jump,Girls,Open,Finals,NWI,Zaleah Powe,23,,Excelsior High,[],SCR,"['', 'NWI']"
+Triple Jump,Boys,1,Finals,1.4,Chavez Penn,24,1,Jamaica College,"['15.11m(3.0)', '15.22m(3.0)', 'PASS', '15.92m(1.4)', 'PASS', 'PASS']",15.27m,9
+Triple Jump,Boys,1,Finals,1.5,Romaine Lewis,24,2,Calabar High School   15.23m,"['14.60m(2.4)', '15.06m(3.9)', '14.94m(2.9)', '14.52m(3.3)', '14.65m(3.2)', '15.21m(1.5)']",15.21m,7
+Triple Jump,Boys,1,Finals,3.0,Kesean Rhooms,24,3,Cornwall College,"['14.18m(2.3)', '14.62m(4.9)', 'FOUL', '14.90m(5.3)', '14.52m(3.3)', '14.94m(3.0)']",14.65m,6
+Triple Jump,Boys,1,Finals,1.6,Nathan Wade,24,4,Kingston College,"['14.92m(1.6)', 'FOUL', '14.89m(1.8)', 'FOUL', '14.39m(1.2)', '13.40m(4.1)']",14.62m,5
+Triple Jump,Boys,1,Finals,3.3,O'Brien Bowen,24,5,Cornwall College,"['FOUL', '13.68m(4.0)', '14.47m(3.8)', '14.62m(2.1)', '14.63m(3.3)', '13.37m(1.6)']",14.17m,4
+Triple Jump,Boys,1,Finals,3.9,Euan Young,24,6,Jamaica College,"['14.49m(2.1)', '14.06m(4.3)', '14.56m(3.9)', '14.56m(3.3)', '14.54m(2.2)', '14.44m(1.5)']",13.97m,3
+Triple Jump,Boys,1,Finals,4.5,Jowayne Johnson,24,7,St. Elizabet,"['FOUL', '13.23m(3.8)', '13.83m(2.3)', '14.03m(4.5)', '13.95m(2.4)', '13.58m(1.2)']",13.85m,2
+Triple Jump,Boys,1,Finals,1.4,Renaldino Medwinte,24,8,Excelsior Hi,"['13.32m(3.9)', '13.88m(1.4)', '13.56m(2.2)', '13.60m(1.3)', '13.59m(2.6)', '13.56m(5.4)']",14.01m,1
+Triple Jump,Boys,1,Finals,2.8,Darnel Nelson,24,9,Wolmer's Boy,"['FOUL', '13.38m(3.1)', '13.63m(2.8)']",14.02m,0
+Triple Jump,Boys,1,Finals,2.6,Kaleel Samuels,24,10,Calabar High School   13.66m,"['13.23m(2.2)', '13.47m(2.6)', '13.39m(6.3)']",13.47m,0
+Triple Jump,Boys,1,Finals,5.3,Nicardo Grey-Clark,24,11,Wolmer's Boy,"['13.33m(5.3)', 'FOUL', 'FOUL']",15.07m,0
+Triple Jump,Boys,1,Finals,FOUL,Kadray Comrie,24,,St. Thomas T,"['FOUL', 'FOUL', 'FOUL']",12.93m,"['', '', '', 'FOUL']"
+Triple Jump,Boys,1,Finals,FOUL,Tonies King,24,,St. Mary Hig,"['FOUL', 'FOUL', 'FOUL']",13.23m,"['', '', '', 'FOUL']"
+Triple Jump,Boys,1,Finals,FOUL,Danzwell Cain,24,,Excelsior Hi,"['FOUL', 'PASS', 'FOUL']",12.26m,"['', '', '', 'FOUL']"
+Triple Jump,Boys,1,Finals,FOUL,Omaley Harry,24,,Bustamante H,"['FOUL', 'FOUL', 'FOUL']",12.84m,"['', '', '', 'FOUL']"
+Triple Jump,Boys,1,Finals,FOUL,Kenrick Austin,24,,Edwin Allen,"['FOUL', 'FOUL', 'FOUL']",12.30m,"['', '', '', 'FOUL']"
+Triple Jump,Boys,1,Finals,NWI,Javar Thomas,24,,Kingston College,[],15.46m,"['', 'NWI']"
+Triple Jump,Boys,2,Finals,1.4,Michael-Andre Edwa,24,1,Jamaica College,"['15.08m(0.6)', '14.77m(1.7)', 'FOUL', '15.54m(1.4)', 'PASS', 'PASS']",14.58m,9
+Triple Jump,Boys,2,Finals,2.3,Jaivar Cato,24,2,Jamaica College,"['14.26m(1.3)', '14.39m(1.2)', '14.62m(1.3)', '15.03m(2.3)', 'PASS', 'PASS']",14.41m,7
+Triple Jump,Boys,2,Finals,2.0,Amani Phillips,24,3,Kingston College,"['14.53m(1.1)', '14.65m(2.0)', 'FOUL', 'FOUL', '12.39m(2.4)', 'PASS']",14.38m,6
+Triple Jump,Boys,2,Finals,2.2,Zachary Merchant,24,4,Kingston College,"['14.08m(1.7)', '13.50m(1.0)', '14.26m(2.2)', 'FOUL', '13.77m(2.4)', '13.79m(1.5)']",14.41m,5
+Triple Jump,Boys,2,Finals,1.9,Riquelme Reid,24,5,Excelsior Hi,"['12.68m(1.6)', '13.68m(1.9)', '13.67m(0.6)', '13.33m(1.5)', 'PASS', 'PASS']",12.97m,4
+Triple Jump,Boys,2,Finals,1.2,Ajarie Bloomfield,24,6,Titchfield H,"['12.83m(1.7)', '13.19m(2.8)', '13.51m(1.2)', '13.00m(1.3)', '13.33m(1.6)', 'FOUL']",13.03m,3
+Triple Jump,Boys,2,Finals,2.5,Carlyle Tinglin,24,7,Cornwall College,"['13.13m(3.0)', '13.03m(2.0)', '13.47m(2.5)', '13.00m(1.5)', '13.20m(0.8)', '12.74m(1.9)']",13.12m,2
+Triple Jump,Boys,2,Finals,1.2,Kishane Chin,24,8,St. Jago Hig,"['13.07m(1.2)', '12.12m(1.4)', 'PASS']",12.88m,1
+Triple Jump,Boys,2,Finals,1.5,Kijaun Williams,24,9,Calabar High School   13.12m,"['FOUL', 'FOUL', '12.85m(1.5)']",12.85m,0
+Triple Jump,Boys,2,Finals,0.3,Antonio Anderson,24,10,Calabar High School   12.89m,"['FOUL', '12.47m(0.3)', 'FOUL']",12.47m,0
+Triple Jump,Boys,2,Finals,FOUL,Kemar James,24,,St. Jago Hig,"['FOUL', 'FOUL', 'FOUL']",13.74m,"['', '', '', 'FOUL']"
+Triple Jump,Boys,2,Finals,FOUL,Theo Rufus,24,,St. George's,"['FOUL', 'FOUL', 'FOUL']",12.92m,"['', '', '', 'FOUL']"
+Triple Jump,Girls,Open,Finals,2.6,Jade-Ann Dawkins,24,1,St. Jago Hig,"['FOUL', 'FOUL', '12.54m(1.5)', 'FOUL', '12.74m(1.1)', '13.28m(2.6)']",11.98m,9
+Triple Jump,Girls,Open,Finals,1.3,Jaeda Robinson,24,2,Immaculate C,"['12.59m(2.1)', '12.33m(1.0)', '12.77m(1.5)', '12.70m(0.9)', '12.80m(1.8)', '13.21m(1.3)']",12.62m,7
+Triple Jump,Girls,Open,Finals,2.4,Celine Riddle,24,3,Holmwood Tec,"['11.59m(0.4)', '12.33m(1.2)', '12.34m(1.6)', '12.28m(0.7)', '11.43m(2.4)', '13.04m(2.4)']",12.51m,6
+Triple Jump,Girls,Open,Finals,1.8,Sabrina Atkinson,24,4,Hydel High School,"['12.35m(0.4)', '12.65m(2.3)', '12.55m(1.3)', '11.33m(0.9)', '12.57m(3.0)', '12.94m(1.8)']",12.09m,5
+Triple Jump,Girls,Open,Finals,1.0,Richelle Stanley,24,5,St. Elizabet,"['FOUL', '12.69m(1.5)', '12.78m(1.0)', '12.77m(1.7)', 'FOUL', '12.73m(1.5)']",12.08m,4
+Triple Jump,Girls,Open,Finals,1.2,Rohanna Sudlow,24,6,St. Catherin,"['12.38m(1.3)', '12.76m(1.2)', '12.06m(1.0)', '12.21m(2.4)', '12.59m(0.5)', 'FOUL']",11.94m,3
+Triple Jump,Girls,Open,Finals,0.8,Chloe Palmer,24,7,St. Elizabet,"['FOUL', '12.41m(2.0)', '12.32m(1.9)', '12.44m(1.5)', '11.40m(1.1)', '12.47m(0.8)']",12.28m,2
+Triple Jump,Girls,Open,Finals,0.8,Deijanae Bruce,24,8,Edwin Allen,"['FOUL', '12.33m(0.8)', '12.29m(1.2)', '12.32m(1.4)', '12.13m(1.9)', 'PASS']",12.11m,1
+Triple Jump,Girls,Open,Finals,2.1,Santae Wilson,24,9,Edwin Allen,"['11.85m(2.5)', '12.32m(2.1)', '11.97m(1.2)']",12.12m,0
+Triple Jump,Girls,Open,Finals,1.0,Julissia Knight,24,10,Holmwood Tec,"['11.64m(1.0)', 'FOUL', 'FOUL']",11.83m,0
+Triple Jump,Girls,Open,Finals,FOUL,Davine Dickenson,24,,Immaculate C,"['FOUL', 'FOUL', 'FOUL']",11.55m,"['', '', '', 'FOUL']"
+Triple Jump,Girls,Open,Finals,FOUL,Tashianna Legister,24,,Excelsior Hi,"['FOUL', 'FOUL', 'FOUL']",11.36m,"['', '', '', 'FOUL']"

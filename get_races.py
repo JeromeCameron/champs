@@ -1,4 +1,4 @@
-from models import Result
+from models import TrackEvents
 
 
 # ---------------------------------------------------------------------
@@ -158,7 +158,7 @@ def parse_race_event(data, event, year):
 
             # ----------------------------
             # create pydantic dataclass
-            result = Result(
+            result = TrackEvents(
                 event=event_details[0],
                 gender=event_details[1],
                 clas_s=event_details[2],
