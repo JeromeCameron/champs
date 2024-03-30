@@ -3,6 +3,7 @@ import pandas as pd
 from selectolax.parser import HTMLParser
 from itertools import chain
 import asyncio
+import rich
 
 
 def genearate_df(
@@ -20,7 +21,7 @@ def genearate_df(
                     and file.find(race_type) >= 0
                 ):
                     filename = os.path.join(subdir, file)
-
+                    rich.print(f"Parsing {filename}")
                     with open(filename) as file:
                         page = file.read()
                         html = HTMLParser(page)

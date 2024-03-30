@@ -22,12 +22,18 @@ TRACK_EVENTS: list = [
     "3000 Meter Run",
     "5000 Meter Run",
 ]
+FIELD_EVENTS: list = [
+    "Long Jump",
+    "Triple Jump",
+    "Shot Put",
+    "Discus Throw",
+    "Javelin Throw",
+    "High Jump",
+]
 RELAYS: list = ["4x100 Meter Relay", "4x400 Meter Relay", "1600 Sprint Medley"]
 MULTI_EVENTS: list = ["Dec", "Hept"]
-JUMPS: list = ["Triple Jump"]  # ["Long Jump", "Triple Jump", "High Jump", "Pole Vault"]
-THROWS: list = ["Shot Put", "Discus Throw", "Javelin Throw"]
 RACE_STAGES: list = ["Finals", "Prelims", "Semis"]
-
+TEMP = ["Pole Vault"]
 
 if __name__ == "__main__":
     """main starts here"""
@@ -48,8 +54,8 @@ if __name__ == "__main__":
 
     field_events_df: pd.DataFrame = genearate_df(
         func=parse_field_event,
-        race_type="Finals",
-        race_categories=JUMPS,
+        race_type="OPEN",
+        race_categories=TEMP,
         path=PATH,
     )
 
@@ -71,7 +77,7 @@ field_events_df.to_csv("csv_files/field_events.csv", index=False)
 # TODO: Function to read long distance info ✅
 # TODO: Function to read hurdles info ✅
 # TODO: Function to read relays info ✅
-# TODO: Add 2024 check in field events function
-# TODO: What to do if no series data
+# TODO: Add 2024 check in field events function ✅
+# TODO: What to do if no series data ✅
 # TODO: Function to read field events info
 # TODO: Correct 2012 Class 1 girls 200 meter event
