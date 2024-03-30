@@ -7,6 +7,8 @@ from utils import genearate_df
 import asyncio
 
 PATH: str = "pages/"
+
+# Race Types
 TRACK_EVENTS: list = [
     "100 Meter Dash",
     "200 Meter Dash",
@@ -32,7 +34,8 @@ FIELD_EVENTS: list = [
     "Pole Vault",
 ]
 RELAYS: list = ["4x100 Meter Relay", "4x400 Meter Relay", "1600 Sprint Medley"]
-MULTI_EVENTS: list = ["Dec", "Hept"]
+MULTI_EVENTS: list = ["Decathlon", "Heptathlon"]
+# -----
 RACE_STAGES: list = ["Finals", "Semis", "Prelims"]
 
 # ---------------------------------------------------------------------------------
@@ -61,6 +64,13 @@ if __name__ == "__main__":
         race_categories=FIELD_EVENTS,
         path=PATH,
     )
+    # Get data for multi events
+    multi_events_df: pd.DataFrame = genearate_df(
+        func=parse_race_event,
+        race_stage=RACE_STAGES[0],
+        race_categories=MULTI_EVENTS,
+        path=PATH,
+    )
 
 frame: list = [individual_track_events_df, relays_df]
 
@@ -69,17 +79,20 @@ all_track_events_df: pd.DataFrame = pd.concat(frame)
 
 # Sample of data | Track Events
 rich.print(all_track_events_df.shape)
-rich.print(all_track_events_df.head())
-rich.print(all_track_events_df.tail())
+rich.print(all_track_events_df.head(5))
 
 # Sample of data | Field Events
 rich.print(field_events_df.shape)
-rich.print(field_events_df.head())
-rich.print(field_events_df.tail())
+rich.print(field_events_df.head(4))
+
+# Sample of data | Multi Events
+rich.print(multi_events_df.shape)
+rich.print(multi_events_df.head(5))
 
 # Export parsed data to CSV
 all_track_events_df.to_csv("csv_files/track_events.csv", index=False)
 field_events_df.to_csv("csv_files/field_events.csv", index=False)
+multi_events_df.to_csv("csv_files/multi_events.csv", index=False)
 
 
 # TODO: Select event to scrape ✅

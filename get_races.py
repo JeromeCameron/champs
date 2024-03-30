@@ -93,7 +93,7 @@ def get_school(result: list, event: list, year: int) -> str:
             school = [i for i in school if i]
 
             school = " ".join(school[0:])
-    except IndexError:
+    except (IndexError, ValueError) as e:
         school = "nil"
     school = "".join([i for i in school if not i.isdigit()])
     return school
@@ -140,12 +140,15 @@ def parse_race_event(data, event, year):
                 points = other_details[-1]
 
             # ----------mark------------------
-            if int(event[4]) > 200 and len(points) < 3:
+            try:
+                if int(event[4]) > 200 and len(points) < 3:
+                    mark = other_details[-2]
+                elif int(event[4]) > 4 and len(points) > 3:
+                    mark = other_details[-4]
+                else:
+                    mark = other_details[-3]
+            except ValueError:
                 mark = other_details[-2]
-            elif int(event[4]) > 4 and len(points) > 3:
-                mark = other_details[-4]
-            else:
-                mark = other_details[-3]
 
             if int(position) > 8:
                 # gets mark if athlete is out of the top 8 finishers
@@ -157,6 +160,14 @@ def parse_race_event(data, event, year):
             else:
                 wind = other_details[-2]
 
+            try:
+                if int(event[4]) > 200:
+                    wind = None
+                else:
+                    wind = wind
+            except ValueError:
+                wind = None
+
             # ----------------------------
             # create pydantic dataclass
             result = TrackEvents(
@@ -165,7 +176,7 @@ def parse_race_event(data, event, year):
                 clas_s=event_details[2],
                 heat=event_details[3],
                 typ=event_details[4],
-                wind=None if int(event[4]) > 200 else wind,
+                wind=wind,
                 name=athlete,
                 year=year,
                 position=other_details[0],
