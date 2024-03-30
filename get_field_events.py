@@ -307,7 +307,7 @@ def parse_vertical_jumps(data, event_details, year):
 
 # -----------------------------------------------------------------------
 def parse_field_event(data, event, year):
-    """"""
+    """Main Starts Here"""
     # Get event details
     event_details: list = get_event_details(event)
     results: list = []

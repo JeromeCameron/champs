@@ -64,6 +64,8 @@ def get_school(result: list, event: list) -> str:
         except:
             school = " ".join(school[0:])
         school = school.replace("--", "")
+
+    school = "".join([i for i in school if not i.isdigit()])
     return school
 
 

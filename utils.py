@@ -7,7 +7,7 @@ import rich
 
 
 def genearate_df(
-    func, race_type: str, race_categories: list, path: str
+    func, race_stage: str, race_categories: list, path: str
 ) -> pd.DataFrame:
 
     results: list = []
@@ -18,10 +18,11 @@ def genearate_df(
                 if (
                     file.endswith(".html")
                     and file.find(event_cat) >= 0
-                    and file.find(race_type) >= 0
+                    and file.find(race_stage) >= 0
                 ):
                     filename = os.path.join(subdir, file)
-                    rich.print(f"Parsing {filename}")
+                    rich.print(f"Parsing {filename} for results")
+
                     with open(filename) as file:
                         page = file.read()
                         html = HTMLParser(page)

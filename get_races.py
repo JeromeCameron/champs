@@ -95,6 +95,7 @@ def get_school(result: list, event: list, year: int) -> str:
             school = " ".join(school[0:])
     except IndexError:
         school = "nil"
+    school = "".join([i for i in school if not i.isdigit()])
     return school
 
 
@@ -169,7 +170,7 @@ def parse_race_event(data, event, year):
                 year=year,
                 position=other_details[0],
                 school=school,
-                mark=mark,
+                mark=mark + "x",
                 points=points,
             )
 

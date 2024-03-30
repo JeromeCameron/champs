@@ -29,44 +29,56 @@ FIELD_EVENTS: list = [
     "Discus Throw",
     "Javelin Throw",
     "High Jump",
+    "Pole Vault",
 ]
 RELAYS: list = ["4x100 Meter Relay", "4x400 Meter Relay", "1600 Sprint Medley"]
 MULTI_EVENTS: list = ["Dec", "Hept"]
-RACE_STAGES: list = ["Finals", "Prelims", "Semis"]
-TEMP = ["Pole Vault"]
+RACE_STAGES: list = ["Finals", "Semis", "Prelims"]
+
+# ---------------------------------------------------------------------------------
 
 if __name__ == "__main__":
     """main starts here"""
 
-    # track_events_df: pd.DataFrame = genearate_df(
-    #     func=parse_race_event,
-    #     race_type="Finals",
-    #     race_categories=TRACK_EVENTS,
-    #     path=PATH,
-    # )
-
-    # relays_df: pd.DataFrame = genearate_df(
-    #     func=parse_relay_event,
-    #     race_type="Finals",
-    #     race_categories=RELAYS,
-    #     path=PATH,
-    # )
-
+    # Get data for individual track events
+    individual_track_events_df: pd.DataFrame = genearate_df(
+        func=parse_race_event,
+        race_stage=RACE_STAGES[0],
+        race_categories=TRACK_EVENTS,
+        path=PATH,
+    )
+    # Get data for relays
+    relays_df: pd.DataFrame = genearate_df(
+        func=parse_relay_event,
+        race_stage=RACE_STAGES[0],
+        race_categories=RELAYS,
+        path=PATH,
+    )
+    # Get data for individual field events
     field_events_df: pd.DataFrame = genearate_df(
         func=parse_field_event,
-        race_type="OPEN",
-        race_categories=TEMP,
+        race_stage=RACE_STAGES[0],
+        race_categories=FIELD_EVENTS,
         path=PATH,
     )
 
-    rich.print(field_events_df)
+frame: list = [individual_track_events_df, relays_df]
 
-# frames: list = [track_events_df, relays_df]
-# race_events: pd.DataFrame = pd.concat(frames)
+# Combine all tarck dat into one df
+all_track_events_df: pd.DataFrame = pd.concat(frame)
 
-# rich.print(race_events.shape)
-# rich.print(race_events.head())
-# rich.print(race_events.tail())
+# Sample of data | Track Events
+rich.print(all_track_events_df.shape)
+rich.print(all_track_events_df.head())
+rich.print(all_track_events_df.tail())
+
+# Sample of data | Field Events
+rich.print(field_events_df.shape)
+rich.print(field_events_df.head())
+rich.print(field_events_df.tail())
+
+# Export parsed data to CSV
+all_track_events_df.to_csv("csv_files/track_events.csv", index=False)
 field_events_df.to_csv("csv_files/field_events.csv", index=False)
 
 
@@ -79,5 +91,5 @@ field_events_df.to_csv("csv_files/field_events.csv", index=False)
 # TODO: Function to read relays info ✅
 # TODO: Add 2024 check in field events function ✅
 # TODO: What to do if no series data ✅
-# TODO: Function to read field events info
-# TODO: Correct 2012 Class 1 girls 200 meter event
+# TODO: Function to read field events info ✅
+# TODO: Function to parse multi events pages
