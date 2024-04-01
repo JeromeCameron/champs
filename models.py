@@ -34,18 +34,16 @@ class FieldEvents(BaseModel):
     points: str | None = None
 
 
-class MultiEvents(BaseModel):
+class MultiEvent(BaseModel):
     # id: int
     event: str
     gender: str | None = None
     clas_s: str | None = None
     typ: str | None = None
-    wind: str | None = None
     name: str | None = None
     year: str | None = None
     position: str | None = None
     school: str | None = None
-    series: list | None = None
     mark: str | None = None
     points: str | None = None
 

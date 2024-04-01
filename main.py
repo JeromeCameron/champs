@@ -2,6 +2,7 @@ import rich
 import pandas as pd
 from get_races import parse_race_event
 from get_field_events import parse_field_event
+from get_multi_events import parse_multi_event
 from get_relays import parse_relay_event
 from utils import genearate_df
 import asyncio
@@ -66,11 +67,12 @@ if __name__ == "__main__":
     )
     # Get data for multi events
     multi_events_df: pd.DataFrame = genearate_df(
-        func=parse_race_event,
+        func=parse_multi_event,
         race_stage=RACE_STAGES[0],
         race_categories=MULTI_EVENTS,
         path=PATH,
     )
+
 
 frame: list = [individual_track_events_df, relays_df]
 
@@ -89,6 +91,7 @@ rich.print(field_events_df.head(4))
 rich.print(multi_events_df.shape)
 rich.print(multi_events_df.head(5))
 
+
 # Export parsed data to CSV
 all_track_events_df.to_csv("csv_files/track_events.csv", index=False)
 field_events_df.to_csv("csv_files/field_events.csv", index=False)
@@ -105,4 +108,4 @@ multi_events_df.to_csv("csv_files/multi_events.csv", index=False)
 # TODO: Add 2024 check in field events function ✅
 # TODO: What to do if no series data ✅
 # TODO: Function to read field events info ✅
-# TODO: Function to parse multi events pages
+# TODO: Function to parse multi events pages ✅
