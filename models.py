@@ -49,10 +49,13 @@ class MultiEvent(BaseModel):
 
 
 class Record(BaseModel):
-    id: int
+    event: str
+    gender: str
+    clas_s: str
     mark: str
     athlete: str
-    year: int
+    year: str
+    school: str
 
 
 class Event(BaseModel):

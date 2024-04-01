@@ -1,0 +1,271 @@
+event,gender,clas_s,typ,name,year,position,school,mark,points
+Decathlon Open,Boys,Open,Finals,"Hunter, Darron",12,1, Kingston College,6107R,12
+Decathlon Open,Boys,Open,Finals,"Larrington, Waquar",12,2, St. Jago High,6017R,10
+Decathlon Open,Boys,Open,Finals,"Farlane, Andre",12,3, Jamaica College,5868R,8
+Decathlon Open,Boys,Open,Finals,"Riley, Adrian",12,4, Calabar High School,5755R,6
+Decathlon Open,Boys,Open,Finals,"Palmer, Alton",12,5, Buff Bay High SC,5461,5
+Decathlon Open,Boys,Open,Finals,"Harrison, Maurice",12,6, Excelsior High,5345,4
+Decathlon Open,Boys,Open,Finals,"Shaw, Oshane",12,7, Wolmers' Boys SC,5332,3
+Decathlon Open,Boys,Open,Finals,"Maxwell, Rosean",12,8, Munro College,5078,2
+Decathlon Open,Boys,Open,Finals,"Naughton, Jamar",12,9, St.Elizabeth Tec,4302,0
+Decathlon Open,Boys,Open,Finals,"Edwards, Jamie",12,10, Bog Walk,4155,0
+Decathlon Open,Boys,Open,Finals,"Lynch, Zavia",12,11, Godfrey Stewart,3834,0
+Decathlon Open,Boys,Open,Finals,"Bulgin, Orelle",12,12, Cornwall College,3766,0
+Decathlon Open,Boys,Open,Finals,Maurice Harrison,14,1,Excelsior High,6471R,12
+Decathlon Open,Boys,Open,Finals,Shamar Morrison,14,2,Jamaica College,6383R,10
+Decathlon Open,Boys,Open,Finals,Shaquille Shaw,14,3,Kingston College,6268R,8
+Decathlon Open,Boys,Open,Finals,Shakiel Chattoo,14,4,Calabar High,6123R,6
+Decathlon Open,Boys,Open,Finals,Orelle Bulgin,14,5,Cornwall College,5607,5
+Decathlon Open,Boys,Open,Finals,Amaudo Oconner,14,6,Buff Bay High,5518,4
+Decathlon Open,Boys,Open,Finals,Asani Hylton,14,7,Godfrey Stew,5465,3
+Decathlon Open,Boys,Open,Finals,Akeem Aris,14,8,Wolmer's Hig,4942,2
+Decathlon Open,Boys,Open,Finals,Stavin Brown,14,9,Muschett High,4847,0
+Decathlon Open,Boys,Open,Finals,Kevaughn Christopher,14,10,Mona High,4493,0
+Decathlon Open,Boys,Open,Finals,Micheal Williams,14,11,Lennon High,4315,0
+Decathlon Open,Boys,Open,Finals,lee Dunkley,14,12,Thompson Town High,4187,0
+Decathlon Open,Boys,Open,Finals,Devar Wellington,14,13,Bog Walk High,2896,0
+Heptathlon Open,Girls,Open,Finals,Shanice Cannigan,14,1,Rusea's High,4571,12
+Heptathlon Open,Girls,Open,Finals,Britny Kerr,14,2,Hydel High,4463,10
+Heptathlon Open,Girls,Open,Finals,Janell Fullerton,14,3,Edwin Allen High,4451,8
+Heptathlon Open,Girls,Open,Finals,Latavia Coombs,14,4,Holmwood Tech,4411,6
+Heptathlon Open,Girls,Open,Finals,Ayesha Champagnie,14,5,St. Andrew Techn,4268,5
+Heptathlon Open,Girls,Open,Finals,Shamoya Mcneil,14,6,St. Jago High,4066,4
+Heptathlon Open,Girls,Open,Finals,Lisa Blackwood,14,7,Vere Technical High,3985,3
+Heptathlon Open,Girls,Open,Finals,Sasha Wright,14,8,Buff Bay High,3929,2
+Heptathlon Open,Girls,Open,Finals,Ishara Scarlett,14,9,Godfrey Stew,3131,0
+Heptathlon Open,Girls,Open,Finals,Domonique Porter,14,10,McGrath High,1908,0
+Heptathlon Open,Girls,Open,Finals,Vanessa Hutchins,14,11,Mount Alvernia High,1435,0
+Decathlon Open,Boys,Open,Finals,Shakiel Chattoo,15,1,Calabar High,6988R,12
+Decathlon Open,Boys,Open,Finals,Amaudo Oconner,15,2,Buff Bay High,6545R,10
+Decathlon Open,Boys,Open,Finals,Marcus Brown,15,3,Morant Bay High,6528R,8
+Decathlon Open,Boys,Open,Finals,Shamar Morrison,15,4,Jamaica College,6249R,6
+Decathlon Open,Boys,Open,Finals,Shaquille Shaw,15,5,Kingston College,6222R,5
+Decathlon Open,Boys,Open,Finals,Kurt Goodlitt,15,6,Munro College,6059,4
+Decathlon Open,Boys,Open,Finals,Tajay Gayle,15,7,Papine High,5987,3
+Decathlon Open,Boys,Open,Finals,Orelle Bulgin,15,8,Cornwall College,5662,2
+Decathlon Open,Boys,Open,Finals,Jordain Waite,15,9,St. Jago High,5521,0
+Decathlon Open,Boys,Open,Finals,Stavin Brown,15,10,Muschett High,5350,0
+Decathlon Open,Boys,Open,Finals,Troy Whyte,15,11,Rhodes Hall High,5076,0
+Decathlon Open,Boys,Open,Finals,Omar Gavin,15,12,Manchester High,4457,0
+Decathlon Open,Boys,Open,Finals,Yafeu Walters,15,13,St. Elizabeth,4403,0
+Heptathlon Open,Girls,Open,Finals,Ayesha Champagnie,15,1,St. Andrew Tech,5172,12
+Heptathlon Open,Girls,Open,Finals,Zinedine Russell,15,2,Convent of Mercy,4834,10
+Heptathlon Open,Girls,Open,Finals,Janell Fullerton,15,3,Edwin Allen High,4736,8
+Heptathlon Open,Girls,Open,Finals,Lisa Blackwood,15,4,Vere Technical High,4468,6
+Heptathlon Open,Girls,Open,Finals,Britny Kerr,15,5,Hydel High,4454,5
+Heptathlon Open,Girls,Open,Finals,Taneika Elliston,15,6,Holmwood Techn,4391,4
+Heptathlon Open,Girls,Open,Finals,Sasha Wright,15,7,Buff Bay High,4172,3
+Heptathlon Open,Girls,Open,Finals,Nayoka Clunis,15,8,Excelsior High,3997,2
+Heptathlon Open,Girls,Open,Finals,Kalice Hitchman,15,9,St. Jago High,3984,0
+Heptathlon Open,Girls,Open,Finals,Basilla Haughton,15,10,Rusea's High,3418,0
+Heptathlon Open,Girls,Open,Finals,Peter-ann Headley,15,11,Muschett High,3023,0
+Heptathlon Open,Girls,Open,Finals,Tameka Drummond,15,12,Frome Technical,2657,0
+Heptathlon Open,Girls,Open,Finals,Shamara Thomas,15,13,Mount Alvernia High,2588,0
+Heptathlon Open,Girls,Open,Finals,Rodene Morris,15,14,Rhodes Hall High,2241,0
+Heptathlon Open,Girls,Open,Finals,Jeneica Tucker,15,15,McGrath High,1582,0
+Decathlon Open,Boys,Open,Finals,Marcus Brown,16,1,Morant Bay High,6781R,12
+Decathlon Open,Boys,Open,Finals,Amaudo Oconner,16,2,Buff Bay High,6649,10
+Decathlon Open,Boys,Open,Finals,Asani Hylton,16,3,Rhodes Hall High,6517,8
+Decathlon Open,Boys,Open,Finals,Woodens Corvil,16,4,Jamaica College,6230,6
+Decathlon Open,Boys,Open,Finals,Lafranz Campbell,16,5,Calabar High,6170,5
+Decathlon Open,Boys,Open,Finals,Donovan Thames,16,6,Kingston College,5952,4
+Decathlon Open,Boys,Open,Finals,Amario Ferron,16,7,Hydel High,5789,3
+Decathlon Open,Boys,Open,Finals,Stavin Brown,16,8,Muschett High,5769,2
+Decathlon Open,Boys,Open,Finals,Donovan Palmer,16,9,St. Jago High,5137,0
+Decathlon Open,Boys,Open,Finals,Devar Clayton,16,10,Petersfield High,4777,0
+Decathlon Open,Boys,Open,Finals,Keith Hutchinson,16,11,Cornwall College,4521,0
+Decathlon Open,Boys,Open,Finals,Selvin Stewart,16,12,St. James High,3055,0
+Heptathlon Open,Girls,Open,Finals,Janell Fullerton,16,1,St. Jago High,5011,12
+Heptathlon Open,Girls,Open,Finals,Zinedine Russell,16,2,alpha,4489,10
+Heptathlon Open,Girls,Open,Finals,Trishauna Hemmings,16,3,Hydel High,4469,8
+Heptathlon Open,Girls,Open,Finals,Keneva Headley,16,4,Holmwood,4321,6
+Heptathlon Open,Girls,Open,Finals,Peter-Gay McKenzie,16,5,Edwin Allen High,4176,5
+Heptathlon Open,Girls,Open,Finals,Brittaney Orr,16,6,Buff Bay High,3959,4
+Heptathlon Open,Girls,Open,Finals,Fiona Barnes,16,7,Vere Technical High,3934,3
+Heptathlon Open,Girls,Open,Finals,Basilla Haughton,16,8,Rusea's High,3575,2
+Heptathlon Open,Girls,Open,Finals,Ashley-ann Miller,16,9,St. Andrew Tech,3568,0
+Heptathlon Open,Girls,Open,Finals,Zaudi Green,16,10,Excelsior High,3558,0
+Heptathlon Open,Girls,Open,Finals,Danika Ferguson,16,11,The Queens School,3365,0
+Heptathlon Open,Girls,Open,Finals,Annagay Cooper,16,12,Mount Alvernia High,3105,0
+Heptathlon Open,Girls,Open,Finals,Judeen Aird,16,13,Petersfield High,3012,0
+Heptathlon Open,Girls,Open,Finals,Shanice Webster,16,14,St. James High,2768,0
+Heptathlon Open,Girls,Open,Finals,Peter-ann Headley,16,15,Muschett High,2378,0
+Heptathlon Open,Girls,Open,Finals,Reneisha Gray,16,16,McGrath High,1269,0
+Decathlon Open,Boys,Open,Finals,Donovan Thames,17,1,Kingston College,6771,12
+Decathlon Open,Boys,Open,Finals,Lafranz Campbell,17,2,Calabar High,6423,10
+Decathlon Open,Boys,Open,Finals,Wikenson Fenelon,17,3,Jamaica College,6270,8
+Decathlon Open,Boys,Open,Finals,Brandon Mclaren,17,4,Rusea's High,5136,6
+Decathlon Open,Boys,Open,Finals,Devar Clayton,17,5,Petersfield High,5109,5
+Decathlon Open,Boys,Open,Finals,Stevin Brown,17,6,Muschett High,5059,4
+Decathlon Open,Boys,Open,Finals,Jona Hanson,17,7,Munro College,4933,3
+Decathlon Open,Boys,Open,Finals,Romaine Gabbidon,17,8,William Knibb,4928,2
+Decathlon Open,Boys,Open,Finals,Jahvari Richards,17,9,Buff Bay High,4871,0
+Decathlon Open,Boys,Open,Finals,Kerol Manning,17,10,Grange Hill High,4864,0
+Decathlon Open,Boys,Open,Finals,Ricardo Smith,17,11,Rhodes Hall High,4758,0
+Decathlon Open,Boys,Open,Finals,Chevoy Riddle,17,12,St. James High,4347,0
+Decathlon Open,Boys,Open,Finals,Shemar Stona.,17,13,Wolmer's,4002,0
+Decathlon Open,Boys,Open,Finals,Adray Hart,17,14,Mona High,3889,0
+Decathlon Open,Boys,Open,Finals,Tyreek Fearon,17,15,Claude McKay High,3831,0
+Decathlon Open,Boys,Open,Finals,Timmothi Mcmaster,17,16,Hydel High,3491,0
+Decathlon Open,Boys,Open,Finals,Kenniel Allen,17,17,Merlene Ottey High,3442,0
+Decathlon Open,Boys,Open,Finals,Peter Duffus,17,18,Tacius Golding High,2680,0
+Heptathlon Open,Girls,Open,Finals,Peter-gay Mckenzie,17,1,Edwin Allen High,4694,12
+Heptathlon Open,Girls,Open,Finals,Ashanti Moore,17,2,Hydel High,4664,10
+Heptathlon Open,Girls,Open,Finals,Thaila Wilson,17,3,Vere Technical High,4274,8
+Heptathlon Open,Girls,Open,Finals,Brittaney Orr,17,4,Buff Bay High,4233,6
+Heptathlon Open,Girls,Open,Finals,Maricia Spence,17,5,Holmwood,4200,5
+Heptathlon Open,Girls,Open,Finals,Marney Mussenden,17,6,Rusea's High,4167,4
+Heptathlon Open,Girls,Open,Finals,Basilla Haughton,17,7,St. Catherine High,4073,3
+Heptathlon Open,Girls,Open,Finals,Jamila Alexander,17,8,Mannings High,4051,2
+Heptathlon Open,Girls,Open,Finals,Zaudi Green,17,9,Excelsior High,3934,0
+Heptathlon Open,Girls,Open,Finals,Danika Ferguson,17,10,The Queens School,3857,0
+Heptathlon Open,Girls,Open,Finals,Judeen Aird,17,11,Petersfield High,3482,0
+Heptathlon Open,Girls,Open,Finals,Sasha-lee Pitter,17,12,Irwin High,3342,0
+Heptathlon Open,Girls,Open,Finals,Annagay Cooper,17,13,Mount Alvernia High,3295,0
+Heptathlon Open,Girls,Open,Finals,Janealia Brown,17,14,St. Jago High,3216,0
+Heptathlon Open,Girls,Open,Finals,Shereese Richards,17,15,St. Hugh's High,2553,0
+Heptathlon Open,Girls,Open,Finals,Corsella Cameron,17,16,Tacius Golding High,1880,0
+Decathlon Open,Boys,Open,Finals,Donovan Thames,18,1,Kingston College,6778,12
+Decathlon Open,Boys,Open,Finals,Wikenson Fenelon,18,2,Jamaica College,6511,10
+Decathlon Open,Boys,Open,Finals,Brandon Mclaren,18,3,Rusea's High,6120,8
+Decathlon Open,Boys,Open,Finals,Jahvari Richards,18,4,Buff Bay High,6098,6
+Decathlon Open,Boys,Open,Finals,Ricardo Smith,18,5,Calabar High,6022,5
+Decathlon Open,Boys,Open,Finals,Devar Clayton,18,6,Petersfield High,5914,4
+Decathlon Open,Boys,Open,Finals,Stevin Brown,18,7,Muschett High,5479,3
+Decathlon Open,Boys,Open,Finals,Nicholas Staniscl,18,8,Edwin Allen High,5415,2
+Decathlon Open,Boys,Open,Finals,Delroy Millwood,18,9,Morant Bay High,5268,0
+Decathlon Open,Boys,Open,Finals,David Edmondson,18,10,Wolmer's,5137,0
+Decathlon Open,Boys,Open,Finals,Orlando Chambers,18,11,Merlene Ottey High,4664,0
+Decathlon Open,Boys,Open,Finals,Chevoy Riddle,18,12,St. James High,4428,0
+Decathlon Open,Boys,Open,Finals,Winston Harrison,18,13,Steths,3802,0
+Decathlon Open,Boys,Open,Finals,#,18,14, Cecil Coley,3626,0
+Decathlon Open,Boys,Open,Finals,Timmarley Simpson,18,15,Mona High,3589,0
+Decathlon Open,Boys,Open,Finals,Peter Duffus,18,16,Tacius Golding High,2677,0
+Heptathlon Open,Girls,Open,Finals,Peter-gay Mckenzi,18,1,Edwin Allen High,4770,12
+Heptathlon Open,Girls,Open,Finals,Ashanti Moore,18,2,Hydel High,4769,10
+Heptathlon Open,Girls,Open,Finals,Maricia Spence,18,3,Holmwood,4516,8
+Heptathlon Open,Girls,Open,Finals,Thaila Wilson,18,4,Vere Technical High,4448,6
+Heptathlon Open,Girls,Open,Finals,Marney Mussenden,18,5,Rusea's High,4263,5
+Heptathlon Open,Girls,Open,Finals,Jamila Alexander,18,6,Mannings High,4212,4
+Heptathlon Open,Girls,Open,Finals,Beyonce Sinclair,18,7,St. Hugh's High,3700,3
+Heptathlon Open,Girls,Open,Finals,Seana'kaye Wright,18,8,Excelsior High,3680,2
+Heptathlon Open,Girls,Open,Finals,Tiana Wilson,18,9,Mount Alvernia High,3432,0
+Heptathlon Open,Girls,Open,Finals,Jodian Dennis,18,10,Clarendon College,3430,0
+Heptathlon Open,Girls,Open,Finals,Shannel Waite,18,11,Merlene Ottey High,2661,0
+Heptathlon Open,Girls,Open,Finals,Corsella Cameron,18,12,Tacius Golding High,2584,0
+Decathlon Open,Boys,Open,Finals,Wikenson Fenelon,19,1,Jamaica College,6678,12
+Decathlon Open,Boys,Open,Finals,David Edmondson,19,2,Wolmer's Hig,6325,10
+Decathlon Open,Boys,Open,Finals,Brandon Mclaren,19,3,Rusea's High,6277,8
+Decathlon Open,Boys,Open,Finals,Ricardo Smith,19,4,Calabar High,6243,6
+Decathlon Open,Boys,Open,Finals,Chadrick Williams,19,5,Kingston College,6108,5
+Decathlon Open,Boys,Open,Finals,Tevaughn Tate,19,6,Petersfield High,5753,4
+Decathlon Open,Boys,Open,Finals,Dario Beckford,19,7,Mannings High,5605,3
+Decathlon Open,Boys,Open,Finals,Derick Robinson,19,8,Excelsior High,5524,2
+Decathlon Open,Boys,Open,Finals,Swayne Murray,19,9,St. Andrew T,5437,0
+Decathlon Open,Boys,Open,Finals,Orlando Chambers,19,10,Merlene Ottey High,5290,0
+Decathlon Open,Boys,Open,Finals,Winston Harrison,19,11,St. Elizabet,4991,0
+Decathlon Open,Boys,Open,Finals,Nevaugh Beckford,19,12,Rhodes Hall High,4645,0
+Decathlon Open,Boys,Open,Finals,Shavaine Mcfarlan,19,13,Buff Bay High,4601,0
+Decathlon Open,Boys,Open,Finals,Romario Brown,19,14,Bridgeport High,4026,0
+Decathlon Open,Boys,Open,Finals,#,19,15, Marlon Carnegie,3873,0
+Heptathlon Open,Girls,Open,Finals,Thaila Wilson,19,1,Hydel High,4913,12
+Heptathlon Open,Girls,Open,Finals,Maricia Spence,19,2,Holmwood Tec,4794,10
+Heptathlon Open,Girls,Open,Finals,Aaliyah Lindsay,19,3,Convent of M,4724,8
+Heptathlon Open,Girls,Open,Finals,Brittaney Orr,19,4,Excelsior High,4715,6
+Heptathlon Open,Girls,Open,Finals,Dayshanae Hall,19,5,St. Jago High,4643,5
+Heptathlon Open,Girls,Open,Finals,Amoy Edwards,19,6,Edwin Allen High,4358,4
+Heptathlon Open,Girls,Open,Finals,Jamera Scott,19,7,Buff Bay High,4148,3
+Heptathlon Open,Girls,Open,Finals,Shanice Walsh,19,8,St. Catherine High,4145,2
+Heptathlon Open,Girls,Open,Finals,Amani Cooke,19,9,Campion College,4089,0
+Heptathlon Open,Girls,Open,Finals,Beyonce Sinclair,19,10,St. Hugh's High,4085,0
+Heptathlon Open,Girls,Open,Finals,Jamila Alexander,19,11,Mannings High,4052,0
+Heptathlon Open,Girls,Open,Finals,Amanda Thrue,19,12,Vere Technical High,3821,0
+Heptathlon Open,Girls,Open,Finals,Katherine Barnes,19,13,The Queens School,3723,0
+Heptathlon Open,Girls,Open,Finals,Aliyah Baker,19,14,Frome Techni,3436,0
+Heptathlon Open,Girls,Open,Finals,Chezigay Williams,19,15,Merl Grove High,3133,0
+Heptathlon Open,Girls,Open,Finals,Monique Streete,19,16,Merlene Ottey High,3093,0
+Heptathlon Open,Girls,Open,Finals,Rusheedie Roberts,19,17,St. Andrew T,2739,0
+Heptathlon Open,Girls,Open,Finals,Shaloam Gardner,19,18,Rhodes Hall High,2456,0
+Heptathlon Open,Girls,Open,Finals,Kelleen Williams,19,19,Knox College,2347,0
+Heptathlon Open,Girls,Open,Finals,Chrisy Glanville,19,20,William Knib,2260,0
+Decathlon Open,Boys,Open,Finals,Javain Johnson,21,1,Kingston College,5973,12
+Decathlon Open,Boys,Open,Finals,Dishaun Lamb,21,2,Calabar High,5521,10
+Decathlon Open,Boys,Open,Finals,Shamar Coke,21,3,Excelsior High,4962,8
+Decathlon Open,Boys,Open,Finals,Ian Wiggan,21,4,Wolmer's Boy,4939,6
+Decathlon Open,Boys,Open,Finals,Kyron Palmer,21,5,Muschett High,4863,5
+Decathlon Open,Boys,Open,Finals,tyyear harris,21,6,Port Antonio High,4633,4
+Decathlon Open,Boys,Open,Finals,Zion Bennett,21,7,Hydel High,4304,3
+Decathlon Open,Boys,Open,Finals,Dermaine Campbell,21,8,Lacovia High,4289,2
+Decathlon Open,Boys,Open,Finals,Wooslyn Harvey,21,9,Jamaica College,4255,0
+Decathlon Open,Boys,Open,Finals,Shanarrie Miller,21,10,Rhodes Hall High,3981,0
+Decathlon Open,Boys,Open,Finals,Ismoy Rankine,21,11,Aberdeen High,3381,0
+Heptathlon Open,Girls,Open,Finals,Amanda Thrue,21,1,Vere Technical,4542,12
+Heptathlon Open,Girls,Open,Finals,Gizel Clayton,21,2,Hydel High,4540,10
+Heptathlon Open,Girls,Open,Finals,Amoy Edwards,21,3,Edwin Allen High,4531,8
+Heptathlon Open,Girls,Open,Finals,Calleisha Chance,21,4,Holmwood Technical,4091,6
+Heptathlon Open,Girls,Open,Finals,Crystal Walker,21,5,Alpha Academy,3923,5
+Heptathlon Open,Girls,Open,Finals,Teiolla Harvey,21,6,Excelsior High,3651,4
+Heptathlon Open,Girls,Open,Finals,Dayshanae Hall,21,7,St. Jago High,3640,3
+Heptathlon Open,Girls,Open,Finals,Shanice Johnson,21,8,Rhodes Hall High,2760,2
+Heptathlon Open,Girls,Open,Finals,Tavia Hutchinson,21,9,The Queen's School,2733,0
+Decathlon Open,Boys,Open,Finals,Isaiah Patrick,23,1,Kingston College,6969R,12
+Decathlon Open,Boys,Open,Finals,Dorian Charles,23,2,Jamaica College,6579,10
+Decathlon Open,Boys,Open,Finals,Kevin Brooks,23,3,Calabar High,6202,8
+Decathlon Open,Boys,Open,Finals,Courtney Williams,23,4,Happy Grove High,6112,6
+Decathlon Open,Boys,Open,Finals,Omarr Locke,23,5,St. Elizabet,5268,5
+Decathlon Open,Boys,Open,Finals,Zico Bennett,23,6,Hydel High,5081,4
+Decathlon Open,Boys,Open,Finals,Antwan Salmon,23,7,Titchfield High,5073,3
+Decathlon Open,Boys,Open,Finals,Osmond Holt,23,8,Muschett High,4913,2
+Decathlon Open,Boys,Open,Finals,Damion Whyte,23,9,Rhodes Hall High,4895,0
+Decathlon Open,Boys,Open,Finals,Javeir Morrison,23,10,Dinthill Technical,4835,0
+Decathlon Open,Boys,Open,Finals,Ajonie Barrett,23,11,St. Jago High,4822,0
+Decathlon Open,Boys,Open,Finals,Yuri Reuben,23,12,Edwin Allen High,4514,0
+Decathlon Open,Boys,Open,Finals,Rojay Robertson,23,13,Excelsior High,4492,0
+Decathlon Open,Boys,Open,Finals,Shakeem Robinson,23,14,Port Antonio High,4490,0
+Decathlon Open,Boys,Open,Finals,Te-Var Hammond,23,15,St. Mary's College,4295,0
+Heptathlon Open,Girls,Open,Finals,Sherika Christie,23,1,Hydel High,4868,12
+Heptathlon Open,Girls,Open,Finals,Sherika Thomas,23,2,Glengoffe High,4560,10
+Heptathlon Open,Girls,Open,Finals,Ishna James,23,3,Edwin Allen High,4063,8
+Heptathlon Open,Girls,Open,Finals,Leojai Hibbert,23,4,St. Jago High,4042,6
+Heptathlon Open,Girls,Open,Finals,Omarian Constable,23,5,Excelsior High,3956,5
+Heptathlon Open,Girls,Open,Finals,Saffron Lyons,23,6,Westwood High,3928,4
+Heptathlon Open,Girls,Open,Finals,Jayla-Shae Wright,23,7,Mount Alvernia High,3903,3
+Heptathlon Open,Girls,Open,Finals,Mireya Simpson,23,8,Immaculate C,3757,2
+Heptathlon Open,Girls,Open,Finals,Tawani Murray,23,9,Petersfield High,3724,0
+Heptathlon Open,Girls,Open,Finals,Sasheka Palmer,23,10,Muschett High,3573,0
+Heptathlon Open,Girls,Open,Finals,Norma-Lee White,23,11,St. Thomas T,3529,0
+Heptathlon Open,Girls,Open,Finals,Brishawn Grant,23,12,Holmwood Technical,3493,0
+Heptathlon Open,Girls,Open,Finals,Italia Nelson,23,13,The Queen's School,3005,0
+Heptathlon Open,Girls,Open,Finals,Gabrielle Blake,23,14,St. Hilda's High,2824,0
+Heptathlon Open,Girls,Open,Finals,Brianna Carr,23,15,St. Hugh's High,2315,0
+Decathlon Open,Boys,Open,Finals,Dorian Charles,24,1,Jamaica College,6954,12
+Decathlon Open,Boys,Open,Finals,Rayvon Walkin,24,2,Kingston College,5793,10
+Decathlon Open,Boys,Open,Finals,Osmond Holt,24,3,Muschett Hig,5450,8
+Decathlon Open,Boys,Open,Finals,Malique Graham,24,4,Wolmer's Boy,5446,6
+Decathlon Open,Boys,Open,Finals,Rojay Robertson,24,5,Excelsior Hi,5308,5
+Decathlon Open,Boys,Open,Finals,Kemal Benjamin,24,6,William Knib,5086,4
+Decathlon Open,Boys,Open,Finals,Ajonie Barrett,24,7,St. Jago Hig,5074,3
+Decathlon Open,Boys,Open,Finals,Jaydon Parkes,24,8,Titchfield H,5050,2
+Decathlon Open,Boys,Open,Finals,Davin Davis,24,9,Buff Bay Hig,4998,0
+Decathlon Open,Boys,Open,Finals,Kimani Grant,24,10,Mona High School,4911,0
+Decathlon Open,Boys,Open,Finals,Jason Miller,24,11,Port Antonio,4501,0
+Decathlon Open,Boys,Open,Finals,Shevaughn Pryce,24,12,Calabar High School,4349,0
+Decathlon Open,Boys,Open,Finals,Joevan Bottom,24,13,Tacius Goldi,4001,0
+Heptathlon Open,Girls,Open,Finals,Kimeka Smith,24,1,St. Jago Hig,4582,12
+Heptathlon Open,Girls,Open,Finals,Rhianna Lewis,24,2,Rhodes Hall,4387,10
+Heptathlon Open,Girls,Open,Finals,Julissia Knight,24,3,Holmwood Tec,4314,8
+Heptathlon Open,Girls,Open,Finals,Juwonna Whitehorne,24,4,Hydel High School,4267,6
+Heptathlon Open,Girls,Open,Finals,Ishna James,24,5,Edwin Allen,4069,5
+Heptathlon Open,Girls,Open,Finals,Odessa France,24,6,Vere Technic,3976,4
+Heptathlon Open,Girls,Open,Finals,Omelia Jeffrey,24,7,William Knib,3854,3
+Heptathlon Open,Girls,Open,Finals,Jayla-Shae Wright,24,8,Mount Alvern,3653,2
+Heptathlon Open,Girls,Open,Finals,Safia Bennett,24,9,Port Antonio,3598,0
+Heptathlon Open,Girls,Open,Finals,Omarian Constable,24,10,Excelsior Hi,3494,0
+Heptathlon Open,Girls,Open,Finals,Jadah-Lee James,24,11,St. Elizabet,3301,0
+Heptathlon Open,Girls,Open,Finals,Laquay Harrison,24,12,Clarendon College,3121,0
+Heptathlon Open,Girls,Open,Finals,Shaliah McKoy,24,13,Convent of M,2921,0
+Heptathlon Open,Girls,Open,Finals,Tae-Marie Jarrett,24,14,Mona High School,2753,0
+Heptathlon Open,Girls,Open,Finals,Jhonae Williams,24,15,Westwood Hig,2574,0
+Heptathlon Open,Girls,Open,Finals,Rakalia Whyte,24,16,Titchfield H,2521,0
+Heptathlon Open,Girls,Open,Finals,Tanika James,24,17,The Queen's School,2400,0
+Heptathlon Open,Girls,Open,Finals,Annalese Carnegie,24,18,Old Harbour,2139,0

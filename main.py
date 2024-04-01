@@ -4,10 +4,11 @@ from get_races import parse_race_event
 from get_field_events import parse_field_event
 from get_multi_events import parse_multi_event
 from get_relays import parse_relay_event
+from get_records import parse_records
 from utils import genearate_df
 import asyncio
 
-PATH: str = "pages/"
+PATH: str = "pages/24"
 
 # Race Types
 TRACK_EVENTS: list = [
@@ -38,64 +39,84 @@ RELAYS: list = ["4x100 Meter Relay", "4x400 Meter Relay", "1600 Sprint Medley"]
 MULTI_EVENTS: list = ["Decathlon", "Heptathlon"]
 # -----
 RACE_STAGES: list = ["Finals", "Semis", "Prelims"]
+ACTIONS: list = ["get_finals", "get_semis", "get_prelims", "get_records"]
 
 # ---------------------------------------------------------------------------------
 
 if __name__ == "__main__":
     """main starts here"""
 
-    # Get data for individual track events
-    individual_track_events_df: pd.DataFrame = genearate_df(
-        func=parse_race_event,
-        race_stage=RACE_STAGES[0],
-        race_categories=TRACK_EVENTS,
-        path=PATH,
-    )
-    # Get data for relays
-    relays_df: pd.DataFrame = genearate_df(
-        func=parse_relay_event,
-        race_stage=RACE_STAGES[0],
-        race_categories=RELAYS,
-        path=PATH,
-    )
-    # Get data for individual field events
-    field_events_df: pd.DataFrame = genearate_df(
-        func=parse_field_event,
-        race_stage=RACE_STAGES[0],
-        race_categories=FIELD_EVENTS,
-        path=PATH,
-    )
-    # Get data for multi events
-    multi_events_df: pd.DataFrame = genearate_df(
-        func=parse_multi_event,
-        race_stage=RACE_STAGES[0],
-        race_categories=MULTI_EVENTS,
-        path=PATH,
-    )
+    task: str = "get_records"
 
+    if task == ACTIONS[3]:
 
-frame: list = [individual_track_events_df, relays_df]
+        ALL_CATEGORIES: list = [TRACK_EVENTS, RELAYS, FIELD_EVENTS, MULTI_EVENTS]
+        records: list[pd.DataFrame] = []
+        # Get records
+        for event_cat in range(len(ALL_CATEGORIES)):
+            df: pd.DataFrame = genearate_df(
+                func=parse_records,
+                race_stage=RACE_STAGES[0],
+                race_categories=ALL_CATEGORIES[event_cat],
+                path=PATH,
+            )
+            # Combine all records df into one
+            records.append(df)
+        records_df: pd.DataFrame = pd.concat(records)
+        records_df.to_csv("csv_files/records.csv", index=False)
+        rich.print(records_df)
 
-# Combine all tarck dat into one df
-all_track_events_df: pd.DataFrame = pd.concat(frame)
+    else:
+        # Get data for individual track events
+        individual_track_events_df: pd.DataFrame = genearate_df(
+            func=parse_race_event,
+            race_stage=RACE_STAGES[0],
+            race_categories=TRACK_EVENTS,
+            path=PATH,
+        )
+        # Get data for relays
+        relays_df: pd.DataFrame = genearate_df(
+            func=parse_relay_event,
+            race_stage=RACE_STAGES[0],
+            race_categories=RELAYS,
+            path=PATH,
+        )
+        # Get data for individual field events
+        field_events_df: pd.DataFrame = genearate_df(
+            func=parse_field_event,
+            race_stage=RACE_STAGES[0],
+            race_categories=FIELD_EVENTS,
+            path=PATH,
+        )
+        # Get data for multi events
+        multi_events_df: pd.DataFrame = genearate_df(
+            func=parse_multi_event,
+            race_stage=RACE_STAGES[0],
+            race_categories=MULTI_EVENTS,
+            path=PATH,
+        )
 
-# Sample of data | Track Events
-rich.print(all_track_events_df.shape)
-rich.print(all_track_events_df.head(5))
+        frame: list = [individual_track_events_df, relays_df]
 
-# Sample of data | Field Events
-rich.print(field_events_df.shape)
-rich.print(field_events_df.head(4))
+        # Combine all tarck dat into one df
+        all_track_events_df: pd.DataFrame = pd.concat(frame)
 
-# Sample of data | Multi Events
-rich.print(multi_events_df.shape)
-rich.print(multi_events_df.head(5))
+        # Sample of data | Track Events
+        rich.print(all_track_events_df.shape)
+        rich.print(all_track_events_df.head(5))
 
+        # Sample of data | Field Events
+        rich.print(field_events_df.shape)
+        rich.print(field_events_df.head(4))
 
-# Export parsed data to CSV
-all_track_events_df.to_csv("csv_files/track_events.csv", index=False)
-field_events_df.to_csv("csv_files/field_events.csv", index=False)
-multi_events_df.to_csv("csv_files/multi_events.csv", index=False)
+        # Sample of data | Multi Events
+        rich.print(multi_events_df.shape)
+        rich.print(multi_events_df.head(5))
+
+        # Export parsed data to CSV
+        all_track_events_df.to_csv("csv_files/track_events.csv", index=False)
+        field_events_df.to_csv("csv_files/field_events.csv", index=False)
+        multi_events_df.to_csv("csv_files/multi_events.csv", index=False)
 
 
 # TODO: Select event to scrape ✅
