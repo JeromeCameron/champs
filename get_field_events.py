@@ -1,15 +1,6 @@
 from models import FieldEvents
 import rich
-
-
-# ---------------------------------------------------------------------
-def isfloat(num):
-    try:
-        float(num)
-        return True
-    except ValueError:
-        return False
-
+import pandas as pd
 
 # ---------------------------------------------------------------------
 
@@ -39,7 +30,7 @@ def get_event_details(event: list) -> list:
 # ---------------------------------------------------------------------
 
 
-def parse_jumps_throws(data, event_details, year):
+def parse_jumps_throws(data: str, event_details: list, year: str) -> list[pd.DataFrame]:
     """Parse details for field events [horizontal jumps anf throws] - Finals"""
 
     lst: list = []  # will contian all results details
@@ -192,7 +183,9 @@ def parse_jumps_throws(data, event_details, year):
 
 
 # -----------------------------------------------------------------------
-def parse_vertical_jumps(data, event_details, year):
+def parse_vertical_jumps(
+    data: str, event_details: list, year: str
+) -> list[pd.DataFrame]:
     """Parse details for field events [vertical jumps] - Finals"""
 
     lst: list = []  # will contian all results details
@@ -306,11 +299,11 @@ def parse_vertical_jumps(data, event_details, year):
 
 
 # -----------------------------------------------------------------------
-def parse_field_event(data, event, year):
+def parse_field_event(data: str, event: list[str], year: str) -> list[pd.DataFrame]:
     """Main Starts Here"""
     # Get event details
-    event_details: list = get_event_details(event)
-    results: list = []
+    event_details: list[str] = get_event_details(event)
+    results: list[pd.DataFrame] = []
 
     if event_details[0] in ["High Jump", "Pole Vault"]:
         results = parse_vertical_jumps(data, event_details, year)

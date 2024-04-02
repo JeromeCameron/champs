@@ -107,7 +107,7 @@ def parse_relay_event(data, event, year):
 
             # if "--" in other_details:
             #     other_details.append("")
-            mark = other_details[1]
+            mark = other_details[1].strip()
 
             if len(other_details) > 2:
                 points = other_details[-1]
@@ -126,7 +126,7 @@ def parse_relay_event(data, event, year):
                 year=year,
                 position=other_details[0][0],
                 school=school,
-                mark=mark,
+                mark=mark + "x",
                 points=points,
             )
 

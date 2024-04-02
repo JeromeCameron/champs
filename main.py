@@ -8,14 +8,14 @@ from get_records import parse_records
 from utils import genearate_df
 import asyncio
 
-PATH: str = "pages/24"
+PATH: str = "pages/"
 
 # Race Types
 TRACK_EVENTS: list = [
     "100 Meter Dash",
     "200 Meter Dash",
     "400 Meter Dash",
-    "60 Meter Hurdles",
+    "70 Meter Hurdles",
     "80 Meter Hurdles",
     "100 Meter Hurdles",
     "110 Meter Hurdles",
@@ -48,7 +48,7 @@ if __name__ == "__main__":
 
     task: str = "get_records"
 
-    if task == ACTIONS[3]:
+    if task == ACTIONS[0]:
 
         ALL_CATEGORIES: list = [TRACK_EVENTS, RELAYS, FIELD_EVENTS, MULTI_EVENTS]
         records: list[pd.DataFrame] = []
@@ -63,7 +63,7 @@ if __name__ == "__main__":
             # Combine all records df into one
             records.append(df)
         records_df: pd.DataFrame = pd.concat(records)
-        records_df.to_csv("csv_files/records.csv", index=False)
+        records_df.to_csv("csv_files/champs_records.csv", index=False)
         rich.print(records_df)
 
     else:
@@ -114,7 +114,7 @@ if __name__ == "__main__":
         rich.print(multi_events_df.head(5))
 
         # Export parsed data to CSV
-        all_track_events_df.to_csv("csv_files/track_events.csv", index=False)
+        all_track_events_df.to_csv("csv_files/track_events2.csv", index=False)
         field_events_df.to_csv("csv_files/field_events.csv", index=False)
         multi_events_df.to_csv("csv_files/multi_events.csv", index=False)
 

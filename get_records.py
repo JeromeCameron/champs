@@ -1,14 +1,15 @@
 from models import Record
+import pandas as pd
 import rich
 
 # ---------------------------------------------------------------------
 
 
-def get_event_details(event: list) -> list:
+def get_event_details(event: list[str]) -> list:
     """Return event deatils"""
     event_details: list = []
 
-    event_name = event[4] + " " + event[5]
+    event_name = event[4] + " " + event[5] + " " + event[6]
     gender = event[2]
     try:
         clas_s = event[event.index("Class") + 1]
@@ -29,10 +30,10 @@ def get_event_details(event: list) -> list:
 # ---------------------------------------------------------------------
 
 
-def parse_records(data, event, year):
+def parse_records(data: str, event: list[str], year: str) -> list[pd.DataFrame]:
     """Parse decathlon and heptathlon events - Finals"""
 
-    lst: list = []  # will contian all results details
+    lst: list[pd.DataFrame] = []  # will contian all results details
     event_details: list = get_event_details(event)
 
     # Split original data into manageble chunks
@@ -70,3 +71,5 @@ def parse_records(data, event, year):
 
 
 # -----------------------------------------------------------------------
+if __name__ == "__main__":
+    raise NotImplemented()

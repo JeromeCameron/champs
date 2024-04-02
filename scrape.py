@@ -33,7 +33,7 @@ async def get_links(year: str, client) -> dict[str, str]:
     return links
 
 
-async def get_pages(link: str, year: str, name: str, client):
+async def get_pages(link: str, year: str, name: str, client) -> None:
     """Get and save result pages"""
 
     # create folder if not exist
@@ -50,7 +50,7 @@ async def get_pages(link: str, year: str, name: str, client):
         page.write(resp.text)
 
 
-async def main():
+async def main() -> None:
     """Main Function"""
 
     async with httpx.AsyncClient(verify=False) as client:

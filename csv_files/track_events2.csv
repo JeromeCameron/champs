@@ -2274,6 +2274,15 @@ event,gender,clas_s,heat,typ,wind,name,year,position,school,mark,points
 400 Meter Hurdles,Girls,Open,,Finals,,Lashanna Graham,18,6,Edwin Allen High,59.90x,3
 400 Meter Hurdles,Girls,Open,,Finals,,Terice Steen,18,7,Rusea's High,1:00.16x,2
 400 Meter Hurdles,Girls,Open,,Finals,,Winsome Harris,18,8,Steths,1:01.82x,1
+800 Meter Run,Boys,2,,Finals,,Tyrice Taylor,18,1,Bog Walk High,1:56.36x,9
+800 Meter Run,Boys,2,,Finals,,Daniel Cunningham,18,2,Calabar High,1:56.63x,7
+800 Meter Run,Boys,2,,Finals,,Javier Brown,18,3,Jamaica College,1:57.03x,6
+800 Meter Run,Boys,2,,Finals,,Marcus Hutchinson,18,4,Clarendon College,1:57.14x,5
+800 Meter Run,Boys,2,,Finals,,J'Voughnn Blake,18,5,Jamaica College,1:57.38x,4
+800 Meter Run,Boys,2,,Finals,,Giovouni Henry,18,6,Kingston College,1:57.60x,3
+800 Meter Run,Boys,2,,Finals,,Assinie Wilson,18,7,Ferncourt High,1:58.81x,2
+800 Meter Run,Boys,2,,Finals,,Rayon Campbell,18,8,Kingston College,1:59.89x,1
+800 Meter Run,Boys,2,,Finals,,Jordan Anderson,18,9,Calabar High,1:59.94x,0
 800 Meter Run,Boys,3,,Finals,,Adrian Nethersole,18,1,Steths,1:58.85x,9
 800 Meter Run,Boys,3,,Finals,,Omarion Davis,18,2,Jamaica College,1:59.11x,7
 800 Meter Run,Boys,3,,Finals,,Tafar-hi Hinds,18,3,St. Jago High,2:01.49x,6
@@ -4417,6 +4426,18 @@ event,gender,clas_s,heat,typ,wind,name,year,position,school,mark,points
 1500 Meter Run,Boys,3,,Finals,,High School 4:33.05,24,10, Obrian Clarke,4:32.57x,0
 1500 Meter Run,Boys,3,,Finals,,Boy,24,11,Wolmer's Boy,4:34.35x,0
 1500 Meter Run,Boys,3,,Finals,,Knib,24,12,William Knib,4:50.23x,0
+1500 Meter Run,Girls,1,,Finals,,Rickeisha Simms,24,1,Edwin Allen,4:30.36x,9
+1500 Meter Run,Girls,1,,Finals,,Cindy Rose,24,2,Holmwood Tec,4:32.79x,7
+1500 Meter Run,Girls,1,,Finals,,Kaydeen Johnson,24,3,Hydel High School,4:33.71x,6
+1500 Meter Run,Girls,1,,Finals,,Monique Stewart,24,4,Edwin Allen,4:36.84x,5
+1500 Meter Run,Girls,1,,Finals,,Taiefa Gowe,24,5,Hydel High School,4:37.67x,4
+1500 Meter Run,Girls,1,,Finals,,Carlene Temple,24,6,Alphansus Da,4:48.38x,3
+1500 Meter Run,Girls,1,,Finals,,Jeneail Henry,24,7,Wolmer's Gir,4:55.07x,2
+1500 Meter Run,Girls,1,,Finals,,Allecia Johnson,24,8,Alphansus Da,4:55.34x,1
+1500 Meter Run,Girls,1,,Finals,,Rihanna Gayle,24,9,St. Andrew H,4:56.60x,0
+1500 Meter Run,Girls,1,,Finals,,H,24,10,Bellefield H,5:06.67x,0
+1500 Meter Run,Girls,1,,Finals,,Jago Hig,24,11,St. Jago Hig,5:09.94x,0
+1500 Meter Run,Girls,1,,Finals,,Queen's School,24,12,The Queen's School,5:39.34x,0
 1500 Meter Run,Boys,1,,Finals,,Brian Kiprop,24,1,Kingston College,3:56.81x,9
 1500 Meter Run,Boys,1,,Finals,,Kemarrio Bygrave,24,2,Jamaica College,3:57.34x,7
 1500 Meter Run,Boys,1,,Finals,,Barrain Smith,24,3,St. Elizabet,3:59.08x,6
@@ -4506,967 +4527,967 @@ event,gender,clas_s,heat,typ,wind,name,year,position,school,mark,points
 5000 Meter Run,Boys,Open,,Finals,,Knib,24,14,William Knib,19:20.31x,0
 5000 Meter Run,Boys,Open,,Finals,,College,24,15,Jamaica College,19:21.12x,0
 5000 Meter Run,Boys,Open,,Finals,,College,24,16,Jamaica College,19:46.62x,0
-4X100 Meter Relay,Boys,2,,Finals,,,12,1,Jamaica College,40.75R,12
-4X100 Meter Relay,Boys,2,,Finals,,,12,2,Kingston College, 41.62,10
-4X100 Meter Relay,Boys,2,,Finals,,,12,3,St. Jago High,41.76, 8
-4X100 Meter Relay,Boys,2,,Finals,,,12,4,Wolmers' Boys School, 41.77, 6
-4X100 Meter Relay,Boys,2,,Finals,,,12,5,St. Elizabeth Technical High, 42.56, 5
-4X100 Meter Relay,Boys,2,,Finals,,,12,6,St. George's College, 43.10, 4
-4X100 Meter Relay,Boys,2,,Finals,,,12,7,Campion College,44.23, 3
-4X100 Meter Relay,Boys,2,,Finals,,,12,8,Tacius Golding High,44.73, 2
-4X100 Meter Relay,Boys,2,,Finals,,,12, , Calabar High School,DNF, 1
-4X100 Meter Relay,Boys,3,,Finals,,,12,1,Calabar High School,43.53, 12
-4X100 Meter Relay,Boys,3,,Finals,,,12,2,Jamaica College,43.60, 10
-4X100 Meter Relay,Boys,3,,Finals,,,12,3,Kingston College, 43.66,8
-4X100 Meter Relay,Boys,3,,Finals,,,12,4,Wolmers' Boys School, 43.74,6
-4X100 Meter Relay,Boys,3,,Finals,,,12,5,St. Elizabeth Technical High, 43.96,5
-4X100 Meter Relay,Boys,3,,Finals,,,12,6,St. George's College, 44.51,4
-4X100 Meter Relay,Boys,3,,Finals,,,12,7,Munro College,44.69,3
-4X100 Meter Relay,Boys,3,,Finals,,,12,8,St. Jago High,45.08,2
-4X100 Meter Relay,Girls,1,,Finals,,,12,1,Edwin Allen High, 45.28, 12
-4X100 Meter Relay,Girls,1,,Finals,,,12,2,Herbert Morrison Tech., 45.61, 10
-4X100 Meter Relay,Girls,1,,Finals,,,12,3,Vere Technical High,46.00,8
-4X100 Meter Relay,Girls,1,,Finals,,,12,4,St. Jago High,46.60,6
-4X100 Meter Relay,Girls,1,,Finals,,,12,5,ST Andrew High, 46.93,5
-4X100 Meter Relay,Girls,1,,Finals,,,12,6,The Queens School,46.97,4
-4X100 Meter Relay,Girls,1,,Finals,,,12,7,Holmwood Technical, 47.39,3
-4X100 Meter Relay,Girls,1,,Finals,,,12,8,Immaculate Conception,49.27,2
-4X100 Meter Relay,Girls,2,,Finals,,,12,1,Holmwood Technical, 45.70, 12
-4X100 Meter Relay,Girls,2,,Finals,,,12,2,Edwin Allen High, 45.71, 10
-4X100 Meter Relay,Girls,2,,Finals,,,12,3,St. Elizabeth Technical High, 46.32,8
-4X100 Meter Relay,Girls,2,,Finals,,,12,4,Camperdown High School, 46.75,6
-4X100 Meter Relay,Girls,2,,Finals,,,12,5,Vere Technical High,46.98,5
-4X100 Meter Relay,Girls,2,,Finals,,,12,6,Herbert Morrison Tech., 47.38,4
-4X100 Meter Relay,Girls,2,,Finals,,,12,7,The Queens School,48.18,3
-4X100 Meter Relay,Girls,2,,Finals,,,12,8,Manchester High,48.51,2
-4X100 Meter Relay,Girls,3,,Finals,,,12,1,Wolmers Girls' School,45.89, 12
-4X100 Meter Relay,Girls,3,,Finals,,,12,2,Hydel High School,46.12, 10
-4X100 Meter Relay,Girls,3,,Finals,,,12,3,Edwin Allen High, 46.48,8
-4X100 Meter Relay,Girls,3,,Finals,,,12,4,Holmwood Technical, 46.74,6
-4X100 Meter Relay,Girls,3,,Finals,,,12,5,Excelsior High, 47.22,5
-4X100 Meter Relay,Girls,3,,Finals,,,12,6,St. Elizabeth Technical High, 47.46,4
-4X100 Meter Relay,Girls,3,,Finals,,,12,7,ST Andrew High, 47.47,3
-4X100 Meter Relay,Girls,3,,Finals,,,12,8,St. Jago High,49.22,2
-4X100 Meter Relay,Boys,1,,Finals,,,12,1,Kingston College, 40.17, 12
-4X100 Meter Relay,Boys,1,,Finals,,,12,2,Wolmers' Boys School, 40.21, 10
-4X100 Meter Relay,Boys,1,,Finals,,,12,3,Munro College,40.41,8
-4X100 Meter Relay,Boys,1,,Finals,,,12,4,St. Elizabeth Technical High, 40.44,6
-4X100 Meter Relay,Boys,1,,Finals,,,12,5,Herbert Morrison Tech., 40.55,5
-4X100 Meter Relay,Boys,1,,Finals,,,12,6,St. Jago High,41.32,4
-4X100 Meter Relay,Boys,1,,Finals,,,12,7,Calabar High School,41.50,3
-4X100 Meter Relay,Boys,1,,Finals,,,12, , Green Island High School, DNF,0
-4X100 Meter Relay,Girls,4,,Finals,,,12,1,Edwin Allen High, 47.48R,12
-4X100 Meter Relay,Girls,4,,Finals,,,12,2,Hydel High School,48.21, 10
-4X100 Meter Relay,Girls,4,,Finals,,,12,3,St. Jago High,48.47,8
-4X100 Meter Relay,Girls,4,,Finals,,,12,4,Manchester High,49.44,6
-4X100 Meter Relay,Girls,4,,Finals,,,12,5,Camperdown High School, 49.50,5
-4X100 Meter Relay,Girls,4,,Finals,,,12,6,Vere Technical High,49.59,4
-4X100 Meter Relay,Girls,4,,Finals,,,12,7,St. Elizabeth Technical High, 50.38,3
-4X100 Meter Relay,Girls,4,,Finals,,,12, , Holmwood Technical, DNF,0
-4X400 Meter Relay,Boys,Open,,Finals,,,12,1,Calabar High School,3:10.19, 12
-4X400 Meter Relay,Boys,Open,,Finals,,,12,2,Kingston College, 3:12.64, 10
-4X400 Meter Relay,Boys,Open,,Finals,,,12,3,Jamaica College,3:13.12,8
-4X400 Meter Relay,Boys,Open,,Finals,,,12,4,Wolmers' Boys School, 3:13.56,6
-4X400 Meter Relay,Boys,Open,,Finals,,,12,5,Munro College,3:15.23,5
-4X400 Meter Relay,Boys,Open,,Finals,,,12,6,Manchester High,3:15.78,4
-4X400 Meter Relay,Boys,Open,,Finals,,,12,7,St. Elizabeth Technical High, 3:17.59,3
-4X400 Meter Relay,Boys,Open,,Finals,,,12,8,Tacius Golding High,3:23.44,2
-4X400 Meter Relay,Girls,Open,,Finals,,,12,1,Vere Technical High,3:38.91, 12
-4X400 Meter Relay,Girls,Open,,Finals,,,12,2,Holmwood Technical, 3:44.04, 10
-4X400 Meter Relay,Girls,Open,,Finals,,,12,3,Edwin Allen High, 3:44.51,8
-4X400 Meter Relay,Girls,Open,,Finals,,,12,4,ST Andrew High, 3:45.07,6
-4X400 Meter Relay,Girls,Open,,Finals,,,12,5,St. Jago High,3:45.71,5
-4X400 Meter Relay,Girls,Open,,Finals,,,12,6,St. Elizabeth Technical High, 3:50.28,4
-4X400 Meter Relay,Girls,Open,,Finals,,,12,7,Hydel High School,3:50.80,3
-4X400 Meter Relay,Girls,Open,,Finals,,,12,8,Herbert Morrison Tech., 3:57.82,2
-1600 Sprint Medley,Boys,Open,,Finals,,,12,1,Kingston College, 3:30.55, 12
-1600 Sprint Medley,Boys,Open,,Finals,,,12,2,Petersfield High School,3:30.95, 10
-1600 Sprint Medley,Boys,Open,,Finals,,,12,3,Jamaica College,3:31.90,8
-1600 Sprint Medley,Boys,Open,,Finals,,,12,4,St. Jago High,3:35.83,6
-1600 Sprint Medley,Boys,Open,,Finals,,,12,5,Garvey MACEO Highschool,3:36.58,5
-1600 Sprint Medley,Boys,Open,,Finals,,,12,6,Holmwood Technical, 3:38.69,4
-1600 Sprint Medley,Boys,Open,,Finals,,,12,7,St. Elizabeth Technical High, 3:43.39,3
-1600 Sprint Medley,Boys,Open,,Finals,,,12,8,Wolmers' Boys School, 3:52.44,2
-1600 Sprint Medley,Girls,Open,,Finals,,,12,1,Holmwood Technical, 4:04.74,12
-1600 Sprint Medley,Girls,Open,,Finals,,,12,2,Herbert Morrison Tech., 4:08.94,10
-1600 Sprint Medley,Girls,Open,,Finals,,,12,3,Oberlin High, 4:09.90, 8
-1600 Sprint Medley,Girls,Open,,Finals,,,12,4,Vere Technical High,4:10.25, 6
-1600 Sprint Medley,Girls,Open,,Finals,,,12,5,St. Jago High,4:12.20, 5
-1600 Sprint Medley,Girls,Open,,Finals,,,12,6,Wolmers Girls' School,4:12.77, 4
-1600 Sprint Medley,Girls,Open,,Finals,,,12,7,Edwin Allen High, 4:13.83, 3
-1600 Sprint Medley,Girls,Open,,Finals,,,12,8,St. Elizabeth Technical High, 4:15.84, 2
-1600 Sprint Medley,Girls,Open,,Finals,,,12,9,Spalding High School, 4:20.49, 3
-1600 Sprint Medley,Girls,Open,,Finals,,,12, ,Convent OF Mercy Alpha, 4:23.95, 3
-1600 Sprint Medley,Girls,Open,,Finals,,,12, ,Clarendon College,4:25.40, 1
-1600 Sprint Medley,Girls,Open,,Finals,,,12, ,Manchester High,4:27.49, 2
-1600 Sprint Medley,Girls,Open,,Finals,,,12, ,Manning High School,4:33.67, 1
-1600 Sprint Medley,Girls,Open,,Finals,,,12, , ST Hughs,DQ,RULE 163.3A
-1600 Sprint Medley,Girls,Open,,Finals,,,12, , Hydel High School, DQ,RULE 163.3A
-4X100 Meter Relay,Boys,2,,Finals,,,14,1,Kingston College,40.93, 12
-4X100 Meter Relay,Boys,2,,Finals,,,14,2,Calabar High,41.33, 10
-4X100 Meter Relay,Boys,2,,Finals,,,14,3,St. George's College,41.37,8
-4X100 Meter Relay,Boys,2,,Finals,,,14,4,St. Jago High, 41.47,6
-4X100 Meter Relay,Boys,2,,Finals,,,14,5,St. Elizabeth Technical High,42.10,5
-4X100 Meter Relay,Boys,2,,Finals,,,14,6,Wolmer's High School for Boys, 42.13,4
-4X100 Meter Relay,Boys,2,,Finals,,,14, , Cornwall College, FS,0
-4X100 Meter Relay,Boys,2,,Finals,,,14, , Jamaica College,FS,0
-4X100 Meter Relay,Boys,3,,Finals,,,14,1,Calabar High,41.81R,12
-4X100 Meter Relay,Boys,3,,Finals,,,14,2,Jamaica College, 43.36, 10
-4X100 Meter Relay,Boys,3,,Finals,,,14,3,St. Jago High, 43.95,8
-4X100 Meter Relay,Boys,3,,Finals,,,14,4,Kingston College,44.07,6
-4X100 Meter Relay,Boys,3,,Finals,,,14,5,Wolmer's High School for Boys, 44.37,5
-4X100 Meter Relay,Boys,3,,Finals,,,14,6,William Knibb Memorial High, 45.32,4
-4X100 Meter Relay,Boys,3,,Finals,,,14,7,Manchester High, 45.72,3
-4X100 Meter Relay,Boys,3,,Finals,,,14,8,Munro College, 46.44,2
-4X100 Meter Relay,Girls,1,,Finals,,,14,1,Edwin Allen High,44.17R,12
-4X100 Meter Relay,Girls,1,,Finals,,,14,2,St. Jago High, 46.05, 10
-4X100 Meter Relay,Girls,1,,Finals,,,14,3,The Queens School, 47.39,8
-4X100 Meter Relay,Girls,1,,Finals,,,14,4,Vere Technical High, 47.79,6
-4X100 Meter Relay,Girls,1,,Finals,,,14,5,Manchester High, 47.83,5
-4X100 Meter Relay,Girls,1,,Finals,,,14,6,Herbert Morrison Technical Hi, 49.04,4
-4X100 Meter Relay,Girls,1,,Finals,,,14,7,Oberlin High,49.84,3
-4X100 Meter Relay,Girls,1,,Finals,,,14, , Holmwood Technical High,DQ, RULE 170
-4X100 Meter Relay,Girls,2,,Finals,,,14,1,St. Jago High, 45.51, 12
-4X100 Meter Relay,Girls,2,,Finals,,,14,2,Hydel High,45.99, 10
-4X100 Meter Relay,Girls,2,,Finals,,,14,3,Holmwood Technical High, 46.04,8
-4X100 Meter Relay,Girls,2,,Finals,,,14,4,Wolmer's High School for Girls,46.13,6
-4X100 Meter Relay,Girls,2,,Finals,,,14,5,Edwin Allen High,46.33,5
-4X100 Meter Relay,Girls,2,,Finals,,,14,6,St. Elizabeth Technical High,47.48,4
-4X100 Meter Relay,Girls,2,,Finals,,,14,7,The Queens School, 47.65,3
-4X100 Meter Relay,Girls,2,,Finals,,,14,8,Excelsior High,47.65,2
-4X100 Meter Relay,Girls,3,,Finals,,,14,1,Hydel High,45.33R,12
-4X100 Meter Relay,Girls,3,,Finals,,,14,2,Edwin Allen High,45.76, 10
-4X100 Meter Relay,Girls,3,,Finals,,,14,3,St. Jago High, 47.30,8
-4X100 Meter Relay,Girls,3,,Finals,,,14,4,Manchester High, 47.51,6
-4X100 Meter Relay,Girls,3,,Finals,,,14,5,Wolmer's High School for Girls 'F','F',5
-4X100 Meter Relay,Girls,3,,Finals,,,14,6,Vere Technical High, 47.98,4
-4X100 Meter Relay,Girls,3,,Finals,,,14,7,St. Elizabeth Technical High,49.99,3
-4X100 Meter Relay,Girls,3,,Finals,,,14, , Holmwood Technical High,DQ, IAAF RULE 170.7
-4X100 Meter Relay,Boys,1,,Finals,,,14,1,Calabar High,39.35R,12
-4X100 Meter Relay,Boys,1,,Finals,,,14,2,Jamaica College, 39.69, 10
-4X100 Meter Relay,Boys,1,,Finals,,,14,3,St. Jago High, 39.86,8
-4X100 Meter Relay,Boys,1,,Finals,,,14,4,Kingston College,40.05,6
-4X100 Meter Relay,Boys,1,,Finals,,,14,5,Wolmer's High School for Boys, 40.08,5
-4X100 Meter Relay,Boys,1,,Finals,,,14,6,St. George's College,40.77,4
-4X100 Meter Relay,Boys,1,,Finals,,,14,7,St. Elizabeth Technical High,40.90,3
-4X100 Meter Relay,Boys,1,,Finals,,,14, , Munro College,DQ, RULE 170.7
-4X100 Meter Relay,Girls,4,,Finals,,,14,1,St. Jago High, 47.28R,12
-4X100 Meter Relay,Girls,4,,Finals,,,14,2,Immaculate Conception High,48.34, 10
-4X100 Meter Relay,Girls,4,,Finals,,,14,3,Edwin Allen High,48.67,8
-4X100 Meter Relay,Girls,4,,Finals,,,14,4,Convent of Mercy Alpha,48.71,6
-4X100 Meter Relay,Girls,4,,Finals,,,14,5,St. Andrew High for Girls, 48.78,5
-4X100 Meter Relay,Girls,4,,Finals,,,14,6,Vere Technical High, 49.14,4
-4X100 Meter Relay,Girls,4,,Finals,,,14, , Holmwood Technical High, DNF,0
-4X100 Meter Relay,Girls,4,,Finals,,,14, , Hydel High, DQ, IAAF RULE 170.7
-4X400 Meter Relay,Boys,Open,,Finals,,,14,1,St. Jago High, 3:08.31R,12
-4X400 Meter Relay,Boys,Open,,Finals,,,14,2,St. Elizabeth Technical High,3:08.67R,10
-4X400 Meter Relay,Boys,Open,,Finals,,,14,3,Jamaica College, 3:09.97,8
-4X400 Meter Relay,Boys,Open,,Finals,,,14,4,Calabar High,3:12.32,6
-4X400 Meter Relay,Boys,Open,,Finals,,,14,5,Holmwood Technical High, 3:12.67,5
-4X400 Meter Relay,Boys,Open,,Finals,,,14,6,Munro College, 3:13.55,4
-4X400 Meter Relay,Boys,Open,,Finals,,,14,7,Wolmer's High School for Boys, 3:13.59,3
-4X400 Meter Relay,Boys,Open,,Finals,,,14,8,Kingston College,3:22.02,2
-4X400 Meter Relay,Girls,Open,,Finals,,,14,1,Edwin Allen High,3:35.70, 12
-4X400 Meter Relay,Girls,Open,,Finals,,,14,2,Vere Technical High, 3:37.42, 10
-4X400 Meter Relay,Girls,Open,,Finals,,,14,3,St. Jago High, 3:38.88,8
-4X400 Meter Relay,Girls,Open,,Finals,,,14,4,Holmwood Technical High, 3:42.25,6
-4X400 Meter Relay,Girls,Open,,Finals,,,14,5,St. Elizabeth Technical High,3:43.23,5
-4X400 Meter Relay,Girls,Open,,Finals,,,14,6,Petersfield High,3:47.07,4
-4X400 Meter Relay,Girls,Open,,Finals,,,14,7,Manchester High, 3:49.17,3
-4X400 Meter Relay,Girls,Open,,Finals,,,14,8,Hydel High,3:50.87,2
-1600 Sprint Medley,Boys,Open,,Finals,,,14,1,Kingston College,3:25.78R,12
-1600 Sprint Medley,Boys,Open,,Finals,,,14,2,Calabar High,3:26.01, 10
-1600 Sprint Medley,Boys,Open,,Finals,,,14,3,Wolmer's High School for Boys, 3:30.62,8
-1600 Sprint Medley,Boys,Open,,Finals,,,14,4,Oberlin High,3:30.81,6
-1600 Sprint Medley,Boys,Open,,Finals,,,14,5,Holmwood Technical High, 3:31.83,5
-1600 Sprint Medley,Boys,Open,,Finals,,,14,6,Jamaica College, 3:33.36,4
-1600 Sprint Medley,Boys,Open,,Finals,,,14,7,Excelsior High,3:39.12,3
-1600 Sprint Medley,Boys,Open,,Finals,,,14,8,Manchester High, 3:43.81,2
-1600 Sprint Medley,Girls,Open,,Finals,,,14,1,Edwin Allen High,4:00.47R,12
-1600 Sprint Medley,Girls,Open,,Finals,,,14,2,St. Jago High, 4:02.31, 10
-1600 Sprint Medley,Girls,Open,,Finals,,,14,3,Vere Technical High, 4:05.78,8
-1600 Sprint Medley,Girls,Open,,Finals,,,14,4,Holmwood Technical High, 4:06.27,6
-1600 Sprint Medley,Girls,Open,,Finals,,,14,5,St. Elizabeth Technical High,4:07.19,5
-1600 Sprint Medley,Girls,Open,,Finals,,,14,6,Wolmer's High School for Girls,4:08.49,4
-1600 Sprint Medley,Girls,Open,,Finals,,,14,7,Manchester High, 4:10.12,3
-1600 Sprint Medley,Girls,Open,,Finals,,,14,8,St. Andrew Technical High, 4:19.80,2
-4X100 Meter Relay,Boys,2,,Finals,,,15,1,Jamaica College, 40.98, 12
-4X100 Meter Relay,Boys,2,,Finals,,,15,2,St. Jago High, 41.10, 10
-4X100 Meter Relay,Boys,2,,Finals,,,15,3,Kingston College,41.73,8
-4X100 Meter Relay,Boys,2,,Finals,,,15,4,St. Catherine High,41.83,6
-4X100 Meter Relay,Boys,2,,Finals,,,15,5,Wolmer's High School for Boys, 42.12,5
-4X100 Meter Relay,Boys,2,,Finals,,,15,6,St. George's College,42.36,4
-4X100 Meter Relay,Boys,2,,Finals,,,15,7,Cornwall College,42.73,3
-4X100 Meter Relay,Boys,2,,Finals,,,15,8,Greater Portmore High, 42.89,2
-4X100 Meter Relay,Boys,3,,Finals,,,15,1,Jamaica College, 42.97, 12
-4X100 Meter Relay,Boys,3,,Finals,,,15,2,Kingston College,43.17, 10
-4X100 Meter Relay,Boys,3,,Finals,,,15,3,St. Jago High, 43.55,8
-4X100 Meter Relay,Boys,3,,Finals,,,15,4,Wolmer's High School for Boys, 44.07,6
-4X100 Meter Relay,Boys,3,,Finals,,,15,5,Herbert Morrison Technical,44.51,5
-4X100 Meter Relay,Boys,3,,Finals,,,15,6,Calabar High,44.52,4
-4X100 Meter Relay,Boys,3,,Finals,,,15,7,Ardenne High,44.58,3
-4X100 Meter Relay,Boys,3,,Finals,,,15,8,Green Island High, 44.60,2
-4X100 Meter Relay,Girls,1,,Finals,,,15,1,St. Jago High, 44.39, 12
-4X100 Meter Relay,Girls,1,,Finals,,,15,2,Holmwood Technical High, 45.29, 10
-4X100 Meter Relay,Girls,1,,Finals,,,15,3,Wolmer's High School for Girls,45.68,8
-4X100 Meter Relay,Girls,1,,Finals,,,15,4,Edwin Allen High,45.71,6
-4X100 Meter Relay,Girls,1,,Finals,,,15,5,St. Catherine High,46.39,5
-4X100 Meter Relay,Girls,1,,Finals,,,15,6,Camperdown High, 46.58,4
-4X100 Meter Relay,Girls,1,,Finals,,,15,7,Hydel High,47.47,3
-4X100 Meter Relay,Girls,1,,Finals,,,15,8,Vere Technical High, 47.81,2
-4X100 Meter Relay,Girls,2,,Finals,,,15,1,Edwin Allen High,44.88R,12
-4X100 Meter Relay,Girls,2,,Finals,,,15,2,Hydel High,45.37, 10
-4X100 Meter Relay,Girls,2,,Finals,,,15,3,Green Island High, 46.37,8
-4X100 Meter Relay,Girls,2,,Finals,,,15,4,Holmwood Technical High, 46.62,6
-4X100 Meter Relay,Girls,2,,Finals,,,15,5,St. Jago High, 46.62,5
-4X100 Meter Relay,Girls,2,,Finals,,,15,6,Wolmer's High School for Girls,46.69,4
-4X100 Meter Relay,Girls,2,,Finals,,,15,7,Manchester High, 46.78,3
-4X100 Meter Relay,Girls,2,,Finals,,,15,8,Herbert Morrison Technical,48.18,2
-4X100 Meter Relay,Girls,3,,Finals,,,15,1,St. Jago High, 46.08, 12
-4X100 Meter Relay,Girls,3,,Finals,,,15,2,Hydel High,46.17, 10
-4X100 Meter Relay,Girls,3,,Finals,,,15,3,Vere Technical High, 46.87,8
-4X100 Meter Relay,Girls,3,,Finals,,,15,4,Holmwood Technical High, 46.96,6
-4X100 Meter Relay,Girls,3,,Finals,,,15,5,Edwin Allen High,47.12,5
-4X100 Meter Relay,Girls,3,,Finals,,,15,6,Manchester High, 47.45,4
-4X100 Meter Relay,Girls,3,,Finals,,,15,7,Immaculate Conception High,47.64,3
-4X100 Meter Relay,Girls,3,,Finals,,,15,8,Camperdown High, 47.88,2
-4X100 Meter Relay,Boys,1,,Finals,,,15,1,Calabar High,39.08R,12
-4X100 Meter Relay,Boys,1,,Finals,,,15,2,Jamaica College, 39.79, 10
-4X100 Meter Relay,Boys,1,,Finals,,,15,3,St. George's College,40.43,8
-4X100 Meter Relay,Boys,1,,Finals,,,15,4,Kingston College,40.84,6
-4X100 Meter Relay,Boys,1,,Finals,,,15,5,St. Elizabeth Technical High,40.98,5
-4X100 Meter Relay,Boys,1,,Finals,,,15,6,Munro College, 41.81,4
-4X100 Meter Relay,Boys,1,,Finals,,,15,7,Green Island High, 42.12,3
-4X100 Meter Relay,Boys,1,,Finals,,,15, , St. Jago High, DNF,0
-4X100 Meter Relay,Girls,4,,Finals,,,15,1,Edwin Allen High,46.65R,12
-4X100 Meter Relay,Girls,4,,Finals,,,15,2,Wolmer's High School for Girls,48.79, 10
-4X100 Meter Relay,Girls,4,,Finals,,,15,3,St. Jago High, 48.91,8
-4X100 Meter Relay,Girls,4,,Finals,,,15,4,Camperdown High, 49.68,6
-4X100 Meter Relay,Girls,4,,Finals,,,15,5,Vere Technical High, 49.88,5
-4X100 Meter Relay,Girls,4,,Finals,,,15,6,Immaculate Conception High,49.90,4
-4X100 Meter Relay,Girls,4,,Finals,,,15, , Hydel High,DNF,0
-4X100 Meter Relay,Girls,4,,Finals,,,15, , Excelsior High, DQ, IAAF RULE 170.7
-4X400 Meter Relay,Boys,Open,,Finals,,,15,1,Calabar High,3:06.76R,12
-4X400 Meter Relay,Boys,Open,,Finals,,,15,2,Kingston College,3:08.40, 10
-4X400 Meter Relay,Boys,Open,,Finals,,,15,3,St. Jago High, 3:10.10,8
-4X400 Meter Relay,Boys,Open,,Finals,,,15,4,St. Elizabeth Technical High,3:10.15,6
-4X400 Meter Relay,Boys,Open,,Finals,,,15,5,Jamaica College, 3:11.35,5
-4X400 Meter Relay,Boys,Open,,Finals,,,15,6,Petersfield High,3:13.00,4
-4X400 Meter Relay,Boys,Open,,Finals,,,15,7,Wolmer's High School for Boys, 3:16.48,3
-4X400 Meter Relay,Boys,Open,,Finals,,,15,8,Greater Portmore High, 3:17.18,2
-4X400 Meter Relay,Boys,Open,,Finals,,,15,9,Excelsior High,3:26.22,0
-4X400 Meter Relay,Girls,Open,,Finals,,,15,1,St. Jago High, 3:35.78, 12
-4X400 Meter Relay,Girls,Open,,Finals,,,15,2,Vere Technical High, 3:36.61, 10
-4X400 Meter Relay,Girls,Open,,Finals,,,15,3,St. Elizabeth Technical High,3:36.71,8
-4X400 Meter Relay,Girls,Open,,Finals,,,15,4,Hydel High,3:40.86,6
-4X400 Meter Relay,Girls,Open,,Finals,,,15,5,Edwin Allen High,3:45.88,5
-4X400 Meter Relay,Girls,Open,,Finals,,,15,6,Manchester High, 3:48.75,4
-4X400 Meter Relay,Girls,Open,,Finals,,,15,7,St. Andrew High for Girls, 3:51.02,3
-4X400 Meter Relay,Girls,Open,,Finals,,,15, , Holmwood Technical High, DNF,0
-1600 Sprint Medley,Boys,Open,,Finals,,,15,1,Manchester High, 3:28.50, 12
-1600 Sprint Medley,Boys,Open,,Finals,,,15,2,Kingston College,3:28.93, 10
-1600 Sprint Medley,Boys,Open,,Finals,,,15,3,Excelsior High,3:30.25,8
-1600 Sprint Medley,Boys,Open,,Finals,,,15,4,Holmwood Technical High, 3:30.87,6
-1600 Sprint Medley,Boys,Open,,Finals,,,15,5,St. Elizabeth Technical High,3:31.71,5
-1600 Sprint Medley,Boys,Open,,Finals,,,15,6,St. Jago High, 3:33.33,4
-1600 Sprint Medley,Boys,Open,,Finals,,,15,7,Jamaica College, 3:37.80,3
-1600 Sprint Medley,Boys,Open,,Finals,,,15,8,Munro College, 3:42.86,2
-1600 Sprint Medley,Girls,Open,,Finals,,,15,1,Edwin Allen High,4:01.40, 12
-1600 Sprint Medley,Girls,Open,,Finals,,,15,2,Holmwood Technical High, 4:04.46, 10
-1600 Sprint Medley,Girls,Open,,Finals,,,15,3,St. Jago High, 4:07.70,8
-1600 Sprint Medley,Girls,Open,,Finals,,,15,4,St. Mary High, 4:12.09,6
-1600 Sprint Medley,Girls,Open,,Finals,,,15,5,St. Andrew Technical High, 4:13.08,5
-1600 Sprint Medley,Girls,Open,,Finals,,,15,6,Manchester High, 4:13.14,4
-1600 Sprint Medley,Girls,Open,,Finals,,,15,7,Rusea's High,4:26.22,3
-1600 Sprint Medley,Girls,Open,,Finals,,,15, , St. Elizabeth Technical High, DQ, IAAF RULE 163.5
-4X100 Meter Relay,Boys,2,,Finals,,,16,1,Calabar High,40.29R,12
-4X100 Meter Relay,Boys,2,,Finals,,,16,2,Kingston College,41.58, 10
-4X100 Meter Relay,Boys,2,,Finals,,,16,3,Jamaica College, 42.08,8
-4X100 Meter Relay,Boys,2,,Finals,,,16,4,Wolmer's High School for Boys, 42.36,6
-4X100 Meter Relay,Boys,2,,Finals,,,16,5,St. George's College,42.36,5
-4X100 Meter Relay,Boys,2,,Finals,,,16,6,Excelsior High,42.52,4
-4X100 Meter Relay,Boys,2,,Finals,,,16,7,Munro College, 42.79,3
-4X100 Meter Relay,Boys,2,,Finals,,,16,8,Rusea's High,43.75,2
-4X100 Meter Relay,Boys,3,,Finals,,,16,1,St. Elizabeth Technical High,43.39, 12
-4X100 Meter Relay,Boys,3,,Finals,,,16,2,Kingston College,43.40, 10
-4X100 Meter Relay,Boys,3,,Finals,,,16,3,Wolmer's High School for Boys, 43.59,8
-4X100 Meter Relay,Boys,3,,Finals,,,16,4,Calabar High,43.98,6
-4X100 Meter Relay,Boys,3,,Finals,,,16,5,St. Jago High, 44.63,5
-4X100 Meter Relay,Boys,3,,Finals,,,16,6,Jamaica College, 44.96,4
-4X100 Meter Relay,Boys,3,,Finals,,,16,7,William Knibb Memorial High, 45.33,3
-4X100 Meter Relay,Boys,3,,Finals,,,16, , Herbert Morrison Technical, DQ, IAAF RULE 170.7
-4X100 Meter Relay,Girls,1,,Finals,,,16,1,Holmwood Technical High, 44.58, 12
-4X100 Meter Relay,Girls,1,,Finals,,,16,2,St. Jago High, 44.64, 10
-4X100 Meter Relay,Girls,1,,Finals,,,16,3,Edwin Allen High,44.86,8
-4X100 Meter Relay,Girls,1,,Finals,,,16,4,Camperdown High, 45.86,6
-4X100 Meter Relay,Girls,1,,Finals,,,16,5,Green Island High, 46.39,5
-4X100 Meter Relay,Girls,1,,Finals,,,16,6,Excelsior High,46.62,4
-4X100 Meter Relay,Girls,1,,Finals,,,16,7,Hydel High,46.84,3
-4X100 Meter Relay,Girls,1,,Finals,,,16,8,Wolmer's High School for Girls,46.86,2
-4X100 Meter Relay,Girls,2,,Finals,,,16,1,St. Jago High, 45.21, 12
-4X100 Meter Relay,Girls,2,,Finals,,,16,2,Edwin Allen High,45.34, 10
-4X100 Meter Relay,Girls,2,,Finals,,,16,3,Convent of Mercy Alpha,46.61,8
-4X100 Meter Relay,Girls,2,,Finals,,,16,4,Vere Technical High, 46.94,6
-4X100 Meter Relay,Girls,2,,Finals,,,16,5,Hydel High,46.99,5
-4X100 Meter Relay,Girls,2,,Finals,,,16, , Wolmer's High School for Girls,DNF,0
-4X100 Meter Relay,Girls,2,,Finals,,,16, , Manchester High, DNF,0
-4X100 Meter Relay,Girls,2,,Finals,,,16, , Holmwood Technical High,DQ, iaaf rule 163.3
-4X100 Meter Relay,Girls,3,,Finals,,,16,1,Edwin Allen High,45.74, 12
-4X100 Meter Relay,Girls,3,,Finals,,,16,2,St. Catherine High,46.32, 10
-4X100 Meter Relay,Girls,3,,Finals,,,16,3,St. Jago High, 46.37,8
-4X100 Meter Relay,Girls,3,,Finals,,,16,4,Hydel High,46.48,6
-4X100 Meter Relay,Girls,3,,Finals,,,16,5,Wolmer's High School for Girls,47.17,5
-4X100 Meter Relay,Girls,3,,Finals,,,16,6,Excelsior High,47.61,4
-4X100 Meter Relay,Girls,3,,Finals,,,16,7,Holmwood Technical High, 47.98,3
-4X100 Meter Relay,Girls,3,,Finals,,,16,8,St. Mary High, 48.82,2
-4X100 Meter Relay,Boys,1,,Finals,,,16,1,Kingston College,39.87, 12
-4X100 Meter Relay,Boys,1,,Finals,,,16,2,Jamaica College, 40.24, 10
-4X100 Meter Relay,Boys,1,,Finals,,,16,3,St. Jago High, 40.81,8
-4X100 Meter Relay,Boys,1,,Finals,,,16,4,Garvey Maceo High, 41.93,6
-4X100 Meter Relay,Boys,1,,Finals,,,16,5,St. Catherine High,42.12,5
-4X100 Meter Relay,Boys,1,,Finals,,,16,6,Herbert Morrison Technical,42.18,4
-4X100 Meter Relay,Boys,1,,Finals,,,16, , Calabar High, DQ, iaaf rule 170.7
-4X100 Meter Relay,Girls,4,,Finals,,,16,1,St. Jago High, 47.58, 12
-4X100 Meter Relay,Girls,4,,Finals,,,16,2,Hydel High,47.61, 10
-4X100 Meter Relay,Girls,4,,Finals,,,16,3,Manchester High, 49.14,8
-4X100 Meter Relay,Girls,4,,Finals,,,16,4,St. Andrew High for Girls, 49.25,6
-4X100 Meter Relay,Girls,4,,Finals,,,16,5,Wolmer's High School for Girls,49.40,5
-4X100 Meter Relay,Girls,4,,Finals,,,16,6,Immaculate Conception High,50.00,4
-4X100 Meter Relay,Girls,4,,Finals,,,16,7,Holmwood Technical High, 50.63,3
-4X100 Meter Relay,Girls,4,,Finals,,,16,8,Camperdown High, 51.09,2
-4X400 Meter Relay,Boys,Open,,Finals,,,16,1,Calabar High,3:09.77, 12
-4X400 Meter Relay,Boys,Open,,Finals,,,16,2,Kingston College,3:10.26, 10
-4X400 Meter Relay,Boys,Open,,Finals,,,16,3,Jamaica College, 3:15.06,8
-4X400 Meter Relay,Boys,Open,,Finals,,,16,4,St. Jago High, 3:15.66,6
-4X400 Meter Relay,Boys,Open,,Finals,,,16,5,Edwin Allen High,3:17.15,5
-4X400 Meter Relay,Boys,Open,,Finals,,,16,6,Greater Portmore High, 3:17.19,4
-4X400 Meter Relay,Boys,Open,,Finals,,,16,7,Munro College, 3:17.74,3
-4X400 Meter Relay,Boys,Open,,Finals,,,16,8,Spaldings High,3:22.01,2
-4X400 Meter Relay,Girls,Open,,Finals,,,16,1,St. Elizabeth Technical High,3:37.40, 12
-4X400 Meter Relay,Girls,Open,,Finals,,,16,2,Hydel High,3:38.87, 10
-4X400 Meter Relay,Girls,Open,,Finals,,,16,3,Holmwood Technical High, 3:39.78,8
-4X400 Meter Relay,Girls,Open,,Finals,,,16,4,Edwin Allen High,3:41.28,6
-4X400 Meter Relay,Girls,Open,,Finals,,,16,5,St. Jago High, 3:41.97,5
-4X400 Meter Relay,Girls,Open,,Finals,,,16,6,St. Andrew High for Girls, 3:50.12,4
-4X400 Meter Relay,Girls,Open,,Finals,,,16,7,St. Mary High, 3:50.61,3
-4X400 Meter Relay,Girls,Open,,Finals,,,16,8,St. Andrew Technical High, 4:01.47,2
-1600 Sprint Medley,Boys,Open,,Finals,,,16,1,St. Elizabeth Technical High,3:30.10, 12
-1600 Sprint Medley,Boys,Open,,Finals,,,16,2,Manchester High, 3:30.92, 10
-1600 Sprint Medley,Boys,Open,,Finals,,,16,3,Excelsior High,3:31.33,8
-1600 Sprint Medley,Boys,Open,,Finals,,,16,4,Jamaica College, 3:31.38,6
-1600 Sprint Medley,Boys,Open,,Finals,,,16,5,Calabar High,3:31.89,5
-1600 Sprint Medley,Boys,Open,,Finals,,,16,6,Kingston College,3:37.26,4
-1600 Sprint Medley,Boys,Open,,Finals,,,16,7,Holmwood Technical High, 3:42.58,3
-1600 Sprint Medley,Boys,Open,,Finals,,,16, , Edwin Allen High,DNF,0
-1600 Sprint Medley,Girls,Open,,Finals,,,16,1,Hydel High,4:02.74, 12
-1600 Sprint Medley,Girls,Open,,Finals,,,16,2,St. Jago High, 4:03.80, 10
-1600 Sprint Medley,Girls,Open,,Finals,,,16,3,Spaldings High,4:05.67,8
-1600 Sprint Medley,Girls,Open,,Finals,,,16,4,Manchester High, 4:07.70,6
-1600 Sprint Medley,Girls,Open,,Finals,,,16,5,Edwin Allen High,4:10.34,5
-1600 Sprint Medley,Girls,Open,,Finals,,,16,6,Excelsior High,4:11.21,4
-1600 Sprint Medley,Girls,Open,,Finals,,,16,7,Camperdown High, 4:17.13,3
-1600 Sprint Medley,Girls,Open,,Finals,,,16,8,Holmwood Technical High, 4:28.26,2
-4X100 Meter Relay,Boys,2,,Finals,,,17,1,Jamaica College, 40.60, 12
-4X100 Meter Relay,Boys,2,,Finals,,,17,2,St. Elizabeth Technical High,41.18, 10
-4X100 Meter Relay,Boys,2,,Finals,,,17,3,Kingston College,41.19,8
-4X100 Meter Relay,Boys,2,,Finals,,,17,4,Calabar High,41.30,6
-4X100 Meter Relay,Boys,2,,Finals,,,17,5,Excelsior High,41.35,5
-4X100 Meter Relay,Boys,2,,Finals,,,17,6,St. Jago High, 41.63,4
-4X100 Meter Relay,Boys,2,,Finals,,,17,7,Rusea's High 'B','B',3
-4X100 Meter Relay,Boys,2,,Finals,,,17, , Wolmer's High School for Boys,DQ, IAAF RULE 170.7
-4X100 Meter Relay,Boys,3,,Finals,,,17,1,Kingston College,43.07, 12
-4X100 Meter Relay,Boys,3,,Finals,,,17,2,Jamaica College, 43.58, 10
-4X100 Meter Relay,Boys,3,,Finals,,,17,3,St. Jago High, 43.74,8
-4X100 Meter Relay,Boys,3,,Finals,,,17,4,Calabar High,43.82,6
-4X100 Meter Relay,Boys,3,,Finals,,,17,5,Wolmer's High School for Boys, 44.65,5
-4X100 Meter Relay,Boys,3,,Finals,,,17,6,St. James High,44.94,4
-4X100 Meter Relay,Boys,3,,Finals,,,17,7,Camperdown High, 45.78,3
-4X100 Meter Relay,Boys,3,,Finals,,,17,8,Green Island High, 46.52,2
-4X100 Meter Relay,Girls,1,,Finals,,,17,1,Edwin Allen High,44.50, 12
-4X100 Meter Relay,Girls,1,,Finals,,,17,2,Hydel High,44.80, 10
-4X100 Meter Relay,Girls,1,,Finals,,,17,3,Excelsior High,45.59,8
-4X100 Meter Relay,Girls,1,,Finals,,,17,4,Holmwood Technical High, 45.67,6
-4X100 Meter Relay,Girls,1,,Finals,,,17,5,Camperdown High, 46.26,5
-4X100 Meter Relay,Girls,1,,Finals,,,17,6,Wolmer's High School for Girl, 46.49,4
-4X100 Meter Relay,Girls,1,,Finals,,,17,7,Herbert Morrison Technical,46.66,3
-4X100 Meter Relay,Girls,1,,Finals,,,17,8,The Queens School, 47.35,2
-4X100 Meter Relay,Girls,2,,Finals,,,17,1,Holmwood Technical High, 44.90, 12
-4X100 Meter Relay,Girls,2,,Finals,,,17,2,Hydel High,44.99, 10
-4X100 Meter Relay,Girls,2,,Finals,,,17,3,St. Catherine High,45.57,8
-4X100 Meter Relay,Girls,2,,Finals,,,17,4,Vere Technical High, 45.73,6
-4X100 Meter Relay,Girls,2,,Finals,,,17,5,Edwin Allen High,45.84,5
-4X100 Meter Relay,Girls,2,,Finals,,,17,6,Manchester High, 46.21,4
-4X100 Meter Relay,Girls,2,,Finals,,,17,7,St. Elizabeth Technical High,46.63,3
-4X100 Meter Relay,Girls,2,,Finals,,,17, , St. Jago High, DNF,0
-4X100 Meter Relay,Girls,3,,Finals,,,17,1,Excelsior High,45.54, 12
-4X100 Meter Relay,Girls,3,,Finals,,,17,2,Edwin Allen High,45.82, 10
-4X100 Meter Relay,Girls,3,,Finals,,,17,3,Hydel High,45.82,8
-4X100 Meter Relay,Girls,3,,Finals,,,17,4,St. Jago High, 46.66,6
-4X100 Meter Relay,Girls,3,,Finals,,,17,5,Manchester High, 47.09,5
-4X100 Meter Relay,Girls,3,,Finals,,,17,6,Herbert Morrison Technical,48.31,4
-4X100 Meter Relay,Girls,3,,Finals,,,17, , Holmwood Technical High, DNF,0
-4X100 Meter Relay,Girls,3,,Finals,,,17, , St. Catherine High,DNF,0
-4X100 Meter Relay,Girls,4,,Finals,,,17,1,St. Jago High, 46.23R,12
-4X100 Meter Relay,Girls,4,,Finals,,,17,2,Edwin Allen High,46.34R,10
-4X100 Meter Relay,Girls,4,,Finals,,,17,3,Hydel High,47.76,8
-4X100 Meter Relay,Girls,4,,Finals,,,17,4,Immaculate Conception High,48.07,6
-4X100 Meter Relay,Girls,4,,Finals,,,17,5,Camperdown High, 48.72,5
-4X100 Meter Relay,Girls,4,,Finals,,,17,6,Holmwood Technical High, 48.74,4
-4X100 Meter Relay,Girls,4,,Finals,,,17,7,Wolmer's High School for Girl, 48.97,3
-4X100 Meter Relay,Girls,4,,Finals,,,17,8,Mount Alvernia High, 49.25,2
-4X100 Meter Relay,Boys,1,,Finals,,,17,1,Calabar High,39.43, 12
-4X100 Meter Relay,Boys,1,,Finals,,,17,2,Kingston College,40.07, 10
-4X100 Meter Relay,Boys,1,,Finals,,,17,3,Jamaica College, 40.20,8
-4X100 Meter Relay,Boys,1,,Finals,,,17,4,Wolmer's High School for Boys, 40.68,6
-4X100 Meter Relay,Boys,1,,Finals,,,17,5,Greater Portmore High, 41.01,5
-4X100 Meter Relay,Boys,1,,Finals,,,17,6,St. Catherine High,41.27,4
-4X100 Meter Relay,Boys,1,,Finals,,,17,7,St. Jago High, 41.31,3
-4X100 Meter Relay,Boys,1,,Finals,,,17, , Excelsior High, DQ, IAAF RULE 170.6A
-4X400 Meter Relay,Boys,Open,,Finals,,,17,1,Calabar High,3:08.76, 12
-4X400 Meter Relay,Boys,Open,,Finals,,,17,2,St. Elizabeth Technical High,3:09.97, 10
-4X400 Meter Relay,Boys,Open,,Finals,,,17,3,St. Jago High, 3:11.00,8
-4X400 Meter Relay,Boys,Open,,Finals,,,17,4,Jamaica College, 3:11.77,6
-4X400 Meter Relay,Boys,Open,,Finals,,,17,5,Kingston College,3:13.56,5
-4X400 Meter Relay,Boys,Open,,Finals,,,17,6,Munro College, 3:18.84,4
-4X400 Meter Relay,Boys,Open,,Finals,,,17,7,Excelsior High,3:19.82,3
-4X400 Meter Relay,Boys,Open,,Finals,,,17,8,Edwin Allen High,3:20.81,2
-4X400 Meter Relay,Girls,Open,,Finals,,,17,1,Hydel High,3:35.15, 12
-4X400 Meter Relay,Girls,Open,,Finals,,,17,2,St. Jago High, 3:36.47, 10
-4X400 Meter Relay,Girls,Open,,Finals,,,17,3,Holmwood Technical High, 3:36.60,8
-4X400 Meter Relay,Girls,Open,,Finals,,,17,4,Vere Technical High, 3:42.68,6
-4X400 Meter Relay,Girls,Open,,Finals,,,17,5,Edwin Allen High,3:45.29,5
-4X400 Meter Relay,Girls,Open,,Finals,,,17,6,The Queens School, 3:45.99,4
-4X400 Meter Relay,Girls,Open,,Finals,,,17,7,Petersfield High,3:48.07,3
-4X400 Meter Relay,Girls,Open,,Finals,,,17,8,Manchester High, 3:54.14,2
-1600 Sprint Medley,Boys,Open,,Finals,,,17,1,Spaldings High,3:27.75, 12
-1600 Sprint Medley,Boys,Open,,Finals,,,17,2,St. Jago High, 3:27.86, 10
-1600 Sprint Medley,Boys,Open,,Finals,,,17,3,Kingston College,3:28.54,8
-1600 Sprint Medley,Boys,Open,,Finals,,,17,4,Calabar High,3:29.32,6
-1600 Sprint Medley,Boys,Open,,Finals,,,17,5,Jamaica College, 3:33.58,5
-1600 Sprint Medley,Boys,Open,,Finals,,,17,6,St. Mary High, 3:35.33,4
-1600 Sprint Medley,Boys,Open,,Finals,,,17,7,Petersfield High,3:35.42,3
-1600 Sprint Medley,Boys,Open,,Finals,,,17,8,Wolmer's High School for Boys, 3:38.69,2
-1600 Sprint Medley,Girls,Open,,Finals,,,17,1,Spaldings High,3:57.58R,12
-1600 Sprint Medley,Girls,Open,,Finals,,,17,2,Edwin Allen High,4:03.28, 10
-1600 Sprint Medley,Girls,Open,,Finals,,,17,3,Hydel High,4:03.59,8
-1600 Sprint Medley,Girls,Open,,Finals,,,17,4,St. Jago High, 4:08.57,6
-1600 Sprint Medley,Girls,Open,,Finals,,,17,5,Excelsior High,4:09.93,5
-1600 Sprint Medley,Girls,Open,,Finals,,,17,6,St. Catherine High,4:10.53,4
-1600 Sprint Medley,Girls,Open,,Finals,,,17,7,St. Mary High, 4:11.77,3
-1600 Sprint Medley,Girls,Open,,Finals,,,17,8,Holmwood Technical High, 4:14.35,2
-4X100 Meter Relay,Boys,2,,Finals,,,18,1,St. Jago High, 40.73, 12
-4X100 Meter Relay,Boys,2,,Finals,,,18,2,Calabar High,41.54, 10
-4X100 Meter Relay,Boys,2,,Finals,,,18,3,Jamaica College, 41.89,8
-4X100 Meter Relay,Boys,2,,Finals,,,18,4,Wolmer's High School for Boys, 42.05,6
-4X100 Meter Relay,Boys,2,,Finals,,,18,5,Excelsior High,42.86,5
-4X100 Meter Relay,Boys,2,,Finals,,,18,6,York Castle High,43.20,4
-4X100 Meter Relay,Boys,2,,Finals,,,18, , Kingston College, DQ, IAAF RULE 170.3
-4X100 Meter Relay,Boys,3,,Finals,,,18,1,Kingston College,42.43, 12
-4X100 Meter Relay,Boys,3,,Finals,,,18,2,Jamaica College, 43.69, 10
-4X100 Meter Relay,Boys,3,,Finals,,,18,3,St. Elizabeth Technical High,44.09,8
-4X100 Meter Relay,Boys,3,,Finals,,,18,4,Camperdown High, 44.17,6
-4X100 Meter Relay,Boys,3,,Finals,,,18,5,Petersfield High,44.76,5
-4X100 Meter Relay,Boys,3,,Finals,,,18,6,Cornwall College,44.85,4
-4X100 Meter Relay,Boys,3,,Finals,,,18,7,Wolmer's High School for Boys, 44.85,3
-4X100 Meter Relay,Boys,3,,Finals,,,18,8,Herbert Morrison Technical,45.21,2
-4X100 Meter Relay,Girls,1,,Finals,,,18,1,Holmwood Technical High, 44.64, 12
-4X100 Meter Relay,Girls,1,,Finals,,,18,2,Hydel High,44.85, 10
-4X100 Meter Relay,Girls,1,,Finals,,,18,3,St. Jago High, 46.41,8
-4X100 Meter Relay,Girls,1,,Finals,,,18,4,St. Catherine High,46.83,6
-4X100 Meter Relay,Girls,1,,Finals,,,18,5,Vere Technical High, 46.97,5
-4X100 Meter Relay,Girls,1,,Finals,,,18,6,Excelsior High,46.98,4
-4X100 Meter Relay,Girls,1,,Finals,,,18,7,The Queens School, 49.91,3
-4X100 Meter Relay,Girls,1,,Finals,,,18,8,Edwin Allen High,56.62,2
-4X100 Meter Relay,Girls,2,,Finals,,,18,1,Edwin Allen High,44.91, 12
-4X100 Meter Relay,Girls,2,,Finals,,,18,2,Hydel High,44.92, 10
-4X100 Meter Relay,Girls,2,,Finals,,,18,3,Holmwood Technical High, 45.52,8
-4X100 Meter Relay,Girls,2,,Finals,,,18,4,St. Jago High, 45.54,6
-4X100 Meter Relay,Girls,2,,Finals,,,18,5,Excelsior High,45.89,5
-4X100 Meter Relay,Girls,2,,Finals,,,18,6,St. Catherine High,45.92,4
-4X100 Meter Relay,Girls,2,,Finals,,,18,7,Manchester High, 46.69,3
-4X100 Meter Relay,Girls,2,,Finals,,,18,8,Bridgeport High, 47.23,2
-4X100 Meter Relay,Girls,3,,Finals,,,18,1,Edwin Allen High,44.71R,12
-4X100 Meter Relay,Girls,3,,Finals,,,18,2,Hydel High,45.73, 10
-4X100 Meter Relay,Girls,3,,Finals,,,18,3,St. Jago High, 45.76,8
-4X100 Meter Relay,Girls,3,,Finals,,,18,4,Holmwood Technical High, 46.09,6
-4X100 Meter Relay,Girls,3,,Finals,,,18,5,Excelsior High,46.94,5
-4X100 Meter Relay,Girls,3,,Finals,,,18,6,Manchester High, 47.39,4
-4X100 Meter Relay,Girls,3,,Finals,,,18,7,St. Catherine High,48.75,3
-4X100 Meter Relay,Girls,3,,Finals,,,18, , Immaculate Conception High,DNF,0
-4X100 Meter Relay,Girls,4,,Finals,,,18,1,Hydel High,47.59, 12
-4X100 Meter Relay,Girls,4,,Finals,,,18,2,Wolmer's High School for Girl, 48.32, 10
-4X100 Meter Relay,Girls,4,,Finals,,,18,3,St. Jago High, 48.46,8
-4X100 Meter Relay,Girls,4,,Finals,,,18,4,Manchester High, 49.44,6
-4X100 Meter Relay,Girls,4,,Finals,,,18,5,Immaculate Conception High,49.60,5
-4X100 Meter Relay,Girls,4,,Finals,,,18,6,Excelsior High,49.68,4
-4X100 Meter Relay,Girls,4,,Finals,,,18,7,Holmwood Technical High, 49.80,3
-4X100 Meter Relay,Girls,4,,Finals,,,18,8,Mount Alvernia High, 50.08,2
-4X100 Meter Relay,Boys,1,,Finals,,,18,1,Calabar High,39.17, 12
-4X100 Meter Relay,Boys,1,,Finals,,,18,2,Kingston College,39.92, 10
-4X100 Meter Relay,Boys,1,,Finals,,,18,3,Jamaica College, 40.01,8
-4X100 Meter Relay,Boys,1,,Finals,,,18,4,Papine High, 40.71,6
-4X100 Meter Relay,Boys,1,,Finals,,,18,5,Rusea's High,40.89,5
-4X100 Meter Relay,Boys,1,,Finals,,,18,6,Wolmer's High School for Boys, 41.08,4
-4X100 Meter Relay,Boys,1,,Finals,,,18,7,Excelsior High,41.09,3
-4X100 Meter Relay,Boys,1,,Finals,,,18,8,St. Jago High, 41.16,2
-4X400 Meter Relay,Boys,Open,,Finals,,,18,1,Petersfield High,3:10.64, 12
-4X400 Meter Relay,Boys,Open,,Finals,,,18,2,Jamaica College, 3:10.93, 10
-4X400 Meter Relay,Boys,Open,,Finals,,,18,3,Rhodes Hall High,3:11.06,8
-4X400 Meter Relay,Boys,Open,,Finals,,,18,4,St. Jago High, 3:12.44,6
-4X400 Meter Relay,Boys,Open,,Finals,,,18,5,Wolmer's High School for Boys, 3:13.03,5
-4X400 Meter Relay,Boys,Open,,Finals,,,18,6,Edwin Allen High,3:15.53,4
-4X400 Meter Relay,Boys,Open,,Finals,,,18,7,Kingston College,3:23.60,3
-4X400 Meter Relay,Boys,Open,,Finals,,,18, , Calabar High, DQ, ISSA RULE 5b
-4X400 Meter Relay,Girls,Open,,Finals,,,18,1,Hydel High,3:33.71, 12
-4X400 Meter Relay,Girls,Open,,Finals,,,18,2,Edwin Allen High,3:37.86, 10
-4X400 Meter Relay,Girls,Open,,Finals,,,18,3,Holmwood Technical High, 3:38.11,8
-4X400 Meter Relay,Girls,Open,,Finals,,,18,4,St. Jago High, 3:40.91,6
-4X400 Meter Relay,Girls,Open,,Finals,,,18,5,St. Elizabeth Technical High,3:43.15,5
-4X400 Meter Relay,Girls,Open,,Finals,,,18,6,Vere Technical High, 3:43.82,4
-4X400 Meter Relay,Girls,Open,,Finals,,,18,7,The Queens School, 3:46.64,3
-1600 Sprint Medley,Boys,Open,,Finals,,,18,1,Kingston College,3:24.22R,12
-1600 Sprint Medley,Boys,Open,,Finals,,,18,2,Calabar High,3:24.80, 10
-1600 Sprint Medley,Boys,Open,,Finals,,,18,3,Holmwood Technical High, 3:25.04,8
-1600 Sprint Medley,Boys,Open,,Finals,,,18,4,St. Jago High, 3:26.04,6
-1600 Sprint Medley,Boys,Open,,Finals,,,18,5,Wolmer's High School for Boys, 3:30.33,5
-1600 Sprint Medley,Boys,Open,,Finals,,,18,6,St. Elizabeth Technical High,3:31.09,4
-1600 Sprint Medley,Boys,Open,,Finals,,,18,7,Rusea's High,3:33.21,3
-1600 Sprint Medley,Boys,Open,,Finals,,,18,8,Excelsior High,3:35.39,2
-1600 Sprint Medley,Boys,Open,,Finals,,,18,9,Edwin Allen High,3:39.58,0
-1600 Sprint Medley,Girls,Open,,Finals,,,18,1,Holmwood Technical High, 3:57.77, 12
-1600 Sprint Medley,Girls,Open,,Finals,,,18,2,Spaldings High,3:58.41, 10
-1600 Sprint Medley,Girls,Open,,Finals,,,18,3,Hydel High,4:00.07,8
-1600 Sprint Medley,Girls,Open,,Finals,,,18,4,St. Jago High, 4:02.35,6
-1600 Sprint Medley,Girls,Open,,Finals,,,18,5,Rusea's High,4:02.64,5
-1600 Sprint Medley,Girls,Open,,Finals,,,18,6,Edwin Allen High,4:04.32,4
-1600 Sprint Medley,Girls,Open,,Finals,,,18,7,Manchester High, 4:15.57,3
-1600 Sprint Medley,Girls,Open,,Finals,,,18,8,Vere Technical High, 4:22.31,2
-4X100 Meter Relay,Boys,2,,Finals,,,19,1,Calabar High,41.51, 12
-4X100 Meter Relay,Boys,2,,Finals,,,19,2,Wolmer's High School for Boys, 41.59, 10
-4X100 Meter Relay,Boys,2,,Finals,,,19,3,Jamaica College, 41.71,8
-4X100 Meter Relay,Boys,2,,Finals,,,19,4,St. Elizabeth Technical High,41.99,6
-4X100 Meter Relay,Boys,2,,Finals,,,19,5,St. Jago High, 42.08,5
-4X100 Meter Relay,Boys,2,,Finals,,,19,6,Lacovia High,42.09,4
-4X100 Meter Relay,Boys,2,,Finals,,,19,7,Camperdown High, 42.37,3
-4X100 Meter Relay,Boys,2,,Finals,,,19, , Kingston College,DNF,0
-4X100 Meter Relay,Boys,3,,Finals,,,19,1,Kingston College,43.19, 12
-4X100 Meter Relay,Boys,3,,Finals,,,19,2,Calabar High,43.48, 10
-4X100 Meter Relay,Boys,3,,Finals,,,19,3,Jamaica College, 43.69,8
-4X100 Meter Relay,Boys,3,,Finals,,,19,4,St. Elizabeth Technical High,44.84,6
-4X100 Meter Relay,Boys,3,,Finals,,,19,5,St. Jago High, 44.91,5
-4X100 Meter Relay,Boys,3,,Finals,,,19,6,Camperdown High, 44.96,4
-4X100 Meter Relay,Boys,3,,Finals,,,19,7,Wolmer's High School for Boys, 45.35,3
-4X100 Meter Relay,Boys,3,,Finals,,,19,8,Manchester High, 46.41,2
-4X100 Meter Relay,Girls,1,,Finals,,,19,1,Hydel High,44.44, 12
-4X100 Meter Relay,Girls,1,,Finals,,,19,2,Edwin Allen High,45.06, 10
-4X100 Meter Relay,Girls,1,,Finals,,,19,3,St. Jago High, 45.19,8
-4X100 Meter Relay,Girls,1,,Finals,,,19,4,Holmwood Technical High, 45.75,6
-4X100 Meter Relay,Girls,1,,Finals,,,19,5,Petersfield High,46.17,5
-4X100 Meter Relay,Girls,1,,Finals,,,19,6,Rusea's High,47.04,4
-4X100 Meter Relay,Girls,1,,Finals,,,19,7,The Queens School, 48.43,3
-4X100 Meter Relay,Girls,2,,Finals,,,19,1,Edwin Allen High,45.27, 12
-4X100 Meter Relay,Girls,2,,Finals,,,19,2,Hydel High,45.29, 10
-4X100 Meter Relay,Girls,2,,Finals,,,19,3,Excelsior High,45.33,8
-4X100 Meter Relay,Girls,2,,Finals,,,19,4,St. Catherine High,46.41,6
-4X100 Meter Relay,Girls,2,,Finals,,,19,5,Wolmer's High School for Girl, 47.11,5
-4X100 Meter Relay,Girls,2,,Finals,,,19,6,Holmwood Technical High, 47.50,4
-4X100 Meter Relay,Girls,2,,Finals,,,19,7,Rusea's High,47.78,3
-4X100 Meter Relay,Girls,2,,Finals,,,19,8,St. Andrew High for Girls, 48.63,2
-4X100 Meter Relay,Girls,3,,Finals,,,19,1,Edwin Allen High,44.25R,12
-4X100 Meter Relay,Girls,3,,Finals,,,19,2,Hydel High,45.68, 10
-4X100 Meter Relay,Girls,3,,Finals,,,19,3,St. Jago High, 45.72,8
-4X100 Meter Relay,Girls,3,,Finals,,,19,4,Immaculate Conception High,46.30,6
-4X100 Meter Relay,Girls,3,,Finals,,,19,5,Rusea's High,47.33,5
-4X100 Meter Relay,Girls,3,,Finals,,,19,6,Holmwood Technical High, 47.75,4
-4X100 Meter Relay,Girls,3,,Finals,,,19,7,Manchester High, 48.27,3
-4X100 Meter Relay,Girls,3,,Finals,,,19,8,Wolmer's High School for Girl, 49.29,2
-4X100 Meter Relay,Girls,4,,Finals,,,19,1,Immaculate Conception High,48.04, 12
-4X100 Meter Relay,Girls,4,,Finals,,,19,2,Holmwood Technical High, 48.58, 10
-4X100 Meter Relay,Girls,4,,Finals,,,19,3,Titchfield High, 48.66,8
-4X100 Meter Relay,Girls,4,,Finals,,,19,4,Vere Technical High, 48.81,6
-4X100 Meter Relay,Girls,4,,Finals,,,19,5,St. Jago High, 48.91,5
-4X100 Meter Relay,Girls,4,,Finals,,,19,6,St. Mary High, 48.92,4
-4X100 Meter Relay,Girls,4,,Finals,,,19,7,Hydel High,49.45,3
-4X100 Meter Relay,Girls,4,,Finals,,,19,8,Edwin Allen High,50.06,2
-4X100 Meter Relay,Boys,1,,Finals,,,19,1,Kingston College,39.98, 12
-4X100 Meter Relay,Boys,1,,Finals,,,19,2,Calabar High,40.15, 10
-4X100 Meter Relay,Boys,1,,Finals,,,19,3,St. Jago High, 40.53,8
-4X100 Meter Relay,Boys,1,,Finals,,,19,4,St. Elizabeth Technical High,40.93,6
-4X100 Meter Relay,Boys,1,,Finals,,,19,5,Jamaica College, 40.98,5
-4X100 Meter Relay,Boys,1,,Finals,,,19,6,Petersfield High,42.02,4
-4X100 Meter Relay,Boys,1,,Finals,,,19, , Excelsior High,DNF,0
-4X100 Meter Relay,Boys,1,,Finals,,,19, , Wolmer's High School for Boys, DNF,0
-4X400 Meter Relay,Boys,Open,,Finals,,,19,1,Excelsior High,3:11.14, 12
-4X400 Meter Relay,Boys,Open,,Finals,,,19,2,Kingston College,3:12.06, 10
-4X400 Meter Relay,Boys,Open,,Finals,,,19,3,Holmwood Technical High, 3:12.15,8
-4X400 Meter Relay,Boys,Open,,Finals,,,19,4,Calabar High,3:12.34,6
-4X400 Meter Relay,Boys,Open,,Finals,,,19,5,Rusea's High,3:13.54,5
-4X400 Meter Relay,Boys,Open,,Finals,,,19,6,Petersfield High,3:16.43,4
-4X400 Meter Relay,Boys,Open,,Finals,,,19,7,Jamaica College, 3:16.98,3
-4X400 Meter Relay,Boys,Open,,Finals,,,19,8,Munro College, 3:18.52,2
-4X400 Meter Relay,Girls,Open,,Finals,,,19,1,Hydel High,3:34.78, 12
-4X400 Meter Relay,Girls,Open,,Finals,,,19,2,Holmwood Technical High, 3:36.09, 10
-4X400 Meter Relay,Girls,Open,,Finals,,,19,3,Spaldings High,3:40.14,8
-4X400 Meter Relay,Girls,Open,,Finals,,,19,4,St. Jago High, 3:41.16,6
-4X400 Meter Relay,Girls,Open,,Finals,,,19,5,Edwin Allen High,3:43.01,5
-4X400 Meter Relay,Girls,Open,,Finals,,,19,6,Manchester High, 3:44.41,4
-4X400 Meter Relay,Girls,Open,,Finals,,,19,7,The Queens School, 3:47.40,3
-4X400 Meter Relay,Girls,Open,,Finals,,,19,8,Petersfield High,3:49.60,2
-1600 Sprint Medley,Boys,Open,,Finals,,,19,1,Calabar High,3:24.81, 12
-1600 Sprint Medley,Boys,Open,,Finals,,,19,2,Kingston College,3:25.77, 10
-1600 Sprint Medley,Boys,Open,,Finals,,,19,3,Edwin Allen High,3:25.90,8
-1600 Sprint Medley,Boys,Open,,Finals,,,19,4,Holmwood Technical High, 3:27.17,6
-1600 Sprint Medley,Boys,Open,,Finals,,,19,5,Jamaica College, 3:28.31,5
-1600 Sprint Medley,Boys,Open,,Finals,,,19,6,Excelsior High,3:31.98,4
-1600 Sprint Medley,Boys,Open,,Finals,,,19,7,Enid Bennett High, 3:36.52,3
-1600 Sprint Medley,Boys,Open,,Finals,,,19,8,St. Mary High, 3:39.19,2
-1600 Sprint Medley,Girls,Open,,Finals,,,19,1,Edwin Allen High,4:01.09, 12
-1600 Sprint Medley,Girls,Open,,Finals,,,19,2,Hydel High,4:02.52, 10
-1600 Sprint Medley,Girls,Open,,Finals,,,19,3,Holmwood Technical High, 4:05.54,8
-1600 Sprint Medley,Girls,Open,,Finals,,,19,4,St. Elizabeth Technical High,4:07.30,6
-1600 Sprint Medley,Girls,Open,,Finals,,,19,5,Excelsior High,4:13.73,5
-1600 Sprint Medley,Girls,Open,,Finals,,,19,6,St. Mary High, 4:17.90,4
-1600 Sprint Medley,Girls,Open,,Finals,,,19,7,Merl Grove High, 4:18.72,3
-1600 Sprint Medley,Girls,Open,,Finals,,,19, , St. Jago High,DQ, IAAF RULE 163.5A
-4X100 Meter Relay,Boys,2,,Finals,,,21,1,Jamaica College, 40.97, 12
-4X100 Meter Relay,Boys,2,,Finals,,,21,2,Calabar High,41.31, 10
-4X100 Meter Relay,Boys,2,,Finals,,,21,3,Kingston College,41.78,8
-4X100 Meter Relay,Boys,2,,Finals,,,21,4,St. Jago High, 41.99,6
-4X100 Meter Relay,Boys,2,,Finals,,,21,5,Wolmer's Boys School,42.66,5
-4X100 Meter Relay,Boys,2,,Finals,,,21,6,Ferncourt High,43.19,4
-4X100 Meter Relay,Boys,2,,Finals,,,21,7,Excelsior High,44.10,3
-4X100 Meter Relay,Boys,2,,Finals,,,21, , Steer Town Academy,DNF,0
-4X100 Meter Relay,Boys,3,,Finals,,,21,1,St. Elizabeth Technical, 43.01, 12
-4X100 Meter Relay,Boys,3,,Finals,,,21,2,Calabar High,44.31, 10
-4X100 Meter Relay,Boys,3,,Finals,,,21,3,Jamaica College, 44.84,8
-4X100 Meter Relay,Boys,3,,Finals,,,21,4,St. Jago High, 45.39,6
-4X100 Meter Relay,Boys,3,,Finals,,,21,5,Kingston College,45.67,5
-4X100 Meter Relay,Boys,3,,Finals,,,21,6,Cornwall College,46.03,4
-4X100 Meter Relay,Boys,3,,Finals,,,21,7,Vere Technical,46.09,3
-4X100 Meter Relay,Boys,3,,Finals,,,21,8,Clarendon College, 47.44,2
-4X100 Meter Relay,Girls,1,,Finals,,,21,1,St. Jago High, 45.44, 12
-4X100 Meter Relay,Girls,1,,Finals,,,21,2,Hydel High,45.51, 10
-4X100 Meter Relay,Girls,1,,Finals,,,21,3,Holmwood Technical,45.59,8
-4X100 Meter Relay,Girls,1,,Finals,,,21,4,Edwin Allen High,45.85,6
-4X100 Meter Relay,Girls,1,,Finals,,,21,5,Rusea's High,46.67,5
-4X100 Meter Relay,Girls,1,,Finals,,,21,6,The Queen's School,47.61,4
-4X100 Meter Relay,Girls,1,,Finals,,,21,7,St. Catherine High,47.64,3
-4X100 Meter Relay,Girls,2,,Finals,,,21,1,Edwin Allen High,44.81R,12
-4X100 Meter Relay,Girls,2,,Finals,,,21,2,Hydel High,45.50, 10
-4X100 Meter Relay,Girls,2,,Finals,,,21,3,St. Jago High, 47.08,8
-4X100 Meter Relay,Girls,2,,Finals,,,21,4,Vere Technical,47.10,6
-4X100 Meter Relay,Girls,2,,Finals,,,21,5,St. Catherine High,47.38,5
-4X100 Meter Relay,Girls,2,,Finals,,,21,6,Rusea's High,48.12,4
-4X100 Meter Relay,Girls,2,,Finals,,,21, , Excelsior High,DNF,0
-4X100 Meter Relay,Girls,2,,Finals,,,21, , Immaculate Conception,DQ, TR 24.7
-4X100 Meter Relay,Girls,3,,Finals,,,21,1,Hydel High,46.44, 12
-4X100 Meter Relay,Girls,3,,Finals,,,21,2,St. Jago High, 47.35, 10
-4X100 Meter Relay,Girls,3,,Finals,,,21,3,Edwin Allen High,47.62,8
-4X100 Meter Relay,Girls,3,,Finals,,,21,4,Vere Technical,47.66,6
-4X100 Meter Relay,Girls,3,,Finals,,,21,5,Holmwood Technical,47.91,5
-4X100 Meter Relay,Girls,3,,Finals,,,21,6,Excelsior High,48.45,4
-4X100 Meter Relay,Girls,3,,Finals,,,21,7,St. Catherine High,48.59,3
-4X100 Meter Relay,Girls,3,,Finals,,,21,8,Immaculate Conception, 57.36,2
-4X100 Meter Relay,Girls,4,,Finals,,,21,1,Edwin Allen High,47.70, 12
-4X100 Meter Relay,Girls,4,,Finals,,,21,2,Hydel High,48.25, 10
-4X100 Meter Relay,Girls,4,,Finals,,,21,3,Vere Technical,48.71,8
-4X100 Meter Relay,Girls,4,,Finals,,,21,4,St. Catherine High,49.26,6
-4X100 Meter Relay,Girls,4,,Finals,,,21,5,St. Jago High, 50.12,5
-4X100 Meter Relay,Girls,4,,Finals,,,21,6,Wolmer's Girls School, 50.44,4
-4X100 Meter Relay,Girls,4,,Finals,,,21,7,St. Elizabeth Technical, 50.93,3
-4X100 Meter Relay,Girls,4,,Finals,,,21,8,Holmwood Technical,51.89,2
-4X100 Meter Relay,Boys,1,,Finals,,,21,1,St. Jago High, 39.75, 12
-4X100 Meter Relay,Boys,1,,Finals,,,21,2,St. Elizabeth Technical, 39.82, 10
-4X100 Meter Relay,Boys,1,,Finals,,,21,3,Jamaica College, 40.21,8
-4X100 Meter Relay,Boys,1,,Finals,,,21,4,Kingston College,40.26,6
-4X100 Meter Relay,Boys,1,,Finals,,,21,5,Edwin Allen High,40.46,5
-4X100 Meter Relay,Boys,1,,Finals,,,21,6,Wolmer's Boys School,1:42.40,4
-4X100 Meter Relay,Boys,1,,Finals,,,21, , St. Catherine High, FS,0
-4X400 Meter Relay,Boys,Open,,Finals,,,21,1,Excelsior High,3:07.85, 12
-4X400 Meter Relay,Boys,Open,,Finals,,,21,2,Calabar High,3:08.90, 10
-4X400 Meter Relay,Boys,Open,,Finals,,,21,3,Edwin Allen High,3:11.77,8
-4X400 Meter Relay,Boys,Open,,Finals,,,21,4,Holmwood Technical,3:12.81,6
-4X400 Meter Relay,Boys,Open,,Finals,,,21,5,Kingston College,3:15.29,5
-4X400 Meter Relay,Boys,Open,,Finals,,,21,6,St. Elizabeth Technical, 3:19.58,4
-4X400 Meter Relay,Boys,Open,,Finals,,,21,7,St. Jago High, 3:23.98,3
-4X400 Meter Relay,Boys,Open,,Finals,,,21, , Jamaica College,DQ, TR 163.3A
-4X400 Meter Relay,Girls,Open,,Finals,,,21,1,Hydel High,3:38.99, 12
-4X400 Meter Relay,Girls,Open,,Finals,,,21,2,Holmwood Technical,3:40.27, 10
-4X400 Meter Relay,Girls,Open,,Finals,,,21,3,St. Jago High, 3:41.68,8
-4X400 Meter Relay,Girls,Open,,Finals,,,21,4,Edwin Allen High,3:44.51,6
-4X400 Meter Relay,Girls,Open,,Finals,,,21,5,Vere Technical,3:46.41,5
-4X400 Meter Relay,Girls,Open,,Finals,,,21,6,Excelsior High,3:48.47,4
-4X400 Meter Relay,Girls,Open,,Finals,,,21,7,St. Mary High, 3:53.65,3
-4X400 Meter Relay,Girls,Open,,Finals,,,21,8,The Queen's School,3:55.18,2
-1600 Sprint Medley,Boys,Open,,Finals,,,21,1,St. Elizabeth Technical, 3:26.19, 12
-1600 Sprint Medley,Boys,Open,,Finals,,,21,2,Kingston College,3:28.90, 10
-1600 Sprint Medley,Boys,Open,,Finals,,,21,3,Jamaica College, 3:31.77,8
-1600 Sprint Medley,Boys,Open,,Finals,,,21,4,St. Jago High, 3:31.82,6
-1600 Sprint Medley,Boys,Open,,Finals,,,21,5,Excelsior High,3:40.04,5
-1600 Sprint Medley,Boys,Open,,Finals,,,21,6,Cornwall College,3:46.86,4
-1600 Sprint Medley,Boys,Open,,Finals,,,21,7,Wolmer's Boys School,3:55.34,3
-1600 Sprint Medley,Boys,Open,,Finals,,,21, , Calabar High, DQ, TR 170.1.4 
-1600 Sprint Medley,Girls,Open,,Finals,,,21,1,Manchester High, 4:03.25, 12
-1600 Sprint Medley,Girls,Open,,Finals,,,21,2,Holmwood Technical,4:03.87, 10
-1600 Sprint Medley,Girls,Open,,Finals,,,21,3,Hydel High,4:04.79,8
-1600 Sprint Medley,Girls,Open,,Finals,,,21,4,St. Jago High, 4:08.14,6
-1600 Sprint Medley,Girls,Open,,Finals,,,21,5,Edwin Allen High,4:11.41,5
-1600 Sprint Medley,Girls,Open,,Finals,,,21,6,Port Antonio High, 4:11.67,4
-1600 Sprint Medley,Girls,Open,,Finals,,,21,7,Maggotty High, 4:18.67,3
-1600 Sprint Medley,Girls,Open,,Finals,,,21,8,Vere Technical,4:27.48,2
-4X100 Meter Relay,Boys,2,,Finals,,,22,1,Kingston College,41.29, 12
-4X100 Meter Relay,Boys,2,,Finals,,,22,2,St. Elizabeth Technical, 41.74, 10
-4X100 Meter Relay,Boys,2,,Finals,,,22,3,Calabar High,41.86,8
-4X100 Meter Relay,Boys,2,,Finals,,,22,4,Edwin Allen High,43.45,6
-4X100 Meter Relay,Boys,2,,Finals,,,22,5,Herbert Morrison Technical,43.50,5
-4X100 Meter Relay,Boys,2,,Finals,,,22, , Jamaica College, DNF,0
-4X100 Meter Relay,Boys,2,,Finals,,,22, , Wolmer's Boys School, DQ, TR 24.7
-4X100 Meter Relay,Boys,2,,Finals,,,22, , Camperdown High,DQ, TR 17.4
-4X100 Meter Relay,Boys,3,,Finals,,,22,1,Calabar High,43.99, 12
-4X100 Meter Relay,Boys,3,,Finals,,,22,2,St. Jago High, 44.86, 10
-4X100 Meter Relay,Boys,3,,Finals,,,22,3,Jamaica College, 44.88,8
-4X100 Meter Relay,Boys,3,,Finals,,,22,4,Ferncourt High,44.90,6
-4X100 Meter Relay,Boys,3,,Finals,,,22,5,Excelsior High,45.42,5
-4X100 Meter Relay,Boys,3,,Finals,,,22,6,Herbert Morrison Technical,46.04,4
-4X100 Meter Relay,Boys,3,,Finals,,,22,7,St. Catherine High,46.15,3
-4X100 Meter Relay,Boys,3,,Finals,,,22,8,Edwin Allen High,46.45,2
-4X100 Meter Relay,Girls,1,,Finals,,,22,1,Edwin Allen High,43.28R,12
-4X100 Meter Relay,Girls,1,,Finals,,,22,2,St. Jago High, 45.05, 10
-4X100 Meter Relay,Girls,1,,Finals,,,22,3,Hydel High,45.12,8
-4X100 Meter Relay,Girls,1,,Finals,,,22,4,Manchester High, 45.94,6
-4X100 Meter Relay,Girls,1,,Finals,,,22,5,Immaculate Conception, 46.36,5
-4X100 Meter Relay,Girls,1,,Finals,,,22,6,Holmwood Technical,46.90,4
-4X100 Meter Relay,Girls,1,,Finals,,,22,7,St. Catherine High,47.30,3
-4X100 Meter Relay,Girls,1,,Finals,,,22,8,Bustamante High, 48.56,2
-4X100 Meter Relay,Girls,2,,Finals,,,22,1,Holmwood Technical,46.33, 12
-4X100 Meter Relay,Girls,2,,Finals,,,22,2,St. Catherine High,46.45, 10
-4X100 Meter Relay,Girls,2,,Finals,,,22,3,Edwin Allen High,46.55,8
-4X100 Meter Relay,Girls,2,,Finals,,,22,4,St. Jago High, 46.88,6
-4X100 Meter Relay,Girls,2,,Finals,,,22,5,Mount Alvernia High, 46.93,5
-4X100 Meter Relay,Girls,2,,Finals,,,22,6,Wolmer's Girls School, 46.97,4
-4X100 Meter Relay,Girls,2,,Finals,,,22,7,Vere Technical,47.03,3
-4X100 Meter Relay,Girls,2,,Finals,,,22, , Hydel High,DNF,0
-4X100 Meter Relay,Girls,3,,Finals,,,22,1,St. Jago High, 45.64, 12
-4X100 Meter Relay,Girls,3,,Finals,,,22,2,Hydel High,46.19, 10
-4X100 Meter Relay,Girls,3,,Finals,,,22,3,Holmwood Technical,46.67,8
-4X100 Meter Relay,Girls,3,,Finals,,,22,4,Excelsior High,47.64,6
-4X100 Meter Relay,Girls,3,,Finals,,,22,5,St. Catherine High,47.68,5
-4X100 Meter Relay,Girls,3,,Finals,,,22,6,Wolmer's Girls School, 48.01,4
-4X100 Meter Relay,Girls,3,,Finals,,,22, , Alpha Academy, DNF,0
-4X100 Meter Relay,Girls,3,,Finals,,,22, , Edwin Allen High, DQ, TR 24.7
-4X100 Meter Relay,Girls,4,,Finals,,,22,1,Immaculate Conception, 47.34, 12
-4X100 Meter Relay,Girls,4,,Finals,,,22,2,Edwin Allen High,48.25, 10
-4X100 Meter Relay,Girls,4,,Finals,,,22,3,Hydel High,48.58,8
-4X100 Meter Relay,Girls,4,,Finals,,,22,4,St. Jago High, 48.66,6
-4X100 Meter Relay,Girls,4,,Finals,,,22,5,Wolmer's Girls School, 48.98,5
-4X100 Meter Relay,Girls,4,,Finals,,,22,6,Excelsior High,49.36,4
-4X100 Meter Relay,Girls,4,,Finals,,,22,7,Vere Technical,49.97,3
-4X100 Meter Relay,Girls,4,,Finals,,,22,8,Ferncourt High,50.27,2
-4X400 Meter Relay,Boys,Open,,Finals,,,22,1,Jamaica College, 3:10.04, 12
-4X400 Meter Relay,Boys,Open,,Finals,,,22,2,Kingston College,3:10.68, 10
-4X400 Meter Relay,Boys,Open,,Finals,,,22,3,St. Jago High, 3:11.69,8
-4X400 Meter Relay,Boys,Open,,Finals,,,22,4,Excelsior High,3:12.47,6
-4X400 Meter Relay,Boys,Open,,Finals,,,22,5,Calabar High,3:12.60,5
-4X400 Meter Relay,Boys,Open,,Finals,,,22,6,Edwin Allen High,3:14.54,4
-4X400 Meter Relay,Boys,Open,,Finals,,,22,7,St. Elizabeth Technical, 3:19.03,3
-4X400 Meter Relay,Boys,Open,,Finals,,,22,8,Manchester High, 3:33.18,2
-4X400 Meter Relay,Girls,Open,,Finals,,,22,1,Hydel High,3:35.38, 12
-4X400 Meter Relay,Girls,Open,,Finals,,,22,2,Edwin Allen High,3:37.71, 10
-4X400 Meter Relay,Girls,Open,,Finals,,,22,3,Holmwood Technical,3:38.34,8
-4X400 Meter Relay,Girls,Open,,Finals,,,22,4,St. Mary High, 3:44.22,6
-4X400 Meter Relay,Girls,Open,,Finals,,,22,5,Excelsior High,3:46.18,5
-4X400 Meter Relay,Girls,Open,,Finals,,,22,6,St. Catherine High,3:47.41,4
-4X400 Meter Relay,Girls,Open,,Finals,,,22,7,St. Jago High, 3:51.20,3
-4X400 Meter Relay,Girls,Open,,Finals,,,22,8,Manchester High, 3:57.64,2
-1600 Sprint Medley,Boys,Open,,Finals,,,22,1,Kingston College,3:27.66, 12
-1600 Sprint Medley,Boys,Open,,Finals,,,22,2,St. Elizabeth Technical, 3:27.70, 10
-1600 Sprint Medley,Boys,Open,,Finals,,,22,3,Jamaica College, 3:30.97,8
-1600 Sprint Medley,Boys,Open,,Finals,,,22,4,Calabar High,3:33.64,6
-1600 Sprint Medley,Boys,Open,,Finals,,,22,5,Vere Technical,3:37.03,5
-1600 Sprint Medley,Boys,Open,,Finals,,,22,6,Petersfield High,3:39.75,4
-1600 Sprint Medley,Boys,Open,,Finals,,,22,7,Excelsior High,3:40.89,3
-1600 Sprint Medley,Boys,Open,,Finals,,,22,8,William Knibb Memorial,3:41.02,2
-1600 Sprint Medley,Girls,Open,,Finals,,,22,1,Edwin Allen High,3:58.87, 12
-1600 Sprint Medley,Girls,Open,,Finals,,,22,2,Alphansus Davis High,4:06.74, 10
-1600 Sprint Medley,Girls,Open,,Finals,,,22,3,Holmwood Technical,4:07.31,8
-1600 Sprint Medley,Girls,Open,,Finals,,,22,4,Dinthill Technical,4:10.94,6
-1600 Sprint Medley,Girls,Open,,Finals,,,22,5,St. Catherine High,4:13.81,5
-1600 Sprint Medley,Girls,Open,,Finals,,,22,6,The Queen's School,4:15.69,4
-1600 Sprint Medley,Girls,Open,,Finals,,,22,7,Maggotty High, 4:23.68,3
-1600 Sprint Medley,Girls,Open,,Finals,,,22,8,Excelsior High,4:32.22,2
-4X100 Meter Relay,Boys,2,,Finals,,,23,1,Calabar High,40.41, 12
-4X100 Meter Relay,Boys,2,,Finals,,,23,2,Kingston College,40.58, 10
-4X100 Meter Relay,Boys,2,,Finals,,,23,3,St. Elizabeth Technical, 40.74,8
-4X100 Meter Relay,Boys,2,,Finals,,,23,4,Jamaica College, 41.43,6
-4X100 Meter Relay,Boys,2,,Finals,,,23,5,St. Catherine High,42.59,5
-4X100 Meter Relay,Boys,2,,Finals,,,23,6,Excelsior High,42.75,4
-4X100 Meter Relay,Boys,2,,Finals,,,23,7,St. George's College,42.79,3
-4X100 Meter Relay,Boys,2,,Finals,,,23,8,Clarendon College, 43.22,2
-4X100 Meter Relay,Boys,3,,Finals,,,23,1,St. Jago High, 43.11, 12
-4X100 Meter Relay,Boys,3,,Finals,,,23,2,Wolmer's Boys School,43.12, 10
-4X100 Meter Relay,Boys,3,,Finals,,,23,3,Kingston College,43.21,8
-4X100 Meter Relay,Boys,3,,Finals,,,23,4,Herbert Morrison Technical,44.84,6
-4X100 Meter Relay,Boys,3,,Finals,,,23,5,Petersfield High,45.03,5
-4X100 Meter Relay,Boys,3,,Finals,,,23,6,St. Elizabeth Technical, 45.49,4
-4X100 Meter Relay,Boys,3,,Finals,,,23, , Cornwall College,DNF,0
-4X100 Meter Relay,Boys,3,,Finals,,,23, , St. George's College,DNF,0
-4X100 Meter Relay,Girls,1,,Finals,,,23,1,Hydel High,44.33, 12
-4X100 Meter Relay,Girls,1,,Finals,,,23,2,Edwin Allen High,44.77, 10
-4X100 Meter Relay,Girls,1,,Finals,,,23,3,Holmwood Technical,45.71,8
-4X100 Meter Relay,Girls,1,,Finals,,,23,4,St. Catherine High,46.47,6
-4X100 Meter Relay,Girls,1,,Finals,,,23,5,Wolmer's Girls School, 47.99,5
-4X100 Meter Relay,Girls,1,,Finals,,,23,6,St. Jago High, 49.45,4
-4X100 Meter Relay,Girls,1,,Finals,,,23, , Excelsior High,DNF,0
-4X100 Meter Relay,Girls,1,,Finals,,,23, , Vere Technical,DNF,0
-4X100 Meter Relay,Girls,2,,Finals,,,23,1,Hydel High,45.01, 12
-4X100 Meter Relay,Girls,2,,Finals,,,23,2,St. Jago High, 45.95, 10
-4X100 Meter Relay,Girls,2,,Finals,,,23,3,Holmwood Technical,46.43,8
-4X100 Meter Relay,Girls,2,,Finals,,,23,4,St. Catherine High,46.82,6
-4X100 Meter Relay,Girls,2,,Finals,,,23,5,Excelsior High,47.71,5
-4X100 Meter Relay,Girls,2,,Finals,,,23,6,St. Elizabeth Technical, 50.55,4
-4X100 Meter Relay,Girls,2,,Finals,,,23, , St. Mary High, DNF,0
-4X100 Meter Relay,Girls,2,,Finals,,,23, , Immaculate Conception, DNF,0
-4X100 Meter Relay,Girls,3,,Finals,,,23,1,Wolmer's Girls School, 45.81, 12
-4X100 Meter Relay,Girls,3,,Finals,,,23,2,Excelsior High,46.41, 10
-4X100 Meter Relay,Girls,3,,Finals,,,23,3,Edwin Allen High,46.72,8
-4X100 Meter Relay,Girls,3,,Finals,,,23,4,Immaculate Conception, 47.08,6
-4X100 Meter Relay,Girls,3,,Finals,,,23,5,St. Catherine High,47.23,5
-4X100 Meter Relay,Girls,3,,Finals,,,23,6,Vere Technical,47.27,4
-4X100 Meter Relay,Girls,3,,Finals,,,23,7,Ferncourt High,48.16,3
-4X100 Meter Relay,Girls,3,,Finals,,,23, , St. Mary High, DNF,0
-4X100 Meter Relay,Girls,4,,Finals,,,23,1,Mount Alvernia High, 48.54, 12
-4X100 Meter Relay,Girls,4,,Finals,,,23,2,Holmwood Technical,48.59, 10
-4X100 Meter Relay,Girls,4,,Finals,,,23,3,St. Jago High, 48.83,8
-4X100 Meter Relay,Girls,4,,Finals,,,23,4,Immaculate Conception, 48.85,6
-4X100 Meter Relay,Girls,4,,Finals,,,23,5,Edwin Allen High,49.00,5
-4X100 Meter Relay,Girls,4,,Finals,,,23,6,Clarendon College, 49.58,4
-4X100 Meter Relay,Girls,4,,Finals,,,23,7,Hydel High,50.01,3
-4X100 Meter Relay,Girls,4,,Finals,,,23,8,Vere Technical,50.08,2
-4X100 Meter Relay,Boys,1,,Finals,,,23,1,Kingston College,40.01, 12
-4X100 Meter Relay,Boys,1,,Finals,,,23,2,St. Jago High, 40.40, 10
-4X100 Meter Relay,Boys,1,,Finals,,,23,3,Edwin Allen High,40.59,8
-4X100 Meter Relay,Boys,1,,Finals,,,23,4,Steer Town Academy,41.10,6
-4X100 Meter Relay,Boys,1,,Finals,,,23,5,Calabar High,41.22,5
-4X100 Meter Relay,Boys,1,,Finals,,,23,6,Wolmer's Boys School,41.57,4
-4X100 Meter Relay,Boys,1,,Finals,,,23,7,St. George's College,41.63,3
-4X100 Meter Relay,Boys,1,,Finals,,,23, , St. Elizabeth Technical,DQ, TR 17.2.2
-4X400 Meter Relay,Boys,Open,,Finals,,,23,1,Jamaica College, 3:09.31, 12
-4X400 Meter Relay,Boys,Open,,Finals,,,23,2,Edwin Allen High,3:10.09, 10
-4X400 Meter Relay,Boys,Open,,Finals,,,23,3,Kingston College,3:11.46,8
-4X400 Meter Relay,Boys,Open,,Finals,,,23,4,Excelsior High,3:15.23,6
-4X400 Meter Relay,Boys,Open,,Finals,,,23,5,St. Elizabeth Technical, 3:16.11,5
-4X400 Meter Relay,Boys,Open,,Finals,,,23,6,St. Jago High, 3:16.15,4
-4X400 Meter Relay,Boys,Open,,Finals,,,23,7,Wolmer's Boys School,3:32.94,3
-4X400 Meter Relay,Boys,Open,,Finals,,,23, , Calabar High, FS,0
-4X400 Meter Relay,Girls,Open,,Finals,,,23,1,Edwin Allen High,3:31.78, 12
-4X400 Meter Relay,Girls,Open,,Finals,,,23,2,Hydel High,3:34.57, 10
-4X400 Meter Relay,Girls,Open,,Finals,,,23,3,Holmwood Technical,3:36.46,8
-4X400 Meter Relay,Girls,Open,,Finals,,,23,4,St. Catherine High,3:39.28,6
-4X400 Meter Relay,Girls,Open,,Finals,,,23,5,St. Mary High, 3:48.38,5
-4X400 Meter Relay,Girls,Open,,Finals,,,23,6,Wolmer's Girls School, 3:55.23,4
-4X400 Meter Relay,Girls,Open,,Finals,,,23, , Vere Technical,DNS,0
-4X400 Meter Relay,Girls,Open,,Finals,,,23, , St. Elizabeth Technical, DNS,0
-1600 Sprint Medley,Boys,Open,,Finals,,,23,1,Kingston College,3:26.98, 12
-1600 Sprint Medley,Boys,Open,,Finals,,,23,2,Jamaica College, 3:30.95, 10
-1600 Sprint Medley,Boys,Open,,Finals,,,23,3,Titchfield High, 3:31.59,8
-1600 Sprint Medley,Boys,Open,,Finals,,,23,4,St. Jago High, 3:33.47,6
-1600 Sprint Medley,Boys,Open,,Finals,,,23,5,St. Elizabeth Technical, 3:34.30,5
-1600 Sprint Medley,Boys,Open,,Finals,,,23,6,Excelsior High,3:36.17,4
-1600 Sprint Medley,Boys,Open,,Finals,,,23,7,Petersfield High,3:43.23,3
-1600 Sprint Medley,Boys,Open,,Finals,,,23,8,Dinthill Technical,3:45.32,2
-1600 Sprint Medley,Girls,Open,,Finals,,,23,1,Holmwood Technical,4:01.46, 12
-1600 Sprint Medley,Girls,Open,,Finals,,,23,2,St. Jago High, 4:03.06, 10
-1600 Sprint Medley,Girls,Open,,Finals,,,23,3,William Knibb Memorial,4:07.68,8
-1600 Sprint Medley,Girls,Open,,Finals,,,23,4,Mount Alvernia High, 4:16.98,6
-1600 Sprint Medley,Girls,Open,,Finals,,,23,5,Manchester High, 4:21.95,5
-1600 Sprint Medley,Girls,Open,,Finals,,,23,6,Maggotty High, 4:25.15,4
-1600 Sprint Medley,Girls,Open,,Finals,,,23, , Excelsior High, DQ, TR 17.2.1
-1600 Sprint Medley,Girls,Open,,Finals,,,23, , Edwin Allen High, DQ, TR 17.3.2
-4X100 Meter Relay,Boys,2,,Finals,,,24,1,Excelsior High School, 41.13, 12
-4X100 Meter Relay,Boys,2,,Finals,,,24,2,Kingston College,41.85, 10
-4X100 Meter Relay,Boys,2,,Finals,,,24,3,Calabar High School, 41.38,8
-4X100 Meter Relay,Boys,2,,Finals,,,24,4,Jamaica College, 42.44,6
-4X100 Meter Relay,Boys,2,,Finals,,,24,5,St. George's College,42.55,5
-4X100 Meter Relay,Boys,2,,Finals,,,24,6,St. Catherine High School, 42.35,4
-4X100 Meter Relay,Boys,2,,Finals,,,24,7,Petersfield High School, 43.13,3
-4X100 Meter Relay,Boys,2,,Finals,,,24,8,Manchester High School,43.03,2
-4X100 Meter Relay,Boys,3,,Finals,,,24,1,Calabar High School, 44.11, 12
-4X100 Meter Relay,Boys,3,,Finals,,,24,2,Wolmer's Boys School,44.23, 10
-4X100 Meter Relay,Boys,3,,Finals,,,24,3,St. George's College,44.23,8
-4X100 Meter Relay,Boys,3,,Finals,,,24,4,St. Elizabeth Technical High S,44.97,6
-4X100 Meter Relay,Boys,3,,Finals,,,24,5,Herbert Morrison Technical Hig,46.00,5
-4X100 Meter Relay,Boys,3,,Finals,,,24,6,Edwin Allen High School, 44.87,4
-4X100 Meter Relay,Boys,3,,Finals,,,24,7,York Castle High School, 46.06,3
-4X100 Meter Relay,Boys,3,,Finals,,,24, , Kingston College,43.87, TR 24. 21
-4X100 Meter Relay,Girls,1,,Finals,,,24,1,Hydel High School, 45.57, 12
-4X100 Meter Relay,Girls,1,,Finals,,,24,2,Edwin Allen High School, 45.73, 10
-4X100 Meter Relay,Girls,1,,Finals,,,24,3,Wolmer's Girls School, 45.40,8
-4X100 Meter Relay,Girls,1,,Finals,,,24,4,Holmwood Technical High School,46.05,6
-4X100 Meter Relay,Girls,1,,Finals,,,24,5,St. Catherine High School, 46.31,5
-4X100 Meter Relay,Girls,1,,Finals,,,24,6,St. Jago High School,47.43,4
-4X100 Meter Relay,Girls,1,,Finals,,,24,7,Manchester High School,47.50,3
-4X100 Meter Relay,Girls,1,,Finals,,,24,8,St. Mary High School,47.64,2
-4X100 Meter Relay,Girls,2,,Finals,,,24,1,Edwin Allen High School, 46.20, 12
-4X100 Meter Relay,Girls,2,,Finals,,,24,2,Hydel High School, 46.59, 10
-4X100 Meter Relay,Girls,2,,Finals,,,24,3,Wolmer's Girls School, 45.86,8
-4X100 Meter Relay,Girls,2,,Finals,,,24,4,Immaculate Conception, 47.03,6
-4X100 Meter Relay,Girls,2,,Finals,,,24,5,St. Mary High School,46.81,5
-4X100 Meter Relay,Girls,2,,Finals,,,24,6,Holmwood Technical High School,47.23,4
-4X100 Meter Relay,Girls,2,,Finals,,,24,7,Excelsior High School, 47.16,3
-4X100 Meter Relay,Girls,2,,Finals,,,24, , St. Jago High School,45.33,DNF
-4X100 Meter Relay,Girls,3,,Finals,,,24,1,St. Jago High School,46.35, 12
-4X100 Meter Relay,Girls,3,,Finals,,,24,2,Immaculate Conception, 46.52, 10
-4X100 Meter Relay,Girls,3,,Finals,,,24,3,Hydel High School, 46.96,8
-4X100 Meter Relay,Girls,3,,Finals,,,24,4,Edwin Allen High School, 46.71,6
-4X100 Meter Relay,Girls,3,,Finals,,,24,5,Holmwood Technical High School,47.19,5
-4X100 Meter Relay,Girls,3,,Finals,,,24,6,Wolmer's Girls School, 47.49,4
-4X100 Meter Relay,Girls,3,,Finals,,,24,7,Convent of Mercy Academy Alpha,47.49,3
-4X100 Meter Relay,Girls,3,,Finals,,,24,8,St. Mary High School,47.36,2
-4X100 Meter Relay,Girls,4,,Finals,,,24,1,Hydel High School, 48.10, 12
-4X100 Meter Relay,Girls,4,,Finals,,,24,2,Convent of Mercy Academy Alpha,49.10, 10
-4X100 Meter Relay,Girls,4,,Finals,,,24,3,Edwin Allen High School, 48.40,8
-4X100 Meter Relay,Girls,4,,Finals,,,24,4,Holmwood Technical High School,48.58,6
-4X100 Meter Relay,Girls,4,,Finals,,,24,5,St. Jago High School,49.33,5
-4X100 Meter Relay,Girls,4,,Finals,,,24,6,Wolmer's Girls School, 49.44,4
-4X100 Meter Relay,Girls,4,,Finals,,,24,7,St. Andrew High for Girls, 49.65,3
-4X100 Meter Relay,Girls,4,,Finals,,,24,8,St. Catherine High School, 49.69,2
-4X100 Meter Relay,Boys,1,,Finals,,,24,1,Jamaica College, 40.98, 12
-4X100 Meter Relay,Boys,1,,Finals,,,24,2,Calabar High School, 40.53, 10
-4X100 Meter Relay,Boys,1,,Finals,,,24,3,St. Jago High School,41.02,8
-4X100 Meter Relay,Boys,1,,Finals,,,24,4,Excelsior High School, 40.70,6
-4X100 Meter Relay,Boys,1,,Finals,,,24,5,Kingston College,40.70,5
-4X100 Meter Relay,Boys,1,,Finals,,,24,6,Herbert Morrison Technical Hig,41.03,4
-4X100 Meter Relay,Boys,1,,Finals,,,24, , Wolmer's Boys School,41.06,DNF
-4X100 Meter Relay,Boys,1,,Finals,,,24, , St. George's College,41.07, TR 24.7
-4X400 Meter Relay,Boys,Open,,Finals,,,24,1,Kingston College,3:15.95, 12
-4X400 Meter Relay,Boys,Open,,Finals,,,24,2,Jamaica College, 3:16.81, 10
-4X400 Meter Relay,Boys,Open,,Finals,,,24,3,William Knibb Memorial,3:16.73,8
-4X400 Meter Relay,Boys,Open,,Finals,,,24,4,Calabar High School, 3:18.60,6
-4X400 Meter Relay,Boys,Open,,Finals,,,24,5,Excelsior High School, 3:18.72,5
-4X400 Meter Relay,Boys,Open,,Finals,,,24,6,Edwin Allen High School, 3:16.89,4
-4X400 Meter Relay,Boys,Open,,Finals,,,24,7,Clarendon College, 3:18.69,3
-4X400 Meter Relay,Boys,Open,,Finals,,,24,8,Herbert Morrison Technical Hig,3:19.39,2
-4X400 Meter Relay,Girls,Open,,Finals,,,24,1,Hydel High School, 3:45.03, 12
-4X400 Meter Relay,Girls,Open,,Finals,,,24,2,Edwin Allen High School, 3:44.08, 10
-4X400 Meter Relay,Girls,Open,,Finals,,,24,3,Wolmer's Girls School, 3:47.06,8
-4X400 Meter Relay,Girls,Open,,Finals,,,24,4,Excelsior High School, 3:48.22,6
-4X400 Meter Relay,Girls,Open,,Finals,,,24,5,Holmwood Technical High School,3:45.01,5
-4X400 Meter Relay,Girls,Open,,Finals,,,24,6,Vere Technical High School,3:48.73,4
-4X400 Meter Relay,Girls,Open,,Finals,,,24,7,Alphansus Davis High School, 3:51.76,3
-4X400 Meter Relay,Girls,Open,,Finals,,,24,8,St. Catherine High School, 3:53.45,2
-1600 Sprint Medley,Boys,Open,,Finals,,,24,1,Holmwood Technical High School,3:30.91, 12
-1600 Sprint Medley,Boys,Open,,Finals,,,24,2,Excelsior High School, 3:29.86, 10
-1600 Sprint Medley,Boys,Open,,Finals,,,24,3,Kingston College,3:31.03,8
-1600 Sprint Medley,Boys,Open,,Finals,,,24,4,St. Elizabeth Technical High S,3:35.79,6
-1600 Sprint Medley,Boys,Open,,Finals,,,24,5,Foga Road High School, 3:34.21,5
-1600 Sprint Medley,Boys,Open,,Finals,,,24,6,Calabar High School, 3:39.55,4
-1600 Sprint Medley,Boys,Open,,Finals,,,24,7,Edwin Allen High School, 3:41.33,3
-1600 Sprint Medley,Boys,Open,,Finals,,,24,8,Titchfield High School,3:37.31,2
-1600 Sprint Medley,Girls,Open,,Finals,,,24,1,St. Jago High School,4:09.62, 12
-1600 Sprint Medley,Girls,Open,,Finals,,,24,2,Hydel High School, 4:07.12, 10
-1600 Sprint Medley,Girls,Open,,Finals,,,24,3,Holmwood Technical High School,4:10.06,8
-1600 Sprint Medley,Girls,Open,,Finals,,,24,4,The Queen's School,4:11.34,6
-1600 Sprint Medley,Girls,Open,,Finals,,,24,5,Mount Alvernia High School,4:17.86,5
-1600 Sprint Medley,Girls,Open,,Finals,,,24,6,Edwin Allen High School, 4:16.22,4
-1600 Sprint Medley,Girls,Open,,Finals,,,24,7,Excelsior High School, 4:19.19,3
-1600 Sprint Medley,Girls,Open,,Finals,,,24,8,Vere Technical High School,4:19.72,2
+4X100 Meter Relay,Boys,2,,Finals,,,12,1,Jamaica College,40.75Rx,12
+4X100 Meter Relay,Boys,2,,Finals,,,12,2,Kingston College,41.62x,10
+4X100 Meter Relay,Boys,2,,Finals,,,12,3,St. Jago High,41.76x, 8
+4X100 Meter Relay,Boys,2,,Finals,,,12,4,Wolmers' Boys School,41.77x, 6
+4X100 Meter Relay,Boys,2,,Finals,,,12,5,St. Elizabeth Technical High,42.56x, 5
+4X100 Meter Relay,Boys,2,,Finals,,,12,6,St. George's College,43.10x, 4
+4X100 Meter Relay,Boys,2,,Finals,,,12,7,Campion College,44.23x, 3
+4X100 Meter Relay,Boys,2,,Finals,,,12,8,Tacius Golding High,44.73x, 2
+4X100 Meter Relay,Boys,2,,Finals,,,12, , Calabar High School,DNFx, 1
+4X100 Meter Relay,Boys,3,,Finals,,,12,1,Calabar High School,43.53x, 12
+4X100 Meter Relay,Boys,3,,Finals,,,12,2,Jamaica College,43.60x, 10
+4X100 Meter Relay,Boys,3,,Finals,,,12,3,Kingston College,43.66x,8
+4X100 Meter Relay,Boys,3,,Finals,,,12,4,Wolmers' Boys School,43.74x,6
+4X100 Meter Relay,Boys,3,,Finals,,,12,5,St. Elizabeth Technical High,43.96x,5
+4X100 Meter Relay,Boys,3,,Finals,,,12,6,St. George's College,44.51x,4
+4X100 Meter Relay,Boys,3,,Finals,,,12,7,Munro College,44.69x,3
+4X100 Meter Relay,Boys,3,,Finals,,,12,8,St. Jago High,45.08x,2
+4X100 Meter Relay,Girls,1,,Finals,,,12,1,Edwin Allen High,45.28x, 12
+4X100 Meter Relay,Girls,1,,Finals,,,12,2,Herbert Morrison Tech.,45.61x, 10
+4X100 Meter Relay,Girls,1,,Finals,,,12,3,Vere Technical High,46.00x,8
+4X100 Meter Relay,Girls,1,,Finals,,,12,4,St. Jago High,46.60x,6
+4X100 Meter Relay,Girls,1,,Finals,,,12,5,ST Andrew High,46.93x,5
+4X100 Meter Relay,Girls,1,,Finals,,,12,6,The Queens School,46.97x,4
+4X100 Meter Relay,Girls,1,,Finals,,,12,7,Holmwood Technical,47.39x,3
+4X100 Meter Relay,Girls,1,,Finals,,,12,8,Immaculate Conception,49.27x,2
+4X100 Meter Relay,Girls,2,,Finals,,,12,1,Holmwood Technical,45.70x, 12
+4X100 Meter Relay,Girls,2,,Finals,,,12,2,Edwin Allen High,45.71x, 10
+4X100 Meter Relay,Girls,2,,Finals,,,12,3,St. Elizabeth Technical High,46.32x,8
+4X100 Meter Relay,Girls,2,,Finals,,,12,4,Camperdown High School,46.75x,6
+4X100 Meter Relay,Girls,2,,Finals,,,12,5,Vere Technical High,46.98x,5
+4X100 Meter Relay,Girls,2,,Finals,,,12,6,Herbert Morrison Tech.,47.38x,4
+4X100 Meter Relay,Girls,2,,Finals,,,12,7,The Queens School,48.18x,3
+4X100 Meter Relay,Girls,2,,Finals,,,12,8,Manchester High,48.51x,2
+4X100 Meter Relay,Girls,3,,Finals,,,12,1,Wolmers Girls' School,45.89x, 12
+4X100 Meter Relay,Girls,3,,Finals,,,12,2,Hydel High School,46.12x, 10
+4X100 Meter Relay,Girls,3,,Finals,,,12,3,Edwin Allen High,46.48x,8
+4X100 Meter Relay,Girls,3,,Finals,,,12,4,Holmwood Technical,46.74x,6
+4X100 Meter Relay,Girls,3,,Finals,,,12,5,Excelsior High,47.22x,5
+4X100 Meter Relay,Girls,3,,Finals,,,12,6,St. Elizabeth Technical High,47.46x,4
+4X100 Meter Relay,Girls,3,,Finals,,,12,7,ST Andrew High,47.47x,3
+4X100 Meter Relay,Girls,3,,Finals,,,12,8,St. Jago High,49.22x,2
+4X100 Meter Relay,Boys,1,,Finals,,,12,1,Kingston College,40.17x, 12
+4X100 Meter Relay,Boys,1,,Finals,,,12,2,Wolmers' Boys School,40.21x, 10
+4X100 Meter Relay,Boys,1,,Finals,,,12,3,Munro College,40.41x,8
+4X100 Meter Relay,Boys,1,,Finals,,,12,4,St. Elizabeth Technical High,40.44x,6
+4X100 Meter Relay,Boys,1,,Finals,,,12,5,Herbert Morrison Tech.,40.55x,5
+4X100 Meter Relay,Boys,1,,Finals,,,12,6,St. Jago High,41.32x,4
+4X100 Meter Relay,Boys,1,,Finals,,,12,7,Calabar High School,41.50x,3
+4X100 Meter Relay,Boys,1,,Finals,,,12, , Green Island High School,DNFx,0
+4X100 Meter Relay,Girls,4,,Finals,,,12,1,Edwin Allen High,47.48Rx,12
+4X100 Meter Relay,Girls,4,,Finals,,,12,2,Hydel High School,48.21x, 10
+4X100 Meter Relay,Girls,4,,Finals,,,12,3,St. Jago High,48.47x,8
+4X100 Meter Relay,Girls,4,,Finals,,,12,4,Manchester High,49.44x,6
+4X100 Meter Relay,Girls,4,,Finals,,,12,5,Camperdown High School,49.50x,5
+4X100 Meter Relay,Girls,4,,Finals,,,12,6,Vere Technical High,49.59x,4
+4X100 Meter Relay,Girls,4,,Finals,,,12,7,St. Elizabeth Technical High,50.38x,3
+4X100 Meter Relay,Girls,4,,Finals,,,12, , Holmwood Technical,DNFx,0
+4X400 Meter Relay,Boys,Open,,Finals,,,12,1,Calabar High School,3:10.19x, 12
+4X400 Meter Relay,Boys,Open,,Finals,,,12,2,Kingston College,3:12.64x, 10
+4X400 Meter Relay,Boys,Open,,Finals,,,12,3,Jamaica College,3:13.12x,8
+4X400 Meter Relay,Boys,Open,,Finals,,,12,4,Wolmers' Boys School,3:13.56x,6
+4X400 Meter Relay,Boys,Open,,Finals,,,12,5,Munro College,3:15.23x,5
+4X400 Meter Relay,Boys,Open,,Finals,,,12,6,Manchester High,3:15.78x,4
+4X400 Meter Relay,Boys,Open,,Finals,,,12,7,St. Elizabeth Technical High,3:17.59x,3
+4X400 Meter Relay,Boys,Open,,Finals,,,12,8,Tacius Golding High,3:23.44x,2
+4X400 Meter Relay,Girls,Open,,Finals,,,12,1,Vere Technical High,3:38.91x, 12
+4X400 Meter Relay,Girls,Open,,Finals,,,12,2,Holmwood Technical,3:44.04x, 10
+4X400 Meter Relay,Girls,Open,,Finals,,,12,3,Edwin Allen High,3:44.51x,8
+4X400 Meter Relay,Girls,Open,,Finals,,,12,4,ST Andrew High,3:45.07x,6
+4X400 Meter Relay,Girls,Open,,Finals,,,12,5,St. Jago High,3:45.71x,5
+4X400 Meter Relay,Girls,Open,,Finals,,,12,6,St. Elizabeth Technical High,3:50.28x,4
+4X400 Meter Relay,Girls,Open,,Finals,,,12,7,Hydel High School,3:50.80x,3
+4X400 Meter Relay,Girls,Open,,Finals,,,12,8,Herbert Morrison Tech.,3:57.82x,2
+1600 Sprint Medley,Boys,Open,,Finals,,,12,1,Kingston College,3:30.55x, 12
+1600 Sprint Medley,Boys,Open,,Finals,,,12,2,Petersfield High School,3:30.95x, 10
+1600 Sprint Medley,Boys,Open,,Finals,,,12,3,Jamaica College,3:31.90x,8
+1600 Sprint Medley,Boys,Open,,Finals,,,12,4,St. Jago High,3:35.83x,6
+1600 Sprint Medley,Boys,Open,,Finals,,,12,5,Garvey MACEO Highschool,3:36.58x,5
+1600 Sprint Medley,Boys,Open,,Finals,,,12,6,Holmwood Technical,3:38.69x,4
+1600 Sprint Medley,Boys,Open,,Finals,,,12,7,St. Elizabeth Technical High,3:43.39x,3
+1600 Sprint Medley,Boys,Open,,Finals,,,12,8,Wolmers' Boys School,3:52.44x,2
+1600 Sprint Medley,Girls,Open,,Finals,,,12,1,Holmwood Technical,4:04.74x,12
+1600 Sprint Medley,Girls,Open,,Finals,,,12,2,Herbert Morrison Tech.,4:08.94x,10
+1600 Sprint Medley,Girls,Open,,Finals,,,12,3,Oberlin High,4:09.90x, 8
+1600 Sprint Medley,Girls,Open,,Finals,,,12,4,Vere Technical High,4:10.25x, 6
+1600 Sprint Medley,Girls,Open,,Finals,,,12,5,St. Jago High,4:12.20x, 5
+1600 Sprint Medley,Girls,Open,,Finals,,,12,6,Wolmers Girls' School,4:12.77x, 4
+1600 Sprint Medley,Girls,Open,,Finals,,,12,7,Edwin Allen High,4:13.83x, 3
+1600 Sprint Medley,Girls,Open,,Finals,,,12,8,St. Elizabeth Technical High,4:15.84x, 2
+1600 Sprint Medley,Girls,Open,,Finals,,,12,9,Spalding High School,4:20.49x, 3
+1600 Sprint Medley,Girls,Open,,Finals,,,12, ,Convent OF Mercy Alpha,4:23.95x, 3
+1600 Sprint Medley,Girls,Open,,Finals,,,12, ,Clarendon College,4:25.40x, 1
+1600 Sprint Medley,Girls,Open,,Finals,,,12, ,Manchester High,4:27.49x, 2
+1600 Sprint Medley,Girls,Open,,Finals,,,12, ,Manning High School,4:33.67x, 1
+1600 Sprint Medley,Girls,Open,,Finals,,,12, , ST Hughs,DQx,RULE 163.3A
+1600 Sprint Medley,Girls,Open,,Finals,,,12, , Hydel High School,DQx,RULE 163.3A
+4X100 Meter Relay,Boys,2,,Finals,,,14,1,Kingston College,40.93x, 12
+4X100 Meter Relay,Boys,2,,Finals,,,14,2,Calabar High,41.33x, 10
+4X100 Meter Relay,Boys,2,,Finals,,,14,3,St. George's College,41.37x,8
+4X100 Meter Relay,Boys,2,,Finals,,,14,4,St. Jago High,41.47x,6
+4X100 Meter Relay,Boys,2,,Finals,,,14,5,St. Elizabeth Technical High,42.10x,5
+4X100 Meter Relay,Boys,2,,Finals,,,14,6,Wolmer's High School for Boys,42.13x,4
+4X100 Meter Relay,Boys,2,,Finals,,,14, , Cornwall College,FSx,0
+4X100 Meter Relay,Boys,2,,Finals,,,14, , Jamaica College,FSx,0
+4X100 Meter Relay,Boys,3,,Finals,,,14,1,Calabar High,41.81Rx,12
+4X100 Meter Relay,Boys,3,,Finals,,,14,2,Jamaica College,43.36x, 10
+4X100 Meter Relay,Boys,3,,Finals,,,14,3,St. Jago High,43.95x,8
+4X100 Meter Relay,Boys,3,,Finals,,,14,4,Kingston College,44.07x,6
+4X100 Meter Relay,Boys,3,,Finals,,,14,5,Wolmer's High School for Boys,44.37x,5
+4X100 Meter Relay,Boys,3,,Finals,,,14,6,William Knibb Memorial High,45.32x,4
+4X100 Meter Relay,Boys,3,,Finals,,,14,7,Manchester High,45.72x,3
+4X100 Meter Relay,Boys,3,,Finals,,,14,8,Munro College,46.44x,2
+4X100 Meter Relay,Girls,1,,Finals,,,14,1,Edwin Allen High,44.17Rx,12
+4X100 Meter Relay,Girls,1,,Finals,,,14,2,St. Jago High,46.05x, 10
+4X100 Meter Relay,Girls,1,,Finals,,,14,3,The Queens School,47.39x,8
+4X100 Meter Relay,Girls,1,,Finals,,,14,4,Vere Technical High,47.79x,6
+4X100 Meter Relay,Girls,1,,Finals,,,14,5,Manchester High,47.83x,5
+4X100 Meter Relay,Girls,1,,Finals,,,14,6,Herbert Morrison Technical Hi,49.04x,4
+4X100 Meter Relay,Girls,1,,Finals,,,14,7,Oberlin High,49.84x,3
+4X100 Meter Relay,Girls,1,,Finals,,,14, , Holmwood Technical High,DQx, RULE 170
+4X100 Meter Relay,Girls,2,,Finals,,,14,1,St. Jago High,45.51x, 12
+4X100 Meter Relay,Girls,2,,Finals,,,14,2,Hydel High,45.99x, 10
+4X100 Meter Relay,Girls,2,,Finals,,,14,3,Holmwood Technical High,46.04x,8
+4X100 Meter Relay,Girls,2,,Finals,,,14,4,Wolmer's High School for Girls,46.13x,6
+4X100 Meter Relay,Girls,2,,Finals,,,14,5,Edwin Allen High,46.33x,5
+4X100 Meter Relay,Girls,2,,Finals,,,14,6,St. Elizabeth Technical High,47.48x,4
+4X100 Meter Relay,Girls,2,,Finals,,,14,7,The Queens School,47.65x,3
+4X100 Meter Relay,Girls,2,,Finals,,,14,8,Excelsior High,47.65x,2
+4X100 Meter Relay,Girls,3,,Finals,,,14,1,Hydel High,45.33Rx,12
+4X100 Meter Relay,Girls,3,,Finals,,,14,2,Edwin Allen High,45.76x, 10
+4X100 Meter Relay,Girls,3,,Finals,,,14,3,St. Jago High,47.30x,8
+4X100 Meter Relay,Girls,3,,Finals,,,14,4,Manchester High,47.51x,6
+4X100 Meter Relay,Girls,3,,Finals,,,14,5,Wolmer's High School for Girls 'F','F'x,5
+4X100 Meter Relay,Girls,3,,Finals,,,14,6,Vere Technical High,47.98x,4
+4X100 Meter Relay,Girls,3,,Finals,,,14,7,St. Elizabeth Technical High,49.99x,3
+4X100 Meter Relay,Girls,3,,Finals,,,14, , Holmwood Technical High,DQx, IAAF RULE 170.7
+4X100 Meter Relay,Boys,1,,Finals,,,14,1,Calabar High,39.35Rx,12
+4X100 Meter Relay,Boys,1,,Finals,,,14,2,Jamaica College,39.69x, 10
+4X100 Meter Relay,Boys,1,,Finals,,,14,3,St. Jago High,39.86x,8
+4X100 Meter Relay,Boys,1,,Finals,,,14,4,Kingston College,40.05x,6
+4X100 Meter Relay,Boys,1,,Finals,,,14,5,Wolmer's High School for Boys,40.08x,5
+4X100 Meter Relay,Boys,1,,Finals,,,14,6,St. George's College,40.77x,4
+4X100 Meter Relay,Boys,1,,Finals,,,14,7,St. Elizabeth Technical High,40.90x,3
+4X100 Meter Relay,Boys,1,,Finals,,,14, , Munro College,DQx, RULE 170.7
+4X100 Meter Relay,Girls,4,,Finals,,,14,1,St. Jago High,47.28Rx,12
+4X100 Meter Relay,Girls,4,,Finals,,,14,2,Immaculate Conception High,48.34x, 10
+4X100 Meter Relay,Girls,4,,Finals,,,14,3,Edwin Allen High,48.67x,8
+4X100 Meter Relay,Girls,4,,Finals,,,14,4,Convent of Mercy Alpha,48.71x,6
+4X100 Meter Relay,Girls,4,,Finals,,,14,5,St. Andrew High for Girls,48.78x,5
+4X100 Meter Relay,Girls,4,,Finals,,,14,6,Vere Technical High,49.14x,4
+4X100 Meter Relay,Girls,4,,Finals,,,14, , Holmwood Technical High,DNFx,0
+4X100 Meter Relay,Girls,4,,Finals,,,14, , Hydel High,DQx, IAAF RULE 170.7
+4X400 Meter Relay,Boys,Open,,Finals,,,14,1,St. Jago High,3:08.31Rx,12
+4X400 Meter Relay,Boys,Open,,Finals,,,14,2,St. Elizabeth Technical High,3:08.67Rx,10
+4X400 Meter Relay,Boys,Open,,Finals,,,14,3,Jamaica College,3:09.97x,8
+4X400 Meter Relay,Boys,Open,,Finals,,,14,4,Calabar High,3:12.32x,6
+4X400 Meter Relay,Boys,Open,,Finals,,,14,5,Holmwood Technical High,3:12.67x,5
+4X400 Meter Relay,Boys,Open,,Finals,,,14,6,Munro College,3:13.55x,4
+4X400 Meter Relay,Boys,Open,,Finals,,,14,7,Wolmer's High School for Boys,3:13.59x,3
+4X400 Meter Relay,Boys,Open,,Finals,,,14,8,Kingston College,3:22.02x,2
+4X400 Meter Relay,Girls,Open,,Finals,,,14,1,Edwin Allen High,3:35.70x, 12
+4X400 Meter Relay,Girls,Open,,Finals,,,14,2,Vere Technical High,3:37.42x, 10
+4X400 Meter Relay,Girls,Open,,Finals,,,14,3,St. Jago High,3:38.88x,8
+4X400 Meter Relay,Girls,Open,,Finals,,,14,4,Holmwood Technical High,3:42.25x,6
+4X400 Meter Relay,Girls,Open,,Finals,,,14,5,St. Elizabeth Technical High,3:43.23x,5
+4X400 Meter Relay,Girls,Open,,Finals,,,14,6,Petersfield High,3:47.07x,4
+4X400 Meter Relay,Girls,Open,,Finals,,,14,7,Manchester High,3:49.17x,3
+4X400 Meter Relay,Girls,Open,,Finals,,,14,8,Hydel High,3:50.87x,2
+1600 Sprint Medley,Boys,Open,,Finals,,,14,1,Kingston College,3:25.78Rx,12
+1600 Sprint Medley,Boys,Open,,Finals,,,14,2,Calabar High,3:26.01x, 10
+1600 Sprint Medley,Boys,Open,,Finals,,,14,3,Wolmer's High School for Boys,3:30.62x,8
+1600 Sprint Medley,Boys,Open,,Finals,,,14,4,Oberlin High,3:30.81x,6
+1600 Sprint Medley,Boys,Open,,Finals,,,14,5,Holmwood Technical High,3:31.83x,5
+1600 Sprint Medley,Boys,Open,,Finals,,,14,6,Jamaica College,3:33.36x,4
+1600 Sprint Medley,Boys,Open,,Finals,,,14,7,Excelsior High,3:39.12x,3
+1600 Sprint Medley,Boys,Open,,Finals,,,14,8,Manchester High,3:43.81x,2
+1600 Sprint Medley,Girls,Open,,Finals,,,14,1,Edwin Allen High,4:00.47Rx,12
+1600 Sprint Medley,Girls,Open,,Finals,,,14,2,St. Jago High,4:02.31x, 10
+1600 Sprint Medley,Girls,Open,,Finals,,,14,3,Vere Technical High,4:05.78x,8
+1600 Sprint Medley,Girls,Open,,Finals,,,14,4,Holmwood Technical High,4:06.27x,6
+1600 Sprint Medley,Girls,Open,,Finals,,,14,5,St. Elizabeth Technical High,4:07.19x,5
+1600 Sprint Medley,Girls,Open,,Finals,,,14,6,Wolmer's High School for Girls,4:08.49x,4
+1600 Sprint Medley,Girls,Open,,Finals,,,14,7,Manchester High,4:10.12x,3
+1600 Sprint Medley,Girls,Open,,Finals,,,14,8,St. Andrew Technical High,4:19.80x,2
+4X100 Meter Relay,Boys,2,,Finals,,,15,1,Jamaica College,40.98x, 12
+4X100 Meter Relay,Boys,2,,Finals,,,15,2,St. Jago High,41.10x, 10
+4X100 Meter Relay,Boys,2,,Finals,,,15,3,Kingston College,41.73x,8
+4X100 Meter Relay,Boys,2,,Finals,,,15,4,St. Catherine High,41.83x,6
+4X100 Meter Relay,Boys,2,,Finals,,,15,5,Wolmer's High School for Boys,42.12x,5
+4X100 Meter Relay,Boys,2,,Finals,,,15,6,St. George's College,42.36x,4
+4X100 Meter Relay,Boys,2,,Finals,,,15,7,Cornwall College,42.73x,3
+4X100 Meter Relay,Boys,2,,Finals,,,15,8,Greater Portmore High,42.89x,2
+4X100 Meter Relay,Boys,3,,Finals,,,15,1,Jamaica College,42.97x, 12
+4X100 Meter Relay,Boys,3,,Finals,,,15,2,Kingston College,43.17x, 10
+4X100 Meter Relay,Boys,3,,Finals,,,15,3,St. Jago High,43.55x,8
+4X100 Meter Relay,Boys,3,,Finals,,,15,4,Wolmer's High School for Boys,44.07x,6
+4X100 Meter Relay,Boys,3,,Finals,,,15,5,Herbert Morrison Technical,44.51x,5
+4X100 Meter Relay,Boys,3,,Finals,,,15,6,Calabar High,44.52x,4
+4X100 Meter Relay,Boys,3,,Finals,,,15,7,Ardenne High,44.58x,3
+4X100 Meter Relay,Boys,3,,Finals,,,15,8,Green Island High,44.60x,2
+4X100 Meter Relay,Girls,1,,Finals,,,15,1,St. Jago High,44.39x, 12
+4X100 Meter Relay,Girls,1,,Finals,,,15,2,Holmwood Technical High,45.29x, 10
+4X100 Meter Relay,Girls,1,,Finals,,,15,3,Wolmer's High School for Girls,45.68x,8
+4X100 Meter Relay,Girls,1,,Finals,,,15,4,Edwin Allen High,45.71x,6
+4X100 Meter Relay,Girls,1,,Finals,,,15,5,St. Catherine High,46.39x,5
+4X100 Meter Relay,Girls,1,,Finals,,,15,6,Camperdown High,46.58x,4
+4X100 Meter Relay,Girls,1,,Finals,,,15,7,Hydel High,47.47x,3
+4X100 Meter Relay,Girls,1,,Finals,,,15,8,Vere Technical High,47.81x,2
+4X100 Meter Relay,Girls,2,,Finals,,,15,1,Edwin Allen High,44.88Rx,12
+4X100 Meter Relay,Girls,2,,Finals,,,15,2,Hydel High,45.37x, 10
+4X100 Meter Relay,Girls,2,,Finals,,,15,3,Green Island High,46.37x,8
+4X100 Meter Relay,Girls,2,,Finals,,,15,4,Holmwood Technical High,46.62x,6
+4X100 Meter Relay,Girls,2,,Finals,,,15,5,St. Jago High,46.62x,5
+4X100 Meter Relay,Girls,2,,Finals,,,15,6,Wolmer's High School for Girls,46.69x,4
+4X100 Meter Relay,Girls,2,,Finals,,,15,7,Manchester High,46.78x,3
+4X100 Meter Relay,Girls,2,,Finals,,,15,8,Herbert Morrison Technical,48.18x,2
+4X100 Meter Relay,Girls,3,,Finals,,,15,1,St. Jago High,46.08x, 12
+4X100 Meter Relay,Girls,3,,Finals,,,15,2,Hydel High,46.17x, 10
+4X100 Meter Relay,Girls,3,,Finals,,,15,3,Vere Technical High,46.87x,8
+4X100 Meter Relay,Girls,3,,Finals,,,15,4,Holmwood Technical High,46.96x,6
+4X100 Meter Relay,Girls,3,,Finals,,,15,5,Edwin Allen High,47.12x,5
+4X100 Meter Relay,Girls,3,,Finals,,,15,6,Manchester High,47.45x,4
+4X100 Meter Relay,Girls,3,,Finals,,,15,7,Immaculate Conception High,47.64x,3
+4X100 Meter Relay,Girls,3,,Finals,,,15,8,Camperdown High,47.88x,2
+4X100 Meter Relay,Boys,1,,Finals,,,15,1,Calabar High,39.08Rx,12
+4X100 Meter Relay,Boys,1,,Finals,,,15,2,Jamaica College,39.79x, 10
+4X100 Meter Relay,Boys,1,,Finals,,,15,3,St. George's College,40.43x,8
+4X100 Meter Relay,Boys,1,,Finals,,,15,4,Kingston College,40.84x,6
+4X100 Meter Relay,Boys,1,,Finals,,,15,5,St. Elizabeth Technical High,40.98x,5
+4X100 Meter Relay,Boys,1,,Finals,,,15,6,Munro College,41.81x,4
+4X100 Meter Relay,Boys,1,,Finals,,,15,7,Green Island High,42.12x,3
+4X100 Meter Relay,Boys,1,,Finals,,,15, , St. Jago High,DNFx,0
+4X100 Meter Relay,Girls,4,,Finals,,,15,1,Edwin Allen High,46.65Rx,12
+4X100 Meter Relay,Girls,4,,Finals,,,15,2,Wolmer's High School for Girls,48.79x, 10
+4X100 Meter Relay,Girls,4,,Finals,,,15,3,St. Jago High,48.91x,8
+4X100 Meter Relay,Girls,4,,Finals,,,15,4,Camperdown High,49.68x,6
+4X100 Meter Relay,Girls,4,,Finals,,,15,5,Vere Technical High,49.88x,5
+4X100 Meter Relay,Girls,4,,Finals,,,15,6,Immaculate Conception High,49.90x,4
+4X100 Meter Relay,Girls,4,,Finals,,,15, , Hydel High,DNFx,0
+4X100 Meter Relay,Girls,4,,Finals,,,15, , Excelsior High,DQx, IAAF RULE 170.7
+4X400 Meter Relay,Boys,Open,,Finals,,,15,1,Calabar High,3:06.76Rx,12
+4X400 Meter Relay,Boys,Open,,Finals,,,15,2,Kingston College,3:08.40x, 10
+4X400 Meter Relay,Boys,Open,,Finals,,,15,3,St. Jago High,3:10.10x,8
+4X400 Meter Relay,Boys,Open,,Finals,,,15,4,St. Elizabeth Technical High,3:10.15x,6
+4X400 Meter Relay,Boys,Open,,Finals,,,15,5,Jamaica College,3:11.35x,5
+4X400 Meter Relay,Boys,Open,,Finals,,,15,6,Petersfield High,3:13.00x,4
+4X400 Meter Relay,Boys,Open,,Finals,,,15,7,Wolmer's High School for Boys,3:16.48x,3
+4X400 Meter Relay,Boys,Open,,Finals,,,15,8,Greater Portmore High,3:17.18x,2
+4X400 Meter Relay,Boys,Open,,Finals,,,15,9,Excelsior High,3:26.22x,0
+4X400 Meter Relay,Girls,Open,,Finals,,,15,1,St. Jago High,3:35.78x, 12
+4X400 Meter Relay,Girls,Open,,Finals,,,15,2,Vere Technical High,3:36.61x, 10
+4X400 Meter Relay,Girls,Open,,Finals,,,15,3,St. Elizabeth Technical High,3:36.71x,8
+4X400 Meter Relay,Girls,Open,,Finals,,,15,4,Hydel High,3:40.86x,6
+4X400 Meter Relay,Girls,Open,,Finals,,,15,5,Edwin Allen High,3:45.88x,5
+4X400 Meter Relay,Girls,Open,,Finals,,,15,6,Manchester High,3:48.75x,4
+4X400 Meter Relay,Girls,Open,,Finals,,,15,7,St. Andrew High for Girls,3:51.02x,3
+4X400 Meter Relay,Girls,Open,,Finals,,,15, , Holmwood Technical High,DNFx,0
+1600 Sprint Medley,Boys,Open,,Finals,,,15,1,Manchester High,3:28.50x, 12
+1600 Sprint Medley,Boys,Open,,Finals,,,15,2,Kingston College,3:28.93x, 10
+1600 Sprint Medley,Boys,Open,,Finals,,,15,3,Excelsior High,3:30.25x,8
+1600 Sprint Medley,Boys,Open,,Finals,,,15,4,Holmwood Technical High,3:30.87x,6
+1600 Sprint Medley,Boys,Open,,Finals,,,15,5,St. Elizabeth Technical High,3:31.71x,5
+1600 Sprint Medley,Boys,Open,,Finals,,,15,6,St. Jago High,3:33.33x,4
+1600 Sprint Medley,Boys,Open,,Finals,,,15,7,Jamaica College,3:37.80x,3
+1600 Sprint Medley,Boys,Open,,Finals,,,15,8,Munro College,3:42.86x,2
+1600 Sprint Medley,Girls,Open,,Finals,,,15,1,Edwin Allen High,4:01.40x, 12
+1600 Sprint Medley,Girls,Open,,Finals,,,15,2,Holmwood Technical High,4:04.46x, 10
+1600 Sprint Medley,Girls,Open,,Finals,,,15,3,St. Jago High,4:07.70x,8
+1600 Sprint Medley,Girls,Open,,Finals,,,15,4,St. Mary High,4:12.09x,6
+1600 Sprint Medley,Girls,Open,,Finals,,,15,5,St. Andrew Technical High,4:13.08x,5
+1600 Sprint Medley,Girls,Open,,Finals,,,15,6,Manchester High,4:13.14x,4
+1600 Sprint Medley,Girls,Open,,Finals,,,15,7,Rusea's High,4:26.22x,3
+1600 Sprint Medley,Girls,Open,,Finals,,,15, , St. Elizabeth Technical High,DQx, IAAF RULE 163.5
+4X100 Meter Relay,Boys,2,,Finals,,,16,1,Calabar High,40.29Rx,12
+4X100 Meter Relay,Boys,2,,Finals,,,16,2,Kingston College,41.58x, 10
+4X100 Meter Relay,Boys,2,,Finals,,,16,3,Jamaica College,42.08x,8
+4X100 Meter Relay,Boys,2,,Finals,,,16,4,Wolmer's High School for Boys,42.36x,6
+4X100 Meter Relay,Boys,2,,Finals,,,16,5,St. George's College,42.36x,5
+4X100 Meter Relay,Boys,2,,Finals,,,16,6,Excelsior High,42.52x,4
+4X100 Meter Relay,Boys,2,,Finals,,,16,7,Munro College,42.79x,3
+4X100 Meter Relay,Boys,2,,Finals,,,16,8,Rusea's High,43.75x,2
+4X100 Meter Relay,Boys,3,,Finals,,,16,1,St. Elizabeth Technical High,43.39x, 12
+4X100 Meter Relay,Boys,3,,Finals,,,16,2,Kingston College,43.40x, 10
+4X100 Meter Relay,Boys,3,,Finals,,,16,3,Wolmer's High School for Boys,43.59x,8
+4X100 Meter Relay,Boys,3,,Finals,,,16,4,Calabar High,43.98x,6
+4X100 Meter Relay,Boys,3,,Finals,,,16,5,St. Jago High,44.63x,5
+4X100 Meter Relay,Boys,3,,Finals,,,16,6,Jamaica College,44.96x,4
+4X100 Meter Relay,Boys,3,,Finals,,,16,7,William Knibb Memorial High,45.33x,3
+4X100 Meter Relay,Boys,3,,Finals,,,16, , Herbert Morrison Technical,DQx, IAAF RULE 170.7
+4X100 Meter Relay,Girls,1,,Finals,,,16,1,Holmwood Technical High,44.58x, 12
+4X100 Meter Relay,Girls,1,,Finals,,,16,2,St. Jago High,44.64x, 10
+4X100 Meter Relay,Girls,1,,Finals,,,16,3,Edwin Allen High,44.86x,8
+4X100 Meter Relay,Girls,1,,Finals,,,16,4,Camperdown High,45.86x,6
+4X100 Meter Relay,Girls,1,,Finals,,,16,5,Green Island High,46.39x,5
+4X100 Meter Relay,Girls,1,,Finals,,,16,6,Excelsior High,46.62x,4
+4X100 Meter Relay,Girls,1,,Finals,,,16,7,Hydel High,46.84x,3
+4X100 Meter Relay,Girls,1,,Finals,,,16,8,Wolmer's High School for Girls,46.86x,2
+4X100 Meter Relay,Girls,2,,Finals,,,16,1,St. Jago High,45.21x, 12
+4X100 Meter Relay,Girls,2,,Finals,,,16,2,Edwin Allen High,45.34x, 10
+4X100 Meter Relay,Girls,2,,Finals,,,16,3,Convent of Mercy Alpha,46.61x,8
+4X100 Meter Relay,Girls,2,,Finals,,,16,4,Vere Technical High,46.94x,6
+4X100 Meter Relay,Girls,2,,Finals,,,16,5,Hydel High,46.99x,5
+4X100 Meter Relay,Girls,2,,Finals,,,16, , Wolmer's High School for Girls,DNFx,0
+4X100 Meter Relay,Girls,2,,Finals,,,16, , Manchester High,DNFx,0
+4X100 Meter Relay,Girls,2,,Finals,,,16, , Holmwood Technical High,DQx, iaaf rule 163.3
+4X100 Meter Relay,Girls,3,,Finals,,,16,1,Edwin Allen High,45.74x, 12
+4X100 Meter Relay,Girls,3,,Finals,,,16,2,St. Catherine High,46.32x, 10
+4X100 Meter Relay,Girls,3,,Finals,,,16,3,St. Jago High,46.37x,8
+4X100 Meter Relay,Girls,3,,Finals,,,16,4,Hydel High,46.48x,6
+4X100 Meter Relay,Girls,3,,Finals,,,16,5,Wolmer's High School for Girls,47.17x,5
+4X100 Meter Relay,Girls,3,,Finals,,,16,6,Excelsior High,47.61x,4
+4X100 Meter Relay,Girls,3,,Finals,,,16,7,Holmwood Technical High,47.98x,3
+4X100 Meter Relay,Girls,3,,Finals,,,16,8,St. Mary High,48.82x,2
+4X100 Meter Relay,Boys,1,,Finals,,,16,1,Kingston College,39.87x, 12
+4X100 Meter Relay,Boys,1,,Finals,,,16,2,Jamaica College,40.24x, 10
+4X100 Meter Relay,Boys,1,,Finals,,,16,3,St. Jago High,40.81x,8
+4X100 Meter Relay,Boys,1,,Finals,,,16,4,Garvey Maceo High,41.93x,6
+4X100 Meter Relay,Boys,1,,Finals,,,16,5,St. Catherine High,42.12x,5
+4X100 Meter Relay,Boys,1,,Finals,,,16,6,Herbert Morrison Technical,42.18x,4
+4X100 Meter Relay,Boys,1,,Finals,,,16, , Calabar High,DQx, iaaf rule 170.7
+4X100 Meter Relay,Girls,4,,Finals,,,16,1,St. Jago High,47.58x, 12
+4X100 Meter Relay,Girls,4,,Finals,,,16,2,Hydel High,47.61x, 10
+4X100 Meter Relay,Girls,4,,Finals,,,16,3,Manchester High,49.14x,8
+4X100 Meter Relay,Girls,4,,Finals,,,16,4,St. Andrew High for Girls,49.25x,6
+4X100 Meter Relay,Girls,4,,Finals,,,16,5,Wolmer's High School for Girls,49.40x,5
+4X100 Meter Relay,Girls,4,,Finals,,,16,6,Immaculate Conception High,50.00x,4
+4X100 Meter Relay,Girls,4,,Finals,,,16,7,Holmwood Technical High,50.63x,3
+4X100 Meter Relay,Girls,4,,Finals,,,16,8,Camperdown High,51.09x,2
+4X400 Meter Relay,Boys,Open,,Finals,,,16,1,Calabar High,3:09.77x, 12
+4X400 Meter Relay,Boys,Open,,Finals,,,16,2,Kingston College,3:10.26x, 10
+4X400 Meter Relay,Boys,Open,,Finals,,,16,3,Jamaica College,3:15.06x,8
+4X400 Meter Relay,Boys,Open,,Finals,,,16,4,St. Jago High,3:15.66x,6
+4X400 Meter Relay,Boys,Open,,Finals,,,16,5,Edwin Allen High,3:17.15x,5
+4X400 Meter Relay,Boys,Open,,Finals,,,16,6,Greater Portmore High,3:17.19x,4
+4X400 Meter Relay,Boys,Open,,Finals,,,16,7,Munro College,3:17.74x,3
+4X400 Meter Relay,Boys,Open,,Finals,,,16,8,Spaldings High,3:22.01x,2
+4X400 Meter Relay,Girls,Open,,Finals,,,16,1,St. Elizabeth Technical High,3:37.40x, 12
+4X400 Meter Relay,Girls,Open,,Finals,,,16,2,Hydel High,3:38.87x, 10
+4X400 Meter Relay,Girls,Open,,Finals,,,16,3,Holmwood Technical High,3:39.78x,8
+4X400 Meter Relay,Girls,Open,,Finals,,,16,4,Edwin Allen High,3:41.28x,6
+4X400 Meter Relay,Girls,Open,,Finals,,,16,5,St. Jago High,3:41.97x,5
+4X400 Meter Relay,Girls,Open,,Finals,,,16,6,St. Andrew High for Girls,3:50.12x,4
+4X400 Meter Relay,Girls,Open,,Finals,,,16,7,St. Mary High,3:50.61x,3
+4X400 Meter Relay,Girls,Open,,Finals,,,16,8,St. Andrew Technical High,4:01.47x,2
+1600 Sprint Medley,Boys,Open,,Finals,,,16,1,St. Elizabeth Technical High,3:30.10x, 12
+1600 Sprint Medley,Boys,Open,,Finals,,,16,2,Manchester High,3:30.92x, 10
+1600 Sprint Medley,Boys,Open,,Finals,,,16,3,Excelsior High,3:31.33x,8
+1600 Sprint Medley,Boys,Open,,Finals,,,16,4,Jamaica College,3:31.38x,6
+1600 Sprint Medley,Boys,Open,,Finals,,,16,5,Calabar High,3:31.89x,5
+1600 Sprint Medley,Boys,Open,,Finals,,,16,6,Kingston College,3:37.26x,4
+1600 Sprint Medley,Boys,Open,,Finals,,,16,7,Holmwood Technical High,3:42.58x,3
+1600 Sprint Medley,Boys,Open,,Finals,,,16, , Edwin Allen High,DNFx,0
+1600 Sprint Medley,Girls,Open,,Finals,,,16,1,Hydel High,4:02.74x, 12
+1600 Sprint Medley,Girls,Open,,Finals,,,16,2,St. Jago High,4:03.80x, 10
+1600 Sprint Medley,Girls,Open,,Finals,,,16,3,Spaldings High,4:05.67x,8
+1600 Sprint Medley,Girls,Open,,Finals,,,16,4,Manchester High,4:07.70x,6
+1600 Sprint Medley,Girls,Open,,Finals,,,16,5,Edwin Allen High,4:10.34x,5
+1600 Sprint Medley,Girls,Open,,Finals,,,16,6,Excelsior High,4:11.21x,4
+1600 Sprint Medley,Girls,Open,,Finals,,,16,7,Camperdown High,4:17.13x,3
+1600 Sprint Medley,Girls,Open,,Finals,,,16,8,Holmwood Technical High,4:28.26x,2
+4X100 Meter Relay,Boys,2,,Finals,,,17,1,Jamaica College,40.60x, 12
+4X100 Meter Relay,Boys,2,,Finals,,,17,2,St. Elizabeth Technical High,41.18x, 10
+4X100 Meter Relay,Boys,2,,Finals,,,17,3,Kingston College,41.19x,8
+4X100 Meter Relay,Boys,2,,Finals,,,17,4,Calabar High,41.30x,6
+4X100 Meter Relay,Boys,2,,Finals,,,17,5,Excelsior High,41.35x,5
+4X100 Meter Relay,Boys,2,,Finals,,,17,6,St. Jago High,41.63x,4
+4X100 Meter Relay,Boys,2,,Finals,,,17,7,Rusea's High 'B','B'x,3
+4X100 Meter Relay,Boys,2,,Finals,,,17, , Wolmer's High School for Boys,DQx, IAAF RULE 170.7
+4X100 Meter Relay,Boys,3,,Finals,,,17,1,Kingston College,43.07x, 12
+4X100 Meter Relay,Boys,3,,Finals,,,17,2,Jamaica College,43.58x, 10
+4X100 Meter Relay,Boys,3,,Finals,,,17,3,St. Jago High,43.74x,8
+4X100 Meter Relay,Boys,3,,Finals,,,17,4,Calabar High,43.82x,6
+4X100 Meter Relay,Boys,3,,Finals,,,17,5,Wolmer's High School for Boys,44.65x,5
+4X100 Meter Relay,Boys,3,,Finals,,,17,6,St. James High,44.94x,4
+4X100 Meter Relay,Boys,3,,Finals,,,17,7,Camperdown High,45.78x,3
+4X100 Meter Relay,Boys,3,,Finals,,,17,8,Green Island High,46.52x,2
+4X100 Meter Relay,Girls,1,,Finals,,,17,1,Edwin Allen High,44.50x, 12
+4X100 Meter Relay,Girls,1,,Finals,,,17,2,Hydel High,44.80x, 10
+4X100 Meter Relay,Girls,1,,Finals,,,17,3,Excelsior High,45.59x,8
+4X100 Meter Relay,Girls,1,,Finals,,,17,4,Holmwood Technical High,45.67x,6
+4X100 Meter Relay,Girls,1,,Finals,,,17,5,Camperdown High,46.26x,5
+4X100 Meter Relay,Girls,1,,Finals,,,17,6,Wolmer's High School for Girl,46.49x,4
+4X100 Meter Relay,Girls,1,,Finals,,,17,7,Herbert Morrison Technical,46.66x,3
+4X100 Meter Relay,Girls,1,,Finals,,,17,8,The Queens School,47.35x,2
+4X100 Meter Relay,Girls,2,,Finals,,,17,1,Holmwood Technical High,44.90x, 12
+4X100 Meter Relay,Girls,2,,Finals,,,17,2,Hydel High,44.99x, 10
+4X100 Meter Relay,Girls,2,,Finals,,,17,3,St. Catherine High,45.57x,8
+4X100 Meter Relay,Girls,2,,Finals,,,17,4,Vere Technical High,45.73x,6
+4X100 Meter Relay,Girls,2,,Finals,,,17,5,Edwin Allen High,45.84x,5
+4X100 Meter Relay,Girls,2,,Finals,,,17,6,Manchester High,46.21x,4
+4X100 Meter Relay,Girls,2,,Finals,,,17,7,St. Elizabeth Technical High,46.63x,3
+4X100 Meter Relay,Girls,2,,Finals,,,17, , St. Jago High,DNFx,0
+4X100 Meter Relay,Girls,3,,Finals,,,17,1,Excelsior High,45.54x, 12
+4X100 Meter Relay,Girls,3,,Finals,,,17,2,Edwin Allen High,45.82x, 10
+4X100 Meter Relay,Girls,3,,Finals,,,17,3,Hydel High,45.82x,8
+4X100 Meter Relay,Girls,3,,Finals,,,17,4,St. Jago High,46.66x,6
+4X100 Meter Relay,Girls,3,,Finals,,,17,5,Manchester High,47.09x,5
+4X100 Meter Relay,Girls,3,,Finals,,,17,6,Herbert Morrison Technical,48.31x,4
+4X100 Meter Relay,Girls,3,,Finals,,,17, , Holmwood Technical High,DNFx,0
+4X100 Meter Relay,Girls,3,,Finals,,,17, , St. Catherine High,DNFx,0
+4X100 Meter Relay,Girls,4,,Finals,,,17,1,St. Jago High,46.23Rx,12
+4X100 Meter Relay,Girls,4,,Finals,,,17,2,Edwin Allen High,46.34Rx,10
+4X100 Meter Relay,Girls,4,,Finals,,,17,3,Hydel High,47.76x,8
+4X100 Meter Relay,Girls,4,,Finals,,,17,4,Immaculate Conception High,48.07x,6
+4X100 Meter Relay,Girls,4,,Finals,,,17,5,Camperdown High,48.72x,5
+4X100 Meter Relay,Girls,4,,Finals,,,17,6,Holmwood Technical High,48.74x,4
+4X100 Meter Relay,Girls,4,,Finals,,,17,7,Wolmer's High School for Girl,48.97x,3
+4X100 Meter Relay,Girls,4,,Finals,,,17,8,Mount Alvernia High,49.25x,2
+4X100 Meter Relay,Boys,1,,Finals,,,17,1,Calabar High,39.43x, 12
+4X100 Meter Relay,Boys,1,,Finals,,,17,2,Kingston College,40.07x, 10
+4X100 Meter Relay,Boys,1,,Finals,,,17,3,Jamaica College,40.20x,8
+4X100 Meter Relay,Boys,1,,Finals,,,17,4,Wolmer's High School for Boys,40.68x,6
+4X100 Meter Relay,Boys,1,,Finals,,,17,5,Greater Portmore High,41.01x,5
+4X100 Meter Relay,Boys,1,,Finals,,,17,6,St. Catherine High,41.27x,4
+4X100 Meter Relay,Boys,1,,Finals,,,17,7,St. Jago High,41.31x,3
+4X100 Meter Relay,Boys,1,,Finals,,,17, , Excelsior High,DQx, IAAF RULE 170.6A
+4X400 Meter Relay,Boys,Open,,Finals,,,17,1,Calabar High,3:08.76x, 12
+4X400 Meter Relay,Boys,Open,,Finals,,,17,2,St. Elizabeth Technical High,3:09.97x, 10
+4X400 Meter Relay,Boys,Open,,Finals,,,17,3,St. Jago High,3:11.00x,8
+4X400 Meter Relay,Boys,Open,,Finals,,,17,4,Jamaica College,3:11.77x,6
+4X400 Meter Relay,Boys,Open,,Finals,,,17,5,Kingston College,3:13.56x,5
+4X400 Meter Relay,Boys,Open,,Finals,,,17,6,Munro College,3:18.84x,4
+4X400 Meter Relay,Boys,Open,,Finals,,,17,7,Excelsior High,3:19.82x,3
+4X400 Meter Relay,Boys,Open,,Finals,,,17,8,Edwin Allen High,3:20.81x,2
+4X400 Meter Relay,Girls,Open,,Finals,,,17,1,Hydel High,3:35.15x, 12
+4X400 Meter Relay,Girls,Open,,Finals,,,17,2,St. Jago High,3:36.47x, 10
+4X400 Meter Relay,Girls,Open,,Finals,,,17,3,Holmwood Technical High,3:36.60x,8
+4X400 Meter Relay,Girls,Open,,Finals,,,17,4,Vere Technical High,3:42.68x,6
+4X400 Meter Relay,Girls,Open,,Finals,,,17,5,Edwin Allen High,3:45.29x,5
+4X400 Meter Relay,Girls,Open,,Finals,,,17,6,The Queens School,3:45.99x,4
+4X400 Meter Relay,Girls,Open,,Finals,,,17,7,Petersfield High,3:48.07x,3
+4X400 Meter Relay,Girls,Open,,Finals,,,17,8,Manchester High,3:54.14x,2
+1600 Sprint Medley,Boys,Open,,Finals,,,17,1,Spaldings High,3:27.75x, 12
+1600 Sprint Medley,Boys,Open,,Finals,,,17,2,St. Jago High,3:27.86x, 10
+1600 Sprint Medley,Boys,Open,,Finals,,,17,3,Kingston College,3:28.54x,8
+1600 Sprint Medley,Boys,Open,,Finals,,,17,4,Calabar High,3:29.32x,6
+1600 Sprint Medley,Boys,Open,,Finals,,,17,5,Jamaica College,3:33.58x,5
+1600 Sprint Medley,Boys,Open,,Finals,,,17,6,St. Mary High,3:35.33x,4
+1600 Sprint Medley,Boys,Open,,Finals,,,17,7,Petersfield High,3:35.42x,3
+1600 Sprint Medley,Boys,Open,,Finals,,,17,8,Wolmer's High School for Boys,3:38.69x,2
+1600 Sprint Medley,Girls,Open,,Finals,,,17,1,Spaldings High,3:57.58Rx,12
+1600 Sprint Medley,Girls,Open,,Finals,,,17,2,Edwin Allen High,4:03.28x, 10
+1600 Sprint Medley,Girls,Open,,Finals,,,17,3,Hydel High,4:03.59x,8
+1600 Sprint Medley,Girls,Open,,Finals,,,17,4,St. Jago High,4:08.57x,6
+1600 Sprint Medley,Girls,Open,,Finals,,,17,5,Excelsior High,4:09.93x,5
+1600 Sprint Medley,Girls,Open,,Finals,,,17,6,St. Catherine High,4:10.53x,4
+1600 Sprint Medley,Girls,Open,,Finals,,,17,7,St. Mary High,4:11.77x,3
+1600 Sprint Medley,Girls,Open,,Finals,,,17,8,Holmwood Technical High,4:14.35x,2
+4X100 Meter Relay,Boys,2,,Finals,,,18,1,St. Jago High,40.73x, 12
+4X100 Meter Relay,Boys,2,,Finals,,,18,2,Calabar High,41.54x, 10
+4X100 Meter Relay,Boys,2,,Finals,,,18,3,Jamaica College,41.89x,8
+4X100 Meter Relay,Boys,2,,Finals,,,18,4,Wolmer's High School for Boys,42.05x,6
+4X100 Meter Relay,Boys,2,,Finals,,,18,5,Excelsior High,42.86x,5
+4X100 Meter Relay,Boys,2,,Finals,,,18,6,York Castle High,43.20x,4
+4X100 Meter Relay,Boys,2,,Finals,,,18, , Kingston College,DQx, IAAF RULE 170.3
+4X100 Meter Relay,Boys,3,,Finals,,,18,1,Kingston College,42.43x, 12
+4X100 Meter Relay,Boys,3,,Finals,,,18,2,Jamaica College,43.69x, 10
+4X100 Meter Relay,Boys,3,,Finals,,,18,3,St. Elizabeth Technical High,44.09x,8
+4X100 Meter Relay,Boys,3,,Finals,,,18,4,Camperdown High,44.17x,6
+4X100 Meter Relay,Boys,3,,Finals,,,18,5,Petersfield High,44.76x,5
+4X100 Meter Relay,Boys,3,,Finals,,,18,6,Cornwall College,44.85x,4
+4X100 Meter Relay,Boys,3,,Finals,,,18,7,Wolmer's High School for Boys,44.85x,3
+4X100 Meter Relay,Boys,3,,Finals,,,18,8,Herbert Morrison Technical,45.21x,2
+4X100 Meter Relay,Girls,1,,Finals,,,18,1,Holmwood Technical High,44.64x, 12
+4X100 Meter Relay,Girls,1,,Finals,,,18,2,Hydel High,44.85x, 10
+4X100 Meter Relay,Girls,1,,Finals,,,18,3,St. Jago High,46.41x,8
+4X100 Meter Relay,Girls,1,,Finals,,,18,4,St. Catherine High,46.83x,6
+4X100 Meter Relay,Girls,1,,Finals,,,18,5,Vere Technical High,46.97x,5
+4X100 Meter Relay,Girls,1,,Finals,,,18,6,Excelsior High,46.98x,4
+4X100 Meter Relay,Girls,1,,Finals,,,18,7,The Queens School,49.91x,3
+4X100 Meter Relay,Girls,1,,Finals,,,18,8,Edwin Allen High,56.62x,2
+4X100 Meter Relay,Girls,2,,Finals,,,18,1,Edwin Allen High,44.91x, 12
+4X100 Meter Relay,Girls,2,,Finals,,,18,2,Hydel High,44.92x, 10
+4X100 Meter Relay,Girls,2,,Finals,,,18,3,Holmwood Technical High,45.52x,8
+4X100 Meter Relay,Girls,2,,Finals,,,18,4,St. Jago High,45.54x,6
+4X100 Meter Relay,Girls,2,,Finals,,,18,5,Excelsior High,45.89x,5
+4X100 Meter Relay,Girls,2,,Finals,,,18,6,St. Catherine High,45.92x,4
+4X100 Meter Relay,Girls,2,,Finals,,,18,7,Manchester High,46.69x,3
+4X100 Meter Relay,Girls,2,,Finals,,,18,8,Bridgeport High,47.23x,2
+4X100 Meter Relay,Girls,3,,Finals,,,18,1,Edwin Allen High,44.71Rx,12
+4X100 Meter Relay,Girls,3,,Finals,,,18,2,Hydel High,45.73x, 10
+4X100 Meter Relay,Girls,3,,Finals,,,18,3,St. Jago High,45.76x,8
+4X100 Meter Relay,Girls,3,,Finals,,,18,4,Holmwood Technical High,46.09x,6
+4X100 Meter Relay,Girls,3,,Finals,,,18,5,Excelsior High,46.94x,5
+4X100 Meter Relay,Girls,3,,Finals,,,18,6,Manchester High,47.39x,4
+4X100 Meter Relay,Girls,3,,Finals,,,18,7,St. Catherine High,48.75x,3
+4X100 Meter Relay,Girls,3,,Finals,,,18, , Immaculate Conception High,DNFx,0
+4X100 Meter Relay,Girls,4,,Finals,,,18,1,Hydel High,47.59x, 12
+4X100 Meter Relay,Girls,4,,Finals,,,18,2,Wolmer's High School for Girl,48.32x, 10
+4X100 Meter Relay,Girls,4,,Finals,,,18,3,St. Jago High,48.46x,8
+4X100 Meter Relay,Girls,4,,Finals,,,18,4,Manchester High,49.44x,6
+4X100 Meter Relay,Girls,4,,Finals,,,18,5,Immaculate Conception High,49.60x,5
+4X100 Meter Relay,Girls,4,,Finals,,,18,6,Excelsior High,49.68x,4
+4X100 Meter Relay,Girls,4,,Finals,,,18,7,Holmwood Technical High,49.80x,3
+4X100 Meter Relay,Girls,4,,Finals,,,18,8,Mount Alvernia High,50.08x,2
+4X100 Meter Relay,Boys,1,,Finals,,,18,1,Calabar High,39.17x, 12
+4X100 Meter Relay,Boys,1,,Finals,,,18,2,Kingston College,39.92x, 10
+4X100 Meter Relay,Boys,1,,Finals,,,18,3,Jamaica College,40.01x,8
+4X100 Meter Relay,Boys,1,,Finals,,,18,4,Papine High,40.71x,6
+4X100 Meter Relay,Boys,1,,Finals,,,18,5,Rusea's High,40.89x,5
+4X100 Meter Relay,Boys,1,,Finals,,,18,6,Wolmer's High School for Boys,41.08x,4
+4X100 Meter Relay,Boys,1,,Finals,,,18,7,Excelsior High,41.09x,3
+4X100 Meter Relay,Boys,1,,Finals,,,18,8,St. Jago High,41.16x,2
+4X400 Meter Relay,Boys,Open,,Finals,,,18,1,Petersfield High,3:10.64x, 12
+4X400 Meter Relay,Boys,Open,,Finals,,,18,2,Jamaica College,3:10.93x, 10
+4X400 Meter Relay,Boys,Open,,Finals,,,18,3,Rhodes Hall High,3:11.06x,8
+4X400 Meter Relay,Boys,Open,,Finals,,,18,4,St. Jago High,3:12.44x,6
+4X400 Meter Relay,Boys,Open,,Finals,,,18,5,Wolmer's High School for Boys,3:13.03x,5
+4X400 Meter Relay,Boys,Open,,Finals,,,18,6,Edwin Allen High,3:15.53x,4
+4X400 Meter Relay,Boys,Open,,Finals,,,18,7,Kingston College,3:23.60x,3
+4X400 Meter Relay,Boys,Open,,Finals,,,18, , Calabar High,DQx, ISSA RULE 5b
+4X400 Meter Relay,Girls,Open,,Finals,,,18,1,Hydel High,3:33.71x, 12
+4X400 Meter Relay,Girls,Open,,Finals,,,18,2,Edwin Allen High,3:37.86x, 10
+4X400 Meter Relay,Girls,Open,,Finals,,,18,3,Holmwood Technical High,3:38.11x,8
+4X400 Meter Relay,Girls,Open,,Finals,,,18,4,St. Jago High,3:40.91x,6
+4X400 Meter Relay,Girls,Open,,Finals,,,18,5,St. Elizabeth Technical High,3:43.15x,5
+4X400 Meter Relay,Girls,Open,,Finals,,,18,6,Vere Technical High,3:43.82x,4
+4X400 Meter Relay,Girls,Open,,Finals,,,18,7,The Queens School,3:46.64x,3
+1600 Sprint Medley,Boys,Open,,Finals,,,18,1,Kingston College,3:24.22Rx,12
+1600 Sprint Medley,Boys,Open,,Finals,,,18,2,Calabar High,3:24.80x, 10
+1600 Sprint Medley,Boys,Open,,Finals,,,18,3,Holmwood Technical High,3:25.04x,8
+1600 Sprint Medley,Boys,Open,,Finals,,,18,4,St. Jago High,3:26.04x,6
+1600 Sprint Medley,Boys,Open,,Finals,,,18,5,Wolmer's High School for Boys,3:30.33x,5
+1600 Sprint Medley,Boys,Open,,Finals,,,18,6,St. Elizabeth Technical High,3:31.09x,4
+1600 Sprint Medley,Boys,Open,,Finals,,,18,7,Rusea's High,3:33.21x,3
+1600 Sprint Medley,Boys,Open,,Finals,,,18,8,Excelsior High,3:35.39x,2
+1600 Sprint Medley,Boys,Open,,Finals,,,18,9,Edwin Allen High,3:39.58x,0
+1600 Sprint Medley,Girls,Open,,Finals,,,18,1,Holmwood Technical High,3:57.77x, 12
+1600 Sprint Medley,Girls,Open,,Finals,,,18,2,Spaldings High,3:58.41x, 10
+1600 Sprint Medley,Girls,Open,,Finals,,,18,3,Hydel High,4:00.07x,8
+1600 Sprint Medley,Girls,Open,,Finals,,,18,4,St. Jago High,4:02.35x,6
+1600 Sprint Medley,Girls,Open,,Finals,,,18,5,Rusea's High,4:02.64x,5
+1600 Sprint Medley,Girls,Open,,Finals,,,18,6,Edwin Allen High,4:04.32x,4
+1600 Sprint Medley,Girls,Open,,Finals,,,18,7,Manchester High,4:15.57x,3
+1600 Sprint Medley,Girls,Open,,Finals,,,18,8,Vere Technical High,4:22.31x,2
+4X100 Meter Relay,Boys,2,,Finals,,,19,1,Calabar High,41.51x, 12
+4X100 Meter Relay,Boys,2,,Finals,,,19,2,Wolmer's High School for Boys,41.59x, 10
+4X100 Meter Relay,Boys,2,,Finals,,,19,3,Jamaica College,41.71x,8
+4X100 Meter Relay,Boys,2,,Finals,,,19,4,St. Elizabeth Technical High,41.99x,6
+4X100 Meter Relay,Boys,2,,Finals,,,19,5,St. Jago High,42.08x,5
+4X100 Meter Relay,Boys,2,,Finals,,,19,6,Lacovia High,42.09x,4
+4X100 Meter Relay,Boys,2,,Finals,,,19,7,Camperdown High,42.37x,3
+4X100 Meter Relay,Boys,2,,Finals,,,19, , Kingston College,DNFx,0
+4X100 Meter Relay,Boys,3,,Finals,,,19,1,Kingston College,43.19x, 12
+4X100 Meter Relay,Boys,3,,Finals,,,19,2,Calabar High,43.48x, 10
+4X100 Meter Relay,Boys,3,,Finals,,,19,3,Jamaica College,43.69x,8
+4X100 Meter Relay,Boys,3,,Finals,,,19,4,St. Elizabeth Technical High,44.84x,6
+4X100 Meter Relay,Boys,3,,Finals,,,19,5,St. Jago High,44.91x,5
+4X100 Meter Relay,Boys,3,,Finals,,,19,6,Camperdown High,44.96x,4
+4X100 Meter Relay,Boys,3,,Finals,,,19,7,Wolmer's High School for Boys,45.35x,3
+4X100 Meter Relay,Boys,3,,Finals,,,19,8,Manchester High,46.41x,2
+4X100 Meter Relay,Girls,1,,Finals,,,19,1,Hydel High,44.44x, 12
+4X100 Meter Relay,Girls,1,,Finals,,,19,2,Edwin Allen High,45.06x, 10
+4X100 Meter Relay,Girls,1,,Finals,,,19,3,St. Jago High,45.19x,8
+4X100 Meter Relay,Girls,1,,Finals,,,19,4,Holmwood Technical High,45.75x,6
+4X100 Meter Relay,Girls,1,,Finals,,,19,5,Petersfield High,46.17x,5
+4X100 Meter Relay,Girls,1,,Finals,,,19,6,Rusea's High,47.04x,4
+4X100 Meter Relay,Girls,1,,Finals,,,19,7,The Queens School,48.43x,3
+4X100 Meter Relay,Girls,2,,Finals,,,19,1,Edwin Allen High,45.27x, 12
+4X100 Meter Relay,Girls,2,,Finals,,,19,2,Hydel High,45.29x, 10
+4X100 Meter Relay,Girls,2,,Finals,,,19,3,Excelsior High,45.33x,8
+4X100 Meter Relay,Girls,2,,Finals,,,19,4,St. Catherine High,46.41x,6
+4X100 Meter Relay,Girls,2,,Finals,,,19,5,Wolmer's High School for Girl,47.11x,5
+4X100 Meter Relay,Girls,2,,Finals,,,19,6,Holmwood Technical High,47.50x,4
+4X100 Meter Relay,Girls,2,,Finals,,,19,7,Rusea's High,47.78x,3
+4X100 Meter Relay,Girls,2,,Finals,,,19,8,St. Andrew High for Girls,48.63x,2
+4X100 Meter Relay,Girls,3,,Finals,,,19,1,Edwin Allen High,44.25Rx,12
+4X100 Meter Relay,Girls,3,,Finals,,,19,2,Hydel High,45.68x, 10
+4X100 Meter Relay,Girls,3,,Finals,,,19,3,St. Jago High,45.72x,8
+4X100 Meter Relay,Girls,3,,Finals,,,19,4,Immaculate Conception High,46.30x,6
+4X100 Meter Relay,Girls,3,,Finals,,,19,5,Rusea's High,47.33x,5
+4X100 Meter Relay,Girls,3,,Finals,,,19,6,Holmwood Technical High,47.75x,4
+4X100 Meter Relay,Girls,3,,Finals,,,19,7,Manchester High,48.27x,3
+4X100 Meter Relay,Girls,3,,Finals,,,19,8,Wolmer's High School for Girl,49.29x,2
+4X100 Meter Relay,Girls,4,,Finals,,,19,1,Immaculate Conception High,48.04x, 12
+4X100 Meter Relay,Girls,4,,Finals,,,19,2,Holmwood Technical High,48.58x, 10
+4X100 Meter Relay,Girls,4,,Finals,,,19,3,Titchfield High,48.66x,8
+4X100 Meter Relay,Girls,4,,Finals,,,19,4,Vere Technical High,48.81x,6
+4X100 Meter Relay,Girls,4,,Finals,,,19,5,St. Jago High,48.91x,5
+4X100 Meter Relay,Girls,4,,Finals,,,19,6,St. Mary High,48.92x,4
+4X100 Meter Relay,Girls,4,,Finals,,,19,7,Hydel High,49.45x,3
+4X100 Meter Relay,Girls,4,,Finals,,,19,8,Edwin Allen High,50.06x,2
+4X100 Meter Relay,Boys,1,,Finals,,,19,1,Kingston College,39.98x, 12
+4X100 Meter Relay,Boys,1,,Finals,,,19,2,Calabar High,40.15x, 10
+4X100 Meter Relay,Boys,1,,Finals,,,19,3,St. Jago High,40.53x,8
+4X100 Meter Relay,Boys,1,,Finals,,,19,4,St. Elizabeth Technical High,40.93x,6
+4X100 Meter Relay,Boys,1,,Finals,,,19,5,Jamaica College,40.98x,5
+4X100 Meter Relay,Boys,1,,Finals,,,19,6,Petersfield High,42.02x,4
+4X100 Meter Relay,Boys,1,,Finals,,,19, , Excelsior High,DNFx,0
+4X100 Meter Relay,Boys,1,,Finals,,,19, , Wolmer's High School for Boys,DNFx,0
+4X400 Meter Relay,Boys,Open,,Finals,,,19,1,Excelsior High,3:11.14x, 12
+4X400 Meter Relay,Boys,Open,,Finals,,,19,2,Kingston College,3:12.06x, 10
+4X400 Meter Relay,Boys,Open,,Finals,,,19,3,Holmwood Technical High,3:12.15x,8
+4X400 Meter Relay,Boys,Open,,Finals,,,19,4,Calabar High,3:12.34x,6
+4X400 Meter Relay,Boys,Open,,Finals,,,19,5,Rusea's High,3:13.54x,5
+4X400 Meter Relay,Boys,Open,,Finals,,,19,6,Petersfield High,3:16.43x,4
+4X400 Meter Relay,Boys,Open,,Finals,,,19,7,Jamaica College,3:16.98x,3
+4X400 Meter Relay,Boys,Open,,Finals,,,19,8,Munro College,3:18.52x,2
+4X400 Meter Relay,Girls,Open,,Finals,,,19,1,Hydel High,3:34.78x, 12
+4X400 Meter Relay,Girls,Open,,Finals,,,19,2,Holmwood Technical High,3:36.09x, 10
+4X400 Meter Relay,Girls,Open,,Finals,,,19,3,Spaldings High,3:40.14x,8
+4X400 Meter Relay,Girls,Open,,Finals,,,19,4,St. Jago High,3:41.16x,6
+4X400 Meter Relay,Girls,Open,,Finals,,,19,5,Edwin Allen High,3:43.01x,5
+4X400 Meter Relay,Girls,Open,,Finals,,,19,6,Manchester High,3:44.41x,4
+4X400 Meter Relay,Girls,Open,,Finals,,,19,7,The Queens School,3:47.40x,3
+4X400 Meter Relay,Girls,Open,,Finals,,,19,8,Petersfield High,3:49.60x,2
+1600 Sprint Medley,Boys,Open,,Finals,,,19,1,Calabar High,3:24.81x, 12
+1600 Sprint Medley,Boys,Open,,Finals,,,19,2,Kingston College,3:25.77x, 10
+1600 Sprint Medley,Boys,Open,,Finals,,,19,3,Edwin Allen High,3:25.90x,8
+1600 Sprint Medley,Boys,Open,,Finals,,,19,4,Holmwood Technical High,3:27.17x,6
+1600 Sprint Medley,Boys,Open,,Finals,,,19,5,Jamaica College,3:28.31x,5
+1600 Sprint Medley,Boys,Open,,Finals,,,19,6,Excelsior High,3:31.98x,4
+1600 Sprint Medley,Boys,Open,,Finals,,,19,7,Enid Bennett High,3:36.52x,3
+1600 Sprint Medley,Boys,Open,,Finals,,,19,8,St. Mary High,3:39.19x,2
+1600 Sprint Medley,Girls,Open,,Finals,,,19,1,Edwin Allen High,4:01.09x, 12
+1600 Sprint Medley,Girls,Open,,Finals,,,19,2,Hydel High,4:02.52x, 10
+1600 Sprint Medley,Girls,Open,,Finals,,,19,3,Holmwood Technical High,4:05.54x,8
+1600 Sprint Medley,Girls,Open,,Finals,,,19,4,St. Elizabeth Technical High,4:07.30x,6
+1600 Sprint Medley,Girls,Open,,Finals,,,19,5,Excelsior High,4:13.73x,5
+1600 Sprint Medley,Girls,Open,,Finals,,,19,6,St. Mary High,4:17.90x,4
+1600 Sprint Medley,Girls,Open,,Finals,,,19,7,Merl Grove High,4:18.72x,3
+1600 Sprint Medley,Girls,Open,,Finals,,,19, , St. Jago High,DQx, IAAF RULE 163.5A
+4X100 Meter Relay,Boys,2,,Finals,,,21,1,Jamaica College,40.97x, 12
+4X100 Meter Relay,Boys,2,,Finals,,,21,2,Calabar High,41.31x, 10
+4X100 Meter Relay,Boys,2,,Finals,,,21,3,Kingston College,41.78x,8
+4X100 Meter Relay,Boys,2,,Finals,,,21,4,St. Jago High,41.99x,6
+4X100 Meter Relay,Boys,2,,Finals,,,21,5,Wolmer's Boys School,42.66x,5
+4X100 Meter Relay,Boys,2,,Finals,,,21,6,Ferncourt High,43.19x,4
+4X100 Meter Relay,Boys,2,,Finals,,,21,7,Excelsior High,44.10x,3
+4X100 Meter Relay,Boys,2,,Finals,,,21, , Steer Town Academy,DNFx,0
+4X100 Meter Relay,Boys,3,,Finals,,,21,1,St. Elizabeth Technical,43.01x, 12
+4X100 Meter Relay,Boys,3,,Finals,,,21,2,Calabar High,44.31x, 10
+4X100 Meter Relay,Boys,3,,Finals,,,21,3,Jamaica College,44.84x,8
+4X100 Meter Relay,Boys,3,,Finals,,,21,4,St. Jago High,45.39x,6
+4X100 Meter Relay,Boys,3,,Finals,,,21,5,Kingston College,45.67x,5
+4X100 Meter Relay,Boys,3,,Finals,,,21,6,Cornwall College,46.03x,4
+4X100 Meter Relay,Boys,3,,Finals,,,21,7,Vere Technical,46.09x,3
+4X100 Meter Relay,Boys,3,,Finals,,,21,8,Clarendon College,47.44x,2
+4X100 Meter Relay,Girls,1,,Finals,,,21,1,St. Jago High,45.44x, 12
+4X100 Meter Relay,Girls,1,,Finals,,,21,2,Hydel High,45.51x, 10
+4X100 Meter Relay,Girls,1,,Finals,,,21,3,Holmwood Technical,45.59x,8
+4X100 Meter Relay,Girls,1,,Finals,,,21,4,Edwin Allen High,45.85x,6
+4X100 Meter Relay,Girls,1,,Finals,,,21,5,Rusea's High,46.67x,5
+4X100 Meter Relay,Girls,1,,Finals,,,21,6,The Queen's School,47.61x,4
+4X100 Meter Relay,Girls,1,,Finals,,,21,7,St. Catherine High,47.64x,3
+4X100 Meter Relay,Girls,2,,Finals,,,21,1,Edwin Allen High,44.81Rx,12
+4X100 Meter Relay,Girls,2,,Finals,,,21,2,Hydel High,45.50x, 10
+4X100 Meter Relay,Girls,2,,Finals,,,21,3,St. Jago High,47.08x,8
+4X100 Meter Relay,Girls,2,,Finals,,,21,4,Vere Technical,47.10x,6
+4X100 Meter Relay,Girls,2,,Finals,,,21,5,St. Catherine High,47.38x,5
+4X100 Meter Relay,Girls,2,,Finals,,,21,6,Rusea's High,48.12x,4
+4X100 Meter Relay,Girls,2,,Finals,,,21, , Excelsior High,DNFx,0
+4X100 Meter Relay,Girls,2,,Finals,,,21, , Immaculate Conception,DQx, TR 24.7
+4X100 Meter Relay,Girls,3,,Finals,,,21,1,Hydel High,46.44x, 12
+4X100 Meter Relay,Girls,3,,Finals,,,21,2,St. Jago High,47.35x, 10
+4X100 Meter Relay,Girls,3,,Finals,,,21,3,Edwin Allen High,47.62x,8
+4X100 Meter Relay,Girls,3,,Finals,,,21,4,Vere Technical,47.66x,6
+4X100 Meter Relay,Girls,3,,Finals,,,21,5,Holmwood Technical,47.91x,5
+4X100 Meter Relay,Girls,3,,Finals,,,21,6,Excelsior High,48.45x,4
+4X100 Meter Relay,Girls,3,,Finals,,,21,7,St. Catherine High,48.59x,3
+4X100 Meter Relay,Girls,3,,Finals,,,21,8,Immaculate Conception,57.36x,2
+4X100 Meter Relay,Girls,4,,Finals,,,21,1,Edwin Allen High,47.70x, 12
+4X100 Meter Relay,Girls,4,,Finals,,,21,2,Hydel High,48.25x, 10
+4X100 Meter Relay,Girls,4,,Finals,,,21,3,Vere Technical,48.71x,8
+4X100 Meter Relay,Girls,4,,Finals,,,21,4,St. Catherine High,49.26x,6
+4X100 Meter Relay,Girls,4,,Finals,,,21,5,St. Jago High,50.12x,5
+4X100 Meter Relay,Girls,4,,Finals,,,21,6,Wolmer's Girls School,50.44x,4
+4X100 Meter Relay,Girls,4,,Finals,,,21,7,St. Elizabeth Technical,50.93x,3
+4X100 Meter Relay,Girls,4,,Finals,,,21,8,Holmwood Technical,51.89x,2
+4X100 Meter Relay,Boys,1,,Finals,,,21,1,St. Jago High,39.75x, 12
+4X100 Meter Relay,Boys,1,,Finals,,,21,2,St. Elizabeth Technical,39.82x, 10
+4X100 Meter Relay,Boys,1,,Finals,,,21,3,Jamaica College,40.21x,8
+4X100 Meter Relay,Boys,1,,Finals,,,21,4,Kingston College,40.26x,6
+4X100 Meter Relay,Boys,1,,Finals,,,21,5,Edwin Allen High,40.46x,5
+4X100 Meter Relay,Boys,1,,Finals,,,21,6,Wolmer's Boys School,1:42.40x,4
+4X100 Meter Relay,Boys,1,,Finals,,,21, , St. Catherine High,FSx,0
+4X400 Meter Relay,Boys,Open,,Finals,,,21,1,Excelsior High,3:07.85x, 12
+4X400 Meter Relay,Boys,Open,,Finals,,,21,2,Calabar High,3:08.90x, 10
+4X400 Meter Relay,Boys,Open,,Finals,,,21,3,Edwin Allen High,3:11.77x,8
+4X400 Meter Relay,Boys,Open,,Finals,,,21,4,Holmwood Technical,3:12.81x,6
+4X400 Meter Relay,Boys,Open,,Finals,,,21,5,Kingston College,3:15.29x,5
+4X400 Meter Relay,Boys,Open,,Finals,,,21,6,St. Elizabeth Technical,3:19.58x,4
+4X400 Meter Relay,Boys,Open,,Finals,,,21,7,St. Jago High,3:23.98x,3
+4X400 Meter Relay,Boys,Open,,Finals,,,21, , Jamaica College,DQx, TR 163.3A
+4X400 Meter Relay,Girls,Open,,Finals,,,21,1,Hydel High,3:38.99x, 12
+4X400 Meter Relay,Girls,Open,,Finals,,,21,2,Holmwood Technical,3:40.27x, 10
+4X400 Meter Relay,Girls,Open,,Finals,,,21,3,St. Jago High,3:41.68x,8
+4X400 Meter Relay,Girls,Open,,Finals,,,21,4,Edwin Allen High,3:44.51x,6
+4X400 Meter Relay,Girls,Open,,Finals,,,21,5,Vere Technical,3:46.41x,5
+4X400 Meter Relay,Girls,Open,,Finals,,,21,6,Excelsior High,3:48.47x,4
+4X400 Meter Relay,Girls,Open,,Finals,,,21,7,St. Mary High,3:53.65x,3
+4X400 Meter Relay,Girls,Open,,Finals,,,21,8,The Queen's School,3:55.18x,2
+1600 Sprint Medley,Boys,Open,,Finals,,,21,1,St. Elizabeth Technical,3:26.19x, 12
+1600 Sprint Medley,Boys,Open,,Finals,,,21,2,Kingston College,3:28.90x, 10
+1600 Sprint Medley,Boys,Open,,Finals,,,21,3,Jamaica College,3:31.77x,8
+1600 Sprint Medley,Boys,Open,,Finals,,,21,4,St. Jago High,3:31.82x,6
+1600 Sprint Medley,Boys,Open,,Finals,,,21,5,Excelsior High,3:40.04x,5
+1600 Sprint Medley,Boys,Open,,Finals,,,21,6,Cornwall College,3:46.86x,4
+1600 Sprint Medley,Boys,Open,,Finals,,,21,7,Wolmer's Boys School,3:55.34x,3
+1600 Sprint Medley,Boys,Open,,Finals,,,21, , Calabar High,DQx, TR 170.1.4 
+1600 Sprint Medley,Girls,Open,,Finals,,,21,1,Manchester High,4:03.25x, 12
+1600 Sprint Medley,Girls,Open,,Finals,,,21,2,Holmwood Technical,4:03.87x, 10
+1600 Sprint Medley,Girls,Open,,Finals,,,21,3,Hydel High,4:04.79x,8
+1600 Sprint Medley,Girls,Open,,Finals,,,21,4,St. Jago High,4:08.14x,6
+1600 Sprint Medley,Girls,Open,,Finals,,,21,5,Edwin Allen High,4:11.41x,5
+1600 Sprint Medley,Girls,Open,,Finals,,,21,6,Port Antonio High,4:11.67x,4
+1600 Sprint Medley,Girls,Open,,Finals,,,21,7,Maggotty High,4:18.67x,3
+1600 Sprint Medley,Girls,Open,,Finals,,,21,8,Vere Technical,4:27.48x,2
+4X100 Meter Relay,Boys,2,,Finals,,,22,1,Kingston College,41.29x, 12
+4X100 Meter Relay,Boys,2,,Finals,,,22,2,St. Elizabeth Technical,41.74x, 10
+4X100 Meter Relay,Boys,2,,Finals,,,22,3,Calabar High,41.86x,8
+4X100 Meter Relay,Boys,2,,Finals,,,22,4,Edwin Allen High,43.45x,6
+4X100 Meter Relay,Boys,2,,Finals,,,22,5,Herbert Morrison Technical,43.50x,5
+4X100 Meter Relay,Boys,2,,Finals,,,22, , Jamaica College,DNFx,0
+4X100 Meter Relay,Boys,2,,Finals,,,22, , Wolmer's Boys School,DQx, TR 24.7
+4X100 Meter Relay,Boys,2,,Finals,,,22, , Camperdown High,DQx, TR 17.4
+4X100 Meter Relay,Boys,3,,Finals,,,22,1,Calabar High,43.99x, 12
+4X100 Meter Relay,Boys,3,,Finals,,,22,2,St. Jago High,44.86x, 10
+4X100 Meter Relay,Boys,3,,Finals,,,22,3,Jamaica College,44.88x,8
+4X100 Meter Relay,Boys,3,,Finals,,,22,4,Ferncourt High,44.90x,6
+4X100 Meter Relay,Boys,3,,Finals,,,22,5,Excelsior High,45.42x,5
+4X100 Meter Relay,Boys,3,,Finals,,,22,6,Herbert Morrison Technical,46.04x,4
+4X100 Meter Relay,Boys,3,,Finals,,,22,7,St. Catherine High,46.15x,3
+4X100 Meter Relay,Boys,3,,Finals,,,22,8,Edwin Allen High,46.45x,2
+4X100 Meter Relay,Girls,1,,Finals,,,22,1,Edwin Allen High,43.28Rx,12
+4X100 Meter Relay,Girls,1,,Finals,,,22,2,St. Jago High,45.05x, 10
+4X100 Meter Relay,Girls,1,,Finals,,,22,3,Hydel High,45.12x,8
+4X100 Meter Relay,Girls,1,,Finals,,,22,4,Manchester High,45.94x,6
+4X100 Meter Relay,Girls,1,,Finals,,,22,5,Immaculate Conception,46.36x,5
+4X100 Meter Relay,Girls,1,,Finals,,,22,6,Holmwood Technical,46.90x,4
+4X100 Meter Relay,Girls,1,,Finals,,,22,7,St. Catherine High,47.30x,3
+4X100 Meter Relay,Girls,1,,Finals,,,22,8,Bustamante High,48.56x,2
+4X100 Meter Relay,Girls,2,,Finals,,,22,1,Holmwood Technical,46.33x, 12
+4X100 Meter Relay,Girls,2,,Finals,,,22,2,St. Catherine High,46.45x, 10
+4X100 Meter Relay,Girls,2,,Finals,,,22,3,Edwin Allen High,46.55x,8
+4X100 Meter Relay,Girls,2,,Finals,,,22,4,St. Jago High,46.88x,6
+4X100 Meter Relay,Girls,2,,Finals,,,22,5,Mount Alvernia High,46.93x,5
+4X100 Meter Relay,Girls,2,,Finals,,,22,6,Wolmer's Girls School,46.97x,4
+4X100 Meter Relay,Girls,2,,Finals,,,22,7,Vere Technical,47.03x,3
+4X100 Meter Relay,Girls,2,,Finals,,,22, , Hydel High,DNFx,0
+4X100 Meter Relay,Girls,3,,Finals,,,22,1,St. Jago High,45.64x, 12
+4X100 Meter Relay,Girls,3,,Finals,,,22,2,Hydel High,46.19x, 10
+4X100 Meter Relay,Girls,3,,Finals,,,22,3,Holmwood Technical,46.67x,8
+4X100 Meter Relay,Girls,3,,Finals,,,22,4,Excelsior High,47.64x,6
+4X100 Meter Relay,Girls,3,,Finals,,,22,5,St. Catherine High,47.68x,5
+4X100 Meter Relay,Girls,3,,Finals,,,22,6,Wolmer's Girls School,48.01x,4
+4X100 Meter Relay,Girls,3,,Finals,,,22, , Alpha Academy,DNFx,0
+4X100 Meter Relay,Girls,3,,Finals,,,22, , Edwin Allen High,DQx, TR 24.7
+4X100 Meter Relay,Girls,4,,Finals,,,22,1,Immaculate Conception,47.34x, 12
+4X100 Meter Relay,Girls,4,,Finals,,,22,2,Edwin Allen High,48.25x, 10
+4X100 Meter Relay,Girls,4,,Finals,,,22,3,Hydel High,48.58x,8
+4X100 Meter Relay,Girls,4,,Finals,,,22,4,St. Jago High,48.66x,6
+4X100 Meter Relay,Girls,4,,Finals,,,22,5,Wolmer's Girls School,48.98x,5
+4X100 Meter Relay,Girls,4,,Finals,,,22,6,Excelsior High,49.36x,4
+4X100 Meter Relay,Girls,4,,Finals,,,22,7,Vere Technical,49.97x,3
+4X100 Meter Relay,Girls,4,,Finals,,,22,8,Ferncourt High,50.27x,2
+4X400 Meter Relay,Boys,Open,,Finals,,,22,1,Jamaica College,3:10.04x, 12
+4X400 Meter Relay,Boys,Open,,Finals,,,22,2,Kingston College,3:10.68x, 10
+4X400 Meter Relay,Boys,Open,,Finals,,,22,3,St. Jago High,3:11.69x,8
+4X400 Meter Relay,Boys,Open,,Finals,,,22,4,Excelsior High,3:12.47x,6
+4X400 Meter Relay,Boys,Open,,Finals,,,22,5,Calabar High,3:12.60x,5
+4X400 Meter Relay,Boys,Open,,Finals,,,22,6,Edwin Allen High,3:14.54x,4
+4X400 Meter Relay,Boys,Open,,Finals,,,22,7,St. Elizabeth Technical,3:19.03x,3
+4X400 Meter Relay,Boys,Open,,Finals,,,22,8,Manchester High,3:33.18x,2
+4X400 Meter Relay,Girls,Open,,Finals,,,22,1,Hydel High,3:35.38x, 12
+4X400 Meter Relay,Girls,Open,,Finals,,,22,2,Edwin Allen High,3:37.71x, 10
+4X400 Meter Relay,Girls,Open,,Finals,,,22,3,Holmwood Technical,3:38.34x,8
+4X400 Meter Relay,Girls,Open,,Finals,,,22,4,St. Mary High,3:44.22x,6
+4X400 Meter Relay,Girls,Open,,Finals,,,22,5,Excelsior High,3:46.18x,5
+4X400 Meter Relay,Girls,Open,,Finals,,,22,6,St. Catherine High,3:47.41x,4
+4X400 Meter Relay,Girls,Open,,Finals,,,22,7,St. Jago High,3:51.20x,3
+4X400 Meter Relay,Girls,Open,,Finals,,,22,8,Manchester High,3:57.64x,2
+1600 Sprint Medley,Boys,Open,,Finals,,,22,1,Kingston College,3:27.66x, 12
+1600 Sprint Medley,Boys,Open,,Finals,,,22,2,St. Elizabeth Technical,3:27.70x, 10
+1600 Sprint Medley,Boys,Open,,Finals,,,22,3,Jamaica College,3:30.97x,8
+1600 Sprint Medley,Boys,Open,,Finals,,,22,4,Calabar High,3:33.64x,6
+1600 Sprint Medley,Boys,Open,,Finals,,,22,5,Vere Technical,3:37.03x,5
+1600 Sprint Medley,Boys,Open,,Finals,,,22,6,Petersfield High,3:39.75x,4
+1600 Sprint Medley,Boys,Open,,Finals,,,22,7,Excelsior High,3:40.89x,3
+1600 Sprint Medley,Boys,Open,,Finals,,,22,8,William Knibb Memorial,3:41.02x,2
+1600 Sprint Medley,Girls,Open,,Finals,,,22,1,Edwin Allen High,3:58.87x, 12
+1600 Sprint Medley,Girls,Open,,Finals,,,22,2,Alphansus Davis High,4:06.74x, 10
+1600 Sprint Medley,Girls,Open,,Finals,,,22,3,Holmwood Technical,4:07.31x,8
+1600 Sprint Medley,Girls,Open,,Finals,,,22,4,Dinthill Technical,4:10.94x,6
+1600 Sprint Medley,Girls,Open,,Finals,,,22,5,St. Catherine High,4:13.81x,5
+1600 Sprint Medley,Girls,Open,,Finals,,,22,6,The Queen's School,4:15.69x,4
+1600 Sprint Medley,Girls,Open,,Finals,,,22,7,Maggotty High,4:23.68x,3
+1600 Sprint Medley,Girls,Open,,Finals,,,22,8,Excelsior High,4:32.22x,2
+4X100 Meter Relay,Boys,2,,Finals,,,23,1,Calabar High,40.41x, 12
+4X100 Meter Relay,Boys,2,,Finals,,,23,2,Kingston College,40.58x, 10
+4X100 Meter Relay,Boys,2,,Finals,,,23,3,St. Elizabeth Technical,40.74x,8
+4X100 Meter Relay,Boys,2,,Finals,,,23,4,Jamaica College,41.43x,6
+4X100 Meter Relay,Boys,2,,Finals,,,23,5,St. Catherine High,42.59x,5
+4X100 Meter Relay,Boys,2,,Finals,,,23,6,Excelsior High,42.75x,4
+4X100 Meter Relay,Boys,2,,Finals,,,23,7,St. George's College,42.79x,3
+4X100 Meter Relay,Boys,2,,Finals,,,23,8,Clarendon College,43.22x,2
+4X100 Meter Relay,Boys,3,,Finals,,,23,1,St. Jago High,43.11x, 12
+4X100 Meter Relay,Boys,3,,Finals,,,23,2,Wolmer's Boys School,43.12x, 10
+4X100 Meter Relay,Boys,3,,Finals,,,23,3,Kingston College,43.21x,8
+4X100 Meter Relay,Boys,3,,Finals,,,23,4,Herbert Morrison Technical,44.84x,6
+4X100 Meter Relay,Boys,3,,Finals,,,23,5,Petersfield High,45.03x,5
+4X100 Meter Relay,Boys,3,,Finals,,,23,6,St. Elizabeth Technical,45.49x,4
+4X100 Meter Relay,Boys,3,,Finals,,,23, , Cornwall College,DNFx,0
+4X100 Meter Relay,Boys,3,,Finals,,,23, , St. George's College,DNFx,0
+4X100 Meter Relay,Girls,1,,Finals,,,23,1,Hydel High,44.33x, 12
+4X100 Meter Relay,Girls,1,,Finals,,,23,2,Edwin Allen High,44.77x, 10
+4X100 Meter Relay,Girls,1,,Finals,,,23,3,Holmwood Technical,45.71x,8
+4X100 Meter Relay,Girls,1,,Finals,,,23,4,St. Catherine High,46.47x,6
+4X100 Meter Relay,Girls,1,,Finals,,,23,5,Wolmer's Girls School,47.99x,5
+4X100 Meter Relay,Girls,1,,Finals,,,23,6,St. Jago High,49.45x,4
+4X100 Meter Relay,Girls,1,,Finals,,,23, , Excelsior High,DNFx,0
+4X100 Meter Relay,Girls,1,,Finals,,,23, , Vere Technical,DNFx,0
+4X100 Meter Relay,Girls,2,,Finals,,,23,1,Hydel High,45.01x, 12
+4X100 Meter Relay,Girls,2,,Finals,,,23,2,St. Jago High,45.95x, 10
+4X100 Meter Relay,Girls,2,,Finals,,,23,3,Holmwood Technical,46.43x,8
+4X100 Meter Relay,Girls,2,,Finals,,,23,4,St. Catherine High,46.82x,6
+4X100 Meter Relay,Girls,2,,Finals,,,23,5,Excelsior High,47.71x,5
+4X100 Meter Relay,Girls,2,,Finals,,,23,6,St. Elizabeth Technical,50.55x,4
+4X100 Meter Relay,Girls,2,,Finals,,,23, , St. Mary High,DNFx,0
+4X100 Meter Relay,Girls,2,,Finals,,,23, , Immaculate Conception,DNFx,0
+4X100 Meter Relay,Girls,3,,Finals,,,23,1,Wolmer's Girls School,45.81x, 12
+4X100 Meter Relay,Girls,3,,Finals,,,23,2,Excelsior High,46.41x, 10
+4X100 Meter Relay,Girls,3,,Finals,,,23,3,Edwin Allen High,46.72x,8
+4X100 Meter Relay,Girls,3,,Finals,,,23,4,Immaculate Conception,47.08x,6
+4X100 Meter Relay,Girls,3,,Finals,,,23,5,St. Catherine High,47.23x,5
+4X100 Meter Relay,Girls,3,,Finals,,,23,6,Vere Technical,47.27x,4
+4X100 Meter Relay,Girls,3,,Finals,,,23,7,Ferncourt High,48.16x,3
+4X100 Meter Relay,Girls,3,,Finals,,,23, , St. Mary High,DNFx,0
+4X100 Meter Relay,Girls,4,,Finals,,,23,1,Mount Alvernia High,48.54x, 12
+4X100 Meter Relay,Girls,4,,Finals,,,23,2,Holmwood Technical,48.59x, 10
+4X100 Meter Relay,Girls,4,,Finals,,,23,3,St. Jago High,48.83x,8
+4X100 Meter Relay,Girls,4,,Finals,,,23,4,Immaculate Conception,48.85x,6
+4X100 Meter Relay,Girls,4,,Finals,,,23,5,Edwin Allen High,49.00x,5
+4X100 Meter Relay,Girls,4,,Finals,,,23,6,Clarendon College,49.58x,4
+4X100 Meter Relay,Girls,4,,Finals,,,23,7,Hydel High,50.01x,3
+4X100 Meter Relay,Girls,4,,Finals,,,23,8,Vere Technical,50.08x,2
+4X100 Meter Relay,Boys,1,,Finals,,,23,1,Kingston College,40.01x, 12
+4X100 Meter Relay,Boys,1,,Finals,,,23,2,St. Jago High,40.40x, 10
+4X100 Meter Relay,Boys,1,,Finals,,,23,3,Edwin Allen High,40.59x,8
+4X100 Meter Relay,Boys,1,,Finals,,,23,4,Steer Town Academy,41.10x,6
+4X100 Meter Relay,Boys,1,,Finals,,,23,5,Calabar High,41.22x,5
+4X100 Meter Relay,Boys,1,,Finals,,,23,6,Wolmer's Boys School,41.57x,4
+4X100 Meter Relay,Boys,1,,Finals,,,23,7,St. George's College,41.63x,3
+4X100 Meter Relay,Boys,1,,Finals,,,23, , St. Elizabeth Technical,DQx, TR 17.2.2
+4X400 Meter Relay,Boys,Open,,Finals,,,23,1,Jamaica College,3:09.31x, 12
+4X400 Meter Relay,Boys,Open,,Finals,,,23,2,Edwin Allen High,3:10.09x, 10
+4X400 Meter Relay,Boys,Open,,Finals,,,23,3,Kingston College,3:11.46x,8
+4X400 Meter Relay,Boys,Open,,Finals,,,23,4,Excelsior High,3:15.23x,6
+4X400 Meter Relay,Boys,Open,,Finals,,,23,5,St. Elizabeth Technical,3:16.11x,5
+4X400 Meter Relay,Boys,Open,,Finals,,,23,6,St. Jago High,3:16.15x,4
+4X400 Meter Relay,Boys,Open,,Finals,,,23,7,Wolmer's Boys School,3:32.94x,3
+4X400 Meter Relay,Boys,Open,,Finals,,,23, , Calabar High,FSx,0
+4X400 Meter Relay,Girls,Open,,Finals,,,23,1,Edwin Allen High,3:31.78x, 12
+4X400 Meter Relay,Girls,Open,,Finals,,,23,2,Hydel High,3:34.57x, 10
+4X400 Meter Relay,Girls,Open,,Finals,,,23,3,Holmwood Technical,3:36.46x,8
+4X400 Meter Relay,Girls,Open,,Finals,,,23,4,St. Catherine High,3:39.28x,6
+4X400 Meter Relay,Girls,Open,,Finals,,,23,5,St. Mary High,3:48.38x,5
+4X400 Meter Relay,Girls,Open,,Finals,,,23,6,Wolmer's Girls School,3:55.23x,4
+4X400 Meter Relay,Girls,Open,,Finals,,,23, , Vere Technical,DNSx,0
+4X400 Meter Relay,Girls,Open,,Finals,,,23, , St. Elizabeth Technical,DNSx,0
+1600 Sprint Medley,Boys,Open,,Finals,,,23,1,Kingston College,3:26.98x, 12
+1600 Sprint Medley,Boys,Open,,Finals,,,23,2,Jamaica College,3:30.95x, 10
+1600 Sprint Medley,Boys,Open,,Finals,,,23,3,Titchfield High,3:31.59x,8
+1600 Sprint Medley,Boys,Open,,Finals,,,23,4,St. Jago High,3:33.47x,6
+1600 Sprint Medley,Boys,Open,,Finals,,,23,5,St. Elizabeth Technical,3:34.30x,5
+1600 Sprint Medley,Boys,Open,,Finals,,,23,6,Excelsior High,3:36.17x,4
+1600 Sprint Medley,Boys,Open,,Finals,,,23,7,Petersfield High,3:43.23x,3
+1600 Sprint Medley,Boys,Open,,Finals,,,23,8,Dinthill Technical,3:45.32x,2
+1600 Sprint Medley,Girls,Open,,Finals,,,23,1,Holmwood Technical,4:01.46x, 12
+1600 Sprint Medley,Girls,Open,,Finals,,,23,2,St. Jago High,4:03.06x, 10
+1600 Sprint Medley,Girls,Open,,Finals,,,23,3,William Knibb Memorial,4:07.68x,8
+1600 Sprint Medley,Girls,Open,,Finals,,,23,4,Mount Alvernia High,4:16.98x,6
+1600 Sprint Medley,Girls,Open,,Finals,,,23,5,Manchester High,4:21.95x,5
+1600 Sprint Medley,Girls,Open,,Finals,,,23,6,Maggotty High,4:25.15x,4
+1600 Sprint Medley,Girls,Open,,Finals,,,23, , Excelsior High,DQx, TR 17.2.1
+1600 Sprint Medley,Girls,Open,,Finals,,,23, , Edwin Allen High,DQx, TR 17.3.2
+4X100 Meter Relay,Boys,2,,Finals,,,24,1,Excelsior High School,41.13x, 12
+4X100 Meter Relay,Boys,2,,Finals,,,24,2,Kingston College,41.85x, 10
+4X100 Meter Relay,Boys,2,,Finals,,,24,3,Calabar High School,41.38x,8
+4X100 Meter Relay,Boys,2,,Finals,,,24,4,Jamaica College,42.44x,6
+4X100 Meter Relay,Boys,2,,Finals,,,24,5,St. George's College,42.55x,5
+4X100 Meter Relay,Boys,2,,Finals,,,24,6,St. Catherine High School,42.35x,4
+4X100 Meter Relay,Boys,2,,Finals,,,24,7,Petersfield High School,43.13x,3
+4X100 Meter Relay,Boys,2,,Finals,,,24,8,Manchester High School,43.03x,2
+4X100 Meter Relay,Boys,3,,Finals,,,24,1,Calabar High School,44.11x, 12
+4X100 Meter Relay,Boys,3,,Finals,,,24,2,Wolmer's Boys School,44.23x, 10
+4X100 Meter Relay,Boys,3,,Finals,,,24,3,St. George's College,44.23x,8
+4X100 Meter Relay,Boys,3,,Finals,,,24,4,St. Elizabeth Technical High S,44.97x,6
+4X100 Meter Relay,Boys,3,,Finals,,,24,5,Herbert Morrison Technical Hig,46.00x,5
+4X100 Meter Relay,Boys,3,,Finals,,,24,6,Edwin Allen High School,44.87x,4
+4X100 Meter Relay,Boys,3,,Finals,,,24,7,York Castle High School,46.06x,3
+4X100 Meter Relay,Boys,3,,Finals,,,24, , Kingston College,43.87x, TR 24. 21
+4X100 Meter Relay,Girls,1,,Finals,,,24,1,Hydel High School,45.57x, 12
+4X100 Meter Relay,Girls,1,,Finals,,,24,2,Edwin Allen High School,45.73x, 10
+4X100 Meter Relay,Girls,1,,Finals,,,24,3,Wolmer's Girls School,45.40x,8
+4X100 Meter Relay,Girls,1,,Finals,,,24,4,Holmwood Technical High School,46.05x,6
+4X100 Meter Relay,Girls,1,,Finals,,,24,5,St. Catherine High School,46.31x,5
+4X100 Meter Relay,Girls,1,,Finals,,,24,6,St. Jago High School,47.43x,4
+4X100 Meter Relay,Girls,1,,Finals,,,24,7,Manchester High School,47.50x,3
+4X100 Meter Relay,Girls,1,,Finals,,,24,8,St. Mary High School,47.64x,2
+4X100 Meter Relay,Girls,2,,Finals,,,24,1,Edwin Allen High School,46.20x, 12
+4X100 Meter Relay,Girls,2,,Finals,,,24,2,Hydel High School,46.59x, 10
+4X100 Meter Relay,Girls,2,,Finals,,,24,3,Wolmer's Girls School,45.86x,8
+4X100 Meter Relay,Girls,2,,Finals,,,24,4,Immaculate Conception,47.03x,6
+4X100 Meter Relay,Girls,2,,Finals,,,24,5,St. Mary High School,46.81x,5
+4X100 Meter Relay,Girls,2,,Finals,,,24,6,Holmwood Technical High School,47.23x,4
+4X100 Meter Relay,Girls,2,,Finals,,,24,7,Excelsior High School,47.16x,3
+4X100 Meter Relay,Girls,2,,Finals,,,24, , St. Jago High School,45.33x,DNF
+4X100 Meter Relay,Girls,3,,Finals,,,24,1,St. Jago High School,46.35x, 12
+4X100 Meter Relay,Girls,3,,Finals,,,24,2,Immaculate Conception,46.52x, 10
+4X100 Meter Relay,Girls,3,,Finals,,,24,3,Hydel High School,46.96x,8
+4X100 Meter Relay,Girls,3,,Finals,,,24,4,Edwin Allen High School,46.71x,6
+4X100 Meter Relay,Girls,3,,Finals,,,24,5,Holmwood Technical High School,47.19x,5
+4X100 Meter Relay,Girls,3,,Finals,,,24,6,Wolmer's Girls School,47.49x,4
+4X100 Meter Relay,Girls,3,,Finals,,,24,7,Convent of Mercy Academy Alpha,47.49x,3
+4X100 Meter Relay,Girls,3,,Finals,,,24,8,St. Mary High School,47.36x,2
+4X100 Meter Relay,Girls,4,,Finals,,,24,1,Hydel High School,48.10x, 12
+4X100 Meter Relay,Girls,4,,Finals,,,24,2,Convent of Mercy Academy Alpha,49.10x, 10
+4X100 Meter Relay,Girls,4,,Finals,,,24,3,Edwin Allen High School,48.40x,8
+4X100 Meter Relay,Girls,4,,Finals,,,24,4,Holmwood Technical High School,48.58x,6
+4X100 Meter Relay,Girls,4,,Finals,,,24,5,St. Jago High School,49.33x,5
+4X100 Meter Relay,Girls,4,,Finals,,,24,6,Wolmer's Girls School,49.44x,4
+4X100 Meter Relay,Girls,4,,Finals,,,24,7,St. Andrew High for Girls,49.65x,3
+4X100 Meter Relay,Girls,4,,Finals,,,24,8,St. Catherine High School,49.69x,2
+4X100 Meter Relay,Boys,1,,Finals,,,24,1,Jamaica College,40.98x, 12
+4X100 Meter Relay,Boys,1,,Finals,,,24,2,Calabar High School,40.53x, 10
+4X100 Meter Relay,Boys,1,,Finals,,,24,3,St. Jago High School,41.02x,8
+4X100 Meter Relay,Boys,1,,Finals,,,24,4,Excelsior High School,40.70x,6
+4X100 Meter Relay,Boys,1,,Finals,,,24,5,Kingston College,40.70x,5
+4X100 Meter Relay,Boys,1,,Finals,,,24,6,Herbert Morrison Technical Hig,41.03x,4
+4X100 Meter Relay,Boys,1,,Finals,,,24, , Wolmer's Boys School,41.06x,DNF
+4X100 Meter Relay,Boys,1,,Finals,,,24, , St. George's College,41.07x, TR 24.7
+4X400 Meter Relay,Boys,Open,,Finals,,,24,1,Kingston College,3:15.95x, 12
+4X400 Meter Relay,Boys,Open,,Finals,,,24,2,Jamaica College,3:16.81x, 10
+4X400 Meter Relay,Boys,Open,,Finals,,,24,3,William Knibb Memorial,3:16.73x,8
+4X400 Meter Relay,Boys,Open,,Finals,,,24,4,Calabar High School,3:18.60x,6
+4X400 Meter Relay,Boys,Open,,Finals,,,24,5,Excelsior High School,3:18.72x,5
+4X400 Meter Relay,Boys,Open,,Finals,,,24,6,Edwin Allen High School,3:16.89x,4
+4X400 Meter Relay,Boys,Open,,Finals,,,24,7,Clarendon College,3:18.69x,3
+4X400 Meter Relay,Boys,Open,,Finals,,,24,8,Herbert Morrison Technical Hig,3:19.39x,2
+4X400 Meter Relay,Girls,Open,,Finals,,,24,1,Hydel High School,3:45.03x, 12
+4X400 Meter Relay,Girls,Open,,Finals,,,24,2,Edwin Allen High School,3:44.08x, 10
+4X400 Meter Relay,Girls,Open,,Finals,,,24,3,Wolmer's Girls School,3:47.06x,8
+4X400 Meter Relay,Girls,Open,,Finals,,,24,4,Excelsior High School,3:48.22x,6
+4X400 Meter Relay,Girls,Open,,Finals,,,24,5,Holmwood Technical High School,3:45.01x,5
+4X400 Meter Relay,Girls,Open,,Finals,,,24,6,Vere Technical High School,3:48.73x,4
+4X400 Meter Relay,Girls,Open,,Finals,,,24,7,Alphansus Davis High School,3:51.76x,3
+4X400 Meter Relay,Girls,Open,,Finals,,,24,8,St. Catherine High School,3:53.45x,2
+1600 Sprint Medley,Boys,Open,,Finals,,,24,1,Holmwood Technical High School,3:30.91x, 12
+1600 Sprint Medley,Boys,Open,,Finals,,,24,2,Excelsior High School,3:29.86x, 10
+1600 Sprint Medley,Boys,Open,,Finals,,,24,3,Kingston College,3:31.03x,8
+1600 Sprint Medley,Boys,Open,,Finals,,,24,4,St. Elizabeth Technical High S,3:35.79x,6
+1600 Sprint Medley,Boys,Open,,Finals,,,24,5,Foga Road High School,3:34.21x,5
+1600 Sprint Medley,Boys,Open,,Finals,,,24,6,Calabar High School,3:39.55x,4
+1600 Sprint Medley,Boys,Open,,Finals,,,24,7,Edwin Allen High School,3:41.33x,3
+1600 Sprint Medley,Boys,Open,,Finals,,,24,8,Titchfield High School,3:37.31x,2
+1600 Sprint Medley,Girls,Open,,Finals,,,24,1,St. Jago High School,4:09.62x, 12
+1600 Sprint Medley,Girls,Open,,Finals,,,24,2,Hydel High School,4:07.12x, 10
+1600 Sprint Medley,Girls,Open,,Finals,,,24,3,Holmwood Technical High School,4:10.06x,8
+1600 Sprint Medley,Girls,Open,,Finals,,,24,4,The Queen's School,4:11.34x,6
+1600 Sprint Medley,Girls,Open,,Finals,,,24,5,Mount Alvernia High School,4:17.86x,5
+1600 Sprint Medley,Girls,Open,,Finals,,,24,6,Edwin Allen High School,4:16.22x,4
+1600 Sprint Medley,Girls,Open,,Finals,,,24,7,Excelsior High School,4:19.19x,3
+1600 Sprint Medley,Girls,Open,,Finals,,,24,8,Vere Technical High School,4:19.72x,2

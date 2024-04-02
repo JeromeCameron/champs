@@ -1,0 +1,89 @@
+event,gender,clas_s,mark,athlete,year,school
+100 Meter,Boys,1,9.99x,Bouwahjgie Nkrumie,2023,Kingston College
+100 Meter,Boys,2,10.20x,Sachin Dennis,2018,St. Elizabeth Technical High School
+100 Meter,Boys,3,10.69x,Christopher Scott,2019,Jamaica College
+100 Meter,Girls,1,10.92x,Alana Reid,2023,Hydel High School
+100 Meter,Girls,2,11.16x,Kevona Davis,2018,Edwin Allen High School
+100 Meter,Girls,3,11.27x,Tina Clayton,2019,Edwin Allen High School
+100 Meter,Girls,4,11.75x,Kimone Shaw,2013,St. Jago High School
+100 Meter Hurdles,Boys,3,12.87x,Neil-Matthew Sutherland,2018,Jamaica College
+100 Meter Hurdles,Girls,1,13.00x,Oneka Wilson,2022,Hydel High School
+100 Meter Hurdles,Girls,2,12.71x,Kerrica Hill,2022,Hydel High School
+110 Meter Hurdles,Boys,1,13.06x,Wayne Pinnock,2019,Kingston College
+110 Meter Hurdles,Boys,2,13.26x,Vashaun Vascianna,2019,St. Jago High School
+1500 Meter,Boys,1,3:45.54x,Kemoy Campbell,2010,Bellefield High School
+1500 Meter,Boys,2,3:55.38x,Kevroy Venson,2017,Calabar High School
+1500 Meter,Boys,3,4:12.50x,Tavaughn Martin,2019,Bellefield High School
+1500 Meter,Girls,1,4:29.42x,Jodyann Mitchell,2023,Holmwood Technical High School
+1500 Meter,Girls,2,4:32.10x,Evette Turner,1993,Vere Technical High School
+1500 Meter,Girls,3,4:20.20x,Evette Turner,1992,Vere Technical High School
+1600 Sprint Medley,Boys,Open,3:24.22x,Kingston College,2018,Kingston College
+1600 Sprint Medley,Girls,Open,3:57.58x,Alphansus Davis High School,2017,Alphansus Davis High School
+200 Meter,Boys,1,20.25x,Usain Bolt,2003,William Knibb Memorial High School
+200 Meter,Boys,2,20.80x,Christopher Taylor,2016,Calabar High School
+200 Meter,Boys,3,21.69x,Adrian Kerr,2018,Kingston College
+200 Meter,Girls,1,22.53x,Brianna Lyston,2022,Hydel High School
+200 Meter,Girls,2,22.72x,Kevona Davis,2018,Edwin Allen High School
+200 Meter,Girls,3,23.07x,Kevona Davis,2017,Edwin Allen High School
+200 Meter,Girls,4,23.72x,Brianna Lyston,2017,St. Jago High School
+2000 Meter Steeplechase,Boys,Open,5:49.46x,Rodgers Aryamanya,2018,Kingston College
+2000 Meter Steeplechase,Girls,Open,7:01.07x,Desreen Montaque,2012,Edwin Allen High School
+3000 Meter,Girls,Open,9:48.06x,Evette Turner,1992,Vere Technical High School
+400 Meter,Boys,1,44.93x,Akeem Bloomfield,2015,Kingston College
+400 Meter,Boys,2,46.33x,Christopher Taylor,2016,Calabar High School
+400 Meter,Boys,3,48.72x,Christopher Taylor,2014,Calabar High School
+400 Meter,Girls,1,51.13x,Sonita Sutherland,2006,Holmwood Technical High School
+400 Meter,Girls,2,51.62x,Chris-Ann Gordon,2011,Holmwood Technical High School
+400 Meter,Girls,3,52.52x,Anneisha Mclaughlin,2001,Holmwood Technical High School
+400 Meter Hurdles,Boys,1,49.50x,Roshawn Clarke,2022,Camperdown High School
+400 Meter Hurdles,Boys,2,51.44x,Jeremy Farr,2017,Wolmer's Boys' School
+400 Meter Hurdles,Girls,Open,55.78x,Shiann Salmon,2018,Hydel High School
+4X100 Meter Relay,Boys,1,39.08x,Calabar High,2015,Calabar High School
+4X100 Meter Relay,Boys,2,40.29x,Calabar High,2016,Calabar High School
+4X100 Meter Relay,Boys,3,41.81x,Calabar High,2014,Calabar High School
+4X100 Meter Relay,Girls,1,43.28x,Edwin Allen High,2022,Edwin Allen High School
+4X100 Meter Relay,Girls,2,44.81x,Edwin Allen High,2021,Edwin Allen High School
+4X100 Meter Relay,Girls,3,44.25x,Edwin Allen High,2019,Edwin Allen High School
+4X100 Meter Relay,Girls,4,46.23x,St. Jago High,2017,St. Jago High School
+4X400 Meter Relay,Boys,Open,3:06.76x,Calabar High,2015,Calabar High School
+4X400 Meter Relay,Girls,Open,3:30.51x,Vere Technical High,2013,Vere Technical High School
+5000 Meter,Boys,Open,14:18.55x,Kemoy Campbell,2010,Bellefield High School
+70 Meter Hurdles,Girls,4,10.38x,Malayia Duncan,2022,Hydel High School
+80 Meter Hurdles,Girls,3,10.87x,Camoy Binger,2022,St. Jago High School
+800 Meter,Boys,1,1:48.58x,Chevonne Hall,2021,Edwin Allen High School
+800 Meter,Boys,2,1:51.26x,Kimar Farquharson,2017,Calabar High School
+800 Meter,Boys,3,1:58.06x,Waqar Dacosta,2007,Jamaica College
+800 Meter,Girls,1,2:03.75x,Kayann Thompson,2004,Edwin Allen High School
+800 Meter,Girls,2,2:07.74x,Carlene Robinson,2001,Christiana High School
+800 Meter,Girls,3,2:09.60x,Natoya Goule,2006,Manchester High School
+Discus Throw,Boys,1,66.88mx,Travis Smikle,2011,Calabar High School
+Discus Throw,Boys,2,56.49mx,Zachary Campbell,2022,Jamaica College
+Discus Throw,Girls,1,57.84mx,Cedricka Williams,2023,Holmwood Technical High School
+Discus Throw,Girls,2,47.04mx,Cedricka Williams,2021,Holmwood Technical High School
+Discus Throw,Girls,3,45.88mx,Dionjah Shaw,2022,Edwin Allen High School
+High Jump,Boys,1,2.23mx,Christoffe Bryan,2014,Wolmer's Boys' School
+High Jump,Boys,2,2.11mx,Aaron Mckenzie,2022,Kingston College
+High Jump,Boys,3,1.99mx,Lamar Reid,2015,Calabar High School
+High Jump,Girls,1,1.87mx,Lamara Distin,2019,Hydel High School
+High Jump,Girls,2,1.83mx,Sheree Francis,2000,Vere Technical High School
+High Jump,Girls,3,1.83mx,Zavien Bernard,2024,Hydel High School
+High Jump,Girls,4,1.67mx,Shian Salmon,2012,Hydel High School
+Javelin Throw Open,Boys,Open,64.08mx,Devon Spencer,2014,St. Elizabeth Technical High School
+Javelin Throw Open,Girls,Open,47.85mx,Tanesha Blair,2007,Holmwood Technical High School
+Long Jump,Boys,1,8.05mx,Wayne Pinnock,2019,Kingston College
+Long Jump,Boys,2,7.70mx,Paul Thompson,1998,Munro College
+Long Jump,Boys,3,6.97mx,Paul Thompson,1996,Munro College
+Long Jump,Girls,1,6.52mx,Chanice Porter,2012,Manchester High School
+Long Jump,Girls,2,6.43mx,Chanice Porter,2010,Manchester High School
+Long Jump,Girls,3,6.06mx,Samara Spencer,2012,Hydel High School
+Long Jump,Girls,4,5.64mx,Jounee Armstrong,2019,Immaculate Conception High School
+Pole Vault Open,Boys,Open,4.46mx,Xavier Boland,2011,Kingston College
+Shot Put,Boys,1,20.65mx,Kevin Nedrick,2017,Petersfield High School
+Shot Put,Boys,2,19.99mx,Ralford Mullings,2019,Kingston College
+Shot Put,Girls,1,15.33mx,Britannia Johnson,2023,Camperdown High School
+Shot Put,Girls,2,16.44mx,Kimeka Smith,2024,St. Jago High School
+Triple Jump,Boys,1,16.66mx,Jaydon Hibbert,2022,Kingston College
+Triple Jump,Boys,2,15.54mx,Michael-Andre Edwards,2024,Jamaica College
+Triple Jump,Girls,Open,13.52mx,Kimberly Williams,2007,Vere Technical High School
+Decathlon,Boys,Open,6969x,Isaiah Patrick,2023,Kingston College
+Heptathlon,Girls,Open,5411x,Salcia Slack,2008,Holmwood Technical High School

@@ -2,15 +2,6 @@ from models import TrackEvents
 
 
 # ---------------------------------------------------------------------
-def isfloat(num):
-    try:
-        float(num)
-        return True
-    except ValueError:
-        return False
-
-
-# ---------------------------------------------------------------------
 
 
 def get_athlete_name(result: list) -> str:

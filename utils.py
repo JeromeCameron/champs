@@ -2,12 +2,13 @@ import os
 import pandas as pd
 from selectolax.parser import HTMLParser
 from itertools import chain
+from typing import Callable
 import asyncio
 import rich
 
 
 def genearate_df(
-    func, race_stage: str, race_categories: list, path: str
+    func: Callable, race_stage: str, race_categories: list, path: str
 ) -> pd.DataFrame:
 
     results: list = []
@@ -52,4 +53,4 @@ def edit_file_names() -> None:
 
 if __name__ == "__main__":
     """main starts here"""
-    pass
+    raise NotImplemented()
