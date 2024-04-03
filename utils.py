@@ -5,6 +5,7 @@ from itertools import chain
 from typing import Callable
 import asyncio
 import rich
+import csv
 
 
 def genearate_df(
@@ -51,6 +52,26 @@ def edit_file_names() -> None:
                 print(filename.replace("#", "Event"))
 
 
+def get_file_names() -> None:
+    path = r"C:\Users\jcameron\Downloads\temp\Transport"
+
+    file_lst: list[str] = []
+    headers: list[str] = ["reg"]
+
+    for subdir, dirs, files in os.walk(path):
+        for file in files:
+            if file.endswith(".pdf"):
+                filename = os.path.join(subdir, file)
+                file_lst.append(filename)
+
+    with open(r"C:\Users\jcameron\Downloads\temp\Transport\lst.csv", "w") as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(headers)
+        writer.writerow(file_lst)
+
+
 if __name__ == "__main__":
     """main starts here"""
-    raise NotImplemented()
+    # raise NotImplemented()
+
+    get_file_names()

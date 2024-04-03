@@ -1,4 +1,5 @@
 from models import TrackEvents
+import rich
 
 
 # ---------------------------------------------------------------------
@@ -10,22 +11,22 @@ def get_athlete_name(result: list) -> str:
     athlete_name = ""
 
     lst: list = list(filter(None, result.split("   ")))
+    lst = [ele for ele in lst if ele.strip()]
 
-    if " " in lst:  # remove empty strings
-        lst.remove(" ")
     try:
         if lst != []:  # ignore empty lists
-            athlete_name = lst[0].rsplit(" ")
+            if len(lst[0]) > 6:
+                athlete_name = lst[0].rsplit(" ")
 
-            if len(athlete_name) < 5 and "--" not in athlete_name:
+            else:
                 athlete_name = lst[1].rsplit(" ")
 
-            athlete_name = [i for i in athlete_name if i]
+            athlete_name = athlete_name[-2:][0] + " " + athlete_name[-2:][1]
 
-            if len(athlete_name) >= 5:
-                athlete_name = " ".join(athlete_name[3:])
-            else:
-                athlete_name = " ".join(athlete_name[1:])
+            # if len(athlete_name) >= 5:
+            #     athlete_name = " ".join(athlete_name[3:])
+            # else:
+            #     athlete_name = " ".join(athlete_name[1:])
     except IndexError:
         athlete_name = "nil"
 
