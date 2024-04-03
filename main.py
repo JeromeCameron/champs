@@ -130,3 +130,4 @@ if __name__ == "__main__":
 # TODO: What to do if no series data ✅
 # TODO: Function to read field events info ✅
 # TODO: Function to parse multi events pages ✅
+# TODO Check class 1 boys 2022 results
