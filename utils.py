@@ -54,6 +54,7 @@ def edit_file_names() -> None:
 
 def get_file_names() -> None:
     path = r"C:\Users\jcameron\Downloads\temp\Transport"
+    file_path = r"C:\Users\jcameron\Downloads\temp\Transport\lst.csv"
 
     file_lst: list[str] = []
     headers: list[str] = ["reg"]
@@ -62,12 +63,13 @@ def get_file_names() -> None:
         for file in files:
             if file.endswith(".pdf"):
                 filename = os.path.join(subdir, file)
-                file_lst.append(filename)
+                file_title = os.path.basename(filename).title()
+                file_lst.append(file_title.split(".")[0])
 
-    with open(r"C:\Users\jcameron\Downloads\temp\Transport\lst.csv", "w") as csvfile:
+    with open(file_path, "w+", newline="") as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(headers)
-        writer.writerow(file_lst)
+        writer.writerows([file_lst])
 
 
 if __name__ == "__main__":
