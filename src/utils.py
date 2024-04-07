@@ -74,6 +74,4 @@ def get_file_names() -> None:
 
 if __name__ == "__main__":
     """main starts here"""
-    # raise NotImplemented()
-
-    get_file_names()
+    raise NotImplemented()
