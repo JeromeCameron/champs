@@ -38,15 +38,15 @@ event,gender,clas_s,mark,athlete,year,school
 400 Meter Hurdles,Boys,1,49.50x,Roshawn Clarke,2022,Camperdown High School
 400 Meter Hurdles,Boys,2,51.44x,Jeremy Farr,2017,Wolmer's Boys' School
 400 Meter Hurdles,Girls,Open,55.78x,Shiann Salmon,2018,Hydel High School
-4X100 Meter Relay,Boys,1,39.08x,Calabar High,2015,Calabar High School
-4X100 Meter Relay,Boys,2,40.29x,Calabar High,2016,Calabar High School
-4X100 Meter Relay,Boys,3,41.81x,Calabar High,2014,Calabar High School
-4X100 Meter Relay,Girls,1,43.28x,Edwin Allen High,2022,Edwin Allen High School
-4X100 Meter Relay,Girls,2,44.81x,Edwin Allen High,2021,Edwin Allen High School
-4X100 Meter Relay,Girls,3,44.25x,Edwin Allen High,2019,Edwin Allen High School
+4X100 Meter Relay,Boys,1,39.08x,Calabar High School,2015,Calabar High School
+4X100 Meter Relay,Boys,2,40.29x,Calabar High School,2016,Calabar High School
+4X100 Meter Relay,Boys,3,41.81x,Calabar High School,2014,Calabar High School
+4X100 Meter Relay,Girls,1,43.28x,Edwin Allen High School,2022,Edwin Allen High School
+4X100 Meter Relay,Girls,2,44.81x,Edwin Allen High School,2021,Edwin Allen High School
+4X100 Meter Relay,Girls,3,44.25x,Edwin Allen High School,2019,Edwin Allen High School
 4X100 Meter Relay,Girls,4,46.23x,St. Jago High,2017,St. Jago High School
-4X400 Meter Relay,Boys,Open,3:06.76x,Calabar High,2015,Calabar High School
-4X400 Meter Relay,Girls,Open,3:30.51x,Vere Technical High,2013,Vere Technical High School
+4X400 Meter Relay,Boys,Open,3:06.76x,Calabar High School,2015,Calabar High School
+4X400 Meter Relay,Girls,Open,3:30.51x,Vere Technical High School,2013,Vere Technical High School
 5000 Meter,Boys,Open,14:18.55x,Kemoy Campbell,2010,Bellefield High School
 70 Meter Hurdles,Girls,4,10.38x,Malayia Duncan,2022,Hydel High School
 80 Meter Hurdles,Girls,3,10.87x,Camoy Binger,2022,St. Jago High School
