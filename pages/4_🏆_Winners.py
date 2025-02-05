@@ -14,7 +14,7 @@ with st.container(border=True):
     col1, col2 = st.columns(2)
     with col1:
         year_series = df["year"].unique()
-        year_series = np.sort(year_series)
+        year_series = np.sort(year_series)[::-1]
         year = st.selectbox("Year", year_series)
     with col2:
         gender = st.selectbox("Gender", ("Boys", "Girls"))
@@ -69,9 +69,9 @@ table_html = f"""
 <table style="width:100%; border: none; border-collapse: collapse;">
 <tr style="background-color: #403f40; text-align: center; color: white;">
     <th style="padding: 8px; text-align: left;">SCHOOL</th>
-    <th style="padding: 8px;">GOLD</th>
-    <th style="padding: 8px;">SILVER</th>
-    <th style="padding: 8px; ">BRONZE</th>
+    <th style="padding: 8px;">GOLD 🥇</th>
+    <th style="padding: 8px;">SILVER 🥈</th>
+    <th style="padding: 8px; ">BRONZE 🥉</th>
     <th style="padding: 8px;">TOTAL POINTS</th>
 </tr>
 {table_rows}
@@ -79,3 +79,5 @@ table_html = f"""
 """
 
 st.markdown(table_html, unsafe_allow_html=True)
+
+# Breakdown of points. Where are the winning teams scoring their points

@@ -6,7 +6,7 @@ st.header("Boys and Girls Champs Results 🏃🏾")
 st.caption("2012 ➡️ Present")
 st.html("<br>")
 
-df = pd.read_csv("./working_files/track_events.csv")
+df = pd.read_csv("./working_files/champs_results.csv")
 df["note"] = df["note"].apply(
     lambda x: "" if pd.isna(x) else x
 )  # Replace NaN values with an empty string
@@ -21,7 +21,7 @@ with st.container(border=True):
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         year_series = df["year"].unique()
-        year_series = np.sort(year_series)
+        year_series = np.sort(year_series)[::-1]
         year = st.selectbox("Year", year_series)
     with col2:
         gender = st.selectbox("Gender", ("Boys", "Girls"))
@@ -41,7 +41,7 @@ results = df[
     & (df["event"] == discipline)
 ]
 results.drop(
-    ["event", "gender", "clas_s", "heat", "typ", "year"], axis=1, inplace=True
+    ["event", "gender", "clas_s", "year"], axis=1, inplace=True
 )  # drop unwanted columns
 results.sort_values(by="position", inplace=True)  # sort by position finished
 wind = results["wind"].iloc[0]  # grap wind data

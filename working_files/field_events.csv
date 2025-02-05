@@ -29,6 +29,7 @@ High Jump,Boys,1,Finals,,Aaron Thomas,23,4,Kingston College,"[['1.85', '1.90', '
 High Jump,Boys,3,Finals,,Aaron Thomas,19,4,Kingston College,"[['1.45', '1.50', '1.55', '1.60', '1.65', '1.70', '1.75', '1.78', '1.81'], ['P', 'P', 'P', 'O', 'O', 'O', 'O', 'XXO', 'XXX']]",J1.78m ,5
 High Jump,Boys,2,Finals,,Aaron Thomas,22,3,Kingston College,"[['1.75', '1.80', '1.85', '1.90', '1.95', '2.00'], ['P', 'O', 'O', 'O', 'O', 'XXX']]",1.95m,6
 High Jump,Boys,2,Finals,,Aaron Thomas,21,2,Kingston College,"[['1.80', '1.85', '1.90', '1.95', '1.98', '2.01', '2.11'], ['O', 'XO', 'O', 'O', 'XO', 'X', 'X']]",1.98m,7
+Discus Throw,Girls,3,Finals,,Abbeygail Linton,12,7,Manning High School,[],32.64m,2
 Shot Put,Girls,2,Finals,,Abbigail Parchment,18,11,St. Jago High School,[],12.20m,0
 Discus Throw,Girls,2,Finals,,Abbigail Parchment,18,9,St. Jago High School,[],35.71m,0
 Discus Throw,Girls,3,Finals,,Abbigail Parchment,16,9,St. Jago High School,[],30.53m,0
@@ -50,6 +51,7 @@ Discus Throw,Girls,3,Finals,,Abigail Martin,19,6,St. Jago High School,"['FOUL', 
 Discus Throw,Girls,1,Finals,,Abigail Martin,23,2,St. Jago High School,"['53.81m', '51.97m', '52.59m', 'FOUL', '47.17m', 'FOUL']",53.81mR,7
 Discus Throw,Girls,2,Finals,,Abigail Martin,21,5,St. Jago High School,"['37.95m', '34.97m', '41.19m', 'FOUL', '34.33m', '35.39m']",41.19m,4
 Discus Throw,Girls,1,Finals,,Abigail Martin,22,4,St. Jago High School,"['46.43m', '41.09m', '43.35m', '40.22m', 'FOUL', 'FOUL']",46.43m,5
+Long Jump,Girls,4,Finals,-0.4,Abigail Swaby,12,1,Vere Technical High School,[],5.46m,9
 High Jump,Girls,2,Finals,,Abigail Wilks,19,7,Wolmer's Trust High School For Girls,"[['1.40', '1.45', '1.50', '1.55', '1.60', '1.65', '1.70'], ['P', 'P', 'O', 'O', 'XO', 'XXO', 'XXX']]",J1.65m,2
 High Jump,Girls,3,Finals,,Abigail Wilks,16,16,Wolmer's Trust High School For Girls,"[['1.50', '1.55', '1.60'], ['O', 'O', 'XXX']]",1.55m,0
 High Jump,Girls,3,Finals,,Abigail Wilks,17,11,Wolmer's Trust High School For Girls,"[[], []]",1.55m,0
@@ -81,7 +83,6 @@ High Jump,Girls,4,Finals,,Adajah Drysdale,23,3,Wolmer's Trust High School For Gi
 Long Jump,Boys,1,Finals,-1.1,Adam Cummings,12,10,Wolmer's Boys' School,[],6.64m,0
 Shot Put,Boys,1,Finals,,Adam Greensword,16,21,St. Elizabeth Technical High School,[],13.03m,0
 Discus Throw,Boys,1,Finals,,Adam Greensword,15,,St. Elizabeth Technical High School,[],FOUL,
-Pole Vault,Boys,Open,Finals,,"Adams, Roger",12,5,Wolmer's Boys' School,"[[], []]",3.60m,4
 Triple Jump,Girls,Open,Finals,-0.4,Adiana Brown,19,8,Rusea's High School,"['11.48m(0.4)', '11.64m(0.5)', '11.70m(-0.4)', '11.56m(0.3)', 'FOUL', '11.65m(0.7)']",11.70m,1
 Long Jump,Girls,2,Finals,-0.2,Adiana Brown,19,12,Rusea's High School,"['5.02m(-0.5)', '5.33m(-0.2)', '5.20m(-0.4)']",5.33m,0
 Shot Put,Girls,1,Finals,,Adonay Fearon,24,8,St. Andrew High School for Girls,"['10.50m', '11.14m', '11.24m', '11.43m', '11.23m', '11.04m']",11.43m,1
@@ -144,14 +145,18 @@ High Jump,Boys,3,Finals,,Akeem Freeman,24,8,Munro College,"[['1.60', '1.65', '1.
 Shot Put,Boys,2,Finals,,Akeem Green,16,9,Calabar High School,[],13.57m,0
 Pole Vault,Boys,Open,Finals,,Akeem Kerr,15,1,Jamaica College,"[[], []]",4.00m,9
 Pole Vault,Boys,Open,Finals,,Akeem Kerr,14,4,Jamaica College,"[[], []]",J3.50m,5
+High Jump,Boys,2,Finals,,Akeem Powell,12,6,Jamaica College,"[[], []]",1.85m,1.5
 Shot Put,Girls,2,Finals,,Akelia Wilson,22,5,Hydel High School,"['12.65m', '11.83m', '12.87m', '11.94m', 'FOUL', '10.69m']",12.87m,4
 Discus Throw,Girls,3,Finals,,Akelia Wilson,21,5,Hydel High School,"['FOUL', '31.79m', '33.44m', '33.42m', 'FOUL', 'FOUL']",33.44m,4
 Discus Throw,Girls,2,Finals,,Akelia Wilson,22,6,Hydel High School,"['36.00m', '37.90m', '34.37m', 'FOUL', 'FOUL', 'FOUL']",37.90m,3
 Long Jump,Girls,3,Finals,7.3,Akeliah Ellis,15,9,Petersfield High School,[],5.10m,0
+Long Jump,Boys,1,Finals,-1.1,Akiem Williams,12,9,Holmwood Technical High School,[],6.66m,0
 Triple Jump,Boys,1,Finals,-1.3,Aldaine Angus,23,5,Calabar High School,"['13.91m(0.7)', '13.72m(-0.2)', '13.25m(1.3)', 'FOUL', 'FOUL', '13.96m(-1.3)']",13.96m,4
 Long Jump,Boys,1,Finals,-0.7,Aldaine Angus,23,10,Calabar High School,"['6.33m(-1.6)', '6.69m(-0.7)', '6.25m(-1.6)']",6.69m,0
 Long Jump,Boys,1,Finals,-1.8,Aldaine Angus,22,12,Calabar High School,"['6.64m(-1.8)', '6.40m(-1.1)', '6.53m(-0.6)']",6.64m,0
 Javelin Throw,Boys,Open,Finals,,Alden Pringle,19,12,Bellefield High School,"['49.02m', 'FOUL', '48.62m']",49.02m,0
+Shot Put,Boys,1,Finals,,Alec-Verne Longmore,12,8,Jamaica College,[],14.84m,1
+Discus Throw,Boys,1,Finals,,Alec-Verne Longmore,12,16,Jamaica College,[],41.15m,0
 Shot Put,Boys,1,Finals,,Alec-Verne Longmore,14,11,Jamaica College,[],13.64m,0
 Discus Throw,Boys,1,Finals,,Alec-Verne Longmore,13,4,Jamaica College,[],50.08m,5
 Discus Throw,Boys,1,Finals,,Alec-Verne Longmore,14,4,Jamaica College,[],50.08m,5
@@ -161,11 +166,14 @@ Triple Jump,Boys,2,Finals,-1.9,Alex Brown,17,12,Camperdown High School,[],12.17m
 High Jump,Boys,3,Finals,,Alex King,24,4,Kingston College,"[['1.60', '1.65', '1.70', '1.75', '1.78'], ['P', 'O', 'O', 'XXO', 'XXX']]",1.75m,5
 Long Jump,Boys,3,Finals,2.8,Alex King,24,2,Kingston College,"['6.06m(1.5)', '5.74m(0.4)', '6.30m(2.4)', '5.73m(3.1)', '6.12m(2.9)', '6.33m(2.8)']",6.33m,7
 Long Jump,Boys,2,Finals,2.8,Alex Robinson,14,10,Calabar High School,[],6.32m,0
+Triple Jump,Boys,Open,Finals,0.2,Alex Rookwood,12,6,Hydel High School,[],14.39m,3
 Discus Throw,Boys,1,Finals,,Alex Watkins,23,11,Dinthill Technical High School,"['39.64m', 'FOUL', 'FOUL']",39.64m,0
 Discus Throw,Boys,1,Finals,,Alex Watkins,22,12,Dinthill Technical High School,"['42.36m', 'FOUL', '45.06m']",45.06m,0
 Javelin Throw,Boys,Open,Finals,,Alex Williams,19,1,Kingston College,"['53.97m', '56.76m', '60.02m', '53.30m', '48.81m', 'PASS']",60.02m ,9
 Javelin Throw,Boys,Open,Finals,,Alex Williams,18,1,William Knibb Memorial High School,[],56.60m ,9
 Javelin Throw,Boys,Open,Finals,,Alexander Betancourt,24,4,Kingston College,"['59.42m', 'FOUL', 'FOUL', 'FOUL', '38.44m', '53.56m']",59.42m,5
+Shot Put,Boys,2,Finals,,Alexander Parkinson,12,8,Jamaica College,[],14.28m,1
+Discus Throw,Boys,2,Finals,,Alexander Parkinson,12,5,Jamaica College,[],43.05m,4
 High Jump,Boys,1,Finals,,Alexander Thompson,19,7,Jamaica College,"[['7', '#', '99', 'Romaine', 'Bec', 'Buff', 'Bay', 'High', '2.00m', 'Q', '1.50'], ['9', '#', '29', 'Demar', 'Sayle', 'Ardenne', 'High', 'J2.00m', 'Q']]",2.00m ,1.5
 Long Jump,Boys,1,Finals,-0.8,Alexander Thompson,19,4,Jamaica College,"['7.11m(-0.8)', '6.75m(-0.7)', '6.91m(-0.6)', '6.82m(-0.3)', 'FOUL', 'FOUL']",7.11m ,5
 High Jump,Boys,1,Finals,,Alexander Thompson,17,9,St Georges College,"[[], []]",1.90m,0
@@ -222,6 +230,8 @@ Long Jump,Boys,1,Finals,-0.1,Alrick Ottey,15,3,Cornwall College,[],7.36m,6
 Shot Put,Boys,2,Finals,,Alroy Williams,13,11,Edwin Allen High School,[],12.61m,0
 Shot Put,Boys,2,Finals,,Alroy Williams,14,11,Edwin Allen High School,[],12.61m,0
 Shot Put,Boys,1,Finals,,Alroy Williams,15,13,Edwin Allen High School,[],13.70m,0
+Shot Put,Girls,Open,Finals,,Alsian Robinson,12,8,Holmwood Technical High School,[],11.54m,1
+Discus Throw,Girls,1,Finals,,Alsian Robinson,12,11,Holmwood Technical High School,[],33.54m,0
 Shot Put,Girls,1,Finals,,Altonique James,23,11,Excelsior High School,"['10.53m', '9.84m', '9.30m']",10.53m,0
 Discus Throw,Girls,1,Finals,,Altonique James,23,12,Excelsior High School,"['27.89m', '35.01m', '28.61m']",35.01m,0
 Shot Put,Girls,1,Finals,,Altonique James,24,2,Excelsior High School,"['11.30m', '11.63m', '13.39m', '12.74m', 'FOUL', '12.24m']",13.39m,7
@@ -261,6 +271,7 @@ High Jump,Boys,1,Finals,,Amiuki Beckford,24,8,Cornwall College,"[['1.85', '1.90'
 Javelin Throw,Girls,Open,Finals,,Amoy Francis,21,12,Vere Technical High School,"['24.58m', '24.29m', '21.27m']",24.58m,0
 Long Jump,Girls,2,Finals,-0.8,Amoya Simpson,18,8,St. Catherine High School,[],5.42m,1
 Long Jump,Girls,1,Finals,0.7,Amoya Simpson,19,6,St. Catherine High School,"['5.44m(0.4)', '5.62m(0.7)', 'FOUL', '5.21m(0.3)', 'FOUL', '5.45m(0.5)']",5.62m,3
+Discus Throw,Girls,2,Finals,,Anastasia Surtees,12,13,St. Hughs High School,[],32.89m,0
 Long Jump,Girls,2,Finals,-1,Andine Archibald,12,11,Knox College,[],4.98m,0
 Discus Throw,Boys,1,Finals,,Andre Beckford,13,5,Calabar High School,[],49.86m,4
 Discus Throw,Boys,1,Finals,,Andre Beckford,14,5,Calabar High School,[],49.86m,4
@@ -294,6 +305,7 @@ Pole Vault,Boys,Open,Finals,,Andrew Betton,19,1,Calabar High School,"[['2', '#',
 High Jump,Boys,2,Finals,,Andrew Betton,15,9,Calabar High School,"[[], []]",J1.85m,0
 Long Jump,Boys,3,Finals,5,Andrew Shaw,15,10,Calabar High School,[],5.67m,0
 High Jump,Boys,3,Finals,,Andrew Simpson,19,9,Mount St. Joseph High School,"[['1.45', '1.50', '1.55', '1.60', '1.65', '1.70'], ['P', 'O', 'O', 'O', 'O', 'XXX']]",1.65m,0
+Long Jump,Girls,2,Finals,-0.4,Andriene Rose,12,8,Wolmer's Trust High School For Girls,[],5.45m,1
 Long Jump,Girls,1,Finals,NWI,Andriene Rose,14,,Wolmer's Trust High School For Girls,[],ND,
 Long Jump,Girls,1,Finals,3.4,Andriene Rose,15,13,Wolmer's Trust High School For Girls,[],5.08m,0
 Pole Vault,Boys,Open,Finals,,Andwele Shurland,18,4,Kingston College,"[['2.90', '3.00', '3.10', '3.20', '3.30', '3.40', '3.50', '3.60'], ['P', 'XO', 'O', 'P', 'O', 'O', 'XO', 'XXX']]",3.50m,5
@@ -337,6 +349,8 @@ High Jump,Girls,2,Finals,,Annishka McDonald,21,3,Vere Technical High School,"[['
 High Jump,Girls,4,Finals,,Annishka Mcdonald,17,1,Vere Technical High School,"[[], []]",1.64m,9
 Triple Jump,Boys,2,Finals,-1.4,Ansel Gray,15,15,Petersfield High School,[],12.48m,0
 Long Jump,Boys,1,Finals,0.4,Ansel Gray,18,11,Petersfield High School,[],6.53m,0
+High Jump,Girls,4,Finals,,Anthonette White,12,4,Holy Childhood High School,"[[], []]",1.59m,5
+Long Jump,Girls,4,Finals,-0.2,Anthonette White,12,5,Holy Childhood High School,[],4.92m,4
 High Jump,Girls,3,Finals,,Anthonette White,13,9,Holy Childhood High School,"[[], []]",J1.60m,0
 High Jump,Girls,3,Finals,,Anthonette White,14,9,Holy Childhood High School,"[[], []]",J1.60m,0
 Triple Jump,Boys,1,Finals,3.2,Anthony Bailey,14,8,Munro College,[],14.60m,1
@@ -379,6 +393,7 @@ High Jump,Boys,2,Finals,,Apalos Edwards,18,3,Jamaica College,"[['1.80', '1.85', 
 High Jump,Boys,2,Finals,,Apalos Edwards,17,8,Jamaica College,"[[], []]",1.85m,1
 Triple Jump,Boys,1,Finals,4.4,Apalos Edwards,21,6,Jamaica College,"['14.68m(1.0)', '14.90m(0.2)', 'PASS', 'FOUL', '14.93m(4.4)', '14.84m(3.2)']",14.93m,3
 Long Jump,Boys,1,Finals,6.2,Apalos Edwards,21,11,Jamaica College,"['FOUL', '6.30m(6.2)', 'ND(NWI)']",6.30m,0
+Discus Throw,Girls,1,Finals,,Aprell Williams,12,10,Wolmer's Trust High School For Girls,[],34.10m,0
 Long Jump,Girls,4,Finals,1.2,April Boothe,15,7,Hydel High School,[],4.87m,2
 High Jump,Girls,1,Finals,,Ardeen Walker,15,11,St. Andrew Technical High School,"[[], []]",1.55m,0
 High Jump,Girls,2,Finals,,Ardeen Walker,14,10,St. Andrew Technical High School,"[[], []]",J1.60m,0
@@ -396,6 +411,7 @@ Long Jump,Girls,4,Finals,1.7,Ashalee Brown,13,11,Immaculate Conception High Scho
 Long Jump,Girls,4,Finals,1.7,Ashalee Brown,14,11,Immaculate Conception High School,[],4.72m,0
 Long Jump,Boys,3,Finals,2.9,Ashane Beckford,14,7,Glenmuir High School,[],6.05m,2
 Long Jump,Boys,2,Finals,2,Ashane Beckford,15,9,Glenmuir High School,[],6.44m,0
+High Jump,Boys,1,Finals,,Ashani Wright,12,7,Jamaica College,"[[], []]",J1.99m,2
 Discus Throw,Girls,3,Finals,,Ashanti Moore,16,13,Hydel High School,[],28.16m,0
 Long Jump,Girls,4,Finals,0.8,Ashanti Moore,13,3,Hydel High School,[],5.21m,6
 Long Jump,Girls,4,Finals,0.8,Ashanti Moore,14,3,Hydel High School,[],5.21m,6
@@ -405,6 +421,8 @@ Discus Throw,Girls,3,Finals,,Ashanti Wright,17,1,Excelsior High School,[],34.13m
 Discus Throw,Girls,1,Finals,,Ashanti Wright,21,11,Excelsior High School,"['FOUL', 'FOUL', '34.81m']",34.81m,0
 Discus Throw,Girls,3,Finals,,Ashantie Russell,17,12,Buff Bay High School,[],24.96m,0
 Long Jump,Girls,3,Finals,2.8,Ashawna Marshall,24,11,St. Catherine High School,"['4.57m(3.2)', '4.67m(2.1)', '4.88m(2.8)']",4.88m,0
+Shot Put,Boys,1,Finals,,Ashina Miller,12,3,Calabar High School,[],17.87m,6
+Discus Throw,Boys,1,Finals,,Ashina Miller,12,2,Calabar High School,[],56.46m,7
 Long Jump,Girls,4,Finals,0.5,Ashley Barr,23,1,Immaculate Conception High School,"['FOUL', 'FOUL', '4.66m(-0.4)', '4.44m(-1.7)', '5.13m(0.1)', '5.25m(0.5)']",5.25m ,9
 Javelin Throw,Girls,Open,Finals,,Ashley Duff,18,11,St. Catherine High School,[],27.78m,0
 Javelin Throw,Girls,Open,Finals,,Ashley Duff,19,1,St. Catherine High School,"['40.79m', '35.98m', '35.22m', '38.69m', '40.68m', '31.15m']",40.79m ,9
@@ -447,6 +465,7 @@ Javelin Throw,Boys,Open,Finals,,Aval Denton,16,7,Edwin Allen High School,[],50.4
 Javelin Throw,Boys,Open,Finals,,Aval Denton,17,1,Kingston College,[],59.21m,9
 Shot Put,Boys,2,Finals,,Avaun Johns,18,4,Petersfield High School,[],14.77m ,5
 Shot Put,Boys,2,Finals,,Avaun Johns,19,5,Petersfield High School,"['14.88m', '15.05m', 'FOUL', 'FOUL', 'FOUL', '14.43m']",15.05m ,4
+Long Jump,Girls,3,Finals,1.1,Ave-Anna Venair,12,11,Excelsior High School,[],5.14m,0
 Triple Jump,Girls,Open,Finals,0.7,Ave-Anna Venair,15,13,Excelsior High School,[],11.48m,0
 Triple Jump,Girls,Open,Finals,1.3,Ave-anna Venair,17,8,Excelsior High School,[],12.02m,1
 Long Jump,Girls,2,Finals,1.9,Ave-Anna Venair,13,9,Excelsior High School,[],5.39m,0
@@ -527,6 +546,7 @@ High Jump,Girls,4,Finals,,Brianna Ashman,24,7,Immaculate Conception High School,
 Long Jump,Girls,2,Finals,-1.1,Brianna Carr,24,9,St Hugh's High School for Girls,"['4.96m(-1.9)', '4.78m(-0.4)', '5.04m(-1.1)']",5.04m,0
 High Jump,Girls,4,Finals,,Brianna Samuels,17,9,Edwin Allen High School,"[[], []]",1.45m,0
 High Jump,Girls,4,Finals,,Brianna Stewart,24,5,St. Jago High School,"[['1.40', '1.45', '1.50', '1.55'], ['O', 'O', 'O', 'XXX']]",1.50m,4
+High Jump,Girls,3,Finals,,Brianna Thomas,12,5,Holmwood Technical High School,"[[], []]",J1.62m,4
 Long Jump,Girls,2,Finals,-0.1,Brianna Thomas,15,7,Holmwood Technical High School,[],5.53m,2
 Long Jump,Girls,4,Finals,0.2,Brianna Watt,18,3,Edwin Allen High School,[],5.22m ,6
 High Jump,Boys,1,Finals,,Brian-neil Robinson,16,12,St. Elizabeth Technical High School,[],1.90m,0
@@ -569,6 +589,8 @@ High Jump,Girls,1,Finals,,Britny Kerr,16,1,Hydel High School,"[['2', 'Colistia',
 Triple Jump,Girls,Open,Finals,0.1,Britny Kerr,15,8,Hydel High School,[],12.23m,1
 Triple Jump,Girls,Open,Finals,1.6,Britny Kerr,14,6,Hydel High School,[],12.63m,3
 High Jump,Girls,2,Finals,,Britny Kerr,14,7,Hydel High School,"[[], []]",J1.65m,2
+Triple Jump,Girls,Open,Finals,-0.2,Britny Kerr,12,13,Hydel High School,[],11.31m,0
+High Jump,Girls,3,Finals,,Britny Kerr,12,8,Hydel High School,"[[], []]",J1.58m,1
 High Jump,Girls,1,Finals,,Brittaney Orr,18,9,Excelsior High School,"[['1.35', '1.40', '1.45', '1.50', '1.55', '1.60', '1.65'], ['P', 'P', 'P', 'O', 'O', 'O', 'XXX']]",1.60m ,0
 Long Jump,Girls,4,Finals,4.9,Brittania Ingram,15,6,Edwin Allen High School,[],4.95m,3
 Long Jump,Girls,1,Finals,2.8,Brittania Ingram,21,8,Edwin Allen High School,"['FOUL', '5.57m(2.8)', 'FOUL', '5.09m(3.4)', '5.56m(3.1)', '5.24m(3.5)']",5.57m,1
@@ -591,6 +613,7 @@ Shot Put,Boys,1,Finals,,Camal Dyer,14,10,Hydel High School,[],14.11m,0
 Discus Throw,Girls,3,Finals,,Camellia Dawkins,19,10,Edwin Allen High School,"['27.38m', 'FOUL', '32.49m']",32.49m,0
 Discus Throw,Girls,1,Finals,,Camellia Dawkins,23,9,Edwin Allen High School,"['38.98m', '38.22m', '39.50m']",39.50m,0
 High Jump,Girls,1,Finals,,Candice Bloomfield,18,11,St. Elizabeth Technical High School,"[['1.35', '1.40', '1.45', '1.50', '1.55', '1.60'], ['P', 'P', 'XXO', 'O', 'O', 'XXX']]",1.55m,0
+Javelin Throw,Girls,Open,Finals,,Candice Peters,12,11,Immaculate Conception High School,[],28.36m,0
 Long Jump,Girls,1,Finals,0.6,Canniga Powell,24,8,Holmwood Technical High School,"['5.68m(0.6)', '5.49m(3.4)', '4.65m(1.2)', '5.31m(2.7)', '5.59m(2.5)', '5.60m(2.4)']",5.68m,1
 Long Jump,Girls,3,Finals,3.1,Cardia McKenzie,22,10,Titchfield High School,"['5.03m(3.1)', '4.97m(+0.0)', 'FOUL']",5.03m,0
 Triple Jump,Boys,1,Finals,1,Carey Mcleod,15,15,Garvey Maceo High School,[],13.39m,0
@@ -601,6 +624,7 @@ Triple Jump,Girls,Open,Finals,0.2,Carla Lawson,18,13,Hydel High School,[],11.19m
 Discus Throw,Girls,2,Finals,,Carla-Kay Brown,22,9,Clarendon College,"['FOUL', 'FOUL', '36.79m']",36.79m,0
 Discus Throw,Girls,1,Finals,,Carla-Kay Brown,24,6,Clarendon College,"['42.41m', '39.12m', 'FOUL', '41.84m', 'FOUL', 'FOUL']",42.41m,3
 Triple Jump,Boys,Open,Finals,-1,Carlington Benjamin,12,10,Kingston College,[],13.67m,0
+Long Jump,Boys,2,Finals,-0.8,Carlington Moulton,12,3,St Georges College,[],6.76m,6
 Long Jump,Boys,1,Finals,-1.1,Carlington Moulton,15,10,St Georges College,[],6.65m,0
 High Jump,Boys,1,Finals,,Carlington Moulton,15,5,St Georges College,"[[], []]",J2.05m,4
 High Jump,Boys,3,Finals,,Carlyle Tinglin,23,4,Cornwall College,"[['1.55', '1.60', '1.65', '1.70', '1.75', '1.78'], ['O', 'O', 'O', 'XXO', 'XO', 'XXX']]",1.75m ,5
@@ -629,6 +653,7 @@ Javelin Throw,Girls,Open,Finals,,Cedricka Williams,22,4,Holmwood Technical High 
 Discus Throw,Girls,1,Finals,,Cedricka Williams,22,7,Holmwood Technical High School,"['FOUL', '44.96m', 'FOUL', '45.51m', '41.24m', '45.59m']",45.59m,2
 Discus Throw,Girls,2,Finals,9,Cedricka Williams,21,1,Holmwood Technical High School,"['FOUL', '46.23m', '42.32m', '44.17m', 'FOUL', '47.04m']",47.04mR,9
 Long Jump,Girls,4,Finals,5.7,Celena Stewart,15,8,St. Elizabeth Technical High School,[],4.85m,1
+High Jump,Girls,4,Finals,,Celia Lawson,12,10,Ardenne High School,"[[], []]",1.45m,0
 Discus Throw,Girls,2,Finals,,Celine Falconer,17,13,St. Andrew High School for Girls,[],29.42m,0
 Discus Throw,Girls,3,Finals,,Celine Falconer,16,5,St. Andrew High School for Girls,[],32.67m,4
 Long Jump,Girls,4,Finals,-0.5,Celine Riddle,18,7,Holmwood Technical High School,[],4.69m,2
@@ -647,6 +672,7 @@ Shot Put,Boys,1,Finals,,Chadrick Dacosta,12,5,Kingston College,[],16.40m,4
 Discus Throw,Boys,1,Finals,,Chadrick Dacosta,12,3,Kingston College,[],54.15m,6
 High Jump,Girls,4,Finals,,Chanel Byfield,23,8,The Queen's School,"[['1.40', '1.45', '1.50'], ['O', 'XO', 'XXX']]",1.45m,0.5
 High Jump,Girls,4,Finals,,Chanel Clare,23,11,Mount Alvernia High School,"[['1.40', '1.45', '1.50'], ['O', 'XXO', 'XXX']]",1.45m,0
+High Jump,Girls,1,Finals,,Chanice Porter,12,1,Manchester High School (MHS),"[[], []]",1.86mR   9,9
 High Jump,Girls,3,Finals,,Chantal Gayle,19,9,Vere Technical High School,"[['1.35', '1.40', '1.45', '1.50', '1.55', '1.60'], ['P', 'P', 'O', 'O', 'O', 'XXX']]",1.55m,0
 Long Jump,Girls,3,Finals,NWI,Chantal Gayle,19,10,Vere Technical High School,"['4.93m(0.5)', '4.96m(-0.0)', '4.74m(0.9)']",4.96m,0
 Discus Throw,Girls,2,Finals,,Charlene Patterson,15,16,Excelsior High School,[],27.63m,0
@@ -662,6 +688,7 @@ High Jump,Boys,1,Finals,,Chavez Penn,24,1,Jamaica College,"[['1.85', '1.90', '1.
 High Jump,Boys,1,Finals,,Chavez Penn,23,2,Jamaica College,"[['1.85', '1.90', '1.95', '2.00', '2.05', '2.08'], ['P', 'P', 'O', 'O', 'XO', 'XXX']]",2.05m ,7
 Javelin Throw,Boys,Open,Finals,,Che-Andre Gordon,12,10,Wolmer's Boys' School,[],47.52m,0
 Discus Throw,Girls,3,Finals,,Chekelia Medley,14,5,Holmwood Technical High School,[],32.59m,4
+Triple Jump,Girls,Open,Finals,FOUL,Chelsi Lean,12,,St. Andrew High School for Girls,[],FOUL,
 High Jump,Girls,3,Finals,,Chenessa Davis,19,6,Excelsior High School,"[['1.35', '1.40', '1.45', '1.50', '1.55', '1.60', '1.65'], ['P', 'P', 'P', 'P', 'O', 'O', 'XXX']]",1.60m,3
 High Jump,Girls,1,Finals,,Chenessa Davis,23,5,Excelsior High School,"[['1.55', '1.60', '1.65', '1.70'], ['O', 'O', 'XO', 'XXX']]",1.65m,3.5
 High Jump,Girls,4,Finals,,Chenessa Davis,17,9,Excelsior High School,"[[], []]",1.45m,0
@@ -679,6 +706,7 @@ Triple Jump,Boys,1,Finals,-1.2,Chevaughn Parkinson,18,13,Titchfield High School,
 Triple Jump,Boys,1,Finals,-0.5,Chevaughn Parkinson,19,7,Titchfield High School,"['13.78m(-1.0)', '13.87m(-1.5)', '14.43m(-1.5)', '14.53m(-0.5)', '14.34m(-0.7)', '13.86m(-0.9)']",14.53m ,2
 Long Jump,Boys,1,Finals,0,Chevaughn Parkinson,19,9,Titchfield High School,"['6.73m(-1.1)', '6.53m(-0.5)', '6.79m(+0.0)']",6.79m,0
 Triple Jump,Boys,2,Finals,-0.9,Chevaughn Parkinson,17,8,Titchfield High School,[],13.00m,1
+High Jump,Boys,2,Finals,,Chevon Ramsay,12,6,Kingston College,"[[], []]",1.85m,1.5
 Shot Put,Girls,2,Finals,,Cheyanne Fearon,19,5,Rusea's High School,"['11.78m', '12.57m', '12.72m', 'FOUL', '11.93m', 'FOUL']",12.72m ,4
 Discus Throw,Girls,2,Finals,,Cheyanne Fearon,19,4,Rusea's High School,"['37.69m', 'FOUL', 'FOUL', 'FOUL', '33.69m', '37.93m']",37.93m,5
 Shot Put,Girls,1,Finals,,Cheyanne Fearon,21,7,Rusea's High School,"['11.72m', '10.88m', '11.36m', '11.12m', '11.11m', '11.08m']",11.72m,2
@@ -718,6 +746,7 @@ Discus Throw,Boys,2,Finals,,Christopher Brown,17,1,Petersfield High School,[],49
 High Jump,Boys,1,Finals,,Christopher Bryan,15,3,Kingston College,"[[], []]",2.08m,6
 Pole Vault,Boys,Open,Finals,,Christopher Bryan,15,4,Kingston College,"[[], []]",3.50m,5
 Pole Vault,Boys,Open,Finals,,Christopher Bryan,14,2,Kingston College,"[[], []]",3.50m,7
+Pole Vault,Boys,Open,Finals,,Christopher Mitchell,12,6,Jamaica College,"[[], []]",3.35m,3
 Pole Vault,Boys,Open,Finals,,Christopher Mitchell,14,1,Jamaica College,"[[], []]",3.60m,9
 Shot Put,Boys,2,Finals,,Christopher Orridge,23,10,Vere Technical High School,"['12.40m', '12.40m', 'FOUL']",12.40m,0
 Shot Put,Boys,2,Finals,,Christopher Orridge,24,8,Vere Technical High School,"['14.32m', '14.56m', '14.07m', 'FOUL', '14.97m', '14.47m']",14.97m,1
@@ -752,6 +781,8 @@ Shot Put,Boys,2,Finals,,Cleon Spence,23,6,Jamaica College,"['11.68m', '12.48m', 
 Javelin Throw,Boys,Open,Finals,,Clifton Clarke,18,12,Wolmer's Boys' School,[],42.83m,0
 Shot Put,Boys,2,Finals,,Clinton Baker,24,11,Edwin Allen High School,"['13.45m', '13.47m', '13.39m']",12.95m,0
 Discus Throw,Boys,2,Finals,,Clinton Baker,24,9,Edwin Allen High School,"['FOUL', '34.11m', '37.13m']",37.12m,0
+Triple Jump,Boys,Open,Finals,1.2,Clive Pullen,12,1,Kingston College,[],15.71m,9
+Long Jump,Boys,1,Finals,-1.1,Clive Pullen,12,2,Kingston College,[],7.15m,7
 Shot Put,Boys,1,Finals,,Cobe Graham,19,2,Calabar High School,"['17.57m', '18.02m', 'FOUL', '17.97m', 'FOUL', '17.06m']",18.02m ,7
 Shot Put,Boys,2,Finals,,Cobe Graham,15,6,Meadowbrook High School,[],14.15m,3
 Shot Put,Boys,1,Finals,,Cobe Graham,17,8,Meadowbrook High School,[],16.23m,1
@@ -833,6 +864,8 @@ High Jump,Girls,4,Finals,,Dana Thomas,14,3,St. Jago High School,"[[], []]",1.55m
 High Jump,Girls,3,Finals,,Dana Thomas,15,8,St. Jago High School,"[[], []]",1.60m,0.33
 High Jump,Girls,1,Finals,,Dana Thomas,19,11,The Queen's School,"[['1.40', '1.45', '1.50', '1.55', '1.60', '1.65'], ['P', 'P', 'O', 'O', 'O', 'XXX']]",1.60m ,0
 Long Jump,Girls,4,Finals,3.9,Danae Nembhard,16,6,St. Jago High School,[],4.93m,3
+High Jump,Girls,4,Finals,,D'Andra Morris,12,6,St. Andrew High School for Girls,"[[], []]",1.53m,3
+Long Jump,Girls,4,Finals,-0.5,D'Andra Morris,12,3,St. Andrew High School for Girls,[],5.00m,6
 High Jump,Girls,1,Finals,,D'Andra Morris,17,5,Camperdown High School,"[[], []]",1.60m,3
 Triple Jump,Girls,Open,Finals,1.9,D'Andra Morris,17,11,Camperdown High School,[],11.66m,0
 High Jump,Girls,2,Finals,,D'Andra Morris,16,7,Camperdown High School,"[['8', 'Zinedine', 'Russell', 'alpha', '1.60m', '0.50'], ['8', 'Janeila', 'Francis', 'Excelsior', 'High', '1.60m', '0.50']]",J1.65m,2
@@ -854,6 +887,7 @@ High Jump,Girls,3,Finals,,Daneille Noble,21,,Wolmer's Trust High School For Girl
 Long Jump,Girls,4,Finals,2.2,Danella Dawkins,13,7,Manchester High School (MHS),[],4.86m,2
 Long Jump,Girls,4,Finals,2.2,Danella Dawkins,14,7,Manchester High School (MHS),[],4.86m,2
 Long Jump,Girls,3,Finals,5.2,Danella Dawkins,16,11,Manchester High School (MHS),[],5.02m,0
+High Jump,Girls,2,Finals,,Danica Lamb,12,9,Manchester High School (MHS),"[[], []]",J1.62m,0
 Long Jump,Girls,1,Finals,2.8,Danicia Grant,15,12,St. Jago High School,[],5.31m,0
 Triple Jump,Boys,1,Finals,0.4,Daniel Allen,18,6,Calabar High School,[],14.57m ,3
 Long Jump,Boys,1,Finals,0.3,Daniel Allen,18,7,Calabar High School,[],6.91m,2
@@ -909,6 +943,7 @@ Javelin Throw,Girls,Open,Finals,,Danielle Sloley,19,8,Immaculate Conception High
 Shot Put,Girls,2,Finals,,Danielle Sloley,17,1,Immaculate Conception High School,[],14.73m,9
 Javelin Throw,Girls,Open,Finals,,Danielle Sloley,17,10,Immaculate Conception High School,[],32.26m,0
 Javelin Throw,Girls,Open,Finals,,Danielle Sloley,16,13,Immaculate Conception High School,[],32.88m,0
+Long Jump,Girls,3,Finals,2.2,Danielle Spence,12,10,Wolmer's Trust High School For Girls,[],5.19m,0
 Triple Jump,Girls,Open,Finals,2.2,Danielle Spence,17,4,St. Jago High School,[],12.97m,5
 Triple Jump,Girls,Open,Finals,4.7,Danielle Spence,16,3,Wolmer's Trust High School For Girls,[],12.86m,6
 Triple Jump,Girls,Open,Finals,FOUL,Danielle Spence,14,,Wolmer's Trust High School For Girls,[],FOUL,
@@ -918,6 +953,9 @@ Triple Jump,Girls,Open,Finals,2.5,Danique Bryan,15,4,Edwin Allen High School,[],
 Long Jump,Girls,1,Finals,1.3,Danique Bryan,15,3,Edwin Allen High School,[],5.97m,6
 High Jump,Girls,1,Finals,,Danique Bryan,15,7,Edwin Allen High School,"[[], []]",J1.65m,1.5
 Discus Throw,Boys,1,Finals,,Danniel Bailey,18,11,Wolmer's Boys' School,[],46.18m,0
+Shot Put,Girls,Open,Finals,9,Danniel Thomas,12,1,Edwin Allen High School,[],14.47mR,9
+Javelin Throw,Girls,Open,Finals,,Danniel Thomas,12,1,Edwin Allen High School,[],40.74m,9
+Discus Throw,Girls,1,Finals,7,Danniel Thomas,12,2,Edwin Allen High School,[],50.42mR,7
 Shot Put,Boys,1,Finals,,Danree Delancey,18,2,Munro College,[],18.32m ,7
 Shot Put,Boys,1,Finals,,Danree Delancey,17,5,Munro College,[],16.81m,4
 Discus Throw,Boys,1,Finals,,Danree Delancey,17,11,Munro College,[],43.27m,0
@@ -990,6 +1028,11 @@ Shot Put,Boys,1,Finals,,Deandre Leith,18,5,Calabar High School,[],17.80m ,4
 Discus Throw,Boys,1,Finals,,Deandre Leith,18,7,Calabar High School,[],52.62m ,2
 High Jump,Boys,2,Finals,,De-Aundre Gayle,14,3,Herbert Morrison Technical High,"[[], []]",1.90m,5.5
 High Jump,Boys,2,Finals,,De-Aundre Gayle,15,4,Herbert Morrison Technical High,"[[], []]",J1.90m,4.5
+Long Jump,Boys,1,Finals,-0.9,Debarie Spence,12,8,Excelsior High School,[],J6.74m,1
+Shot Put,Girls,Open,Finals,,Debisha Scarlett,12,7,Vere Technical High School,[],11.82m,2
+Discus Throw,Girls,1,Finals,,Debisha Scarlett,12,4,Vere Technical High School,[],41.09m,5
+Shot Put,Girls,Open,Finals,,Decoda Simpson,12,11,St. Andrew High School for Girls,[],10.85m,0
+Discus Throw,Girls,2,Finals,,Decoda Simpson,12,7,St. Andrew High School for Girls,[],36.75m,2
 Shot Put,Girls,1,Finals,,Decoda Simpson,14,10,St. Andrew High School for Girls,[],10.74m,0
 Discus Throw,Girls,1,Finals,,Decoda Simpson,14,5,St. Andrew High School for Girls,[],39.15m,4
 High Jump,Girls,4,Finals,,Deijanae Bruce,19,5,Edwin Allen High School,"[['1.30', '1.35', '1.40', '1.45', '1.50', '1.55'], ['P', 'P', 'P', 'O', 'O', 'XXX']]",1.50m,3
@@ -1024,6 +1067,7 @@ Shot Put,Boys,2,Finals,,Delano Lawrence,21,6,Calabar High School,"['FOUL', '12.1
 Discus Throw,Boys,2,Finals,,Delano Lawrence,21,3,Calabar High School,"['46.96m', 'FOUL', 'FOUL', 'FOUL', 'FOUL', 'FOUL']",46.96m,6
 Shot Put,Boys,1,Finals,,Delano Lawrence,24,8,Calabar High School,"['15.43m', '14.90m', '16.28m', '15.86m', '16.25m', 'FOUL']",16.28m,1
 Discus Throw,Boys,1,Finals,,Delano Lawrence,24,3,Calabar High School,"['53.37m', '53.64m', '55.13m', '54.89m', '56.77m', 'FOUL']",56.77m,6
+Discus Throw,Boys,2,Finals,,Delano Lindo,12,12,St. Jago High School,[],35.65m,0
 Javelin Throw,Boys,Open,Finals,,Delarno Beckford,15,10,Happy Grove High School,[],49.72m,0
 Javelin Throw,Boys,Open,Finals,,Delarno Beckford,16,3,Happy Grove High School,[],56.87m,6
 Discus Throw,Boys,2,Finals,,Dellema Walker,22,11,Wolmer's Boys' School,"['FOUL', '27.90m', 'FOUL']",27.90m,0
@@ -1040,6 +1084,8 @@ Discus Throw,Boys,1,Finals,,Demar Gayle,13,3,Edwin Allen High School,[],53.36m,6
 Discus Throw,Boys,1,Finals,,Demar Gayle,14,3,Edwin Allen High School,[],53.36m,6
 Shot Put,Boys,2,Finals,,Demar Gayle,12,1,Edwin Allen High School,[],16.74m,9
 Discus Throw,Boys,2,Finals,,Demar Gayle,12,4,Edwin Allen High School,[],46.97m,5
+Triple Jump,Boys,Open,Finals,0.2,Demar Robinson,12,2,Calabar High School,[],15.34m,7
+High Jump,Boys,1,Finals,,Demar Robinson,12,2,Calabar High School,"[[], []]",J2.10m,7
 High Jump,Boys,1,Finals,,Demar Sayles,17,9,Ardenne High School,"[[], []]",1.90m,0
 Long Jump,Boys,3,Finals,3.2,Demario Brown,21,12,St. Jago High School,"['FOUL', '5.16m(3.2)', 'FOUL']",5.16m,0
 Long Jump,Boys,2,Finals,3.9,Demario Brown,22,10,St. Jago High School,"['5.59m(1.9)', '6.21m(3.9)', 'FOUL']",6.21m,0
@@ -1052,9 +1098,11 @@ Long Jump,Boys,1,Finals,-0.7,Demario Prince,23,2,St. Jago High School,"['7.36m(-
 High Jump,Boys,2,Finals,,Demario Prince,21,4,St. Jago High School,"[['1.80', '1.85', '1.90', '1.95'], ['O', 'XXO', 'O', 'XXX']]",1.90m,5
 High Jump,Boys,1,Finals,,Demario Prince,22,3,St. Jago High School,"[['1.85', '1.90', '1.95', '2.00', '2.05'], ['O', 'XO', 'XO', 'XO', 'XXX']]",2.00m,6
 Long Jump,Boys,1,Finals,-1.2,Demario Prince,22,3,St. Jago High School,"['6.92m(1.5)', '7.28m(-1.2)', '6.85m(-0.1)', '6.49m(-0.9)', '6.83m(0.1)', 'FOUL']",7.28m,6
+Pole Vault,Boys,Open,Finals,,Demetri Mitchell,12,3,Wolmer's Boys' School,"[[], []]",J4.00m,6
 Javelin Throw,Boys,Open,Finals,,Demoy Henry,12,8,Calabar High School,[],49.59m,1
 Long Jump,Girls,3,Finals,3.8,Denae Mcfarlane,16,10,Edwin Allen High School,[],5.16m,0
 Long Jump,Girls,4,Finals,-1.8,Denee Charles,19,7,Campion College,"['4.79m(-1.8)', '4.70m(-1.1)', '4.63m(-1.0)', '4.60m(-1.4)', '4.51m(-2.6)', 'FOUL']",4.79m,2
+High Jump,Girls,1,Finals,,Deneen Taylor,12,11,Holmwood Technical High School,"[[], []]",J1.55m,0
 Shot Put,Boys,2,Finals,,Denzel Phillips,23,4,Jamaica College,"['FOUL', 'FOUL', '13.56m', '14.67m', 'FOUL', 'FOUL']",14.67m ,5
 Discus Throw,Boys,2,Finals,,Denzel Phillips,23,2,Jamaica College,"['FOUL', '39.85m', 'FOUL', '39.60m', '45.98m', '45.28m']",45.98m ,7
 Shot Put,Boys,2,Finals,,Denzs Simmonds,19,3,Calabar High School,"['16.16m', 'FOUL', 'FOUL', 'FOUL', 'FOUL', '16.96m']",16.96m ,6
@@ -1072,7 +1120,9 @@ Long Jump,Boys,1,Finals,-0.7,Dermaine Campbell,23,9,Lacovia High School,"['6.71m
 High Jump,Boys,3,Finals,,Derrick Bernard,18,1,Campion College,"[['1.60', '1.65', '1.70', '1.75', '1.80', '1.85'], ['O', 'O', 'XXO', 'O', 'O', 'XXX']]",1.80m ,9
 High Jump,Boys,2,Finals,,Derrick Bernard,19,3,Campion College,"[['1.70', '1.75', '1.80', '1.85', '1.90', '1.95', '2.00'], ['XXO', 'O', 'O', 'O', 'O', 'XXO', 'XXX']]",J1.95m ,6
 High Jump,Boys,1,Finals,,Derrick Bernard,21,5,Campion College,"[['1.90', '1.95', '2.00'], ['O', 'XO', 'XXX']]",1.95m,4
+Shot Put,Boys,1,Finals,,Derrick Pitt,12,10,St. Jago High School,[],13.99m,0
 Shot Put,Boys,1,Finals,,Derrick Pitt,14,9,Kingston College,[],14.26m,0
+Discus Throw,Boys,2,Finals,,Derrick Spencer,12,7,Hydel High School,[],42.14m,2
 Discus Throw,Boys,1,Finals,,Derrick Spencer,13,12,Hydel High School,[],40.45m,0
 Discus Throw,Boys,1,Finals,,Derrick Spencer,14,12,Hydel High School,[],40.45m,0
 Discus Throw,Boys,1,Finals,,Derrick Spencer,15,16,Hydel High School,[],42.01m,0
@@ -1089,6 +1139,7 @@ Shot Put,Boys,1,Finals,,Devar Clayton,18,7,Petersfield High School,[],16.61m ,2
 Shot Put,Boys,2,Finals,,Devar Clayton,15,10,Petersfield High School,[],13.06m,0
 Discus Throw,Boys,2,Finals,,Devar Clayton,14,9,Petersfield High School,[],37.57m,0
 Discus Throw,Boys,2,Finals,,Devar Clayton,15,5,Petersfield High School,[],44.11m,4
+Javelin Throw,Girls,Open,Finals,,Deveena Nation,12,7,Buff Bay High School,[],34.14m,2
 Shot Put,Girls,Open,Finals,,Devene Brown,12,5,St. Hughs High School,[],12.68m,4
 Discus Throw,Girls,1,Finals,,Devene Brown,12,5,St. Hughs High School,[],40.53m,4
 Discus Throw,Girls,3,Finals,,Devia Brown,12,11,Hydel High School,[],27.49m,0
@@ -1130,7 +1181,6 @@ Long Jump,Boys,3,Finals,1.5,Domanicc Clarke,23,10,Jamaica College,"['5.66m(4.9)'
 Discus Throw,Boys,2,Finals,,Dominic Bennett,16,9,Cornwall College,[],39.77m,0
 Javelin Throw,Boys,Open,Finals,,Domonique Wint,23,8,Dinthill Technical High School,"['46.96m', '47.40m', '48.25m', '44.99m', '44.93m', 'FOUL']",48.25m,1
 Javelin Throw,Boys,Open,Finals,,Domonique Wint,22,8,Dinthill Technical High School,"['44.21m', '43.96m', '45.20m', '47.33m', '44.80m', '41.62m']",47.33m,1
-Shot Put,Boys,2,Finals,,"Donald, Stefan",12,4,Calabar High School,[],15.22m,5
 Javelin Throw,Girls,Open,Finals,,Donieca Bartley,19,5,Manchester High School (MHS),"['31.50m', '27.51m', '34.22m', '36.76m', '33.54m', '35.99m']",36.76m ,4
 High Jump,Girls,3,Finals,,Donieke Daniel,12,6,Campion College,"[[], []]",J1.62m,3
 Long Jump,Girls,2,Finals,NWI,Doniellia Lewis,23,5,Edwin Allen High School,"['5.60m(-0.0)', '5.50m(0.7)', '5.60m(0.5)', '5.42m(-0.6)', '5.49m(-0.1)', '5.43m(-0.4)']",5.60m ,4
@@ -1176,6 +1226,9 @@ Triple Jump,Girls,Open,Finals,FOUL,Elaine Robinson,18,,The Queen's School,[],FOU
 Javelin Throw,Boys,Open,Finals,,Elvis Graham,15,8,Hopewell High School,[],53.14m,1
 Shot Put,Boys,1,Finals,,Emmanuel Campbel,15,4,Cornwall College,[],17.13m,5
 Discus Throw,Boys,1,Finals,,Emmanuel Campbel,15,15,Cornwall College,[],42.10m,0
+Shot Put,Boys,1,Finals,,Emmanuel Mayanja,12,19,Ardenne High School,[],11.83m,0
+Shot Put,Boys,1,Finals,,Emmanuel Onyia,12,2,Munro College,[],18.06m,7
+Discus Throw,Boys,1,Finals,,Emmanuel Onyia,12,4,Munro College,[],53.04m,5
 Long Jump,Boys,3,Finals,3.4,Eniola Johnson,17,3,Ardenne High School,[],6.27m,6
 Shot Put,Boys,1,Finals,,Eric Campbell,14,8,Oberlin High School,[],14.71m,1
 Discus Throw,Boys,1,Finals,,Eric Campbell,13,8,Oberlin High School,[],43.96m,1
@@ -1192,6 +1245,7 @@ Long Jump,Boys,2,Finals,1.7,Euan Young,23,2,Jamaica College,"['6.79m(1.6)', '7.0
 Long Jump,Boys,3,Finals,2.1,Everton Thomas,23,7,Wolmer's Boys' School,"['5.98m(2.1)', '5.76m(4.0)', 'FOUL', '5.62m(2.9)', 'FOUL', 'FOUL']",5.98m ,2
 High Jump,Boys,3,Finals,,Ewan Lawrence,19,3,Calabar High School,"[['1.45', '1.50', '1.55', '1.60', '1.65', '1.70', '1.75', '1.78', '1.81'], ['P', 'P', 'O', 'O', 'O', 'XO', 'O', 'XO', 'XXX']]",J1.78m ,6
 High Jump,Boys,2,Finals,,Ewan Lawrence,21,,Calabar High School,"[['1.80'], ['XXX']]",NH,
+Discus Throw,Boys,1,Finals,,Fabeon Tucker,12,15,Edwin Allen High School,[],41.20m,0
 Discus Throw,Girls,3,Finals,,Fabiana Perry,23,5,St. Jago High School,"['33.42m', '28.15m', 'FOUL', 'FOUL', '28.38m', 'FOUL']",33.42m,4
 Shot Put,Girls,2,Finals,,Fabrienne Foster,19,12,Manchester High School (MHS),"['10.89m', 'FOUL', '10.78m']",10.89m,0
 Discus Throw,Girls,3,Finals,,Fabrienne Foster,18,3,Manchester High School (MHS),[],34.15m ,6
@@ -1206,6 +1260,7 @@ Javelin Throw,Girls,Open,Finals,,Fayon Gonzales,12,9,St. Jago High School,[],32.
 Discus Throw,Girls,1,Finals,,Fayon Gonzales,12,3,St. Jago High School,[],46.14m,6
 Shot Put,Boys,1,Finals,,Fedrick Dacres,12,1,Calabar High School,[],18.32m,9
 Discus Throw,Boys,1,Finals,,Fedrick Dacres,12,1,Calabar High School,[],60.43m,9
+Discus Throw,Girls,2,Finals,,Felecia Street,12,4,Grange Hill High School,[],37.74m,5
 Discus Throw,Girls,1,Finals,,Felecia Street,14,12,Grange Hill High School,[],30.60m,0
 Triple Jump,Girls,Open,Finals,4.2,Fiona Barnes,15,15,Vere Technical High School,[],11.42m,0
 Long Jump,Girls,2,Finals,2.8,Fiona Barnes,13,7,Vere Technical High School,[],5.41m,2
@@ -1241,6 +1296,7 @@ Shot Put,Girls,1,Finals,,Gabrielle Bailey,17,5,St. Jago High School,[],12.98m,4
 Discus Throw,Girls,1,Finals,,Gabrielle Bailey,17,3,St. Jago High School,[],47.61m,6
 Discus Throw,Girls,1,Finals,,Gabrielle Henry,21,12,Excelsior High School,"['34.38m', '31.71m', 'FOUL']",34.38m,0
 Discus Throw,Girls,3,Finals,,Gabrielle Henry,17,7,The Queen's School,[],30.46m,2
+High Jump,Girls,4,Finals,,Gabrielle Peart,12,9,Campion College,"[[], []]",1.50m,0
 High Jump,Girls,4,Finals,,Gabrilla Treasure,23,1,St. Catherine High School,"[['1.40', '1.45', '1.50', '1.55', '1.58'], ['O', 'O', 'XO', 'O', 'XXX']]",1.55m ,9
 High Jump,Girls,3,Finals,,Gabrilla Treasure,24,2,St. Catherine High School,"[['1.50', '1.55', '1.60', '1.65', '1.68', '1.71'], ['O', 'O', 'O', 'XXO', 'O', 'XXX']]",1.68m,7
 Shot Put,Boys,2,Finals,,Galen Hare,13,7,Wolmer's Boys' School,[],14.62m,2
@@ -1259,6 +1315,7 @@ Long Jump,Boys,1,Finals,0.4,Gavin Gibson,14,2,Kingston College,[],7.37m,7
 Long Jump,Boys,2,Finals,-1.1,Gavin Gibson,12,1,Jamaica College,[],6.91m,9
 Triple Jump,Boys,1,Finals,1.6,Gavin Montaque,14,10,St. Mary High School,[],13.84m,0
 Triple Jump,Boys,1,Finals,0.3,Gavin Montaque,15,13,St. Mary High School,[],13.85m,0
+Long Jump,Boys,2,Finals,0.1,Gavin Monteque,12,11,St. Mary High School,[],6.02m,0
 Shot Put,Girls,1,Finals,,gay Johnson,15,7,St. Jago High School,[],12.28m,2
 High Jump,Girls,2,Finals,,Gayle-anna Oswald,14,12,Central High School,"[[], []]",J1.60m,0
 Shot Put,Girls,1,Finals,,Georgetta Samuels,16,9,Holmwood Technical High School,[],11.51m,0
@@ -1275,6 +1332,8 @@ Discus Throw,Girls,2,Finals,,Georgetta Samuels,15,9,Holmwood Technical High Scho
 Discus Throw,Girls,1,Finals,,Georgia Burton,22,9,St. Elizabeth Technical High School,"['39.21m', 'FOUL', '37.81m']",39.21m,0
 Shot Put,Girls,1,Finals,,Georgia Myrie,15,8,Mona High School,[],11.31m,1
 Shot Put,Girls,1,Finals,,Georgia Myrie,14,7,Mona High School,[],11.46m,2
+High Jump,Girls,1,Finals,,Georgia Williams,12,8,St. Andrew High School for Girls,"[[], []]",1.59m,1
+Discus Throw,Girls,1,Finals,,Georgia Williams,12,12,St. Andrew High School for Girls,[],30.55m,0
 Long Jump,Girls,2,Finals,0.4,Gerilin Barnes,24,5,The Queen's School,"['5.30m(-0.5)', '5.28m(-0.5)', '5.42m(0.4)', '5.27m(-0.3)', '5.25m(-1.0)', '5.23m(-1.6)']",5.42m,4
 Discus Throw,Girls,1,Finals,,Gianna Clayton,24,5,Excelsior High School,"['44.03m', '39.78m', '43.41m', '39.65m', '40.99m', '40.26m']",44.03m,4
 High Jump,Girls,1,Finals,,Gianni Miller,17,11,St. Andrew High School for Girls,"[[], []]",1.55m,0
@@ -1283,6 +1342,7 @@ Discus Throw,Boys,1,Finals,,Glendford Watson,14,2,Petersfield High School,[],54.
 Shot Put,Girls,Open,Finals,7,Gleneve Grange,12,2,Holmwood Technical High School,[],13.74mR,7
 Javelin Throw,Girls,Open,Finals,,Gleneve Grange,12,10,Holmwood Technical High School,[],29.87m,0
 Discus Throw,Girls,2,Finals,,Gleneve Grange,12,1,Holmwood Technical High School,[],43.32m,9
+Discus Throw,Boys,1,Finals,,Glenford Watson,12,6,Petersfield High School,[],48.35m,3
 Javelin Throw,Girls,Open,Finals,,G'Nea Pitt,22,6,St. Catherine High School,"['35.94m', '32.16m', '36.37m', 'FOUL', 'FOUL', '33.68m']",36.37m,3
 High Jump,Girls,3,Finals,,Grace-Ann Bailey,24,3,Immaculate Conception High School,"[['1.50', '1.55', '1.60', '1.65', '1.68'], ['O', 'O', 'XO', 'XO', 'XXX']]",1.65m,6
 Pole Vault,Boys,Open,Finals,,Gregory Degouth,18,8,Excelsior High School,"[['2.90', '3.00'], ['O', 'XXX']]",2.90m,1
@@ -1293,6 +1353,7 @@ High Jump,Girls,1,Finals,,Halima Biggs,23,11,St. Catherine High School,"[['1.55'
 High Jump,Girls,1,Finals,,Halima Biggs,24,,St. Catherine High School,"[['1.60'], ['XXX']]",1.60m,
 Triple Jump,Girls,Open,Finals,2.1,Hanifah Abdulqadir,15,10,St. Jago High School,[],12.01m,0
 High Jump,Girls,1,Finals,,Hanifah Abdulqadir,15,2,St. Jago High School,"[[], []]",J1.73m,7
+High Jump,Girls,2,Finals,,Hanifah Qadir,12,13,Excelsior High School,"[[], []]",1.50m,0
 Javelin Throw,Boys,Open,Finals,,Hasan Williams,17,12,Maud McLeod High School,[],46.52m,0
 Javelin Throw,Boys,Open,Finals,,Hasan Williams,16,9,Maud McLeod High School,[],48.65m,0
 Javelin Throw,Boys,Open,Finals,,Hayden Street,16,13,St. Jago High School,[],47.33m,0
@@ -1302,10 +1363,12 @@ High Jump,Boys,1,Finals,,Horatio Humphrey,17,9,Buff Bay High School,"[[], []]",1
 Shot Put,Boys,1,Finals,,Howard Becford,17,12,St. Jago High School,[],14.11m,0
 Discus Throw,Boys,1,Finals,,Howard Becford,16,19,St. Jago High School,[],41.25m,0
 Shot Put,Boys,1,Finals,,Howard Becford,16,,St. Jago High School,[],FOUL,
+Pole Vault,Boys,Open,Finals,,Hugh Lewis,12,2,Jamaica College,"[[], []]",4.00m,7
 Triple Jump,Boys,2,Finals,FOUL,Iangelo Atkinstall-Daley,18,,Wolmer's Boys' School,[],FOUL,
 Triple Jump,Boys,2,Finals,-0.5,Iangelo Atkinstall-Daley,19,6,Wolmer's Boys' School,"['13.62m(-0.3)', '13.48m(-1.5)', '13.20m(-1.5)', '13.51m(-1.6)', 'FOUL', '13.85m(-0.5)']",13.85m ,3
 Long Jump,Boys,2,Finals,0.6,Iangelo Atkinstall-Daley,19,7,Wolmer's Boys' School,"['FOUL', '6.68m(0.6)', 'FOUL', 'FOUL', '6.48m(1.2)', '6.43m(0.3)']",6.68m,2
 Triple Jump,Boys,1,Finals,4.4,Iangelo Atkinstall-Daley,21,4,Wolmer's Boys' School,"['14.64m(5.3)', '14.06m(2.0)', '15.11m(4.4)', '14.85m(2.2)', 'FOUL', 'PASS']",15.11m,5
+Long Jump,Boys,1,Finals,-0.8,Ifeanye Otuonye,12,4,Munro College,[],6.83m,5
 Triple Jump,Girls,Open,Finals,5.1,Iman Francis,17,13,Gaynstead High School,[],11.28m,0
 Discus Throw,Girls,1,Finals,,Imani Lowe,24,10,St. Catherine High School,"['32.87m', '37.44m', 'FOUL']",34.96m,0
 Javelin Throw,Girls,Open,Finals,,Imani Lowe,24,6,St. Catherine High School,"['34.00m', '32.05m', '35.01m', '38.00m', '34.76m', '30.42m']",38.00m,3
@@ -1320,6 +1383,7 @@ Javelin Throw,Girls,Open,Finals,,Isheka Binns,12,5,Manchester High School (MHS),
 Discus Throw,Girls,1,Finals,,Isheka Binns,14,8,Manchester High School (MHS),[],37.56m,1
 Javelin Throw,Girls,Open,Finals,,Isheka Binns,14,1,Manchester High School (MHS),[],44.59m,9
 Long Jump,Girls,1,Finals,2.3,Ishna James,24,7,Edwin Allen High School,"['5.71m(2.3)', '5.56m(2.4)', '5.68m(3.6)', '5.55m(2.7)', '5.50m(1.1)', 'PASS']",5.71m,2
+High Jump,Girls,1,Finals,,Israel Ramsay,12,6,Wolmer's Trust High School For Girls,"[[], []]",J1.63m,3
 Long Jump,Girls,3,Finals,-0.3,Jada Barrucks,18,3,St. Andrew High School for Girls,[],5.47m,6
 Shot Put,Girls,2,Finals,,Jada Clarke,24,9,St. Elizabeth Technical High School,"['FOUL', '11.26m', 'FOUL']",11.97m,0
 Discus Throw,Girls,3,Finals,,Jada Clarke,23,4,St. Elizabeth Technical High School,"['30.42m', '33.88m', '30.23m', '25.00m', '32.40m', '27.00m']",33.88m,5
@@ -1350,6 +1414,7 @@ Long Jump,Girls,2,Finals,0.1,Jaeda Robinson,24,2,Immaculate Conception High Scho
 Javelin Throw,Boys,Open,Finals,,Jaeden Teka,22,3,Kingston College,"['FOUL', '51.49m', '55.66m', '50.10m', '49.84m', '58.56m']",58.56m,6
 Shot Put,Boys,2,Finals,,Jaeden Williams,23,3,Kingston College,"['12.63m', '13.56m', '15.05m', '13.97m', '13.78m', '13.99m']",15.05m ,6
 Discus Throw,Boys,2,Finals,,Jaeden Williams,23,5,Kingston College,"['38.89m', '38.32m', 'FOUL', 'FOUL', '40.91m', '39.79m']",40.91m,4
+Javelin Throw,Boys,Open,Finals,,Jael Reid,12,5,Kemps High School,[],52.46m,4
 Pole Vault,Boys,Open,Finals,,Jafar Moore,21,2,Kingston College,"[['2.80', '2.90', '3.00', '3.10', '3.20', '3.30', '3.40', '3.50', '3.60', '3.70', '3.80', '3.90'], ['P', 'P', 'O', 'P', 'P', 'P', 'P', 'P', 'O', 'P', 'XO', 'XXX']]",3.80m,7
 Pole Vault,Boys,Open,Finals,,Jafar Moore,22,1,Kingston College,"[['2.90', '3.00', '3.10', '3.20', '3.30', '3.40', '3.50', '3.60', '3.70', '3.80', '3.90', '4.00', '4.10'], ['P', 'O', 'P', 'P', 'O', 'P', 'P', 'O', 'P', 'XXO', 'P', 'XO', 'XXX']]",4.00m,9
 Triple Jump,Boys,1,Finals,1.4,Jahbarie Carby,23,9,Calabar High School,"['FOUL', '13.78m(1.4)', 'FOUL']",13.78m,0
@@ -1432,6 +1497,7 @@ Shot Put,Girls,2,Finals,,Janelle Marsh,17,15,Dinthill Technical High School,[],1
 Discus Throw,Girls,2,Finals,,Janelle Marsh,16,11,Dinthill Technical High School,[],33.96m,0
 Discus Throw,Girls,2,Finals,,Janelle Marsh,17,7,Dinthill Technical High School,[],35.49m,2
 Discus Throw,Girls,3,Finals,,Janelle Marsh,15,2,Dinthill Technical High School,[],34.66m,7
+Long Jump,Girls,4,Finals,-0.5,Janette Lowe,12,6,Hydel High School,[],4.85m,3
 Discus Throw,Girls,1,Finals,,Janiel Montaque,23,10,Holmwood Technical High School,"['FOUL', '38.69m', '37.98m']",38.69m,0
 Shot Put,Girls,1,Finals,,Janiel Montaque,22,12,Holmwood Technical High School,"['FOUL', '9.82m', '9.38m']",9.82m,0
 Long Jump,Girls,4,Finals,2.5,Janielle Josephs,13,5,St. Andrew High School for Girls,[],5.04m,4
@@ -1455,6 +1521,9 @@ Long Jump,Boys,2,Finals,1.3,Jaquan Souden,24,11,Happy Grove High School,"['5.94m
 Discus Throw,Boys,2,Finals,,Jason Campbell,19,8,Petersfield High School,"['42.99m', '45.06m', '41.39m', '42.67m', '43.70m', '42.03m']",45.06m ,1
 Javelin Throw,Boys,Open,Finals,,Jason Campbell,21,10,Petersfield High School,"['38.97m', '50.36m', '45.89m']",50.36m,0
 Long Jump,Boys,2,Finals,2.3,Jason Lawrence,23,12,Garvey Maceo High School,"['5.98m(2.3)', '5.82m(3.4)', '5.90m(2.5)']",5.98m,0
+High Jump,Boys,1,Finals,,Jason Lewis,12,3,Wolmer's Boys' School,"[[], []]",2.07m,6
+Shot Put,Boys,2,Finals,,Jason Stephenson,12,6,Jamaica College,[],14.41m,3
+Discus Throw,Boys,2,Finals,,Jason Stephenson,12,9,Jamaica College,[],39.87m,0
 Shot Put,Boys,1,Finals,,Jason Stephenson,14,6,Jamaica College,[],15.31m,3
 Shot Put,Boys,1,Finals,,Jason Stephenson,15,6,Jamaica College,[],16.20m,3
 Discus Throw,Boys,1,Finals,,Jason Stephenson,15,8,Jamaica College,[],47.55m,1
@@ -1485,6 +1554,8 @@ Triple Jump,Boys,2,Finals,3.8,Javier Lowe,14,1,Calabar High School,[],14.75m,9
 Triple Jump,Boys,1,Finals,2.4,Javier Lowe,15,5,Calabar High School,[],15.60m,4
 Triple Jump,Boys,1,Finals,0.3,Javier Lowe,16,2,Calabar High School,[],16.10m,7
 High Jump,Boys,2,Finals,,Javier Lowe,14,8,Calabar High School,"[[], []]",J1.85m,1
+High Jump,Boys,2,Finals,,Javier Ogilvie,12,6,Wolmer's Boys' School,"[[], []]",1.85m,1.5
+Long Jump,Boys,2,Finals,-0.5,Javier Ogilvie,12,7,Wolmer's Boys' School,[],6.43m,2
 Long Jump,Boys,1,Finals,1.1,Javier Ogilvie,14,12,Wolmer's Boys' School,[],6.36m,0
 High Jump,Boys,1,Finals,,Javier Ogilvie,15,14,Wolmer's Boys' School,"[[], []]",1.85m,0
 Long Jump,Boys,1,Finals,-2.6,Javier Ogilvie,15,14,Wolmer's Boys' School,[],6.45m,0
@@ -1521,6 +1592,7 @@ Discus Throw,Girls,2,Finals,,Jazmyn James,21,12,Petersfield High School,"['33.39
 Discus Throw,Boys,2,Finals,,Jean Campbell,19,5,Jamaica College,"['39.70m', '41.05m', '46.68m', '49.41m', '43.69m', '44.79m']",49.41m ,4
 Discus Throw,Boys,1,Finals,,Jean Campbell,21,12,Jamaica College,"['FOUL', '45.26m', 'FOUL']",45.26m,0
 Javelin Throw,Girls,Open,Finals,,Jeda Thompson,14,9,Lacovia High School,[],33.36m,0
+High Jump,Girls,2,Finals,,Jehvania Vidal-Whyte,12,3,Vere Technical High School,"[[], []]",J1.71m,6
 High Jump,Girls,1,Finals,,Jehvania Whyte,14,4,St. Jago High School,"[[], []]",1.70m,5
 Long Jump,Girls,1,Finals,0.5,Jehvania Whyte,14,3,St. Jago High School,[],5.86m,6
 Long Jump,Boys,3,Finals,5.7,Jelani Lewis,17,9,Munro College,[],5.55m,0
@@ -1537,6 +1609,8 @@ Long Jump,Girls,3,Finals,2.9,Jenice Dunkley,23,2,Hydel High School,"['4.96m(0.8)
 Triple Jump,Girls,Open,Finals,FOUL,Jenice Dunkley,23,,Hydel High School,"['FOUL', 'FOUL', 'FOUL']",FOUL,
 Long Jump,Girls,4,Finals,-1.6,Jenice Dunkley,21,10,Hydel High School,"['4.51m(-1.6)', '4.06m(-1.8)', 'FOUL']",4.51m,0
 Long Jump,Girls,4,Finals,-0.4,Jenique Bogle,12,10,Camperdown High School,[],4.58m,0
+Javelin Throw,Boys,Open,Finals,,Jenthrow Tindale,12,7,Edwin Allen High School,[],51.37m,2
+Javelin Throw,Boys,Open,Finals,,Jeremiah Messam,12,13,Lacovia High School,[],43.93m,0
 Javelin Throw,Boys,Open,Finals,,Jeremiah Messam,14,6,Lacovia High School,[],51.50m,3
 Long Jump,Boys,2,Finals,0.8,Jeremy Hibbert,18,11,Titchfield High School,[],6.23m,0
 High Jump,Boys,3,Finals,,Jeremy Hibbert,16,,Titchfield High School,"[['--', 'Romaine', 'Beckford', 'Buff', 'Bay', 'High', 'FAIL'], ['--', 'Mejay', 'Gray', 'Lacovia', 'High', 'FAIL']]",FAIL,
@@ -1551,12 +1625,17 @@ Discus Throw,Girls,3,Finals,,Jessica Thompson,23,1,St. Jago High School,"['32.05
 Long Jump,Girls,4,Finals,2.4,Jessica Thompson,21,9,St. Jago High School,"['3.99m(0.8)', 'FOUL', '4.66m(2.4)']",4.66m,0
 Javelin Throw,Girls,Open,Finals,,Jessica Willis,17,12,Penwood High School,[],27.00m,0
 Javelin Throw,Girls,Open,Finals,,Jessica Willis,16,15,Penwood High School,[],32.40m,0
+Long Jump,Girls,3,Finals,2.2,Jessicca Nobel,12,3,The Queen's School,[],5.67m,6
 Javelin Throw,Boys,Open,Finals,,Jevaud Pringle,16,11,Bellefield High School,[],47.63m,0
 Javelin Throw,Boys,Open,Finals,,Jevaud Pringle,15,7,Bellefield High School,[],53.15m,2
 Triple Jump,Boys,1,Finals,1.8,Jevaughn Cephas,21,8,Kingston College,"['14.40m(1.8)', 'FOUL', '13.33m(3.2)', '13.76m(2.1)', '13.80m(2.1)', 'FOUL']",14.40m,1
 Triple Jump,Boys,1,Finals,2,Jevaughn Samuels,23,12,St. Jago High School,"['13.24m(2.0)', 'FOUL', 'FOUL']",13.24m,0
 Triple Jump,Boys,2,Finals,1.6,Jevaughn Samuels,21,7,St. Jago High School,"['12.99m(1.8)', 'FOUL', '13.53m(1.6)', '11.97m(3.2)', '12.67m(0.7)', '11.10m(1.4)']",13.53m,2
+Shot Put,Boys,1,Finals,,Jevaughn Shaw,12,16,Munro College,[],12.35m,0
+Discus Throw,Boys,1,Finals,,Jevaughn Shaw,12,5,Munro College,[],53.03m,4
 Triple Jump,Boys,Open,Finals,0.2,Jevaun Blake,12,8,Wolmer's Boys' School,[],14.18m,1
+Long Jump,Boys,3,Finals,1.7,Jevier Lowe,12,4,Calabar High School,[],6.23m,5
+High Jump,Boys,3,Finals,,Jevier Lowe,12,2,Calabar High School,"[[], []]",J1.75m,7
 High Jump,Boys,1,Finals,,Jevontae Grant,23,10,Calabar High School,"[['1.85', '1.90'], ['XO', 'XXX']]",1.85m,0
 High Jump,Boys,1,Finals,,Jevontae Grant,24,2,Calabar High School,"[['1.85', '1.90', '1.95', '2.00', '2.05'], ['XO', 'O', 'O', 'O', 'XXX']]",2.00m,7
 Javelin Throw,Girls,Open,Finals,,Jewel Collins,19,4,St. Jago High School,"['36.96m', '25.91m', '32.44m', '35.99m', 'FOUL', '34.14m']",36.96m ,5
@@ -1582,6 +1661,7 @@ Discus Throw,Girls,1,Finals,,Joda-lee Johnson,17,18,Manchester High School (MHS)
 High Jump,Girls,1,Finals,,Jodian Stewart,19,9,St. Elizabeth Technical High School,"[['1.40', '1.45', '1.50', '1.55', '1.60', '1.65', '1.70'], ['P', 'P', 'O', 'O', 'XO', 'XXO', 'XXX']]",1.65m ,0
 Long Jump,Girls,1,Finals,1.6,Jodian Stewart,19,4,St. Elizabeth Technical High School,"['5.54m(-0.3)', '5.70m(1.1)', '5.72m(1.7)', '5.75m(1.6)', '5.75m(1.1)', '5.73m(0.7)']",5.75m ,5
 Long Jump,Girls,4,Finals,-1.3,Jodiann Ewan,21,11,Vere Technical High School,"['4.35m(-0.6)', '4.48m(-1.3)', 'FOUL']",4.48m,0
+Long Jump,Girls,3,Finals,6,Jody-Ann Petrie,12,6,Excelsior High School,[],5.46m,3
 Triple Jump,Girls,Open,Finals,5.7,Jody-ann Petrie,16,7,St. Jago High School,[],12.24m,2
 Long Jump,Girls,1,Finals,2.7,Jody-ann Petrie,16,5,St. Jago High School,[],5.70m,4
 Long Jump,Girls,1,Finals,-0.8,Jody-ann Petrie,17,2,St. Jago High School,[],6.06m,7
@@ -1607,8 +1687,10 @@ Long Jump,Boys,2,Finals,-1,Johni James,15,8,Jamaica College,[],6.49m,1
 Shot Put,Girls,2,Finals,,Johnicia Davis,19,6,Hydel High School,"['12.39m', '12.71m', '11.79m', 'FOUL', '12.32m', 'FOUL']",12.71m ,3
 Discus Throw,Girls,3,Finals,,Johnicia Davis,18,12,Hydel High School,[],24.83m,0
 Long Jump,Boys,3,Finals,5.2,John-mark Rainford,16,3,Jamaica College,[],6.29m,6
+Shot Put,Boys,2,Finals,,John-Mark Reid,12,15,St. Jago High School,[],12.37m,0
 Long Jump,Girls,2,Finals,0.6,Joi-Anne Russell,23,8,Immaculate Conception High School,"['5.10m(0.9)', '5.37m(0.6)', 'FOUL', '4.83m(0.8)', '4.89m(0.5)', '4.28m(1.2)']",5.37m,1
 Long Jump,Girls,3,Finals,2.9,Joi-Anne Russell,22,11,Immaculate Conception High School,"['4.18m(1.9)', '4.41m(1.6)', '4.89m(2.9)']",4.89m,0
+High Jump,Girls,4,Finals,,Jolaine Spence,12,10,Wolmer's Trust High School For Girls,"[[], []]",1.45m,0
 High Jump,Girls,3,Finals,,Jolaine Spence,13,10,Wolmer's Trust High School For Girls,"[[], []]",1.55m,0
 High Jump,Girls,3,Finals,,Jolaine Spence,14,10,Wolmer's Trust High School For Girls,"[[], []]",1.55m,0
 High Jump,Girls,1,Finals,,Jolene Walters,21,,St. Catherine High School,"[['1.55'], ['XXX']]",NH,
@@ -1618,6 +1700,7 @@ High Jump,Boys,1,Finals,,Jon-Michael Davis,18,7,Kingston College,"[['1.90', '1.9
 High Jump,Boys,3,Finals,,Jon-Michael Davis,12,4,Wolmer's Boys' School,"[[], []]",1.70m,4.5
 Triple Jump,Boys,1,Finals,0.3,Jordae Wilson,22,7,Cornwall College,"['FOUL', '13.99m(0.1)', '14.21m(0.3)', 'FOUL', '13.63m(-0.4)', '13.66m(-0.3)']",14.21m,2
 Long Jump,Boys,1,Finals,1.5,Jordae Wilson,22,10,Cornwall College,"['6.79m(1.5)', '6.78m(-0.3)', 'FOUL']",6.79m,0
+Long Jump,Boys,2,Finals,-0.2,Jordaine Waite,12,8,St. Jago High School,[],6.34m,1
 Shot Put,Boys,2,Finals,,Jordan Edwards,18,2,Jamaica College,[],16.72m ,7
 Discus Throw,Boys,2,Finals,,Jordan Edwards,18,9,Jamaica College,[],42.92m ,0
 Shot Put,Boys,2,Finals,,Jordan Edwards,17,4,Jamaica College,[],14.90m,5
@@ -1658,6 +1741,7 @@ Shot Put,Boys,1,Finals,,Josh-Ty Brown,22,7,Jamaica College,"['FOUL', '16.53m', '
 Shot Put,Boys,2,Finals,,Josh-Ty Brown,21,1,Jamaica College,"['13.73m', '13.28m', '16.30m', '16.87m', '16.04m', '16.49m']",16.87m,9
 Shot Put,Boys,1,Finals,,Josh-Ty Brown,24,2,Jamaica College,"['16.65m', '17.61m', '16.99m', 'FOUL', '17.53m', '17.02m']",17.61m,7
 Long Jump,Boys,3,Finals,0.4,Joshua Jack,19,12,St Georges College,"['5.10m(0.4)', 'FOUL', 'FOUL']",5.10m,0
+High Jump,Boys,3,Finals,,Joshua Morgan,12,9,Hydel High School,"[[], []]",1.65m,0
 Triple Jump,Boys,2,Finals,-0.5,Joshua Smickle,15,7,Camperdown High School,[],13.47m,2
 Triple Jump,Boys,1,Finals,NWI,Joshua Smikle,18,8,Wolmer's Boys' School,[],13.91m,1
 Shot Put,Boys,2,Finals,,Joshua Wright,23,12,Munro College,"['12.19m', '11.82m', '10.33m']",12.19m,0
@@ -1665,6 +1749,7 @@ Shot Put,Boys,2,Finals,,Joshua Wright,24,5,Munro College,"['14.47m', '15.25m', '
 Javelin Throw,Boys,Open,Finals,,Josiah Blake,24,12,St. Catherine High School,"['42.89m', 'FOUL', 'FOUL']",45.72m,0
 Long Jump,Boys,3,Finals,0.3,Josiah Jame,19,10,Excelsior High School,"['5.84m(0.3)', '5.75m(-0.8)', '5.83m(-0.2)']",5.84m,0
 Long Jump,Girls,4,Finals,-0.8,Jounee Arms,19,1,Immaculate Conception High School,"['FOUL', '5.43m(-1.2)', '5.05m(-1.1)', '5.22m(-1.8)', '5.44m(-1.8)', '5.64m(-0.8)']",5.64mR,9
+High Jump,Boys,1,Finals,,Jovan Swaby,12,,Calabar High School,"[[], []]",NH,
 Long Jump,Girls,4,Finals,0.9,Jowana Pennant,24,2,St. Andrew High School for Girls,"['FOUL', '5.10m(0.3)', '5.06m(2.7)', '4.83m(0.3)', 'FOUL', '5.13m(0.9)']",5.13m,7
 Shot Put,Boys,1,Finals,,Jowayne Forbes,19,11,B. B. Coke High School,"['13.43m', '13.28m', 'FOUL']",13.43m,0
 Long Jump,Boys,2,Finals,-0.4,Jowayne Harrison,17,3,Jamaica College,[],6.76m,6
@@ -1683,6 +1768,7 @@ Long Jump,Girls,4,Finals,-0.6,Julissia Knight,19,10,Holmwood Technical High Scho
 Triple Jump,Girls,Open,Finals,FOUL,Julissia Knight,23,,Holmwood Technical High School,"['FOUL', 'FOUL', 'FOUL']",FOUL,
 Triple Jump,Girls,Open,Finals,1,Julissia Knight,24,10,Holmwood Technical High School,"['11.64m(1.0)', 'FOUL', 'FOUL']",11.64m,0
 Long Jump,Girls,3,Finals,4.4,Julissia Knight,21,12,Holmwood Technical High School,"['4.05m(7.4)', '4.69m(8.7)', '4.70m(4.4)']",4.70m,0
+Long Jump,Boys,2,Finals,-1.1,Jullane Walker,12,2,Calabar High School,[],6.85m,7
 Long Jump,Boys,1,Finals,-0.2,Jullane Walker,15,6,Calabar High School,[],7.06m,3
 Triple Jump,Boys,2,Finals,-1.7,Junior Allen,19,10,Petersfield High School,"['FOUL', '12.65m(-1.7)', '12.35m(-2.0)']",12.65m,0
 Long Jump,Boys,3,Finals,0.8,Justin Linton,18,12,Jamaica College,[],5.34m,0
@@ -1690,6 +1776,7 @@ High Jump,Girls,4,Finals,,Justina Butler,19,8,Campion College,"[['1.30', '1.35',
 High Jump,Girls,2,Finals,,Justina Butler,22,11,Campion College,"[['1.45', '1.50', '1.55', '1.60'], ['O', 'XXO', 'XO', 'XXX']]",1.55m,0
 High Jump,Girls,1,Finals,,Justina Butler,24,5,Campion College,"[['1.60', '1.65'], ['O', 'XXX']]",1.60m,3.5
 Long Jump,Girls,4,Finals,-0.4,Justine Roy,19,11,St. Andrew High School for Girls,"['4.50m(-0.4)', '4.41m(-0.6)', '4.17m(-2.0)']",4.50m,0
+Long Jump,Girls,4,Finals,-0.9,Justine Shaw,12,9,Wolmer's Trust High School For Girls,[],4.65m,0
 Long Jump,Girls,1,Finals,1.5,Juwonna Whitehorne,23,11,Hydel High School,"['5.11m(0.8)', '5.25m(1.5)', '4.73m(2.2)']",5.25m,0
 Long Jump,Girls,2,Finals,-0.4,Juwonna Whitehorne,22,11,Hydel High School,"['4.65m(2.0)', '4.93m(0.4)', '3.89m(2.6)']",4.93m,0
 High Jump,Boys,2,Finals,,Kabiki Thomas,23,3,Wolmer's Boys' School,"[['1.80', '1.85', '1.90', '1.95'], ['O', 'O', 'XXO', 'XXX']]",1.90m ,5.5
@@ -1767,7 +1854,10 @@ High Jump,Girls,3,Finals,,Kasheena Gordon,15,12,St. Jago High School,"[[], []]",
 High Jump,Girls,2,Finals,,Kasheena Gordon,17,8,St. Jago High School,"[[], []]",J1.65m,1
 Shot Put,Boys,1,Finals,,Kashif Ford,12,7,Wolmer's Boys' School,[],16.01m,2
 Discus Throw,Boys,1,Finals,,Kashif Ford,12,8,Wolmer's Boys' School,[],47.06m,1
+High Jump,Girls,3,Finals,,Kathleen Smith,12,10,Ardenne High School,"[[], []]",1.54m,0
 Shot Put,Girls,2,Finals,,Katie Gordon,24,6,Excelsior High School,"['12.22m', '12.07m', '12.83m', 'FOUL', 'FOUL', '12.56m']",12.83m,3
+High Jump,Girls,1,Finals,,Kavanja Thompson,12,10,St. Jago High School,"[[], []]",1.55m,0
+Triple Jump,Girls,Open,Finals,FOUL,Kavanja Thompson,12,,St. Jago High School,[],FOUL,
 Long Jump,Girls,3,Finals,1.4,Kavel Ritchie,19,12,St. Catherine High School,"['FOUL', 'FOUL', '4.91m(1.4)']",4.91m,0
 Long Jump,Girls,1,Finals,0.5,Kavel Ritchie,23,5,St. Catherine High School,"['5.31m(3.4)', '5.65m(0.5)', '5.44m(0.2)', 'FOUL', '5.41m(3.5)', '5.27m(+0.0)']",5.65m,4
 Long Jump,Girls,2,Finals,4.8,Kavel Ritchie,21,5,St. Catherine High School,"['5.33m(2.2)', '5.36m(2.9)', '4.80m(3.5)', '5.35m(3.1)', '5.38m(4.8)', '5.43m(4.8)']",5.43m,4
@@ -1777,8 +1867,6 @@ Long Jump,Boys,2,Finals,1.1,Kavian Kerr,18,3,St. Jago High School,[],7.18m ,6
 Long Jump,Boys,1,Finals,4.9,Kavian Kerr,21,1,St. Jago High School,"['7.61m(5.7)', '7.45m(4.6)', 'FOUL', '7.43m(3.1)', '7.43m(1.3)', '7.81m(4.9)']",7.81m,9
 Long Jump,Boys,1,Finals,-2.8,Kavouhn Lewars-Smith,17,12,Ardenne High School,[],6.62m,0
 Long Jump,Boys,2,Finals,1.5,Kavouhn Lewars-Smith,15,6,Ardenne High School,[],J6.68m,3
-High Jump,Girls,1,Finals,,Shenelle Kay,12,5,Convent of Mercy Academy (ALPHA),"[[], []]",1.63m,4
-Triple Jump,Girls,Open,Finals,-0.6,Shenelle Kay,12,6,Convent of Mercy Academy (ALPHA),[],11.73m,3
 Discus Throw,Girls,3,Finals,,Kayla Davis- Edwards,17,5,St. Jago High School,[],30.81m,4
 Discus Throw,Girls,2,Finals,,Kayla Davis- Edwards,18,4,St. Jago High School,[],38.59m ,5
 Discus Throw,Girls,2,Finals,,Kayla Davis- Edwards,19,2,St. Jago High School,"['38.77m', '39.84m', 'FOUL', 'FOUL', '38.12m', 'FOUL']",39.84m ,7
@@ -1804,9 +1892,15 @@ Long Jump,Girls,1,Finals,1.3,Kedijah Oliphant,15,10,Oberlin High School,[],5.42m
 Long Jump,Girls,1,Finals,0.9,Kedijah Oliphant,14,6,Oberlin High School,[],5.68m,3
 Pole Vault,Boys,Open,Finals,,Keenen Wiliamson,17,,Wolmer's Boys' School,"[[], []]",FAIL,
 High Jump,Girls,4,Finals,,Keira Marshall,21,7,Hydel High School,"[['1.40', '1.45'], ['O', 'XXX']]",1.40m,1.5
+Shot Put,Boys,2,Finals,,Keiran Lewis,12,11,Old Harbour High School,[],13.56m,0
 Javelin Throw,Girls,Open,Finals,,Keja Christie,12,12,Herbert Morrison Technical High,[],25.43m,0
+High Jump,Girls,4,Finals,,Kelesia Simpson,12,8,Manchester High School (MHS),"[[], []]",J1.53m,1
 Shot Put,Girls,1,Finals,,Keliesha Shaw,19,5,Rusea's High School,"['FOUL', '12.45m', '11.18m', '12.04m', '11.76m', '12.53m']",12.53m,4
 Shot Put,Girls,2,Finals,,Keliesha Shaw,18,5,Rusea's High School,[],13.76m ,4
+Shot Put,Girls,Open,Finals,,Kellion Knibb,12,3,St. Jago High School,[],13.52m,6
+Javelin Throw,Girls,Open,Finals,,Kellion Knibb,12,3,St. Jago High School,[],39.88m,6
+Discus Throw,Girls,1,Finals,,Kellion Knibb,12,6,St. Jago High School,[],40.27m,3
+Long Jump,Girls,2,Finals,-0.7,Kelsey Reynolds,12,10,Convent of Mercy Academy (ALPHA),[],5.10m,0
 Triple Jump,Boys,2,Finals,FOUL,Kemar James,24,,St. Jago High School,"['FOUL', 'FOUL', 'FOUL']",13.74m,
 High Jump,Boys,1,Finals,,Kemar Johnson,12,8,St Georges College,"[[], []]",J1.99m,1
 Javelin Throw,Boys,Open,Finals,,Kemar Salmon,17,10,Titchfield High School,[],48.39m,0
@@ -1838,19 +1932,15 @@ Discus Throw,Girls,1,Finals,,Kenisha Thompson,19,11,Holmwood Technical High Scho
 Shot Put,Girls,2,Finals,,Kenisha Thompson,17,18,Holmwood Technical High School,[],11.65m,0
 Discus Throw,Girls,2,Finals,,Kenisha Thompson,17,8,Holmwood Technical High School,[],34.64m,1
 Discus Throw,Girls,3,Finals,,Kenisha Thompson,16,,Holmwood Technical High School,[],FOUL,
-High Jump,Boys,2,Finals,,Nikaho Kennedy,12,10,Munro College,"[[], []]",J1.85m,0
 Triple Jump,Boys,2,Finals,-1.2,Kenomar Jones,22,7,Cornwall College,"['FOUL', 'FOUL', '13.16m(-0.3)', '13.24m(-1.6)', '13.00m(-1.4)', '13.28m(-1.2)']",13.28m,2
 Long Jump,Boys,2,Finals,4,Kenomar Jones,21,7,Cornwall College,"['6.38m(2.2)', '6.78m(4.0)', '6.22m(3.2)', '6.30m(6.8)', '6.19m(4.1)', '6.72m(7.5)']",6.78m,2
 Long Jump,Boys,2,Finals,4.2,Kenomar Jones,22,4,Cornwall College,"['6.82m(4.2)', '5.44m(3.5)', '6.02m(2.4)', 'PASS', '6.52m(2.4)', '6.73m(3.5)']",6.82m,5
 Triple Jump,Boys,1,Finals,FOUL,Kenrick Austin,24,,Edwin Allen High School,"['FOUL', 'FOUL', 'FOUL']",12.30m,
 Long Jump,Boys,3,Finals,5.3,Kenrick Jarrett,12,11,Vauxhall High School,[],5.49m,0
 Shot Put,Boys,2,Finals,,Kenroy Gobourne,12,18,Titchfield High School,[],J12.29m,0
-High Jump,Girls,3,Finals,,Shanae Kenzie,12,7,Manchester High School (MHS),"[[], []]",1.58m,2
 Discus Throw,Girls,3,Finals,,Keria Gordon,24,7,Holmwood Technical High School,"['27.18m', 'FOUL', '31.30m', '29.26m', '33.19m', 'FOUL']",33.19m,2
 High Jump,Girls,4,Finals,,Kerie Williams,22,,Edwin Allen High School,"[['1.45'], ['XXX']]",NH,
 High Jump,Boys,1,Finals,,Kerone Hughes,14,8,Oberlin High School,"[[], []]",J1.95m,1
-Triple Jump,Girls,Open,Finals,-0.2,Britny Kerr,12,13,Hydel High School,[],11.31m,0
-High Jump,Girls,3,Finals,,Britny Kerr,12,8,Hydel High School,"[[], []]",J1.58m,1
 Discus Throw,Girls,1,Finals,,Kerrayne Fray,17,14,St. Andrew High School for Girls,[],36.37m,0
 Discus Throw,Girls,2,Finals,,Kerrayne Fray,16,3,St. Andrew High School for Girls,[],39.14m,6
 Discus Throw,Girls,2,Finals,,Kerrayne Fray,15,7,St. Andrew High School for Girls,[],36.82m,2
@@ -1861,6 +1951,7 @@ High Jump,Boys,1,Finals,,Kesean Rhooms,24,10,Cornwall College,"[['1.85', '1.90',
 Triple Jump,Boys,2,Finals,-2,Kesean Rhooms,22,8,Cornwall College,"['12.79m(-1.7)', 'FOUL', '13.01m(-2.0)', '12.36m(-1.3)', '12.92m(-1.1)', '12.89m(-1.0)']",13.01m,1
 Triple Jump,Boys,1,Finals,3,Kesean Rhooms,24,3,Cornwall College,"['14.18m(2.3)', '14.62m(4.9)', 'FOUL', '14.90m(5.3)', '14.52m(3.3)', '14.94m(3.0)']",14.94m,6
 Discus Throw,Girls,1,Finals,,Kessanni Kerr,16,11,Rusea's High School,[],33.17m,0
+Pole Vault,Boys,Open,Finals,,Kevaughn Maise,12,,Kingston College,"[[], []]",NH,
 Long Jump,Girls,4,Finals,1,Keviecia Francis,17,8,Camperdown High School,[],J4.95m,1
 High Jump,Boys,3,Finals,,Kevin Campbell,19,5,Jamaica College,"[['1.45', '1.50', '1.55', '1.60', '1.65', '1.70', '1.75', '1.78'], ['P', 'P', 'O', 'O', 'O', 'O', 'O', 'XXX']]",1.75m ,4
 Shot Put,Boys,2,Finals,,Kevin Nedrick,13,2,Petersfield High School,[],16.08m,7
@@ -1902,6 +1993,8 @@ Discus Throw,Girls,1,Finals,,Kimberly Lu,19,10,Excelsior High School,"['37.67m',
 Discus Throw,Girls,2,Finals,,Kimberly Lu,18,3,Excelsior High School,[],40.13m ,6
 Discus Throw,Girls,3,Finals,,Kimberly Lugg,15,12,Excelsior High School,[],25.68m,0
 Discus Throw,Girls,2,Finals,,Kimberly Lugg,17,4,Excelsior High School,[],38.74m,5
+High Jump,Girls,1,Finals,,Kimberly Williamson,12,2,Edwin Allen High School,"[[], []]",1.84mR   7,7
+Triple Jump,Girls,Open,Finals,NWI,Kimberly Williamson,12,8,Edwin Allen High School,[],11.55m,1
 Long Jump,Girls,2,Finals,0.9,Kimeisha Fr,23,10,St. Mary High School,"['4.99m(0.9)', '4.99m(0.3)', '4.84m(-0.3)']",4.99m,0
 High Jump,Girls,2,Finals,,Kimeisha Francis,24,9,St. Mary High School,"[['1.55', '1.60', '1.65'], ['XO', 'XXO', 'XXX']]",1.60m,0
 High Jump,Girls,3,Finals,,Kimeisha Francis,22,9,St. Mary High School,"[['1.35', '1.40', '1.45', '1.50', '1.55', '1.60'], ['P', 'P', 'O', 'O', 'O', 'XXX']]",1.55m,0
@@ -1947,12 +2040,6 @@ Triple Jump,Boys,2,Finals,-1.1,Kishane Chin,23,9,St. Jago High School,"['12.33m(
 High Jump,Girls,2,Finals,,Kishauna Fr,23,,St. Catherine High School,"[['1.50'], ['XXX']]",NH,
 Triple Jump,Girls,Open,Finals,-1.7,Kishna Gaye,12,10,St. Elizabeth Technical High School,[],11.39m,0
 Pole Vault,Boys,Open,Finals,,Kito Campbell,21,1,Calabar High School,"[['2.70', '2.80', '2.90', '3.00', '3.10', '3.20', '3.30', '3.40', '3.50', '3.60', '3.70', '3.80', '3.90', '4.00', '4.05', '4.10'], ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'O', 'P', 'O', 'O', 'O', 'XO', 'P', 'P', 'XXX']]",3.90m,9
-Shot Put,Boys,2,Finals,,"Kitson, Shamar",12,2,Calabar High School,[],15.64m,7
-Discus Throw,Boys,2,Finals,,"Kitson, Shamar",12,1,Calabar High School,[],49.18m,9
-Shot Put,Girls,Open,Finals,,"Knibb, Kellion",12,3,St. Jago High School,[],13.52m,6
-Javelin Throw,Girls,Open,Finals,,"Knibb, Kellion",12,3,St. Jago High School,[],39.88m,6
-Discus Throw,Girls,1,Finals,,"Knibb, Kellion",12,6,St. Jago High School,[],40.27m,3
-Discus Throw,Girls,1,Finals,,"Knight, Sannesea",12,16,McGrath High School,[],27.01m,0
 High Jump,Boys,2,Finals,,Kobe Charle,18,11,Campion College,"[['1.80', '1.85'], ['XXO', 'XXX']]",1.80m,0
 Shot Put,Boys,2,Finals,,Kobe Lawren,19,2,Calabar High School,"['15.53m', '16.82m', '17.26m', '17.61m', 'FOUL', '17.55m']",17.61m ,7
 Shot Put,Boys,1,Finals,,Kobe Lawren,23,1,Calabar High School,"['19.32m', '19.49m', 'FOUL', '19.37m', 'FOUL', '18.43m']",19.49m ,9
@@ -1970,6 +2057,7 @@ Javelin Throw,Boys,Open,Finals,,Kobie Henry,18,8,Calabar High School,[],50.45m ,
 Javelin Throw,Boys,Open,Finals,,Kobie Henry,17,5,Calabar High School,[],53.49m,4
 Long Jump,Girls,4,Finals,NWI,K'Onie Mcde,18,10,Merl Grove High School,[],4.23m,0
 Shot Put,Boys,1,Finals,,Koyet Morris,16,23,Alphansus Davis High School,[],12.50m,0
+High Jump,Girls,2,Finals,,Krista-Gay Taylor,12,1,Convent of Mercy Academy (ALPHA),"[[], []]",1.73m,9
 High Jump,Girls,1,Finals,,Krista-Gay Taylor,14,2,Convent of Mercy Academy (ALPHA),"[[], []]",1.78m,7
 Discus Throw,Girls,2,Finals,,Kristen Deacon,12,6,Wolmer's Trust High School For Girls,[],37.04m,3
 Discus Throw,Girls,1,Finals,,Kristen Deacon,14,11,Wolmer's Trust High School For Girls,[],31.63m,0
@@ -1981,6 +2069,7 @@ Long Jump,Boys,3,Finals,2.7,Kristoffe Clifford,14,5,Calabar High School,[],6.10m
 Long Jump,Boys,2,Finals,1.4,Kristoffe Clifford,16,3,Calabar High School,[],6.87m,6
 Discus Throw,Boys,1,Finals,,Kurt Intosh,12,13,Vere Technical High School,[],42.91m,0
 Javelin Throw,Boys,Open,Finals,,Kurt Intosh,12,11,Vere Technical High School,[],46.84m,0
+High Jump,Boys,1,Finals,,Kurt Plummer,12,10,Charlie Smith High School,"[[], []]",1.95m,0
 High Jump,Boys,3,Finals,,Kwesi Brown,12,6,St. Andrew Technical High School,"[[], []]",J1.70m,3
 Long Jump,Boys,3,Finals,1.9,Kyle Mclean,14,11,Jonathan Grant High School,[],5.65m,0
 Shot Put,Boys,1,Finals,,Kyle Mitchell,17,2,Calabar High School,[],17.64m,7
@@ -2018,7 +2107,6 @@ High Jump,Girls,3,Finals,,Lamara Distin,14,2,Rusea's High School,"[[], []]",1.70
 High Jump,Girls,3,Finals,,Lamara Distin,15,2,Rusea's High School,"[[], []]",1.74m,7
 High Jump,Girls,2,Finals,,Lamara Distin,17,1,Vere Technical High School,"[[], []]",1.79m,9
 Triple Jump,Girls,Open,Finals,4.3,Lamara Distin,17,7,Vere Technical High School,[],12.50m,2
-High Jump,Girls,2,Finals,,"Lamb, Danica",12,9,Manchester High School (MHS),"[[], []]",J1.62m,0
 High Jump,Boys,1,Finals,,Lance Lawre,23,,St. Jago High School,"[['1.85'], ['XXX']]",NH,
 Pole Vault,Boys,Open,Finals,,Lance Lawrence,22,9,St. Jago High School,"[['2.90', '3.00'], ['XO', 'XXX']]",2.90m,0
 Long Jump,Boys,2,Finals,1.5,Lansford Cu,19,8,Cornwall College,"['6.62m(1.5)', '6.46m(1.6)', '6.51m(1.8)', 'FOUL', '6.60m(0.7)', '6.46m(0.4)']",6.62m,1
@@ -2040,11 +2128,6 @@ Discus Throw,Girls,1,Finals,,Latoya Gilding,14,4,St. Jago High School,[],41.35m,
 Pole Vault,Boys,Open,Finals,,Laurence Bigby,21,6,Jamaica College,"[['2.70', '2.80', '2.90', '3.00', '3.10', '3.20', '3.30', '3.40', '3.50', '3.60', '3.70'], ['P', 'P', 'P', 'P', 'P', 'P', 'O', 'P', 'O', 'O', 'XXX']]",3.60m,3
 Shot Put,Boys,2,Finals,,lawayne bla,23,9,Clarendon College,"['12.09m', '12.65m', 'FOUL']",12.65m,0
 Shot Put,Boys,2,Finals,,Lawayne Blackwood,24,9,Clarendon College,"['FOUL', '14.50m', '14.52m']",14.21m,0
-Discus Throw,Girls,2,Finals,,"Lawrence, Shadae",12,8,Vere Technical High School,[],35.82m,1
-Triple Jump,Girls,Open,Finals,-0.8,"Lawrence, Shardia",12,2,Vere Technical High School,[],12.40m,7
-Long Jump,Girls,2,Finals,-0.4,"Lawrence, Shardia",12,2,Vere Technical High School,[],5.81m,7
-High Jump,Girls,4,Finals,,"Lawson, Celia",12,10,Ardenne High School,"[[], []]",1.45m,0
-Triple Jump,Girls,Open,Finals,FOUL,"Lean, Chelsi",12,,St. Andrew High School for Girls,[],FOUL,
 Javelin Throw,Boys,Open,Finals,,Lebron Jame,23,1,Jamaica College,"['59.77m', '59.90m', 'PASS', '55.87m', '63.73m', 'FOUL']",63.73m ,9
 High Jump,Boys,2,Finals,,Lebron James,21,10,Jamaica College,"[['1.80', '1.85'], ['XXO', 'XXX']]",1.80m,0
 Pole Vault,Boys,Open,Finals,,Lebron James,24,8,Jamaica College,"[['2.90', '3.00', '3.10', '3.20', '3.30'], ['P', 'XO', 'XO', 'XO', 'XXX']]",3.20m,1
@@ -2061,7 +2144,6 @@ Long Jump,Boys,1,Finals,1.3,Lenford Pinnock,22,6,St. Catherine High School,"['7.
 Discus Throw,Girls,2,Finals,,Lennita Douglas,24,4,Holmwood Technical High School,"['38.95m', 'FOUL', '34.33m', '33.24m', '41.25m', 'FOUL']",41.25m,5
 Pole Vault,Boys,Open,Finals,,Lenworth Chung,23,11,Calabar High School,"[['2.90', '3.00', '3.10', '3.20'], ['P', 'XO', 'P', 'XXX']]",3.00m,0
 Pole Vault,Boys,Open,Finals,,Lenworth Chung,24,1,Calabar High School,"[['2.90', '3.00', '3.10', '3.20', '3.30', '3.40', '3.50', '3.60', '3.70', '3.80', '3.90', '4.00', '4.10'], ['P', 'P', 'P', 'P', 'P', 'P', 'O', 'P', 'O', 'P', 'XO', 'P', 'XXX']]",3.90m,9
-Discus Throw,Boys,2,Finals,,"Leod, Zachary",12,10,Kingston College,[],38.73m,0
 High Jump,Girls,4,Finals,,Leojai Hibbert,17,9,St. Jago High School,"[[], []]",1.45m,0
 Discus Throw,Girls,3,Finals,,Leona Hunter,24,5,William Knibb Memorial High School,"['25.98m', '30.86m', 'FOUL', '31.28m', '33.40m', 'FOUL']",33.40m,4
 Javelin Throw,Boys,Open,Finals,,Leonardo Miller,22,7,Calabar High School,"['46.39m', '47.46m', '45.83m', '42.46m', '43.50m', '46.26m']",47.46m,2
@@ -2081,24 +2163,14 @@ Long Jump,Boys,1,Finals,-2.7,Leroy Paige,16,13,Calabar High School,[],5.12m,0
 High Jump,Boys,1,Finals,,Leroy Paige,14,6,Calabar High School,"[[], []]",J1.95m,3
 High Jump,Boys,1,Finals,,Leroy Paige,15,8,Calabar High School,"[[], []]",J2.00m,1
 Long Jump,Boys,1,Finals,0.1,Leshon Clennon,14,10,Excelsior High School,[],6.75m,0
-Pole Vault,Boys,Open,Finals,,"Lewis, Hugh",12,2,Jamaica College,"[[], []]",4.00m,7
-High Jump,Boys,1,Finals,,"Lewis, Jason",12,3,Wolmer's Boys' School,"[[], []]",2.07m,6
-Shot Put,Boys,2,Finals,,"Lewis, Keiran",12,11,Old Harbour High School,[],13.56m,0
-Shot Put,Boys,1,Finals,,"Lewis, Shaquille",12,4,Jamaica College,[],16.60m,5
-Discus Throw,Boys,1,Finals,,"Lewis, Shaquille",12,10,Jamaica College,[],46.20m,0
 Long Jump,Boys,2,Finals,-0.3,Lexux Brown,12,9,St. Elizabeth Technical High School,[],6.27m,0
 Triple Jump,Boys,1,Finals,3.7,Lexux Brown,15,10,St. Elizabeth Technical High School,[],14.51m,0
 Long Jump,Boys,1,Finals,-0.7,Lexux Brown,15,8,St. Elizabeth Technical High School,[],6.85m,1
 Discus Throw,Boys,2,Finals,,Liam Elliot,18,7,Munro College,[],44.15m ,2
 Discus Throw,Boys,2,Finals,,Liam Elliot,19,6,Munro College,"['46.34m', 'FOUL', '48.52m', 'FOUL', 'FOUL', 'FOUL']",48.52m ,3
 Long Jump,Boys,1,Finals,-1.1,Lincoln Carter,12,11,Munro College,[],6.62m,0
-Discus Throw,Boys,2,Finals,,"Lindo, Delano",12,12,St. Jago High School,[],35.65m,0
-Discus Throw,Girls,3,Finals,,"Linton, Abbeygail",12,7,Manning High School,[],32.64m,2
 High Jump,Girls,1,Finals,,Lisa Blackwood,14,11,Vere Technical High School,"[[], []]",1.60m,0
-Discus Throw,Girls,3,Finals,,"Livingston, Rousheecca",12,,Holmwood Technical High School,[],FOUL,
-Discus Throw,Girls,2,Finals,,"Locke, Omesha",12,12,Manning High School,[],34.42m,0
-Shot Put,Boys,1,Finals,,"Longmore, Alec-Verne",12,8,Jamaica College,[],14.84m,1
-Discus Throw,Boys,1,Finals,,"Longmore, Alec-Verne",12,16,Jamaica College,[],41.15m,0
+High Jump,Girls,4,Finals,,Lorean Murray,12,7,St. Andrew High School for Girls,"[[], []]",J1.53m,2
 High Jump,Girls,2,Finals,,Lorean Murray,16,4,St. Andrew High School for Girls,"[['4', 'Toni-ann', 'Farquhars', 'Wolmer', 'Girl', '1.70m', '4.50'], ['6', 'Rushellee', 'Jones', 'Buff', 'Bay', 'High', '1.65m', '3']]",1.70m,4.5
 High Jump,Girls,1,Finals,,Lorean Murray,17,2,St. Andrew High School for Girls,"[[], []]",1.70m,7
 Triple Jump,Girls,Open,Finals,2.5,Lorean Murray,16,11,St. Andrew High School for Girls,[],12.01m,0
@@ -2137,15 +2209,12 @@ Long Jump,Girls,2,Finals,0.8,Lotavia Brown,17,3,Edwin Allen High School,[],5.62m
 Long Jump,Girls,3,Finals,5.6,Lotavia Brown,16,2,Edwin Allen High School,[],5.69m,7
 High Jump,Boys,1,Finals,,Louis Gordo,19,1,Kingston College,"[['2', '#', '103', 'Horatio', 'Hum', 'Buff', 'Bay', 'High', '2.08m', 'Q', '7'], ['3', '#', '130', 'Ricardo', 'Cla', 'Calabar', 'High', 'J2.08m', 'Q', '6']]",2.11m ,9
 High Jump,Boys,1,Finals,,Louis Gordo,18,3,Kingston College,"[['1.90', '1.95', '2.00', '2.05', '2.10', '2.15'], ['O', 'O', 'O', 'XO', 'XXO', 'XXX']]",J2.10m ,6
-Discus Throw,Girls,3,Finals,,"Love, Shanice",12,5,Excelsior High School,[],32.82m,4
-Long Jump,Girls,4,Finals,-0.5,"Lowe, Janette",12,6,Hydel High School,[],4.85m,3
-Long Jump,Boys,3,Finals,1.7,"Lowe, Jevier",12,4,Calabar High School,[],6.23m,5
-High Jump,Boys,3,Finals,,"Lowe, Jevier",12,2,Calabar High School,"[[], []]",J1.75m,7
 Triple Jump,Boys,2,Finals,-0.2,Luke Brown,18,2,Calabar High School,[],14.72m ,7
 Triple Jump,Boys,2,Finals,-1.4,Luke Brown,19,1,Calabar High School,"['12.81m(-2.3)', '15.51m(-1.4)', 'PASS', '15.45m(-1.0)', '14.18m(-1.5)', '15.23m(-1.2)']",15.51mR,9
 Triple Jump,Boys,1,Finals,4.5,Luke Brown,21,1,Calabar High School,"['15.69m(3.2)', 'PASS', 'FOUL', '16.31m(4.5)', 'PASS', 'FOUL']",16.31m,9
 Long Jump,Boys,2,Finals,0.4,Luke Brown,19,2,Calabar High School,"['6.66m(3.0)', 'FOUL', 'FOUL', '6.89m(0.9)', '6.79m(0.8)', '7.45m(0.4)']",7.45m ,7
 Long Jump,Boys,1,Finals,3.5,Luke Brown,21,2,Calabar High School,"['7.46m(2.3)', '7.46m(2.2)', 'FOUL', '7.65m(3.5)', 'FOUL', 'FOUL']",7.65m,7
+High Jump,Boys,3,Finals,,Luke Walters,12,3,Kingston College,"[[], []]",J1.75m,6
 Triple Jump,Boys,1,Finals,0.7,Lushane Wil,18,5,St. Jago High School,[],14.75m ,4
 High Jump,Boys,1,Finals,,Lushane Wil,18,1,St. Jago High School,"[['1.90', '1.95', '2.00', '2.05', '2.10', '2.15', '2.20', '2.24'], ['P', 'P', 'P', 'O', 'O', 'O', 'O', 'XXX']]",2.20m ,9
 Triple Jump,Boys,2,Finals,-0.4,Lushane Wilson,15,2,St. Jago High School,[],14.24m,7
@@ -2153,8 +2222,7 @@ Triple Jump,Boys,1,Finals,0.8,Lushane Wilson,17,6,St. Jago High School,[],14.97m
 High Jump,Boys,2,Finals,,Lushane Wilson,14,1,St. Jago High School,"[[], []]",2.01m,9
 High Jump,Boys,1,Finals,,Lushane Wilson,17,1,St. Jago High School,"[[], []]",2.08m,9
 High Jump,Boys,2,Finals,,Lushane Wilson,15,1,St. Jago High School,"[[], []]",2.10mR,9
-Triple Jump,Boys,Open,Finals,-0.7,"Lynch, Romario",12,11,St. Elizabeth Technical High School,[],13.42m,0
-Discus Throw,Girls,1,Finals,,"Lynch, Tashana",12,9,Spot Valley High School,[],35.02m,0
+High Jump,Boys,3,Finals,,Lushane Wilson,12,10,St. Jago High School,"[[], []]",J1.65m,0
 Shot Put,Girls,2,Finals,,m W,19,1,St. Elizabeth Technical High School,"['13.40m', '12.40m', '12.68m', '13.61m', '13.94m', '13.87m']",13.94m ,9
 High Jump,Girls,4,Finals,,MACAELA Gor,23,10,Edwin Allen High School,"[['1.40', '1.45', '1.50'], ['XO', 'XO', 'XXX']]",1.45m,0
 High Jump,Girls,3,Finals,,MACAELA Gordon,24,10,Edwin Allen High School,"[['1.50', '1.55', '1.60'], ['O', 'XO', 'XXX']]",1.55m,0
@@ -2163,8 +2231,6 @@ Long Jump,Girls,1,Finals,2.8,MACHAEDA Linton,21,6,Hydel High School,"['5.37m(2.4
 High Jump,Girls,4,Finals,,Machaeda Linton,16,10,Hydel High School,"[['10', 'Lauren', 'Barrette', 'Campion', 'College', 'J1.45m'], ['--', 'Le-andra', 'Gordon', 'Green', 'Pond', 'High', 'FAIL']]",J1.45m,0
 Long Jump,Girls,1,Finals,0.2,MACHAEDA Linton,22,2,St. Jago High School,"['FOUL', 'FOUL', '5.66m(0.6)', '5.78m(-0.6)', '5.82m(0.2)', '5.81m(-0.0)']",5.82m,7
 Javelin Throw,Girls,Open,Finals,,Macy Mcfarlane,14,7,Happy Grove High School,[],34.24m,2
-Pole Vault,Boys,Open,Finals,,"Maise, Kevaughn",12,,Kingston College,"[[], []]",NH,
-Long Jump,Girls,2,Finals,-0.8,"Maitland, Recalia",12,12,Manchester High School (MHS),[],4.85m,0
 Shot Put,Girls,1,Finals,,Maja Henry,23,6,Immaculate Conception High School,"['11.94m', 'FOUL', '9.85m', 'FOUL', '11.30m', 'FOUL']",11.94m,3
 Shot Put,Girls,2,Finals,,Maja Henry,22,3,Immaculate Conception High School,"['FOUL', '13.11m', '13.51m', '12.32m', '13.25m', '13.00m']",13.51m,6
 Discus Throw,Girls,3,Finals,,Maja Henry,19,9,Immaculate Conception High School,"['32.57m', 'FOUL', '29.85m']",32.57m ,0
@@ -2243,7 +2309,6 @@ Shot Put,Girls,1,Finals,,Marsha McKo,23,10,Petersfield High School,"['10.60m', '
 Shot Put,Girls,1,Finals,,Marsha McKoy,24,4,Petersfield High School,"['12.03m', '12.53m', '11.41m', '11.37m', '13.10m', '12.04m']",13.10m,5
 Shot Put,Girls,2,Finals,,Marsha McKoy,22,4,Petersfield High School,"['12.80m', '12.32m', '11.09m', '10.38m', '12.08m', '12.88m']",12.88m,5
 Javelin Throw,Boys,Open,Finals,,Marshal Waite,22,5,Spot Valley High School,"['PASS', '41.50m', '47.00m', '50.15m', '53.45m', '49.16m']",53.45m,4
-Shot Put,Girls,Open,Finals,,"Marston, Sasha-Gay",12,4,Edwin Allen High School,[],12.80m,5
 High Jump,Girls,4,Finals,,Martha Johnson,22,,Edwin Allen High School,"[['1.45'], ['XXX']]",NH,
 Discus Throw,Girls,1,Finals,,Masonie Ferguson,17,20,Manning High School,[],31.12m,0
 Shot Put,Boys,2,Finals,,Matthew Blake,21,5,Calabar High School,"['12.28m', '12.70m', '13.88m', '13.37m', '13.07m', '12.74m']",13.88m,4
@@ -2256,16 +2321,14 @@ High Jump,Boys,1,Finals,,Matthew Campbell,12,5,Ardenne High School,"[[], []]",1.
 Triple Jump,Boys,2,Finals,0.4,Matthew Hylton,21,5,Jamaica College,"['13.34m(2.1)', '13.74m(0.4)', '13.15m(1.2)', '13.10m(1.8)', '13.30m(1.8)', '13.68m(1.9)']",13.74m,4
 Long Jump,Boys,2,Finals,3.9,Matthew Hylton,21,4,Jamaica College,"['6.90m(3.9)', '6.99m(3.9)', 'FOUL', '6.58m(5.7)', '6.88m(7.2)', 'FOUL']",6.99m,5
 High Jump,Boys,1,Finals,,Matthew Sinclair,24,12,St Georges College,"[['1.85', '1.90'], ['XXO', 'XXX']]",1.90m,0
+Long Jump,Boys,1,Finals,-1.6,Maulford Smith,12,5,Wolmer's Boys' School,[],6.80m,4
+High Jump,Boys,1,Finals,,Maulford Smith,12,9,Wolmer's Boys' School,"[[], []]",J1.99m,0
 High Jump,Boys,2,Finals,,Maurace Joh,23,3,St. Jago High School,"[['1.80', '1.85', '1.90', '1.95'], ['O', 'O', 'XXO', 'XXX']]",1.90m ,5.5
 High Jump,Boys,1,Finals,,Maurace Johnson,24,8,St. Jago High School,"[['1.85', '1.90', '1.95'], ['O', 'XO', 'XX']]",1.90m,0.5
-Shot Put,Boys,1,Finals,,"Mayanja, Emmanuel",12,19,Ardenne High School,[],11.83m,0
-High Jump,Girls,2,Finals,,"Medley, Rene'",12,7,Vere Technical High School,"[[], []]",J1.65m,2
-Shot Put,Boys,1,Finals,,"Meikle, Michael",12,6,Kingston College,[],16.29m,3
-Discus Throw,Boys,1,Finals,,"Meikle, Michael",12,9,Kingston College,[],46.50m,0
+High Jump,Girls,4,Finals,,Melanie Wynter,12,10,Convent of Mercy Academy (ALPHA),"[[], []]",1.45m,0
 High Jump,Girls,3,Finals,,Mellia Perry,22,13,The Queen's School,"[['1.35', '1.40', '1.45', '1.50'], ['XXO', 'XXO', 'P', 'XXX']]",1.40m,0
 Shot Put,Girls,2,Finals,,Melonie Knight,16,17,Papine High School,[],10.84m,0
 Shot Put,Girls,2,Finals,,Melonie Knight,17,16,Papine High School,[],11.84m,0
-Javelin Throw,Boys,Open,Finals,,"Messam, Jeremiah",12,13,Lacovia High School,[],43.93m,0
 Long Jump,Boys,2,Finals,0.4,Micah Wellington,17,6,Jamaica College,[],6.59m,3
 Long Jump,Boys,3,Finals,6,Micah Wellington,15,1,Jamaica College,[],6.61m,9
 Long Jump,Boys,2,Finals,2.4,Micah Wellington,16,7,Jamaica College,[],6.67m,2
@@ -2282,6 +2345,8 @@ Long Jump,Boys,2,Finals,3.2,Michael Curriah,21,8,Jamaica College,"['6.46m(3.1)',
 Shot Put,Boys,1,Finals,,Michael Daley,15,14,Lacovia High School,[],13.19m,0
 Long Jump,Boys,3,Finals,4.1,Michael Gra,23,2,Excelsior High School,"['6.26m(2.1)', '6.24m(2.0)', '6.15m(2.8)', '6.29m(5.0)', '6.21m(1.7)', '6.33m(4.1)']",6.33m ,7
 Long Jump,Boys,2,Finals,4.9,Michael Graham,24,4,Excelsior High School,"['6.75m(4.9)', '6.62m(2.7)', '6.66m(1.8)', '6.64m(5.3)', '6.65m(1.2)', '6.63m(0.9)']",6.75m,5
+Shot Put,Boys,1,Finals,,Michael Meikle,12,6,Kingston College,[],16.29m,3
+Discus Throw,Boys,1,Finals,,Michael Meikle,12,9,Kingston College,[],46.50m,0
 High Jump,Boys,2,Finals,,Michael Nei,23,2,Jonathan Grant High School,"[['1.80', '1.85', '1.90', '1.95'], ['O', 'XO', 'O', 'XXX']]",1.90m ,7
 High Jump,Boys,1,Finals,,Michael Neil,24,6,Jonathan Grant High School,"[['1.85', '1.90', '1.95', '2.00'], ['O', 'XO', 'XO', 'XXX']]",1.95m,3
 High Jump,Boys,2,Finals,,Michael Neil,22,7,Jonathan Grant High School,"[['1.75', '1.80', '1.85'], ['XO', 'O', 'XXX']]",1.80m,2
@@ -2294,6 +2359,7 @@ Triple Jump,Boys,2,Finals,-0.1,Michael-Andre Edw,23,2,Jamaica College,"['13.75m(
 Triple Jump,Boys,2,Finals,1.4,Michael-Andre Edwa,24,1,Jamaica College,"['15.08m(0.6)', '14.77m(1.7)', 'FOUL', '15.54m(1.4)', 'PASS', 'PASS']",15.54mR,9
 Long Jump,Boys,3,Finals,3.5,Michael-Andre Edwa,22,1,Jamaica College,"['FOUL', '5.77m(2.4)', '5.85m(3.2)', '5.60m(3.6)', '5.91m(3.0)', '6.55m(3.5)']",6.55m,9
 Long Jump,Boys,2,Finals,-0.9,Michael-Andre Edwa,24,1,Jamaica College,"['7.01m(3.0)', 'PASS', '7.18m(-0.9)', 'PASS', 'PASS', 'PASS']",7.18m,9
+Triple Jump,Boys,Open,Finals,-0.5,Michane Ricketts,12,7,Edwin Allen High School,[],14.34m,2
 Triple Jump,Boys,1,Finals,1.2,Michane Ricketts,14,5,Edwin Allen High School,[],15.04m,4
 Long Jump,Boys,1,Finals,NWI,Michane Ricketts,14,1,Edwin Allen High School,[],7.52m,9
 Long Jump,Boys,1,Finals,-1,Micheal Buc,19,3,St. Elizabeth Technical High School,"['7.14m(-0.1)', '7.18m(-0.1)', '6.99m(-0.3)', '7.18m(-0.3)', '7.24m(-0.2)', '7.26m(-1.0)']",7.26m ,6
@@ -2303,17 +2369,18 @@ High Jump,Boys,1,Finals,,micheal Davis,17,4,Kingston College,"[[], []]",J2.00m,5
 Long Jump,Girls,2,Finals,-2.2,Michela Wil,18,13,The Queen's School,[],5.19m,0
 Long Jump,Girls,1,Finals,0.6,Michela Wil,19,5,The Queen's School,"['5.33m(0.7)', '5.36m(0.4)', '5.64m(0.6)', '5.41m(0.6)', '5.61m(0.7)', '5.57m(-0.2)']",5.64m,4
 High Jump,Girls,1,Finals,,Michellae Walker,14,10,St. Andrew High School for Girls,"[[], []]",J1.65m,0
+High Jump,Girls,2,Finals,,Michellae Walker,12,11,St. Andrew High School for Girls,"[[], []]",J1.58m,0
 Long Jump,Boys,1,Finals,1.3,Mickeal Walters,22,9,St. Mary High School,"['6.82m(1.3)', '6.68m(-0.4)', '6.73m(-0.2)']",6.82m,0
 Discus Throw,Boys,1,Finals,,Mickel Hudson,13,10,Kingston College,[],42.89m,0
 Discus Throw,Boys,1,Finals,,Mickel Hudson,14,10,Kingston College,[],42.89m,0
 Discus Throw,Boys,1,Finals,,Mickel Hudson,15,7,Kingston College,[],48.01m,2
 Long Jump,Boys,1,Finals,-0.3,Miguel Alex,19,11,Petersfield High School,"['FOUL(-0.8)', '4.09m(0.5)', '6.05m(-0.3)']",6.05m,0
 Triple Jump,Boys,1,Finals,FOUL,Miguel Alex,18,,Petersfield High School,[],FOUL,
+Shot Put,Boys,1,Finals,,Miguel Smith,12,13,The Enid Bennett High School,[],13.73m,0
 High Jump,Girls,3,Finals,,Mikayla Lon,23,7,Holmwood Technical High School,"[['1.50', '1.55', '1.60'], ['XO', 'XO', 'XXX']]",1.55m ,1.5
 Long Jump,Girls,3,Finals,1.7,Mikayla Lon,23,12,Holmwood Technical High School,"['FOUL', 'FOUL', '3.65m(1.7)']",3.65m,0
 High Jump,Girls,4,Finals,,Mikayla Longmore,21,6,Vere Technical High School,"[['1.40', '1.45', '1.50'], ['O', 'O', 'XXX']]",1.45m,3
-Shot Put,Boys,1,Finals,,"Miller, Ashina",12,3,Calabar High School,[],17.87m,6
-Discus Throw,Boys,1,Finals,,"Miller, Ashina",12,2,Calabar High School,[],56.46m,7
+Shot Put,Boys,2,Finals,,Mikhail Powell,12,12,Munro College,[],13.28m,0
 Long Jump,Boys,3,Finals,6,Milton Marshall,15,12,Glengoffe High School,[],5.52m,0
 High Jump,Girls,4,Finals,,Mireya Simp,18,7,Immaculate Conception High School,"[['1.40', '1.45', '1.50'], ['O', 'O', 'XXX']]",1.45m,1
 High Jump,Girls,1,Finals,,Mireya Simpson,24,8,Immaculate Conception High School,"[['1.60', '1.65'], ['XXO', 'XXX']]",1.60m,1
@@ -2321,12 +2388,7 @@ Long Jump,Girls,1,Finals,1.1,Mireya Simpson,24,11,Immaculate Conception High Sch
 High Jump,Girls,4,Finals,,Misha-jade,19,1,Immaculate Conception High School,"[['1.30', '1.35', '1.40', '1.45', '1.50', '1.55', '1.58', '1.61', '1.64', '1.68'], ['P', 'P', 'P', 'O', 'O', 'O', 'O', 'O', 'XO', 'XXX']]",1.64m ,9
 High Jump,Boys,2,Finals,,Mitchell Bailey,17,1,Kingston College,"[[], []]",1.95m,9
 High Jump,Boys,3,Finals,,Mitchell Bailey,15,10,Kingston College,"[[], []]",J1.70m,0
-Pole Vault,Boys,Open,Finals,,"Mitchell, Christopher",12,6,Jamaica College,"[[], []]",3.35m,3
-Pole Vault,Boys,Open,Finals,,"Mitchell, Demetri",12,3,Wolmer's Boys' School,"[[], []]",J4.00m,6
 High Jump,Girls,4,Finals,,Moeasha McLaren,24,6,Hydel High School,"[['1.40', '1.45', '1.50'], ['O', 'O', 'XXX']]",1.45m,3
-High Jump,Girls,2,Finals,,"Moncrieffe, Tamara",12,10,Holmwood Technical High School,"[[], []]",1.58m,0
-Triple Jump,Girls,Open,Finals,-1.2,"Moncrieffe, Tamara",12,4,Holmwood Technical High School,[],11.89m,5
-Long Jump,Girls,2,Finals,-0.3,"Moncrieffe, Tamara",12,3,Holmwood Technical High School,[],5.80m,6
 Triple Jump,Girls,Open,Finals,1.8,Monief Hesl,18,9,Camperdown High School,[],11.84m,0
 Long Jump,Girls,1,Finals,-1.2,Monief Hesl,18,3,Camperdown High School,[],5.82m ,6
 Long Jump,Girls,3,Finals,2.9,Monief Heslop,14,10,Camperdown High School,[],5.13m,0
@@ -2342,15 +2404,7 @@ Discus Throw,Girls,1,Finals,,Monifa Edwards,21,5,Edwin Allen High School,"['42.5
 Triple Jump,Girls,Open,Finals,0.1,Monique Wil,18,14,St. Elizabeth Technical High School,[],11.14m,0
 Triple Jump,Girls,Open,Finals,0.1,Monique Wil,19,11,The Queen's School,"['FOUL', '11.17m(0.1)', 'FOUL']",11.17m,0
 Triple Jump,Girls,Open,Finals,FOUL,Monique Williams,17,,St. Elizabeth Technical High School,[],FOUL,
-Long Jump,Boys,2,Finals,0.1,"Monteque, Gavin",12,11,St. Mary High School,[],6.02m,0
-High Jump,Boys,3,Finals,,"Morgan, Joshua",12,9,Hydel High School,"[[], []]",1.65m,0
-High Jump,Girls,2,Finals,,"Morgan, Safia",12,2,Immaculate Conception High School,"[[], []]",1.71m,7
-Triple Jump,Girls,Open,Finals,0.4,"Morgan, Safia",12,14,Immaculate Conception High School,[],11.29m,0
-Shot Put,Boys,1,Finals,,"Morgon, Seldwyn",12,11,Claude McKay High School,[],13.96m,0
-Discus Throw,Boys,1,Finals,,"Morgon, Seldwyn",12,7,Claude McKay High School,[],47.25m,2
 Discus Throw,Girls,3,Finals,,Moriah Gordon,12,10,Ferncourt High School,[],28.08m,0
-High Jump,Girls,4,Finals,,"Morris, D'Andra",12,6,St. Andrew High School for Girls,"[[], []]",1.53m,3
-Long Jump,Girls,4,Finals,-0.5,"Morris, D'Andra",12,3,St. Andrew High School for Girls,[],5.00m,6
 Javelin Throw,Boys,Open,Finals,,Moses Edmonson,12,9,Kingston College,[],48.54m,0
 Shot Put,Boys,1,Finals,,Moses Parki,18,8,Titchfield High School,[],15.65m,1
 Discus Throw,Boys,1,Finals,,Moses Parki,18,10,Titchfield High School,[],46.91m,0
@@ -2358,9 +2412,6 @@ Shot Put,Boys,1,Finals,,Moses Parkinson,16,17,Titchfield High School,[],13.77m,0
 Shot Put,Boys,2,Finals,,Moses Parkinson,15,7,Titchfield High School,[],14.09m,2
 Shot Put,Boys,1,Finals,,Moses Parkinson,17,11,Titchfield High School,[],14.41m,0
 Discus Throw,Boys,2,Finals,,Moses Parkinson,15,9,Titchfield High School,[],36.48m,0
-Long Jump,Boys,2,Finals,-0.8,"Moulton, Carlington",12,3,St Georges College,[],6.76m,6
-High Jump,Boys,2,Finals,,"Murphy, Odel",12,4,St. Jago High School,"[[], []]",J1.90m,4.5
-High Jump,Girls,4,Finals,,"Murray, Lorean",12,7,St. Andrew High School for Girls,"[[], []]",J1.53m,2
 Discus Throw,Girls,2,Finals,,Myesha Coyle,17,14,Camperdown High School,[],27.28m,0
 Discus Throw,Girls,2,Finals,,Myesha Coyle,16,13,Camperdown High School,[],32.20m,0
 Triple Jump,Girls,Open,Finals,2.5,Myesha Nott,15,16,Rusea's High School,[],11.29m,0
@@ -2392,6 +2443,8 @@ Shot Put,Girls,1,Finals,,Natalie Albert,22,3,St. Catherine High School,"['11.49m
 Javelin Throw,Girls,Open,Finals,,Natalie Albert,21,4,St. Catherine High School,"['29.11m', '27.14m', '33.57m', '33.81m', '29.27m', '26.49m']",33.81m,5
 Javelin Throw,Girls,Open,Finals,,Natalie Albert,22,3,St. Catherine High School,"['35.28m', '34.70m', '35.07m', 'FOUL', '31.54m', '37.14m']",37.14m,6
 Discus Throw,Girls,1,Finals,,Natanya Mcneish,14,6,Holmwood Technical High School,[],39.10m,3
+Discus Throw,Girls,2,Finals,,Natanya Neish,12,10,Holmwood Technical High School,[],35.40m,0
+Javelin Throw,Girls,Open,Finals,,Natanya Neish,12,2,Holmwood Technical High School,[],40.25m,7
 Long Jump,Girls,2,Finals,-0.4,Natasha Dud,18,7,Vere Technical High School,[],5.44m,2
 Long Jump,Girls,3,Finals,2.9,Natasha Dudley,15,8,Vere Technical High School,[],5.13m,1
 Long Jump,Girls,2,Finals,1.4,Natasha Dudley,17,13,Vere Technical High School,[],5.17m,0
@@ -2420,7 +2473,6 @@ Long Jump,Boys,1,Finals,0.2,Nathan Wade,24,2,Kingston College,"['6.77m(-0.9)', '
 Long Jump,Boys,3,Finals,-1.1,Nathan Will,19,9,Wolmer's Boys' School,"['FOUL', '5.87m(-1.1)', 'FOUL']",5.87m,0
 High Jump,Boys,2,Finals,,Nathaniel Jordan,14,11,Cedric Titus High School,"[[], []]",1.80m,0
 Triple Jump,Boys,2,Finals,1.8,Nathaniel Jordan,14,13,Cedric Titus High School,[],13.29m,0
-Javelin Throw,Girls,Open,Finals,,"Nation, Deveena",12,7,Buff Bay High School,[],34.14m,2
 Long Jump,Girls,3,Finals,4.4,Natrilia Ca,23,3,Wolmer's Trust High School For Girls,"['5.09m(2.3)', '5.23m(2.2)', '5.07m(0.9)', '5.07m(2.6)', '5.17m(4.2)', '5.31m(4.4)']",5.31m,6
 Long Jump,Girls,4,Finals,4.1,Natrilia Campbell,21,1,Wolmer's Trust High School For Girls,"['5.24m(0.7)', '5.06m(-0.7)', '5.42m(4.1)', '5.16m(2.6)', '5.26m(2.7)', '5.28m(6.5)']",5.42m,9
 Discus Throw,Girls,2,Finals,,Natsuya Cha,18,7,Vere Technical High School,[],36.72m,2
@@ -2435,10 +2487,6 @@ High Jump,Boys,3,Finals,,Necko Reid,22,1,Kingston College,"[['1.45', '1.50', '1.
 High Jump,Boys,2,Finals,,Necko Reid,23,9,Kingston College,"[['1.80', '1.85'], ['O', 'XXX']]",1.80m,0
 High Jump,Girls,1,Finals,,Nehlia Mills,21,5,Merl Grove High School,"[['1.55', '1.60', '1.65'], ['O', 'O', 'XXX']]",1.60m,3.5
 Discus Throw,Boys,2,Finals,,Neil Thomps,18,12,Dinthill Technical High School,[],38.32m,0
-Discus Throw,Girls,2,Finals,,"Neish, Natanya",12,10,Holmwood Technical High School,[],35.40m,0
-Javelin Throw,Girls,Open,Finals,,"Neish, Natanya",12,2,Holmwood Technical High School,[],40.25m,7
-Long Jump,Boys,1,Finals,-0.9,"Nelson, Sharlanjo",12,7,Jamaica College,[],6.74m,2
-Javelin Throw,Girls,Open,Finals,,"Nelson, Taleika",12,6,Vere Technical High School,[],34.27m,3
 Shot Put,Boys,1,Finals,,Nemoy Cocke,19,5,Kingston College,"['16.10m', '15.79m', '16.12m', '15.17m', '16.08m', '16.12m']",16.12m ,4
 Shot Put,Boys,2,Finals,,Nemoy Cockett,17,6,Kingston College,[],14.35m,3
 Discus Throw,Boys,2,Finals,,Nemoy Cockett,17,5,Kingston College,[],42.93m,4
@@ -2462,6 +2510,8 @@ Triple Jump,Boys,2,Finals,-0.6,Nicardo Grey-Clark,22,6,Wolmer's Boys' School,"['
 Pole Vault,Boys,Open,Finals,,Nicholai Blossom,22,2,Jamaica College,"[['2.90', '3.00', '3.10', '3.20', '3.30', '3.40', '3.50', '3.60', '3.70'], ['O', 'P', 'O', 'O', 'XO', 'XXO', 'O', 'O', 'XXX']]",3.60m,7
 Pole Vault,Boys,Open,Finals,,Nicholai Blossom,21,4,Jamaica College,"[['2.70', '2.80', '2.90', '3.00', '3.10', '3.20', '3.30', '3.40', '3.50', '3.60', '3.70', '3.80'], ['XXO', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'XO', 'O', 'XXX']]",3.70m,5
 Long Jump,Boys,3,Finals,-1.1,Nicholas Fr,18,5,Kingston College,[],J6.02m ,4
+Long Jump,Boys,1,Finals,-1.6,Nicholas Phynn,12,6,Jamaica College,[],6.75m,3
+Triple Jump,Boys,Open,Finals,-1.1,Nicholas Phynn,12,5,Jamaica College,[],J14.43m,4
 Pole Vault,Boys,Open,Finals,,Nicholas Staniscl,18,2,Edwin Allen High School,"[['2.90', '3.00', '3.10', '3.20', '3.30', '3.40', '3.50', '3.60', '3.70', '3.80', '3.90', '4.00'], ['P', 'P', 'O', 'XO', 'P', 'XO', 'XO', 'O', 'O', 'O', 'XO', 'XXX']]",3.90m,7
 Javelin Throw,Girls,Open,Finals,,Nicholette Brown,16,17,Edwin Allen High School,[],31.17m,0
 Triple Jump,Boys,1,Finals,-0.1,Nicholloyd Brown,22,9,Calabar High School,"['FOUL', 'FOUL', '13.61m(-0.1)']",13.61m,0
@@ -2472,6 +2522,8 @@ Pole Vault,Boys,Open,Finals,,Nickoy Morrison,14,8,Excelsior High School,"[[], []
 Discus Throw,Girls,3,Finals,,Nicole Campbell,16,11,Buff Bay High School,[],29.39m,0
 High Jump,Girls,1,Finals,,Nicole Thompson,14,13,Glengoffe High School,"[[], []]",J1.60m,0
 High Jump,Girls,1,Finals,,Nicole Thompson,15,7,Glengoffe High School,"[[], []]",J1.65m,1.5
+Discus Throw,Girls,3,Finals,,Nicole Windross,12,3,St. Hughs High School,[],34.86m,6
+High Jump,Boys,2,Finals,,Nikaho Kennedy,12,10,Munro College,"[[], []]",J1.85m,0
 Triple Jump,Boys,2,Finals,-3,Nikaoli Williams,17,3,Calabar High School,[],13.96m,6
 High Jump,Boys,3,Finals,,Nikaro John,23,5,St. Jago High School,"[['1.55', '1.60', '1.65', '1.70', '1.75'], ['O', 'O', 'O', 'XO', 'XXX']]",1.70m ,4
 High Jump,Boys,3,Finals,,Nikaro Johnson,24,1,St. Jago High School,"[['1.60', '1.65', '1.70', '1.75', '1.78', '1.81', '1.84', '1.87', '1.89'], ['O', 'O', 'O', 'O', 'O', 'O', 'XXO', 'XO', 'PPP']]",1.87m,9
@@ -2481,7 +2533,6 @@ High Jump,Boys,1,Finals,,Nishorn Pierre,21,1,Jamaica College,"[['1.90', '1.95', 
 Shot Put,Boys,2,Finals,,Nkosona Joh,23,11,St. Mary High School,"['12.20m', '11.33m', '11.69m']",12.20m,0
 Shot Put,Boys,2,Finals,,Nkosona Johnson,24,3,St. Mary High School,"['15.46m', '14.42m', '14.87m', '14.59m', 'FOUL', '13.58m']",15.46m,6
 Discus Throw,Boys,2,Finals,,Nkosona Johnson,24,4,St. Mary High School,"['43.18m', 'FOUL', '41.13m', '42.78m', 'FOUL', 'FOUL']",43.18m,5
-Long Jump,Girls,3,Finals,2.2,"Nobel, Jessicca",12,3,The Queen's School,[],5.67m,6
 Pole Vault,Boys,Open,Finals,,Noel Patty,22,,St. Jago High School,"[['2.90'], ['XXX']]",NH,
 Long Jump,Girls,3,Finals,5,Noellea-marie Maso,16,4,Wolmer's Trust High School For Girls,[],5.48m,5
 Long Jump,Girls,3,Finals,1.2,Noellea-marie Maso,17,10,Wolmer's Trust High School For Girls,[],5.18m,0
@@ -2512,14 +2563,13 @@ High Jump,Boys,2,Finals,,Odane Smith,17,,Ewarton High School,"[[], []]",FAIL,
 Discus Throw,Boys,2,Finals,,Odayne Harr,18,10,Calabar High School,[],42.50m ,0
 Javelin Throw,Boys,Open,Finals,,Odayne Harr,19,9,Calabar High School,"['48.78m', '48.97m', '53.00m']",53.00m ,0
 Javelin Throw,Boys,Open,Finals,,Odayne Harris,21,4,Calabar High School,"['59.08m', 'FOUL', 'FOUL', '57.26m', '55.47m', 'FOUL']",59.08m,5
+High Jump,Boys,2,Finals,,Odel Murphy,12,4,St. Jago High School,"[[], []]",J1.90m,4.5
 Triple Jump,Boys,1,Finals,-0.1,Odel Murphy,14,12,Hydel High School,[],13.70m,0
 Triple Jump,Boys,1,Finals,1.5,Odel Murphy,15,9,Hydel High School,[],14.71m,0
 High Jump,Boys,1,Finals,,Odel Murphy,14,10,Hydel High School,"[[], []]",J1.90m,0
 High Jump,Boys,1,Finals,,Odel Murphy,15,10,Hydel High School,"[[], []]",J1.95m,0
 Long Jump,Girls,1,Finals,2.2,Odessa France,24,10,Vere Technical High School,"['5.41m(2.2)', '5.03m(1.1)', '5.01m(2.6)']",5.41m,0
 High Jump,Boys,1,Finals,,Ogarry Martin,16,7,Ardenne High School,"[['7', 'Kobe-jordan', 'Rhooms', 'Cornwall', 'College', 'J2.00m', '1.50'], ['9', 'Shemar', 'Shaw', 'Excelsior', 'High', 'J2.00m']]",J2.00m,1.5
-High Jump,Boys,2,Finals,,"Ogilvie, Javier",12,6,Wolmer's Boys' School,"[[], []]",1.85m,1.5
-Long Jump,Boys,2,Finals,-0.5,"Ogilvie, Javier",12,7,Wolmer's Boys' School,[],6.43m,2
 Javelin Throw,Boys,Open,Finals,,Ojay Ellis,24,5,Munro College,"['55.02m', '54.03m', '55.72m', '57.56m', '59.09m', 'FOUL']",59.09m,4
 Shot Put,Boys,2,Finals,,Okado Fray,17,11,Green Island High School,[],10.83m,0
 Discus Throw,Boys,2,Finals,,Okado Fray,16,13,Green Island High School,[],31.14m,0
@@ -2543,21 +2593,22 @@ High Jump,Boys,2,Finals,,Omarion Walford,21,6,St. Jago High School,"[['1.80', '1
 Triple Jump,Boys,2,Finals,3.3,Omarion Walford,21,6,St. Jago High School,"['11.81m(0.2)', 'FOUL', '13.73m(3.3)', '13.13m(1.8)', 'FOUL', 'FOUL']",13.73m,3
 High Jump,Girls,4,Finals,,Omelia Gardener,17,5,Holmwood Technical High School,"[[], []]",1.50m,4
 Long Jump,Girls,4,Finals,0.1,Omelia Thom,23,12,Manchester High School (MHS),"['4.15m(-0.3)', '4.31m(-0.1)', '4.40m(0.1)']",4.40m,0
+Discus Throw,Girls,2,Finals,,Omesha Locke,12,12,Manning High School,[],34.42m,0
 Long Jump,Girls,4,Finals,1.7,Onanda Lowe,17,3,Immaculate Conception High School,[],5.13m,6
 Long Jump,Girls,1,Finals,2.6,Onanda Lowe,23,12,Immaculate Conception High School,"['5.23m(2.6)', '4.84m(1.6)', '5.01m(4.7)']",5.23m,0
 Long Jump,Girls,1,Finals,0,Onanda Lowe,22,9,Immaculate Conception High School,"['5.34m(+0.0)', '5.24m(1.2)', '5.23m(0.7)']",5.34m,0
 Long Jump,Girls,3,Finals,1.1,Onanda Lowe,19,3,Immaculate Conception High School,"['5.48m(2.5)', '5.20m(1.1)', '5.59m(1.1)', '5.40m(1.1)', '5.22m(0.1)', '5.09m(0.2)']",5.59m ,6
 High Jump,Girls,4,Finals,,Onecia Sweeny,17,7,Convent of Mercy Academy (ALPHA),"[[], []]",J1.50m,2
 Shot Put,Boys,1,Finals,,Oneil Colli,19,12,Excelsior High School,"['13.43m', '12.96m', '12.24m']",J13.43m,0
+High Jump,Girls,2,Finals,,Onessa Patten,12,6,Edwin Allen High School,"[[], []]",J1.65m,3
 High Jump,Girls,1,Finals,,Onessa Patten,14,8,Edwin Allen High School,"[[], []]",J1.65m,0.5
-Shot Put,Boys,1,Finals,,"Onyia, Emmanuel",12,2,Munro College,[],18.06m,7
-Discus Throw,Boys,1,Finals,,"Onyia, Emmanuel",12,4,Munro College,[],53.04m,5
 Triple Jump,Girls,Open,Finals,0.4,Opal James,12,3,St. Elizabeth Technical High School,[],12.13m,6
 Long Jump,Girls,2,Finals,-0.7,Opal James,12,5,St. Elizabeth Technical High School,[],5.68m,4
 Long Jump,Girls,1,Finals,2.8,Ophelia Hales,15,9,St. Andrew Technical High School,[],5.47m,0
 Long Jump,Girls,2,Finals,0.7,Ophelia Hales,13,6,St. Andrew Technical High School,[],5.53m,3
 Long Jump,Girls,2,Finals,0.7,Ophelia Hales,14,6,St. Andrew Technical High School,[],5.53m,3
 Shot Put,Girls,2,Finals,,Ophelia Powell,16,10,St. Andrew Technical High School,[],12.06m,0
+Shot Put,Boys,1,Finals,,Orega Welch,12,12,Lacovia High School,[],13.75m,0
 High Jump,Boys,2,Finals,,Orian Forre,19,11,St Thomas Technical High School,"[['1.70', '1.75', '1.80'], ['O', 'O', 'XXX']]",1.75m,0
 Discus Throw,Boys,2,Finals,,Orlando Abrahams,17,9,Oberlin High School,[],37.21m,0
 Shot Put,Boys,2,Finals,,Orlando Crawford,15,11,Cornwall College,[],12.78m,0
@@ -2567,6 +2618,7 @@ Discus Throw,Boys,1,Finals,,Orlando Stephenson,14,7,The Enid Bennett High School
 Javelin Throw,Boys,Open,Finals,,Orlando Stephenson,15,9,The Enid Bennett High School,[],50.31m,0
 Javelin Throw,Boys,Open,Finals,,Orlando Stephenson,14,4,The Enid Bennett High School,[],53.01m,5
 Javelin Throw,Boys,Open,Finals,,Orlando Thomas,14,2,Kingston College,[],60.29m,7
+Javelin Throw,Boys,Open,Finals,,Orlando Thomas,12,3,Bridgeport High School,[],53.55m,6
 Long Jump,Boys,1,Finals,-2.1,Oshane Blac,23,12,St. Elizabeth Technical High School,"['6.20m(-2.1)', '6.20m(-2.2)', '5.15m(-0.2)']",6.20m,0
 Long Jump,Boys,2,Finals,1.3,Oshane Isra,19,11,Glenmuir High School,"['6.22m(1.6)', '6.34m(1.3)', 'FOUL']",6.34m,0
 Long Jump,Boys,3,Finals,4.4,Oshane Israel,17,7,Glenmuir High School,[],5.83m,2
@@ -2577,7 +2629,6 @@ Shot Put,Girls,2,Finals,,Oshari Buchanan,22,9,St. Catherine High School,"['11.51
 Long Jump,Girls,4,Finals,-0.6,Osheca Barnes,12,2,Hydel High School,[],5.03m,7
 Long Jump,Girls,1,Finals,-1.2,Osheena Kerr,17,6,Holmwood Technical High School,[],5.69m,3
 Triple Jump,Boys,1,Finals,1.8,Otheny Carridice,14,9,Holmwood Technical High School,[],13.91m,0
-Long Jump,Boys,1,Finals,-0.8,"Otuonye, Ifeanye",12,4,Munro College,[],6.83m,5
 Triple Jump,Boys,2,Finals,2.3,Ouekie Wright,14,2,St. Elizabeth Technical High School,[],14.49m,7
 Long Jump,Boys,2,Finals,0.7,Ouekie Wright,14,6,St. Elizabeth Technical High School,[],6.74m,3
 Triple Jump,Boys,1,Finals,1.7,Ouekie Wright,15,12,St. Elizabeth Technical High School,[],13.91m,0
@@ -2593,14 +2644,13 @@ Long Jump,Boys,1,Finals,0.2,Owayne Owen,18,3,Cornwall College,[],7.24m ,6
 Triple Jump,Boys,2,Finals,-1.2,Owayne Owens,15,9,Cornwall College,[],13.37m,0
 Triple Jump,Boys,1,Finals,2.5,Owayne Owens,17,10,Cornwall College,[],14.58m,0
 Long Jump,Boys,2,Finals,0.5,Owayne Owens,16,8,Cornwall College,[],6.53m,1
+Triple Jump,Boys,Open,Finals,-1.4,Owen Smith,12,4,Calabar High School,[],14.43m,5
 High Jump,Boys,2,Finals,,Paketo Dudley,15,10,Jamaica College,"[[], []]",1.80m,0
 Triple Jump,Boys,2,Finals,1.6,Paketo Dudley,14,3,Jamaica College,[],14.43m,6
 Triple Jump,Boys,2,Finals,-0.3,Paketo Dudley,15,1,Jamaica College,[],14.51m,9
 Long Jump,Boys,1,Finals,-1,Paketo Dudley,17,7,Jamaica College,[],7.06m,2
 Long Jump,Boys,2,Finals,1.2,Paketo Dudley,15,1,Jamaica College,[],7.21m,9
 High Jump,Girls,4,Finals,,Paris Brown,19,12,Titchfield High School,"[['1.30', '1.35', '1.40', '1.45'], ['P', 'O', 'XO', 'XXX']]",J1.40m,0
-Shot Put,Boys,2,Finals,,"Parkinson, Alexander",12,8,Jamaica College,[],14.28m,1
-Discus Throw,Boys,2,Finals,,"Parkinson, Alexander",12,5,Jamaica College,[],43.05m,4
 Discus Throw,Girls,1,Finals,,Patrice For,19,8,Hydel High School,"['35.75m', '41.55m', 'FOUL', '41.18m', '41.63m', '41.13m']",41.63m,1
 Shot Put,Girls,2,Finals,,Patrice Forrest,17,9,Hydel High School,[],12.72m,0
 Shot Put,Girls,2,Finals,,Patrice Forrest,16,6,Hydel High School,[],12.89m,3
@@ -2609,7 +2659,6 @@ Long Jump,Boys,2,Finals,3.7,Patrick Bro,23,11,St. Jago High School,"['6.22m(5.4)
 High Jump,Boys,3,Finals,,Patrick Brown,22,5,St. Jago High School,"[['1.45', '1.50', '1.55', '1.60', '1.65', '1.70'], ['O', 'O', 'O', 'XO', 'XXO', 'XXX']]",1.65m,4
 Long Jump,Boys,3,Finals,2.8,Patrick Brown,22,9,St. Jago High School,"['5.47m(2.8)', 'FOUL', '5.03m(2.9)']",5.47m,0
 High Jump,Boys,2,Finals,,Patrick Rosegreen,22,8,Cornwall College,"[['1.75', '1.80', '1.85'], ['O', 'XO', 'XXX']]",1.80m,1
-High Jump,Girls,2,Finals,,"Patten, Onessa",12,6,Edwin Allen High School,"[[], []]",J1.65m,3
 Pole Vault,Boys,Open,Finals,,Paul Morgan,19,4,Jamaica College,"[['5', '#', '810', 'Michael', 'Cain', 'Kingston', 'College', '3.70m', '4'], ['6', '#', '1618', 'Jelani', 'Thompson', ""Wolmer's"", 'Hig', '3.50m', '3']]",3.80m,5
 Long Jump,Girls,2,Finals,-0.7,Paula-ann C,19,7,Edwin Allen High School,"['5.56m(-0.4)', '5.67m(-0.1)', '5.55m(-0.3)', '5.45m(-0.7)', '5.19m(-0.9)', '5.69m(-0.7)']",5.69m ,2
 Long Jump,Girls,3,Finals,2.3,Paula-ann C,18,2,Edwin Allen High School,[],5.80m ,7
@@ -2627,19 +2676,14 @@ Discus Throw,Girls,2,Finals,,Paul-Ann Gayle,14,1,Edwin Allen High School,[],44.2
 Discus Throw,Girls,1,Finals,,Paul-Ann Gayle,15,3,Edwin Allen High School,[],47.87m,6
 High Jump,Boys,3,Finals,,Pavell Lawr,18,10,Calabar High School,"[['1.60', '1.65'], ['XO', 'XXX']]",1.60m,0
 Long Jump,Boys,3,Finals,-0.3,Pavell Lawr,18,1,Calabar High School,[],J6.34m ,9
-High Jump,Girls,4,Finals,,"Peart, Gabrielle",12,9,Campion College,"[[], []]",1.50m,0
-Javelin Throw,Boys,Open,Finals,,"Perkins, Rushane",12,14,Jamaica College,[],42.55m,0
 High Jump,Boys,1,Finals,,Peter Clarke,17,9,Camperdown High School,"[[], []]",1.90m,0
 High Jump,Boys,2,Finals,,Peter Clarke,14,11,Wolmer's Boys' School,"[[], []]",1.80m,0
 Long Jump,Boys,1,Finals,-0.9,Peter Daniel,24,11,Edwin Allen High School,"['FOUL', '6.00m(-0.9)', 'FOUL']",6.00m,0
+High Jump,Boys,3,Finals,,Peter Williams,12,4,Calabar High School,"[[], []]",1.70m,4.5
 Long Jump,Girls,1,Finals,0.5,Peter-gay M,18,4,Edwin Allen High School,[],5.80m ,5
 Long Jump,Girls,1,Finals,-2.1,Peter-gay Mckenzie,17,8,Edwin Allen High School,[],5.48m,1
-Javelin Throw,Girls,Open,Finals,,"Peters, Candice",12,11,Immaculate Conception High School,[],28.36m,0
 Javelin Throw,Boys,Open,Finals,,Peterson Da,23,6,Edwin Allen High School,"['46.56m', '46.02m', '49.23m', '49.14m', 'PASS', '45.20m']",49.23m,3
 Javelin Throw,Boys,Open,Finals,,Peterson Daniel,24,6,Edwin Allen High School,"['51.36m', 'FOUL', '53.80m', 'FOUL', '55.49m', '48.39m']",55.49m,3
-Long Jump,Girls,3,Finals,6,"Petrie, Jody-Ann",12,6,Excelsior High School,[],5.46m,3
-High Jump,Girls,2,Finals,,"Pherson, Shanice",12,8,Holmwood Technical High School,"[[], []]",1.62m,1
-Long Jump,Girls,2,Finals,-0.4,"Pherson, Shanice",12,4,Holmwood Technical High School,[],5.75m,5
 Long Jump,Boys,3,Finals,2.4,Phillip Pottinger,24,7,Black River High School,"['5.61m(0.6)', '5.59m(1.1)', '5.11m(2.9)', '5.58m(4.3)', '5.31m(2.7)', '5.69m(2.4)']",5.69m,2
 Discus Throw,Boys,1,Finals,,Phillipe Ba,18,5,Excelsior High School,[],53.32m ,4
 Triple Jump,Boys,2,Finals,-0.7,Phillipe Barnett,15,16,Excelsior High School,[],12.47m,0
@@ -2649,18 +2693,6 @@ Pole Vault,Boys,Open,Finals,,Phillipe Barnett,15,5,Excelsior High School,"[[], [
 Discus Throw,Boys,1,Finals,,Phillipe Barnett,17,4,Excelsior High School,[],53.20m,5
 Discus Throw,Boys,2,Finals,,Phillipe Barnett,15,,Excelsior High School,[],FOUL,
 High Jump,Girls,4,Finals,,Phyllecia Massias,21,7,St. Jago High School,"[['1.40', '1.45'], ['O', 'XXX']]",1.40m,1.5
-Long Jump,Boys,1,Finals,-1.6,"Phynn, Nicholas",12,6,Jamaica College,[],6.75m,3
-Triple Jump,Boys,Open,Finals,-1.1,"Phynn, Nicholas",12,5,Jamaica College,[],J14.43m,4
-Shot Put,Boys,1,Finals,,"Pitt, Derrick",12,10,St. Jago High School,[],13.99m,0
-High Jump,Boys,1,Finals,,"Plummer, Kurt",12,10,Charlie Smith High School,"[[], []]",1.95m,0
-High Jump,Girls,1,Finals,,"Porter, Chanice",12,1,Manchester High School (MHS),"[[], []]",1.86mR   9,9
-High Jump,Boys,2,Finals,,"Powell, Akeem",12,6,Jamaica College,"[[], []]",1.85m,1.5
-Shot Put,Boys,2,Finals,,"Powell, Mikhail",12,12,Munro College,[],13.28m,0
-Discus Throw,Girls,1,Finals,,"Powell, Sheena",12,7,Manchester High School (MHS),[],39.11m,2
-Triple Jump,Boys,Open,Finals,1.2,"Pullen, Clive",12,1,Kingston College,[],15.71m,9
-Long Jump,Boys,1,Finals,-1.1,"Pullen, Clive",12,2,Kingston College,[],7.15m,7
-High Jump,Girls,2,Finals,,"Qadir, Hanifah",12,13,Excelsior High School,"[[], []]",1.50m,0
-Long Jump,Girls,3,Finals,6.4,"Quarrie, Romae",12,12,Campion College,[],5.09m,0
 Javelin Throw,Boys,Open,Finals,,Quewayne Br,23,5,Petersfield High School,"['43.80m', '49.64m', '45.72m', '47.10m', '44.72m', 'FOUL']",49.64m,4
 Javelin Throw,Boys,Open,Finals,,Quewayne Brown,22,6,Petersfield High School,"['44.50m', '40.84m', '49.10m', '48.57m', '42.18m', '48.16m']",49.10m,3
 Shot Put,Girls,2,Finals,,Quteann Robb,15,8,St. Jago High School,[],13.07m,1
@@ -2708,8 +2740,6 @@ High Jump,Girls,2,Finals,,Ramona Hylton,17,3,Camperdown High School,"[[], []]",1
 High Jump,Girls,3,Finals,,Ramona Hylton,16,3,Camperdown High School,"[['1.50', '1.55', '1.60', '1.65', '1.70'], ['O', 'O', 'XO', 'O', 'XXX']]",J1.65m,5
 Pole Vault,Boys,Open,Finals,,Ramone Clarke,14,,Mona High School,"[[], []]",NH,
 Triple Jump,Girls,Open,Finals,FOUL,Ramoya Grandison,15,,Wolmer's Trust High School For Girls,[],FOUL,
-High Jump,Boys,2,Finals,,"Ramsay, Chevon",12,6,Kingston College,"[[], []]",1.85m,1.5
-High Jump,Girls,1,Finals,,"Ramsay, Israel",12,6,Wolmer's Trust High School For Girls,"[[], []]",J1.63m,3
 Shot Put,Boys,2,Finals,,Ranaldo And,23,2,Petersfield High School,"['FOUL', '15.14m', 'FOUL', '14.43m', '15.15m', 'FOUL']",15.15m ,7
 Javelin Throw,Boys,Open,Finals,,Ranaldo And,23,7,Petersfield High School,"['FOUL', '46.28m', '43.48m', '44.95m', '48.78m', '41.93m']",48.78m,2
 Shot Put,Boys,2,Finals,,Ranaldo Anderson,22,7,Petersfield High School,"['13.68m', 'FOUL', '14.31m', 'FOUL', '14.69m', '13.69m']",14.69m,2
@@ -2726,8 +2756,8 @@ High Jump,Boys,2,Finals,,Rashaun Dawkins,14,3,St. Jago High School,"[[], []]",1.
 Long Jump,Boys,1,Finals,-1.5,Rashaun Dawkins,16,9,St. Jago High School,[],6.58m,0
 Long Jump,Boys,2,Finals,-0.1,Rashaun Dawkins,14,4,St. Jago High School,[],6.78m,5
 Long Jump,Boys,1,Finals,-1.4,Rashaun Dawkins,17,3,St. Jago High School,[],7.24m,6
-Long Jump,Boys,3,Finals,0.9,Rashaun Dawkins ,12,9,St. Jago High School,[],5.92m,0
-High Jump,Boys,3,Finals,,Rashaun Dawkins ,12,7,St. Jago High School,"[[], []]",J1.70m,2
+Long Jump,Boys,3,Finals,0.9,Rashaun Dawkins,12,9,St. Jago High School,[],5.92m,0
+High Jump,Boys,3,Finals,,Rashaun Dawkins,12,7,St. Jago High School,"[[], []]",J1.70m,2
 High Jump,Boys,2,Finals,,Rashawn Anderson,12,4,Calabar High School,"[[], []]",J1.90m,4.5
 High Jump,Boys,1,Finals,,Rashawn Anderson,15,10,Calabar High School,"[[], []]",J1.95m,0
 High Jump,Girls,3,Finals,,Rasheda Sam,19,5,Edwin Allen High School,"[['1.35', '1.40', '1.45', '1.50', '1.55', '1.60', '1.65', '1.68'], ['P', 'P', 'P', 'P', 'O', 'O', 'XO', 'XXX']]",1.65m ,4
@@ -2762,6 +2792,7 @@ Javelin Throw,Boys,Open,Finals,,Ravion Ashman,12,2,Calabar High School,[],53.87m
 Triple Jump,Boys,2,Finals,-1.8,Rayvon Walkin,22,4,Kingston College,"['FOUL', '14.00m(-1.8)', '12.92m(-2.2)', '13.44m(-1.1)', '13.35m(-1.4)', '13.74m(-1.4)']",14.00m,5
 Long Jump,Boys,2,Finals,4.2,Rayvon Walkin,22,5,Kingston College,"['FOUL', '6.79m(4.2)', '6.15m(3.4)', '6.24m(0.9)', '6.38m(2.0)', 'FOUL']",6.79m,4
 High Jump,Girls,4,Finals,,Reann Brown,23,6,Hydel High School,"[['1.40', '1.45', '1.50'], ['O', 'O', 'XXX']]",1.45m,2.5
+Long Jump,Girls,2,Finals,-0.8,Recalia Maitland,12,12,Manchester High School (MHS),[],4.85m,0
 Triple Jump,Boys,1,Finals,0.2,Recardo Jac,18,7,St. Jago High School,[],14.26m ,2
 Triple Jump,Boys,1,Finals,-0.6,Recardo Jac,19,8,St. Jago High School,"['14.47m(-0.6)', '14.11m(-0.5)', '14.37m(-1.4)', '13.20m(-1.3)', '14.16m(-1.0)', '13.06m(-1.8)']",14.47m ,1
 Triple Jump,Boys,1,Finals,1,Recardo Jackson,17,9,St. Jago High School,[],14.61m,0
@@ -2774,11 +2805,6 @@ Shot Put,Girls,2,Finals,,Rehanna Biggs,24,3,St. Jago High School,"['13.51m', '12
 Discus Throw,Girls,2,Finals,,Rehanna Biggs,24,5,St. Jago High School,"['FOUL', '31.24m', '41.19m', '36.36m', 'FOUL', 'FOUL']",41.19m,4
 Discus Throw,Girls,3,Finals,,Rehanna Biggs,21,4,St. Jago High School,"['32.56m', '33.56m', '29.93m', 'FOUL', '31.84m', '31.84m']",33.56m,5
 Discus Throw,Girls,3,Finals,,Rehanna Biggs,22,2,St. Jago High School,"['40.81m', 'FOUL', '41.67m', '42.03m', '36.95m', '39.92m']",42.03m,7
-Javelin Throw,Boys,Open,Finals,,"Reid, Jael",12,5,Kemps High School,[],52.46m,4
-Shot Put,Boys,2,Finals,,"Reid, John-Mark",12,15,St. Jago High School,[],12.37m,0
-Javelin Throw,Boys,Open,Finals,,"Reid, Rolando",12,1,Munro College,[],54.32m,9
-Triple Jump,Girls,Open,Finals,FOUL,"Reid, Rusheen",12,,The Queen's School,[],FOUL,
-Shot Put,Boys,1,Finals,,"Reid, Sanjay",12,17,Foga Road High School,[],12.05m,0
 Long Jump,Girls,4,Finals,3.5,Renae Escoe,22,7,Wolmer's Trust High School For Girls,"['4.77m(3.5)', 'FOUL', '4.44m(4.0)', '4.20m(2.4)', '4.58m(1.5)', '4.46m(2.2)']",4.77m,2
 Long Jump,Girls,3,Finals,4.1,Renae Escoe,24,6,Wolmer's Trust High School For Girls,"['5.02m(3.5)', '5.35m(4.1)', '5.09m(0.8)', '4.75m(-0.6)', '5.21m(4.4)', '5.03m(0.7)']",5.35m,3
 Triple Jump,Boys,1,Finals,1,Renaldino M,23,4,Excelsior High School,"['14.06m(1.0)', '13.62m(1.6)', '13.49m(0.4)', 'FOUL', 'FOUL', 'FOUL']",14.06m,5
@@ -2786,14 +2812,15 @@ Triple Jump,Boys,1,Finals,1.4,Renaldino Medwinte,24,8,Excelsior High School,"['1
 Long Jump,Boys,1,Finals,-0.5,Renaldino Medwinte,24,7,Excelsior High School,"['6.64m(-0.6)', '6.68m(-1.2)', '6.91m(-0.7)', '6.75m(-1.3)', '6.66m(-1.1)', '6.93m(-0.5)']",6.93m,2
 Triple Jump,Boys,2,Finals,1.2,Renaldino Medwinter,21,8,Excelsior High School,"['12.67m(1.3)', '13.06m(2.2)', '13.33m(1.2)', '13.14m(-1.5)', '12.86m(0.6)', '12.67m(-0.0)']",13.33m,1
 Long Jump,Boys,2,Finals,5.9,Renaldino Medwinter,21,6,Excelsior High School,"['6.60m(3.2)', '6.68m(1.2)', '6.68m(4.6)', '6.25m(3.9)', '6.65m(1.2)', '6.79m(5.9)']",6.79m,3
+Long Jump,Boys,3,Finals,0.4,Renaldo Richards,12,3,Oberlin High School,[],6.27m,6
 Long Jump,Boys,2,Finals,3.6,Renaldo Richards,14,3,Jamaica College,[],6.83m,6
 Pole Vault,Boys,Open,Finals,,Renaldo Savoury,18,7,Calabar High School,"[['2.90', '3.00', '3.10'], ['O', 'XO', 'XXX']]",3.00m,2
 Javelin Throw,Boys,Open,Finals,,Renaldo Smith,16,15,Camperdown High School,[],44.54m,0
+High Jump,Girls,2,Finals,,Rene' Medley,12,7,Vere Technical High School,"[[], []]",J1.65m,2
 Long Jump,Girls,2,Finals,-0.7,Renecia Edwards,24,12,Edwin Allen High School,"['4.93m(-0.7)', '4.63m(-0.6)', 'FOUL']",4.93m,0
 Long Jump,Girls,2,Finals,-0.4,Reshma Ande,18,10,Holy Childhood High School,[],5.34m,0
 Long Jump,Girls,4,Finals,3.1,Reshma Anderson,13,8,Holy Childhood High School,[],4.85m,1
 Long Jump,Girls,4,Finals,3.1,Reshma Anderson,14,8,Holy Childhood High School,[],4.85m,1
-Long Jump,Girls,2,Finals,-0.7,"Reynolds, Kelsey",12,10,Convent of Mercy Academy (ALPHA),[],5.10m,0
 Long Jump,Girls,1,Finals,-0.3,Rhain Chong,17,4,Convent of Mercy Academy (ALPHA),[],5.85m,5
 High Jump,Girls,3,Finals,,Rhianna Lewis,22,10,Rhodes Hall High School,"[['1.35', '1.40', '1.45', '1.50', '1.55'], ['P', 'P', 'O', 'O', 'XXX']]",1.50m,0
 High Jump,Girls,4,Finals,,Rhianna Lewis,21,3,Rhodes Hall High School,"[['1.40', '1.45', '1.50', '1.55'], ['P', 'XXO', 'O', 'XXX']]",1.50m,6
@@ -2835,8 +2862,6 @@ High Jump,Boys,2,Finals,,Richard Campbell,17,7,Calabar High School,"[[], []]",J1
 High Jump,Boys,3,Finals,,Richard Gre,23,3,Calabar High School,"[['1.55', '1.60', '1.65', '1.70', '1.75', '1.78'], ['O', 'O', 'O', 'O', 'O', 'XXX']]",1.75m ,6
 Long Jump,Boys,3,Finals,2.4,Richard Gre,23,3,Calabar High School,"['5.17m(5.5)', '6.25m(2.4)', '5.78m(4.7)', 'FOUL', 'FOUL', 'FOUL']",6.25m ,6
 Long Jump,Boys,2,Finals,1.8,Richard Green,24,10,Calabar High School,"['5.97m(1.8)', '5.86m(1.9)', '5.94m(1.6)']",5.97m,0
-Long Jump,Boys,3,Finals,0.4,"Richards, Renaldo",12,3,Oberlin High School,[],6.27m,6
-Javelin Throw,Boys,Open,Finals,,"Richards, Zaavan",12,6,Kingston College,[],52.10m,3
 High Jump,Girls,1,Finals,,Richelle St,23,3,St. Elizabeth Technical High School,"[['1.55', '1.60', '1.65', '1.70', '1.73'], ['O', 'XO', 'O', 'O', 'XXX']]",1.70m ,6
 Triple Jump,Girls,Open,Finals,-0.2,Richelle St,23,3,St. Elizabeth Technical High School,"['11.85m(-0.5)', '11.91m(0.2)', 'FOUL', '12.07m(0.3)', '12.01m(-0.5)', '12.37m(-0.2)']",12.37m ,6
 Long Jump,Girls,1,Finals,2.7,Richelle St,23,2,St. Elizabeth Technical High School,"['5.45m(-1.0)', '5.81m(2.7)', 'FOUL', '5.51m(1.6)', '5.63m(1.5)', 'FOUL']",5.81m ,7
@@ -2851,8 +2876,6 @@ Shot Put,Girls,1,Finals,,Rickea Atkins,22,9,St. Catherine High School,"['11.93m'
 Shot Put,Girls,2,Finals,,Rickea Atkins,21,6,St. Catherine High School,"['FOUL', '12.87m', '13.67m', '13.63m', 'FOUL', '11.98m']",13.67m,3
 Discus Throw,Girls,2,Finals,,Rickea Atkins,21,9,St. Catherine High School,"['FOUL', '31.87m', '35.73m']",35.73m,0
 Discus Throw,Girls,1,Finals,,Rickea Atkins,22,11,St. Catherine High School,"['35.11m', 'FOUL', '37.09m']",37.09m,0
-Triple Jump,Boys,Open,Finals,-0.5,"Ricketts, Michane",12,7,Edwin Allen High School,[],14.34m,2
-Discus Throw,Girls,2,Finals,,"Ricketts, Tsahai",12,,Excelsior High School,[],FOUL,
 Long Jump,Boys,2,Finals,3.4,Ricoy Hunte,23,4,St. Elizabeth Technical High School,"['6.52m(5.1)', '6.60m(3.0)', '6.76m(3.9)', 'FOUL', '6.78m(3.4)', 'FOUL']",6.78m ,5
 Long Jump,Boys,3,Finals,2.7,Ricoy Hunter,21,5,St. Elizabeth Technical High School,"['4.69m(-0.1)', 'FOUL', '6.21m(1.2)', '6.31m(0.4)', '6.36m(2.7)', '6.24m(2.6)']",6.36m,4
 Long Jump,Boys,2,Finals,3.5,Ricoy Hunter,22,3,St. Elizabeth Technical High School,"['6.90m(3.5)', '6.83m(3.1)', '6.47m(-3.7)', '6.74m(3.8)', 'FOUL', '6.63m(4.5)']",6.90m,6
@@ -2865,11 +2888,8 @@ Discus Throw,Girls,3,Finals,,Rihanna Facey,22,10,Hydel High School,"['31.11m', '
 Javelin Throw,Girls,Open,Finals,,Rihanna Reid,24,8,Merl Grove High School,"['25.77m', '28.45m', '30.82m', '31.81m', '26.09m', '23.62m']",31.81m,1
 Triple Jump,Boys,2,Finals,1.9,Riquelme Reid,24,5,Excelsior High School,"['12.68m(1.6)', '13.68m(1.9)', '13.67m(0.6)', '13.33m(1.5)', 'PASS', 'PASS']",13.68m,4
 Triple Jump,Boys,2,Finals,-0.3,Riquelme Reid,23,11,Excelsior High School,"['12.30m(0.2)', '12.34m(-0.3)', '12.18m(-0.7)']",12.34m,0
+Discus Throw,Boys,1,Finals,,Robert Thomas,12,17,Paul Bogle High School,[],40.33m,0
 Triple Jump,Girls,Open,Finals,NWI,Robiann Broomfield,12,11,Immaculate Conception High School,[],11.38m,0
-Shot Put,Girls,Open,Finals,,"Robinson, Alsian",12,8,Holmwood Technical High School,[],11.54m,1
-Discus Throw,Girls,1,Finals,,"Robinson, Alsian",12,11,Holmwood Technical High School,[],33.54m,0
-Triple Jump,Boys,Open,Finals,0.2,"Robinson, Demar",12,2,Calabar High School,[],15.34m,7
-High Jump,Boys,1,Finals,,"Robinson, Demar",12,2,Calabar High School,"[[], []]",J2.10m,7
 Shot Put,Girls,1,Finals,,Rochele Sol,23,4,Edwin Allen High School,"['11.74m', '12.96m', '12.86m', '12.37m', '12.29m', '13.09m']",13.09m ,5
 Discus Throw,Girls,1,Finals,,Rochele Sol,23,5,Edwin Allen High School,"['46.09m', '45.60m', '46.65m', '45.91m', '40.34m', '44.26m']",46.65m ,4
 Shot Put,Girls,1,Finals,,Rochele Solmon,22,6,Edwin Allen High School,"['11.62m', '12.91m', '12.38m', '12.54m', '12.73m', '12.86m']",12.91m,3
@@ -2888,10 +2908,8 @@ Long Jump,Boys,3,Finals,2.5,Rodeeki Wal,23,5,St. Elizabeth Technical High School
 Long Jump,Boys,2,Finals,1.9,Rodeeki Walters,24,6,St. Elizabeth Technical High School,"['6.38m(2.3)', '6.62m(1.9)', '6.40m(0.1)', '6.09m(2.1)', '5.56m(-0.3)', '6.61m(0.3)']",6.62m,3
 Shot Put,Boys,1,Finals,,Roderick Campbell,12,9,St. Jago High School,[],14.52m,0
 Discus Throw,Boys,1,Finals,,Roderick Campbell,12,14,St. Jago High School,[],41.29m,0
-High Jump,Boys,2,Finals,,"Rodney, Romario",12,2,Buff Bay High School,"[[], []]",1.95m,7
-Shot Put,Boys,2,Finals,,"Rodney, Romario",12,5,Buff Bay High School,[],14.59m,4
-Discus Throw,Boys,2,Finals,,"Rodney, Romario",12,8,Buff Bay High School,[],40.86m,1
 Triple Jump,Boys,1,Finals,NWI,Roemar Brya,23,,Morant Bay High School,"['--', '#', '692', 'Uroy', 'Ryan', 'Jamaica', 'College', 'DNS', 'NWI']",DNS,
+Pole Vault,Boys,Open,Finals,,Roger Adams,12,5,Wolmer's Boys' School,"[[], []]",3.60m,4
 Long Jump,Girls,4,Finals,-0.3,Rohanna Sud,19,3,Hydel High School,"['5.08m(-0.6)', '5.10m(-1.7)', 'PASS', '4.96m(-1.7)', '5.11m(-0.3)', '4.79m(-0.9)']",5.11m,6
 Long Jump,Girls,2,Finals,0.6,Rohanna Sud,23,2,St. Catherine High School,"['FOUL', '5.76m(0.6)', '5.47m(-0.5)', '5.90m(0.6)', '5.74m(0.3)', '5.78m(-0.6)']",5.90m ,7
 Triple Jump,Girls,Open,Finals,1.2,Rohanna Sudlow,24,6,St. Catherine High School,"['12.38m(1.3)', '12.76m(1.2)', '12.06m(1.0)', '12.21m(2.4)', '12.59m(0.5)', 'FOUL']",12.76m,3
@@ -2914,6 +2932,8 @@ High Jump,Girls,2,Finals,,Rojrika Campbell,22,10,St. Elizabeth Technical High Sc
 Long Jump,Girls,2,Finals,3.5,Rojrika Campbell,21,11,St. Elizabeth Technical High School,"['5.06m(3.5)', '4.98m(2.4)', '4.89m(3.8)']",5.06m,0
 Long Jump,Girls,2,Finals,-0.7,Rojrika Campbell,22,5,St. Elizabeth Technical High School,"['5.10m(2.4)', '5.46m(1.0)', 'FOUL', '5.52m(0.7)', '5.31m(0.4)', '5.27m(1.5)']",5.52m,4
 High Jump,Girls,2,Finals,,Rojrika Campbell,21,,St. Elizabeth Technical High School,"[['1.55'], ['XXX']]",NH,
+Javelin Throw,Boys,Open,Finals,,Rolando Reid,12,1,Munro College,[],54.32m,9
+Long Jump,Girls,3,Finals,6.4,Romae Quarrie,12,12,Campion College,[],5.09m,0
 Triple Jump,Girls,Open,Finals,FOUL,Romae Quarrie,15,,Campion College,[],FOUL,
 Shot Put,Boys,2,Finals,,Romaine Bec,18,10,Buff Bay High School,[],13.16m,0
 High Jump,Boys,2,Finals,,Romaine Bec,18,1,Buff Bay High School,"[['1.80', '1.85', '1.90', '1.95', '2.00', '2.05'], ['O', 'XO', 'O', 'XXO', 'O', 'XXX']]",2.00m ,9
@@ -2930,8 +2950,13 @@ High Jump,Boys,1,Finals,,Romario Douglas,14,7,St. Jago High School,"[[], []]",J1
 Discus Throw,Boys,2,Finals,,Romario Jac,18,3,St. Jago High School,[],52.65m ,6
 Discus Throw,Boys,1,Finals,,Romario Jac,19,2,St. Jago High School,"['50.00m', '58.57m', 'FOUL', '54.97m', '53.49m', '55.50m']",58.57m ,7
 Discus Throw,Boys,2,Finals,,Romario Jackson,17,10,St. Jago High School,[],36.71m,0
+Triple Jump,Boys,Open,Finals,-0.7,Romario Lynch,12,11,St. Elizabeth Technical High School,[],13.42m,0
+High Jump,Boys,2,Finals,,Romario Rodney,12,2,Buff Bay High School,"[[], []]",1.95m,7
+Shot Put,Boys,2,Finals,,Romario Rodney,12,5,Buff Bay High School,[],14.59m,4
+Discus Throw,Boys,2,Finals,,Romario Rodney,12,8,Buff Bay High School,[],40.86m,1
 High Jump,Boys,1,Finals,,Romario Rodney,15,6,Jamaica College,"[[], []]",2.00m,3
 Javelin Throw,Boys,Open,Finals,,Romario Rodney,15,13,Jamaica College,[],46.84m,0
+Shot Put,Boys,2,Finals,,Romario Willis,12,17,Buff Bay High School,[],12.29m,0
 Long Jump,Boys,3,Finals,2,Romayne Grey,12,8,Wolmer's Boys' School,[],5.99m,1
 Shot Put,Boys,2,Finals,,Romeer Currie,21,10,Kingston College,"['10.57m', '12.07m', '11.82m']",12.07m,0
 Discus Throw,Boys,2,Finals,,Romeer Currie,21,6,Kingston College,"['39.56m', '39.55m', '39.43m', '35.36m', 'FOUL', '39.61m']",39.61m,3
@@ -2944,11 +2969,9 @@ Long Jump,Boys,2,Finals,1.1,Ronaldo Malcolm,15,11,Kingston College,[],6.32m,0
 Long Jump,Girls,4,Finals,-0.6,Rondae Arno,23,6,Manning High School,"['4.83m(-0.6)', 'FOUL', '4.25m(-0.8)', '4.39m(-0.7)', 'FOUL', '4.24m(-0.3)']",4.83m,3
 Long Jump,Girls,4,Finals,1.2,Rondae Arnold,24,9,Manning High School,"['4.50m(-0.1)', '4.82m(1.2)', '4.75m(0.9)']",4.82m,0
 Javelin Throw,Boys,Open,Finals,,Ronque Taylor,15,14,St. Elizabeth Technical High School,[],46.23m,0
-Triple Jump,Boys,Open,Finals,0.2,"Rookwood, Alex",12,6,Hydel High School,[],14.39m,3
 High Jump,Girls,2,Finals,,Roschell Cl,18,7,Montego Bay High School,"[['1.55', '1.60', '1.65', '1.70', '1.75'], ['O', 'O', 'XO', 'O', 'XXX']]",J1.70m ,2
 High Jump,Girls,1,Finals,,Roschell Cl,19,7,Mount Alvernia High School,"[['1.40', '1.45', '1.50', '1.55', '1.60', '1.65', '1.70', '1.73'], ['P', 'P', 'P', 'O', 'O', 'XO', 'O', 'XXX']]",1.70m ,2
 High Jump,Girls,2,Finals,,Roschell Clayton,17,12,Montego Bay High School,"[[], []]",1.55m,0
-Long Jump,Girls,2,Finals,-0.4,"Rose, Andriene",12,8,Wolmer's Trust High School For Girls,[],5.45m,1
 Javelin Throw,Boys,Open,Finals,,Roshane Baugh,24,11,St. Jago High School,"['FOUL', '44.12m', '42.26m']",46.43m,0
 Discus Throw,Boys,2,Finals,,Roshane Baugh,21,5,St. Jago High School,"['FOUL', '38.35m', '40.13m', '40.74m', '39.82m', '36.46m']",40.74m,4
 Shot Put,Boys,2,Finals,,Roshaun Bie,19,8,Wolmer's Boys' School,"['13.98m', '14.16m', 'FOUL', 'FOUL', 'FOUL', '14.42m']",14.42m ,1
@@ -2959,6 +2982,7 @@ High Jump,Boys,3,Finals,,Roshawn Onfroy,21,2,Kingston College,"[['1.65', '1.70',
 Triple Jump,Boys,2,Finals,-0.8,Roshawn Onfroy,23,3,Kingston College,"['13.53m(-0.8)', 'FOUL', '13.45m(-1.5)', 'PASS', 'PASS', 'PASS']",13.53m,6
 Long Jump,Boys,3,Finals,4.4,Roshawn Onfroy,21,3,Kingston College,"['FOUL', '6.26m(2.1)', '6.40m(4.4)', '5.90m(0.3)', '6.14m(2.6)', '6.32m(0.2)']",6.40m,6
 Long Jump,Boys,2,Finals,1.3,Roshawn Onfroy,22,9,Kingston College,"['6.25m(3.1)', '6.34m(3.5)', '6.43m(1.3)']",6.43m,0
+Discus Throw,Girls,3,Finals,,Rousheecca Livingston,12,,Holmwood Technical High School,[],FOUL,
 Long Jump,Boys,3,Finals,-0.1,Rowry Hall,19,11,Green Pond High School,"['5.76m(-0.1)', '5.27m(-0.1)', '5.63m(-0.0)']",5.76m,0
 Shot Put,Girls,2,Finals,,Roxene Simp,19,8,Clarendon College,"['11.49m', '11.59m', '12.35m', '11.29m', 'FOUL', '11.79m']",12.35m,1
 Discus Throw,Girls,2,Finals,,Roxene Simp,19,1,Clarendon College,"['39.14m', '41.29m', '41.38m', 'FOUL', '39.82m', 'FOUL']",41.38m ,9
@@ -2973,14 +2997,16 @@ Long Jump,Boys,1,Finals,3.1,Royan Walters,21,10,Petersfield High School,"['6.21m
 Long Jump,Boys,1,Finals,0.5,Royan Walters,22,4,Petersfield High School,"['7.04m(1.3)', '7.05m(-1.4)', '6.98m(-1.0)', '6.90m(-1.1)', '7.19m(0.5)', '7.03m(1.3)']",7.19m,5
 Long Jump,Girls,2,Finals,-0.1,Runique Gray,12,7,St. Jago High School,[],5.53m,2
 Long Jump,Girls,1,Finals,0.2,Runique Gray,14,9,St. Jago High School,[],5.35m,0
+Shot Put,Boys,1,Finals,,Rushae Saunders,12,18,Bustamante High School,[],11.96m,0
+Javelin Throw,Boys,Open,Finals,,Rushane Perkins,12,14,Jamaica College,[],42.55m,0
+High Jump,Girls,2,Finals,,Rushaun Spencer,12,12,Wolmer's Trust High School For Girls,"[[], []]",J1.58m,0
+Triple Jump,Girls,Open,Finals,FOUL,Rusheen Reid,12,,The Queen's School,[],FOUL,
 High Jump,Girls,1,Finals,,Rushellee J,18,4,Excelsior High School,"[['1.35', '1.40', '1.45', '1.50', '1.55', '1.60', '1.65', '1.70'], ['P', 'P', 'P', 'P', 'O', 'XO', 'XO', 'XXX']]",J1.65m ,4.5
 High Jump,Girls,4,Finals,,Rushellee Jones,12,5,Buff Bay High School,"[[], []]",J1.59m,4
 High Jump,Girls,3,Finals,,Rushellee Jones,13,7,Buff Bay High School,"[[], []]",1.60m,1.5
 High Jump,Girls,3,Finals,,Rushellee Jones,14,7,Buff Bay High School,"[[], []]",1.60m,1.5
 High Jump,Girls,2,Finals,,Rushellee Jones,15,6,Buff Bay High School,"[[], []]",J1.65m,3
 High Jump,Girls,1,Finals,,Rushellee Jones,17,4,Excelsior High School,"[[], []]",J1.65m,5
-High Jump,Girls,4,Finals,,"Russell, Zinedine",12,3,Convent of Mercy Academy (ALPHA),"[[], []]",1.61m,6
-Long Jump,Girls,4,Finals,-0.2,"Russell, Zinedine",12,7,Convent of Mercy Academy (ALPHA),[],4.78m,2
 Javelin Throw,Girls,Open,Finals,,Ruthan Wilson,14,10,Bellefield High School,[],31.92m,0
 Triple Jump,Girls,Open,Finals,3,Ruthanne Mcclymont,16,15,Manchester High School (MHS),[],11.31m,0
 Long Jump,Girls,3,Finals,1.4,Ruthanne Mcclymont,15,12,Manchester High School (MHS),[],4.81m,0
@@ -3012,6 +3038,8 @@ Long Jump,Boys,2,Finals,2.8,Sadiki Morgan,14,12,Wolmer's Boys' School,[],6.03m,0
 Shot Put,Girls,2,Finals,,Safeya Wool,19,10,Immaculate Conception High School,"['12.19m', '12.22m', '11.13m']",12.22m,0
 Shot Put,Girls,1,Finals,,Safeya Woolcock,21,11,Immaculate Conception High School,"['10.79m', '10.70m', '10.56m']",10.79m,0
 Javelin Throw,Girls,Open,Finals,,Saffron Lyons,22,12,Westwood High Schhol,"['25.10m', '28.40m', '23.38m']",28.40m,0
+High Jump,Girls,2,Finals,,Safia Morgan,12,2,Immaculate Conception High School,"[[], []]",1.71m,7
+Triple Jump,Girls,Open,Finals,0.4,Safia Morgan,12,14,Immaculate Conception High School,[],11.29m,0
 High Jump,Girls,1,Finals,,Safia Morgan,15,3,Immaculate Conception High School,"[[], []]",1.70m,6
 Long Jump,Girls,1,Finals,1.6,Safia Morgan,15,4,Immaculate Conception High School,[],5.87m,5
 High Jump,Girls,1,Finals,,Safia Morgan,14,1,Immaculate Conception High School,"[[], []]",1.81m,9
@@ -3032,7 +3060,6 @@ Shot Put,Girls,1,Finals,,Sah-jay Stevens,17,1,St. Jago High School,[],14.25m,9
 Javelin Throw,Girls,Open,Finals,,Sah-jay Stevens,17,2,St. Jago High School,[],46.05m,7
 Shot Put,Girls,2,Finals,,Saje Cruickshank,24,,Convent of Mercy Academy (ALPHA),"['FOUL', 'FOUL', 'FOUL']",11.72m,
 Discus Throw,Girls,2,Finals,,Saje Cruickshank,24,7,Convent of Mercy Academy (ALPHA),"['36.76m', '37.06m', '38.49m', '34.63m', '29.93m', '34.41m']",38.49m,2
-High Jump,Girls,4,Finals,,"Salmon, Shian",12,1,Hydel High School,"[[], []]",1.67mR   9,9
 Triple Jump,Girls,Open,Finals,FOUL,Samantha Chin,17,,Immaculate Conception High School,[],FOUL,
 Shot Put,Girls,Open,Finals,,Samantha Hall,12,6,St. Jago High School,[],12.02m,3
 Long Jump,Girls,2,Finals,-1.2,Samantha Ji,18,2,Holmwood Technical High School,[],5.73m ,7
@@ -3042,6 +3069,8 @@ Long Jump,Girls,3,Finals,4.3,Samantha Jibbson,17,11,Holmwood Technical High Scho
 Long Jump,Girls,4,Finals,1.9,Samantha Jibbson,15,3,Holmwood Technical High School,[],5.20m,6
 Shot Put,Girls,Open,Finals,,Samanthia Johnson,12,12,Immaculate Conception High School,[],10.73m,0
 Discus Throw,Girls,1,Finals,,Samanthia Johnson,12,8,Immaculate Conception High School,[],35.92m,1
+High Jump,Girls,3,Finals,,Samara Spencer,12,1,Hydel High School,"[[], []]",1.71m,9
+Long Jump,Girls,3,Finals,0.4,Samara Spencer,12,1,Hydel High School,[],6.06mR,9
 High Jump,Girls,1,Finals,,Samara Spencer,15,5,Hydel High School,"[[], []]",1.65m,3.5
 Triple Jump,Girls,Open,Finals,3.7,Samara Spencer,16,1,Hydel High School,[],13.02m,9
 Long Jump,Girls,1,Finals,3.8,Samara Spencer,15,6,Hydel High School,[],5.77m,3
@@ -3049,6 +3078,8 @@ Long Jump,Girls,2,Finals,1,Samara Spencer,13,2,Hydel High School,[],6.03m,7
 Long Jump,Girls,2,Finals,1,Samara Spencer,14,2,Hydel High School,[],6.03m,7
 Long Jump,Girls,1,Finals,4.7,Samara Spencer,16,1,Hydel High School,[],6.07m,9
 High Jump,Girls,2,Finals,,Samara Spencer,14,3,Hydel High School,"[[], []]",J1.75m,6
+High Jump,Boys,3,Finals,,Sammawi Welington,12,1,Kingston College,"[[], []]",1.75m,9
+Long Jump,Boys,3,Finals,2.9,Sammawi Welington,12,1,Kingston College,[],6.88m,9
 Discus Throw,Girls,3,Finals,,Samoy Malco,18,6,Petersfield High School,[],31.67m,3
 High Jump,Girls,4,Finals,,Samoya Ashb,18,5,Wolmer's Trust High School For Girls,"[['1.40', '1.45', '1.50', '1.55'], ['O', 'XO', 'O', 'XXX']]",J1.50m,4
 High Jump,Girls,3,Finals,,Samoya Ashb,19,11,Wolmer's Trust High School For Girls,"[['1.35', '1.40', '1.45', '1.50', '1.55', '1.60'], ['P', 'P', 'P', 'O', 'XXO', 'XXX']]",J1.55m,0
@@ -3071,9 +3102,12 @@ Shot Put,Boys,1,Finals,,Sanjae Lawrence,16,5,Petersfield High School,[],18.06m,4
 Discus Throw,Boys,1,Finals,,Sanjae Lawrence,15,3,Petersfield High School,[],49.65m,6
 Discus Throw,Boys,1,Finals,,Sanjae Lawrence,16,1,Petersfield High School,[],53.90m,9
 Shot Put,Boys,1,Finals,,Sanjay Banton,14,12,St. Elizabeth Technical High School,[],13.38m,0
+Shot Put,Boys,1,Finals,,Sanjay Reid,12,17,Foga Road High School,[],12.05m,0
 High Jump,Girls,1,Finals,,Sankyaw Tul,18,11,St. Catherine High School,"[['1.35', '1.40', '1.45', '1.50', '1.55', '1.60'], ['P', 'P', 'O', 'O', 'XXO', 'XXX']]",1.55m,0
 Long Jump,Girls,1,Finals,0.6,Sankyaw Tul,18,10,St. Catherine High School,[],5.11m,0
 Long Jump,Girls,2,Finals,-2.2,Sankyaw Tulloch,16,11,Tacius Golding High School,[],5.04m,0
+Long Jump,Girls,4,Finals,-0.5,Sankyaw Tulloch,12,10,Tacius Golding High School,[],4.58m,0
+Discus Throw,Girls,1,Finals,,Sannesea Knight,12,16,McGrath High School,[],27.01m,0
 Javelin Throw,Girls,Open,Finals,,Sanola Dunkley,15,12,Hampton School,[],30.11m,0
 Javelin Throw,Girls,Open,Finals,,Sanola Dunkley,14,5,Hampton School,[],35.10m,4
 Long Jump,Girls,4,Finals,0.9,Santae Wils,18,5,Edwin Allen High School,[],5.00m,4
@@ -3089,6 +3123,7 @@ Shot Put,Girls,2,Finals,,Santornya R,18,9,Holmwood Technical High School,[],12.4
 Javelin Throw,Girls,Open,Finals,,Santornya R,18,10,Holmwood Technical High School,[],28.66m,0
 Javelin Throw,Girls,Open,Finals,,Santornya R,19,10,Holmwood Technical High School,"['FOUL', '31.33m', '29.99m']",31.33m,0
 Long Jump,Girls,4,Finals,-1.8,Sarah Northover,15,5,St. Andrew High School for Girls,[],5.00m,4
+Shot Put,Girls,Open,Finals,,Sasha-Gay Marston,12,4,Edwin Allen High School,[],12.80m,5
 Long Jump,Girls,4,Finals,2.6,Sashana Johnson,22,2,Hydel High School,"['5.27m(2.6)', '5.03m(4.6)', 'FOUL', '5.13m(1.9)', '4.88m(1.8)', '4.76m(2.0)']",5.27m,7
 High Jump,Girls,2,Finals,,Sashane Hanson,12,4,Herbert Morrison Technical High,"[[], []]",1.68m,5
 High Jump,Girls,1,Finals,,Sashane Hanson,14,5,Herbert Morrison Technical High,"[[], []]",1.65m,3
@@ -3100,7 +3135,6 @@ High Jump,Girls,4,Finals,,Sashanti Hinds,17,3,Hydel High School,"[[], []]",1.55m
 High Jump,Girls,2,Finals,,Sashell Rob,18,10,Hydel High School,"[['1.55', '1.60', '1.65', '1.70'], ['O', 'O', 'XXO', 'XXX']]",1.65m,0
 Javelin Throw,Girls,Open,Finals,,Sashell Rob,18,12,Hydel High School,[],25.78m,0
 High Jump,Girls,1,Finals,,Saskia Wilks,16,12,Edwin Allen High School,"[[], []]",1.50m,0
-Shot Put,Boys,1,Finals,,"Saunders, Rushae",12,18,Bustamante High School,[],11.96m,0
 Shot Put,Boys,2,Finals,,Savion Burke,13,8,Calabar High School,[],14.10m,1
 Shot Put,Boys,2,Finals,,Savion Burke,14,8,Calabar High School,[],14.10m,1
 Shot Put,Boys,2,Finals,,Savion Burke,15,3,Calabar High School,[],15.10m,6
@@ -3110,10 +3144,9 @@ Discus Throw,Boys,1,Finals,,Savion Burke,17,10,Calabar High School,[],46.24m,0
 Discus Throw,Boys,2,Finals,,Savion Burke,14,,Calabar High School,[],FOUL,
 Long Jump,Boys,2,Finals,-0.4,Sawayne Ker,23,5,St. Elizabeth Technical High School,"['5.85m(2.8)', 'FOUL', '6.56m(-0.4)', '6.12m(2.0)', '4.31m(3.1)', '6.16m(2.1)']",6.56m ,4
 Long Jump,Boys,3,Finals,2.4,Sawayne Kerr,21,11,St. Elizabeth Technical High School,"['5.37m(2.4)', 'FOUL', 'FOUL']",5.37m,0
-Shot Put,Girls,Open,Finals,,"Scarlett, Debisha",12,7,Vere Technical High School,[],11.82m,2
-Discus Throw,Girls,1,Finals,,"Scarlett, Debisha",12,4,Vere Technical High School,[],41.09m,5
 High Jump,Boys,3,Finals,,Scott Mcleod,17,1,Kingston College,"[[], []]",1.84m,9
 Long Jump,Boys,3,Finals,FOUL,Scott Mcleod,17,,Kingston College,[],FOUL,
+Long Jump,Boys,2,Finals,-1.6,Sean Wright,12,12,Kingston College,[],5.66m,0
 Long Jump,Girls,4,Finals,0.9,Seana Wilson,24,4,Convent of Mercy Academy (ALPHA),"['5.08m(0.9)', '4.74m(1.9)', '4.64m(0.4)', '4.83m(-0.1)', '4.92m(0.8)', '4.99m(0.5)']",5.08m,5
 Javelin Throw,Girls,Open,Finals,,Seana'kaye,18,8,Excelsior High School,[],30.69m,1
 Javelin Throw,Girls,Open,Finals,,Seana'kaye Wright,16,19,Holy Childhood High School,[],23.99m,0
@@ -3121,6 +3154,8 @@ Discus Throw,Girls,3,Finals,,Seana'kaye Wright,14,7,Holy Childhood High School,[
 Discus Throw,Girls,3,Finals,,Seana'kaye Wright,15,7,Holy Childhood High School,[],31.40m,2
 High Jump,Girls,4,Finals,,Secreena Blair,15,9,Hydel High School,"[[], []]",1.45m,0
 Long Jump,Boys,1,Finals,-2.1,Sedekie Edie,12,12,Calabar High School,[],6.46m,0
+Shot Put,Boys,1,Finals,,Seldwyn Morgon,12,11,Claude McKay High School,[],13.96m,0
+Discus Throw,Boys,1,Finals,,Seldwyn Morgon,12,7,Claude McKay High School,[],47.25m,2
 High Jump,Boys,3,Finals,,Selethel Jo,23,2,Munro College,"[['1.55', '1.60', '1.65', '1.70', '1.75', '1.78', '1.81', '1.84'], ['P', 'O', 'P', 'O', 'O', 'O', 'XXO', 'XXX']]",1.81m ,7
 High Jump,Boys,2,Finals,,Selethel Johnson,24,4,Munro College,"[['1.75', '1.80', '1.85', '1.90', '1.95', '2.00'], ['O', 'O', 'O', 'O', 'XO', 'XXX']]",1.95m,5
 Triple Jump,Girls,Open,Finals,-1,Serena Cole,22,1,Edwin Allen High School,"['11.97m(-0.1)', '11.88m(-0.3)', '11.71m(-0.1)', '12.51m(-1.0)', '11.80m(-0.8)', '12.14m(-0.5)']",12.51m,9
@@ -3143,6 +3178,7 @@ Triple Jump,Boys,2,Finals,-0.9,Shacquille Lowe,17,2,Kingston College,[],14.21m,7
 Long Jump,Boys,3,Finals,4.9,Shacquille Lowe,15,2,Kingston College,[],6.57m,7
 Long Jump,Boys,2,Finals,1.9,Shacquille Lowe,16,6,Kingston College,[],6.76m,3
 Long Jump,Boys,2,Finals,1,Shacquille Lowe,17,1,Kingston College,[],7.23m,9
+Discus Throw,Girls,2,Finals,,Shadae Lawrence,12,8,Vere Technical High School,[],35.82m,1
 Shot Put,Girls,1,Finals,,Shadae Lawrence,15,13,Hydel High School,[],10.54m,0
 Discus Throw,Girls,1,Finals,,Shadae Lawrence,14,1,Hydel High School,[],48.06m,9
 Discus Throw,Girls,1,Finals,,Shadae Lawrence,15,1,Hydel High School,[],48.66m,9
@@ -3192,6 +3228,8 @@ High Jump,Boys,3,Finals,,Shakwon Coke,14,10,St. Andrew Technical High School,"[[
 Long Jump,Boys,3,Finals,1.1,Shakwon Coke,14,1,St. Andrew Technical High School,[],6.57m,9
 Pole Vault,Boys,Open,Finals,,Shamar Coke,21,7,Excelsior High School,"[['2.70', '2.80', '2.90', '3.00', '3.10', '3.20', '3.30', '3.40', '3.50', '3.60', '3.70'], ['P', 'P', 'XO', 'P', 'P', 'O', 'P', 'O', 'P', 'O', 'XX']]",3.60m,2
 Long Jump,Boys,2,Finals,3.4,Shamar Coke,18,7,Excelsior High School,[],6.90m ,2
+Shot Put,Boys,2,Finals,,Shamar Kitson,12,2,Calabar High School,[],15.64m,7
+Discus Throw,Boys,2,Finals,,Shamar Kitson,12,1,Calabar High School,[],49.18m,9
 Pole Vault,Boys,Open,Finals,,Shamar Morrison,17,,Excelsior High School,"[[], []]",FAIL,
 Shot Put,Boys,1,Finals,,Shamar Reid,21,5,Jamaica College,"['FOUL', '15.65m', '16.53m', 'FOUL', '15.68m', '15.78m']",16.53m,4
 Shot Put,Boys,1,Finals,,Shamar Reid,22,6,Jamaica College,"['17.10m', '16.99m', 'FOUL', 'FOUL', '17.00m', '17.32m']",17.32m,3
@@ -3225,6 +3263,7 @@ Discus Throw,Girls,2,Finals,,Shamoyea Mo,23,2,Edwin Allen High School,"['FOUL', 
 Discus Throw,Girls,1,Finals,,Shamoyea Morris,24,2,Edwin Allen High School,"['45.63m', '43.86m', '43.57m', '47.36m', '46.84m', 'FOUL']",47.36m,7
 Discus Throw,Girls,3,Finals,,Shamoyea Morris,21,1,Edwin Allen High School,"['34.67m', '35.72m', '38.54m', '33.70m', '36.61m', '36.75m']",38.54m,9
 Discus Throw,Girls,2,Finals,,Shamoyea Morris,22,2,Edwin Allen High School,"['41.03m', '35.74m', '40.23m', '43.49m', '41.06m', '39.04m']",43.49m,7
+High Jump,Girls,3,Finals,,Shanae Kenzie,12,7,Manchester High School (MHS),"[[], []]",1.58m,2
 High Jump,Girls,1,Finals,,Shanae McKenzie,15,1,Manchester High School (MHS),"[[], []]",1.73m,9
 High Jump,Girls,2,Finals,,Shanae McKenzie,14,2,Manchester High School (MHS),"[[], []]",J1.75m,7
 Shot Put,Girls,1,Finals,,Shanakay Rowe,14,5,Holmwood Technical High School,[],12.27m,4
@@ -3278,10 +3317,13 @@ High Jump,Girls,1,Finals,,Shanice Hall,12,3,Wolmer's Trust High School For Girls
 Triple Jump,Girls,Open,Finals,0.3,Shanice Lewis,14,9,Edwin Allen High School,[],11.15m,0
 Long Jump,Girls,1,Finals,1.5,Shanice Lewis,14,4,Edwin Allen High School,[],5.78m,5
 Long Jump,Girls,1,Finals,1.5,Shanice Lewis,15,2,Edwin Allen High School,[],6.21m,7
+Discus Throw,Girls,3,Finals,,Shanice Love,12,5,Excelsior High School,[],32.82m,4
 Shot Put,Girls,2,Finals,,Shanice Love,14,8,Excelsior High School,[],12.91m,1
 Discus Throw,Girls,2,Finals,,Shanice Love,14,3,Excelsior High School,[],39.39m,6
 Discus Throw,Girls,1,Finals,,Shanice Love,15,2,Excelsior High School,[],48.01m,7
 Discus Throw,Girls,1,Finals,,Shanice Love,16,1,Excelsior High School,[],52.73mR,9
+High Jump,Girls,2,Finals,,Shanice Pherson,12,8,Holmwood Technical High School,"[[], []]",1.62m,1
+Long Jump,Girls,2,Finals,-0.4,Shanice Pherson,12,4,Holmwood Technical High School,[],5.75m,5
 High Jump,Girls,1,Finals,,Shanika Bryan,14,5,Edwin Allen High School,"[[], []]",1.65m,3
 Triple Jump,Girls,Open,Finals,0.3,Shanika Rob,18,8,Camperdown High School,[],11.94m,1
 Triple Jump,Girls,Open,Finals,FOUL,Shanika Rob,19,,Excelsior High School,"['FOUL', 'FOUL', 'FOUL']",FOUL,
@@ -3291,11 +3333,13 @@ Discus Throw,Girls,3,Finals,,Shanique Laird,14,,Hydel High School,[],FOUL,
 Triple Jump,Girls,Open,Finals,1.6,Shanique Wright,14,8,Manchester High School (MHS),[],12.27m,1
 Triple Jump,Girls,Open,Finals,3,Shanique Wright,15,3,Manchester High School (MHS),[],12.92m,6
 Long Jump,Girls,1,Finals,1.3,Shanique Wright,15,8,Manchester High School (MHS),[],5.64m,1
+Long Jump,Girls,3,Finals,4.3,Shanique Wright,12,5,Manchester High School (MHS),[],5.53m,4
 High Jump,Girls,4,Finals,,Shanniqua A,18,,Camperdown High School,"[['1.40'], ['XXX']]",NH,
 High Jump,Girls,2,Finals,,Shanniqua W,23,2,Wolmer's Trust High School For Girls,"[['1.50', '1.55', '1.60', '1.65', '1.70'], ['O', 'O', 'O', 'XO', 'XXX']]",1.65m,6
 High Jump,Girls,3,Finals,,Shanniqua Williams,21,2,Wolmer's Trust High School For Girls,"[['1.50', '1.55', '1.60', '1.65', '1.68'], ['P', 'P', 'XO', 'O', 'XXO']]",1.68m,7
 High Jump,Girls,3,Finals,,Shanniqua Williams,22,1,Wolmer's Trust High School For Girls,"[['1.35', '1.40', '1.45', '1.50', '1.55', '1.60', '1.65', '1.68', '1.71', '1.74', '1.76'], ['P', 'P', 'P', 'O', 'O', 'O', 'O', 'O', 'O', 'XO', 'XXX']]",1.74m,9
 High Jump,Girls,2,Finals,,Shanniqua Williams,24,1,Wolmer's Trust High School For Girls,"[['1.55', '1.60', '1.65', '1.70', '1.73', '1.76', '1.83'], ['O', 'O', 'O', 'O', 'O', 'O', 'XXX']]",1.76m,9
+Discus Throw,Girls,2,Finals,,Shannique Waite,12,2,St. Jago High School,[],42.72m,7
 High Jump,Girls,2,Finals,,Shannon Bai,18,9,Wolmer's Trust High School For Girls,"[['1.55', '1.60', '1.65', '1.70', '1.75'], ['O', 'O', 'O', 'XXO', 'XXX']]",J1.70m ,0
 High Jump,Girls,1,Finals,,Shannon Bai,19,5,Wolmer's Trust High School For Girls,"[['1.40', '1.45', '1.50', '1.55', '1.60', '1.65', '1.70', '1.73', '1.76'], ['P', 'P', 'O', 'O', 'O', 'O', 'XO', 'XO', 'XXX']]",J1.73m ,4
 High Jump,Girls,3,Finals,,Shannon Bailey,16,8,Wolmer's Trust High School For Girls,"[['1.50', '1.55', '1.60', '1.65'], ['O', 'O', 'O', 'XXX']]",1.60m,0.2
@@ -3315,6 +3359,7 @@ Long Jump,Girls,3,Finals,-0.9,Shantae Foreman,17,3,Excelsior High School,[],5.68
 High Jump,Girls,4,Finals,,Shantae Foreman,15,5,Excelsior High School,"[[], []]",J1.55m,4
 High Jump,Girls,1,Finals,,Shantae Foreman,21,1,St. Jago High School,"[['1.55', '1.60', '1.65', '1.70', '1.75', '1.78', '1.81', '1.84', '1.88'], ['P', 'P', 'P', 'O', 'O', 'O', 'O', 'O', 'XXX']]",1.84m,9
 Long Jump,Girls,1,Finals,0.9,Shantae Foreman,21,1,St. Jago High School,"['FOUL', 'FOUL', '5.81m(1.8)', '6.28m(1.3)', '6.38m(2.0)', '6.43m(0.9)']",6.43m,9
+Triple Jump,Girls,Open,Finals,NWI,Shantal Williams,12,15,Excelsior High School,[],11.20m,0
 Discus Throw,Girls,2,Finals,,Shantangelo,23,8,Denbigh High School,"['35.68m', '37.77m', '38.10m', '38.02m', '37.70m', '35.71m']",38.10m,1
 Discus Throw,Girls,3,Finals,,Shantangelo Willia,22,7,Denbigh High School,"['35.19m', '30.08m', '32.31m', '32.62m', '34.95m', 'FOUL']",35.19m,2
 Discus Throw,Girls,2,Finals,,Shantangelo Willia,24,2,Denbigh High School,"['41.52m', '37.80m', '41.63m', '36.33m', '36.75m', '39.53m']",41.63m,7
@@ -3328,10 +3373,15 @@ Long Jump,Girls,3,Finals,-0.5,Shante Mcfa,18,7,Immaculate Conception High School
 High Jump,Girls,2,Finals,,Shante Mcfa,19,10,Immaculate Conception High School,"[['1.40', '1.45', '1.50', '1.55', '1.60'], ['P', 'O', 'O', 'O', 'XXX']]",1.55m,0
 Javelin Throw,Girls,Open,Finals,,Shantel Reid,16,11,Happy Grove High School,[],34.24m,0
 High Jump,Boys,3,Finals,,Shaquane Gordon,21,7,Calabar High School,"[['1.65', '1.70'], ['XO', 'XXX']]",1.65m,2
+Shot Put,Boys,1,Finals,,Shaquille Lewis,12,4,Jamaica College,[],16.60m,5
+Discus Throw,Boys,1,Finals,,Shaquille Lewis,12,10,Jamaica College,[],46.20m,0
+Triple Jump,Girls,Open,Finals,-0.8,Shardia Lawrence,12,2,Vere Technical High School,[],12.40m,7
+Long Jump,Girls,2,Finals,-0.4,Shardia Lawrence,12,2,Vere Technical High School,[],5.81m,7
 Triple Jump,Girls,Open,Finals,1.3,Shardia Lawrence,14,2,Hydel High School,[],12.92m,7
 Triple Jump,Girls,Open,Finals,2.1,Shardia Lawrence,15,2,Hydel High School,[],13.14m,7
 Long Jump,Girls,1,Finals,0.6,Shardia Lawrence,14,7,Hydel High School,[],5.54m,2
 Long Jump,Girls,1,Finals,1.4,Shardia Lawrence,15,7,Hydel High School,[],5.69m,2
+Long Jump,Boys,1,Finals,-0.9,Sharlanjo Nelson,12,7,Jamaica College,[],6.74m,2
 Long Jump,Boys,1,Finals,NWI,Sharlanjo Nelson,14,5,Kingston College,[],7.12m,4
 Triple Jump,Girls,Open,Finals,0.6,Sharzan Richards,15,12,Manchester High School (MHS),[],11.60m,0
 Triple Jump,Girls,Open,Finals,5.2,Sharzan Richards,16,9,Manchester High School (MHS),[],12.14m,0
@@ -3348,9 +3398,7 @@ High Jump,Girls,3,Finals,,Shauntia Davidson,16,2,Hydel High School,"[['1.50', '1
 High Jump,Girls,3,Finals,,Shauntia Davidson,15,11,Hydel High School,"[[], []]",J1.60m,0
 Javelin Throw,Boys,Open,Finals,,Shavaine Mc,18,7,Buff Bay High School,[],50.87m ,2
 Javelin Throw,Boys,Open,Finals,,Shavaine Mc,19,11,Buff Bay High School,"['47.39m', '50.90m', '50.28m']",50.90m ,0
-Shot Put,Boys,1,Finals,,"Shaw, Jevaughn",12,16,Munro College,[],12.35m,0
-Discus Throw,Boys,1,Finals,,"Shaw, Jevaughn",12,5,Munro College,[],53.03m,4
-Long Jump,Girls,4,Finals,-0.9,"Shaw, Justine",12,9,Wolmer's Trust High School For Girls,[],4.65m,0
+Discus Throw,Girls,1,Finals,,Sheena Powell,12,7,Manchester High School (MHS),[],39.11m,2
 Shot Put,Girls,1,Finals,,Sheika Mcph,18,7,Edwin Allen High School,[],12.36m,2
 Shot Put,Girls,2,Finals,,Sheika Mcpherson,16,8,Edwin Allen High School,[],12.62m,1
 Discus Throw,Girls,1,Finals,,Sheika Mcpherson,17,10,Edwin Allen High School,[],37.84m,0
@@ -3364,6 +3412,7 @@ Pole Vault,Boys,Open,Finals,,Shemar Miller,18,5,Jamaica College,"[['2.90', '3.00
 Triple Jump,Boys,2,Finals,-1,Shemar Miller,15,13,St. Elizabeth Technical High School,[],12.97m,0
 Triple Jump,Boys,1,Finals,-1.6,Shemar Miller,16,11,St. Elizabeth Technical High School,[],13.45m,0
 Javelin Throw,Boys,Open,Finals,,Shemar Morgan,21,9,Clarendon College,"['48.00m', '50.64m', 'FOUL']",50.64m,0
+Long Jump,Boys,3,Finals,2.3,Shemar Stona,12,6,Kingston College,[],6.09m,3
 Triple Jump,Boys,2,Finals,4.7,Shemar Stona,14,5,Kingston College,[],14.03m,4
 Long Jump,Girls,3,Finals,-0.5,Shemonique Hazle,21,1,Hydel High School,"['5.40m(2.9)', '5.71m(2.0)', '5.85m(3.0)', 'FOUL', '5.89m(2.0)', '6.00m(-0.5)']",6.00m,9
 Long Jump,Girls,3,Finals,2.5,Shemonique Hazle,22,1,Hydel High School,"['5.89m(+0.0)', '5.92m(1.6)', '5.76m(1.6)', '6.02m(4.1)', '6.27m(2.5)', '5.67m(2.6)']",6.27m,9
@@ -3372,6 +3421,8 @@ High Jump,Girls,3,Finals,,Shenell Evans,16,16,Convent of Mercy Academy (ALPHA),"
 High Jump,Girls,3,Finals,,Shenell Evans,17,5,Convent of Mercy Academy (ALPHA),"[[], []]",J1.65m,4
 High Jump,Girls,4,Finals,,Shenell Evans,15,1,Convent of Mercy Academy (ALPHA),"[[], []]",1.64m,9
 Long Jump,Girls,4,Finals,1.5,Shenell Evans,15,12,Convent of Mercy Academy (ALPHA),[],4.52m,0
+High Jump,Girls,1,Finals,,Shenelle Kay,12,5,Convent of Mercy Academy (ALPHA),"[[], []]",1.63m,4
+Triple Jump,Girls,Open,Finals,-0.6,Shenelle Kay,12,6,Convent of Mercy Academy (ALPHA),[],11.73m,3
 Long Jump,Girls,2,Finals,4.1,Shenequa Vassell,21,10,Edwin Allen High School,"['FOUL', '4.94m(5.1)', '5.11m(4.1)']",5.11m,0
 Javelin Throw,Girls,Open,Finals,,Sheniela Wi,23,1,Edwin Allen High School,"['42.40m', 'FOUL', '41.36m', '38.84m', '39.59m', '36.47m']",42.40m ,9
 Javelin Throw,Girls,Open,Finals,,Sheniela Williams,22,5,Edwin Allen High School,"['36.34m', '32.36m', '36.40m', '33.26m', '35.17m', 'FOUL']",36.40m,4
@@ -3386,6 +3437,7 @@ High Jump,Girls,4,Finals,,Sheree Wright,16,7,Manchester High School (MHS),"[['7'
 High Jump,Girls,1,Finals,,Sheree Wright,22,7,Manchester High School (MHS),"[['1.45', '1.50', '1.55'], ['P', 'O', 'XXX']]",1.50m,2
 High Jump,Girls,3,Finals,,Sheree Wright,17,11,Manchester High School (MHS),"[[], []]",1.55m,0
 High Jump,Girls,1,Finals,,Sheree Wright,21,5,Manchester High School (MHS),"[['1.55', '1.60', '1.65'], ['O', 'O', 'XXX']]",1.60m,3.5
+Discus Throw,Girls,2,Finals,,Shereece Smith,12,9,Manchester High School (MHS),[],35.65m,0
 Javelin Throw,Girls,Open,Finals,,Shereece Smith,14,8,Manchester High School (MHS),[],33.44m,1
 Discus Throw,Girls,1,Finals,,Shereece Smith,14,7,Manchester High School (MHS),[],38.86m,2
 High Jump,Girls,4,Finals,,Shereka Silburn,15,9,St. Jago High School,"[[], []]",1.45m,0
@@ -3406,6 +3458,7 @@ Triple Jump,Boys,2,Finals,0.1,Shevaughn Allen,15,18,Green Pond High School,[],12
 Triple Jump,Boys,2,Finals,-1.7,Shevaughn Pryce,22,11,Calabar High School,"['12.33m(-1.7)', 'PASS', 'FOUL']",12.33m,0
 Triple Jump,Boys,2,Finals,0.3,Shevaughn Pryce,23,6,Calabar High School,"['12.39m(0.2)', '12.67m(0.3)', '12.65m(-0.9)', '12.23m(-0.5)', '12.12m(-0.7)', '12.61m(-0.1)']",12.67m,3
 Long Jump,Boys,3,Finals,1.4,Shevaughn Pryce,21,7,Calabar High School,"['5.61m(2.6)', '6.03m(1.5)', '5.78m(2.7)', '6.07m(1.4)', '6.05m(3.5)', '6.00m(2.4)']",6.07m,2
+High Jump,Girls,4,Finals,,Shian Salmon,12,1,Hydel High School,"[[], []]",1.67mR   9,9
 High Jump,Girls,2,Finals,,Shiann Salmon,15,1,Hydel High School,"[[], []]",1.73m,9
 High Jump,Girls,1,Finals,,Shiann Salmon,17,1,Hydel High School,"[[], []]",1.73m,9
 High Jump,Girls,3,Finals,,Shiann Salmon,13,1,Hydel High School,"[[], []]",1.78mR   9,9
@@ -3427,25 +3480,9 @@ Discus Throw,Girls,2,Finals,,Shyledeen Smith,14,12,Petersfield High School,[],28
 Discus Throw,Girls,1,Finals,,Shyledeen Smith,17,16,Petersfield High School,[],36.13m,0
 Discus Throw,Girls,1,Finals,,Shyledeen Smith,16,6,Petersfield High School,[],39.75m,3
 Discus Throw,Girls,2,Finals,,Shyledeen Smith,15,2,Petersfield High School,[],42.29m,7
-Discus Throw,Girls,3,Finals,,"Simms, Tracey-Ann",12,9,Holy Childhood High School,[],28.51m,0
-Shot Put,Girls,Open,Finals,,"Simpson, Decoda",12,11,St. Andrew High School for Girls,[],10.85m,0
-Discus Throw,Girls,2,Finals,,"Simpson, Decoda",12,7,St. Andrew High School for Girls,[],36.75m,2
-High Jump,Girls,4,Finals,,"Simpson, Kelesia",12,8,Manchester High School (MHS),"[[], []]",J1.53m,1
 Long Jump,Boys,3,Finals,1.3,Skye Marsh,24,5,Wolmer's Boys' School,"['5.78m(1.3)', '5.46m(1.1)', '5.68m(-0.9)', '5.36m(3.3)', '5.36m(3.8)', '5.20m(3.7)']",5.78m,4
-High Jump,Girls,3,Finals,,"Smith, Kathleen",12,10,Ardenne High School,"[[], []]",1.54m,0
-Long Jump,Boys,1,Finals,-1.6,"Smith, Maulford",12,5,Wolmer's Boys' School,[],6.80m,4
-High Jump,Boys,1,Finals,,"Smith, Maulford",12,9,Wolmer's Boys' School,"[[], []]",J1.99m,0
-Shot Put,Boys,1,Finals,,"Smith, Miguel",12,13,The Enid Bennett High School,[],13.73m,0
-Triple Jump,Boys,Open,Finals,-1.4,"Smith, Owen",12,4,Calabar High School,[],14.43m,5
-Discus Throw,Girls,2,Finals,,"Smith, Shereece",12,9,Manchester High School (MHS),[],35.65m,0
-Long Jump,Girls,3,Finals,2.2,"Spence, Danielle",12,10,Wolmer's Trust High School For Girls,[],5.19m,0
-Long Jump,Boys,1,Finals,-0.9,"Spence, Debarie",12,8,Excelsior High School,[],J6.74m,1
-High Jump,Girls,4,Finals,,"Spence, Jolaine",12,10,Wolmer's Trust High School For Girls,"[[], []]",1.45m,0
-Discus Throw,Boys,2,Finals,,"Spencer, Derrick",12,7,Hydel High School,[],42.14m,2
-High Jump,Girls,2,Finals,,"Spencer, Rushaun",12,12,Wolmer's Trust High School For Girls,"[[], []]",J1.58m,0
-High Jump,Girls,3,Finals,,"Spencer, Samara",12,1,Hydel High School,"[[], []]",1.71m,9
-Long Jump,Girls,3,Finals,0.4,"Spencer, Samara",12,1,Hydel High School,[],6.06mR,9
 Triple Jump,Boys,1,Finals,-0.3,Stafon Roach,22,3,Jamaica College,"['14.90m(-0.7)', '14.92m(-0.9)', '14.91m(-0.3)', '14.76m(-0.2)', '14.81m(-0.1)', '15.00m(-0.3)']",15.00m,6
+Shot Put,Boys,2,Finals,,Stefan Donald,12,4,Calabar High School,[],15.22m,5
 Shot Put,Boys,1,Finals,,Stefan Mcdonald,14,4,Calabar High School,[],16.43m,5
 High Jump,Girls,4,Finals,,Stefvanco H,23,2,Campion College,"[['1.40', '1.45', '1.50', '1.55', '1.58'], ['O', 'XO', 'O', 'XXO', 'XXX']]",1.55m ,7
 High Jump,Girls,3,Finals,,Stefvanco Henry,24,10,Campion College,"[['1.50', '1.55', '1.60'], ['O', 'XO', 'XXX']]",1.60m,0
@@ -3453,8 +3490,6 @@ Long Jump,Girls,4,Finals,2.5,Stefvanco Henry,22,11,Campion College,"['4.45m(3.3)
 High Jump,Girls,4,Finals,,Stefvanco Henry,22,,Campion College,"[['1.45'], ['XXX']]",NH,
 High Jump,Girls,2,Finals,,Stephanie Myrie,14,5,St. Andrew High School for Girls,"[[], []]",1.65m,3.5
 High Jump,Girls,2,Finals,,Stephanie Myrie,15,8,St. Andrew High School for Girls,"[[], []]",1.60m,0.5
-Shot Put,Boys,2,Finals,,"Stephenson, Jason",12,6,Jamaica College,[],14.41m,3
-Discus Throw,Boys,2,Finals,,"Stephenson, Jason",12,9,Jamaica College,[],39.87m,0
 High Jump,Boys,3,Finals,,Stesean Hur,23,6,Kingston College,"[['1.55', '1.60', '1.65', '1.70', '1.75'], ['O', 'O', 'XO', 'XO', 'XXX']]",1.70m ,3
 High Jump,Boys,3,Finals,,Stesean Hurd,24,2,Kingston College,"[['1.60', '1.65', '1.70', '1.75', '1.78', '1.81', '1.84', '1.87'], ['P', 'P', 'O', 'O', 'O', 'XO', 'XXO', 'XXX']]",1.84m,7
 Discus Throw,Boys,2,Finals,,Steve Williams,24,6,Kingston College,"['34.38m', '38.32m', '40.75m', '41.09m', '41.34m', 'FOUL']",41.34m,3
@@ -3464,10 +3499,7 @@ Discus Throw,Boys,2,Finals,,Stevon Crooks,12,11,Petersfield High School,[],38.42
 Shot Put,Boys,1,Finals,,Stevon Crooks,14,5,Petersfield High School,[],15.93m,4
 Shot Put,Boys,1,Finals,,Stevon Crooks,15,5,Petersfield High School,[],16.26m,4
 Discus Throw,Boys,1,Finals,,Stevon Crooks,15,5,Petersfield High School,[],49.36m,4
-Long Jump,Boys,3,Finals,2.3,"Stona, Shemar",12,6,Kingston College,[],6.09m,3
-Discus Throw,Girls,2,Finals,,"Street, Felecia",12,4,Grange Hill High School,[],37.74m,5
 High Jump,Girls,3,Finals,,Subrena Hearne,12,11,Convent of Mercy Academy (ALPHA),"[[], []]",1.50m,0
-Discus Throw,Girls,2,Finals,,"Surtees, Anastasia",12,13,St. Hughs High School,[],32.89m,0
 Long Jump,Girls,1,Finals,0.6,Susan Franc,18,1,Holmwood Technical High School,[],6.20m ,9
 High Jump,Girls,1,Finals,,Susan Franc,18,3,Holmwood Technical High School,"[['1.35', '1.40', '1.45', '1.50', '1.55', '1.60', '1.65', '1.70'], ['P', 'P', 'P', 'O', 'XO', 'XO', 'O', 'XX']]",J1.65m ,6
 Long Jump,Girls,1,Finals,0.9,Susan Franc,19,1,Holmwood Technical High School,"['6.12m(-0.2)', 'FOUL', 'FOUL', '6.26m(0.9)', '5.14m(1.4)', '5.94m(0.8)']",6.26m ,9
@@ -3479,8 +3511,6 @@ Long Jump,Girls,3,Finals,0.1,Suzzette Pa,18,10,Holmwood Technical High School,[]
 Long Jump,Girls,2,Finals,-0.3,Suzzette Pa,19,8,Holmwood Technical High School,"['5.53m(-0.2)', '5.41m(-0.2)', '5.60m(-0.3)', 'FOUL', '5.45m(-1.8)', '5.43m(-0.9)']",5.60m ,1
 Long Jump,Girls,3,Finals,-0.9,Suzzette Palmer,17,12,Holmwood Technical High School,[],5.03m,0
 Long Jump,Boys,2,Finals,-0.1,Svein Lawrence,24,7,Petersfield High School,"['6.37m(0.4)', 'FOUL', '6.39m(2.6)', '6.43m(-0.1)', '6.21m(0.6)', 'FOUL']",6.43m,2
-Long Jump,Girls,4,Finals,-0.4,"Swaby, Abigail",12,1,Vere Technical High School,[],5.46m,9
-High Jump,Boys,1,Finals,,"Swaby, Jovan",12,,Calabar High School,"[[], []]",NH,
 High Jump,Girls,2,Finals,,Sydnie Mont,19,9,St. Andrew High School for Girls,"[['1.40', '1.45', '1.50', '1.55', '1.60', '1.65'], ['P', 'P', 'P', 'O', 'XO', 'XXX']]",J1.60m,0
 High Jump,Girls,3,Finals,,Sydnie Montague,16,16,St. Andrew High School for Girls,"[['1.50', '1.55', '1.60'], ['O', 'O', 'XXX']]",1.55m,0
 High Jump,Girls,4,Finals,,Sydnie Montague,15,8,St. Andrew High School for Girls,"[[], []]",J1.50m,1
@@ -3506,12 +3536,16 @@ Triple Jump,Boys,2,Finals,-1.3,Tajae Franc,19,5,Kingston College,"['13.67m(-1.8)
 Shot Put,Boys,2,Finals,,Tajai Chin,12,13,St. Elizabeth Technical High School,[],12.78m,0
 Javelin Throw,Boys,Open,Finals,,Tajay Broom,18,4,Jamaica College,[],53.43m ,5
 Long Jump,Boys,1,Finals,-0.9,Tajdre Stevens,17,10,Herbert Morrison Technical High,[],6.79m,0
+Javelin Throw,Girls,Open,Finals,,Taleika Nelson,12,6,Vere Technical High School,[],34.27m,3
 Javelin Throw,Girls,Open,Finals,,Talleen Gor,19,9,Vere Technical High School,"['FOUL', '27.54m', '31.83m']",31.83m,0
 Shot Put,Girls,2,Finals,,Talleen Gordon,17,7,Vere Technical High School,[],12.80m,2
 Long Jump,Boys,3,Finals,3.8,Talshawn Edwards,24,6,Calabar High School,"['5.61m(1.9)', '5.67m(-0.5)', '5.75m(3.8)', '5.70m(2.9)', '5.46m(3.4)', 'FOUL']",5.75m,3
 Javelin Throw,Girls,Open,Finals,,Tamar Austin,24,10,Excelsior High School,"['24.72m', 'FOUL', '28.72m']",33.04m,0
 Long Jump,Girls,2,Finals,0.5,Tamara Bail,23,6,St. Jago High School,"['5.41m(0.6)', '5.43m(0.3)', 'FOUL', '5.33m(-0.4)', '5.45m(0.5)', '5.32m(0.6)']",5.45m,3
 Long Jump,Girls,2,Finals,-1.5,Tamara Bailey,22,7,St. Jago High School,"['4.70m(2.0)', '5.43m(1.5)', '5.26m(1.6)', '5.05m(-1.0)', 'FOUL', 'FOUL']",5.43m,2
+High Jump,Girls,2,Finals,,Tamara Moncrieffe,12,10,Holmwood Technical High School,"[[], []]",1.58m,0
+Triple Jump,Girls,Open,Finals,-1.2,Tamara Moncrieffe,12,4,Holmwood Technical High School,[],11.89m,5
+Long Jump,Girls,2,Finals,-0.3,Tamara Moncrieffe,12,3,Holmwood Technical High School,[],5.80m,6
 Triple Jump,Girls,Open,Finals,0.9,Tamara Moncrieffe,14,1,Holmwood Technical High School,[],13.51m,9
 Long Jump,Girls,1,Finals,0.3,Tamara Moncrieffe,14,2,Holmwood Technical High School,[],5.98m,7
 Triple Jump,Girls,Open,Finals,6.8,Tamara Moncrieffe,15,1,Holmwood Technical High School,[],13.92m,9
@@ -3524,6 +3558,9 @@ Discus Throw,Girls,3,Finals,,Tamara Thompson,14,4,Lacovia High School,[],34.28m,
 Javelin Throw,Girls,Open,Finals,,Tamecia Binda,21,11,Vere Technical High School,"['29.17m', '28.35m', '27.36m']",29.17m,0
 Long Jump,Girls,2,Finals,3,Tamecia Roberts,21,9,Hydel High School,"['FOUL', '5.16m(3.0)', '5.03m(3.3)']",5.16m,0
 Long Jump,Girls,3,Finals,0.3,Tamieka Mck,19,5,St. Andrew Technical High School,"['4.66m(-0.0)', '4.85m(1.4)', '5.38m(0.3)', '4.76m(1.1)', '5.29m(0.2)', '5.36m(0.7)']",5.38m,4
+High Jump,Girls,1,Finals,,Tamoya Thompson,12,15,Immaculate Conception High School,"[[], []]",1.40m,0
+Triple Jump,Girls,Open,Finals,0.9,Tamoya Walters,12,9,St. Jago High School,[],11.49m,0
+High Jump,Girls,1,Finals,,Tamoya Walters,12,4,St. Jago High School,"[[], []]",J1.67m,5
 High Jump,Girls,4,Finals,,Tanahara Williams,21,5,Hydel High School,"[['1.40', '1.45', '1.50', '1.55'], ['XXO', 'O', 'XXO', 'XXX']]",1.50m,4
 Discus Throw,Girls,3,Finals,,Tanahara Williams,22,8,Hydel High School,"['22.37m', '29.55m', '34.26m', '33.07m', 'FOUL', '34.49m']",34.49m,1
 Shot Put,Girls,1,Finals,,Taneika Elliston,14,4,Holmwood Technical High School,[],12.38m,5
@@ -3547,6 +3584,7 @@ Discus Throw,Boys,1,Finals,,Tarique Geo,19,7,Calabar High School,"['48.55m', '50
 Discus Throw,Girls,2,Finals,,Tasha Crosse,12,3,Edwin Allen High School,[],41.66m,6
 Shot Put,Girls,1,Finals,,Tasha Crosse,14,6,Edwin Allen High School,[],11.64m,3
 Discus Throw,Girls,1,Finals,,Tasha Crosse,14,3,Edwin Allen High School,[],45.12m,6
+Discus Throw,Girls,1,Finals,,Tashana Lynch,12,9,Spot Valley High School,[],35.02m,0
 Long Jump,Girls,4,Finals,-0.6,Tasheca Fer,23,9,St. Jago High School,"['4.58m(-0.6)', 'FOUL', '4.32m(-0.8)']",4.58m,0
 High Jump,Girls,1,Finals,,Tasheka Hibbert,12,13,St. Elizabeth Technical High School,"[[], []]",J1.55m,0
 Discus Throw,Girls,1,Finals,,Tasheka Johnson,15,11,Clarendon College,[],27.74m,0
@@ -3559,6 +3597,7 @@ Long Jump,Boys,1,Finals,-0.4,Tasrico Bell,15,10,Vere Technical High School,[],6.
 Long Jump,Boys,1,Finals,-1.3,Tasrico Bell,17,6,Vere Technical High School,[],7.10m,3
 High Jump,Girls,3,Finals,,Tatanya Ang,23,4,Merl Grove High School,"[['1.50', '1.55', '1.60'], ['O', 'O', 'XXX']]",1.55m ,5
 High Jump,Girls,4,Finals,,Tatanya Anglin,21,4,Merl Grove High School,"[['1.40', '1.45', '1.50', '1.55'], ['O', 'O', 'XO', 'XXX']]",1.50m,5
+Long Jump,Girls,2,Finals,-0.9,Tatiana Wolfe,12,6,Convent of Mercy Academy (ALPHA),[],J5.68m,3
 Discus Throw,Girls,3,Finals,,Tatyana Williams,21,10,St. Catherine High School,"['28.66m', 'FOUL', '25.22m']",28.66m,0
 High Jump,Boys,2,Finals,,Tavar Slowley,15,3,Kingston College,"[[], []]",1.90m,6
 Long Jump,Boys,3,Finals,6.5,Tavaugn Clarke,17,8,St. Jago High School,[],5.77m,1
@@ -3573,8 +3612,6 @@ Shot Put,Girls,1,Finals,,Tavoy Housen,17,14,Excelsior High School,[],11.12m,0
 Shot Put,Girls,2,Finals,,Tavoy Housen,16,4,Excelsior High School,[],13.21m,5
 High Jump,Girls,4,Finals,,Tawani Murr,18,7,Manning High School,"[['1.40', '1.45', '1.50'], ['O', 'O', 'XXX']]",1.45m,1
 Triple Jump,Girls,Open,Finals,0.1,Tawani Murr,23,9,Petersfield High School,"['PASS', '11.27m(0.1)', 'FOUL']",11.27m,0
-High Jump,Girls,1,Finals,,"Taylor, Deneen",12,11,Holmwood Technical High School,"[[], []]",J1.55m,0
-High Jump,Girls,2,Finals,,"Taylor, Krista-Gay",12,1,Convent of Mercy Academy (ALPHA),"[[], []]",1.73m,9
 Long Jump,Boys,1,Finals,-0.8,Teddale Simpson,14,6,Cornwall College,[],7.06m,3
 High Jump,Girls,4,Finals,,Teddyann Ar,18,2,Excelsior High School,"[['1.40', '1.45', '1.50', '1.55', '1.58'], ['P', 'O', 'XXO', 'O', 'XXX']]",J1.55m ,7
 Long Jump,Girls,1,Finals,2.3,Teiolla Harvey,21,9,Excelsior High School,"['5.20m(0.2)', '5.36m(2.3)', '5.19m(1.4)']",5.36m,0
@@ -3613,15 +3650,6 @@ Shot Put,Boys,2,Finals,,Thierry Gordon,21,12,St. Catherine High School,"['9.94m'
 Discus Throw,Boys,2,Finals,,Thierry Gordon,21,10,St. Catherine High School,"['34.66m', '36.40m', '37.09m']",37.09m,0
 Shot Put,Boys,1,Finals,,Thierry Robinson,21,12,St. Elizabeth Technical High School,"['FOUL', '9.30m', '11.65m']",11.65m,0
 Javelin Throw,Boys,Open,Finals,,Thierry Robinson,22,10,St. Elizabeth Technical High School,"['40.69m', 'FOUL', '42.25m']",42.25m,0
-High Jump,Girls,3,Finals,,Brianna Thomas,12,5,Holmwood Technical High School,"[[], []]",J1.62m,4
-Shot Put,Girls,Open,Finals,9,Danniel Thomas,12,1,Edwin Allen High School,[],14.47mR,9
-Javelin Throw,Girls,Open,Finals,,Danniel Thomas,12,1,Edwin Allen High School,[],40.74m,9
-Discus Throw,Girls,1,Finals,7,Danniel Thomas,12,2,Edwin Allen High School,[],50.42mR,7
-Javelin Throw,Boys,Open,Finals,,Orlando Thomas,12,3,Bridgeport High School,[],53.55m,6
-Discus Throw,Boys,1,Finals,,Robert Thomas,12,17,Paul Bogle High School,[],40.33m,0
-High Jump,Girls,1,Finals,,Kavanja Thompson,12,10,St. Jago High School,"[[], []]",1.55m,0
-Triple Jump,Girls,Open,Finals,FOUL,Kavanja Thompson,12,,St. Jago High School,[],FOUL,
-High Jump,Girls,1,Finals,,Tamoya Thompson,12,15,Immaculate Conception High School,"[[], []]",1.40m,0
 High Jump,Boys,2,Finals,,Thorne Buchanan,14,11,Excelsior High School,"[[], []]",1.80m,0
 Pole Vault,Boys,Open,Finals,,Tian Cain,12,7,Calabar High School,"[[], []]",3.20m,2
 Pole Vault,Boys,Open,Finals,,Tian Cain,14,6,Calabar High School,"[[], []]",3.30m,3
@@ -3636,7 +3664,6 @@ High Jump,Boys,1,Finals,,Tierick Smith,22,7,St. Elizabeth Technical High School,
 Javelin Throw,Girls,Open,Finals,,Tiffany Higgins,15,6,St. Jago High School,[],35.53m,3
 Long Jump,Boys,3,Finals,-1.3,Timothy Sim,18,8,Cornwall College,[],5.75m,1
 High Jump,Boys,2,Finals,,Timothy Stevens,15,14,Herbert Morrison Technical High,"[[], []]",1.75m,0
-Javelin Throw,Boys,Open,Finals,,Jenthrow Tindale,12,7,Edwin Allen High School,[],51.37m,2
 Long Jump,Girls,3,Finals,3.1,Tishanna Salmon,23,4,Edwin Allen High School,"['5.28m(3.1)', '3.87m(0.9)', '5.14m(0.7)', '4.70m(-0.1)', '5.12m(3.0)', '4.70m(3.8)']",5.28m,5
 Long Jump,Girls,4,Finals,3,Tishanna Salmon,22,4,Edwin Allen High School,"['5.15m(3.8)', '4.95m(2.3)', '5.01m(2.4)', '5.18m(3.0)', '5.17m(2.0)', 'FOUL']",5.18m,5
 High Jump,Girls,4,Finals,,Tishawna Daley,14,9,The Queen's School,"[[], []]",1.50m,0
@@ -3680,6 +3707,7 @@ Triple Jump,Girls,Open,Finals,FOUL,Tori-Anna Isaacs,23,,Gaynstead High School,"[
 High Jump,Boys,3,Finals,,Torray Chambers,13,8,Herbert Morrison Technical High,"[[], []]",J1.70m,0.5
 High Jump,Boys,3,Finals,,Torray Chambers,14,8,Herbert Morrison Technical High,"[[], []]",J1.70m,0.5
 Long Jump,Girls,4,Finals,-0.5,Tracey-Ann Evans,23,7,Holmwood Technical High School,"['4.50m(-1.2)', '4.77m(0.3)', '4.78m(-0.5)', '4.64m(-0.4)', '4.27m(-0.3)', '4.70m(-0.8)']",4.78m,2
+Discus Throw,Girls,3,Finals,,Tracey-Ann Simms,12,9,Holy Childhood High School,[],28.51m,0
 Discus Throw,Girls,2,Finals,,Tracey-Ann Simms,14,9,Holy Childhood High School,[],32.03m,0
 Shot Put,Girls,1,Finals,,Tracey-Ann Simms,15,12,St. Jago High School,[],10.86m,0
 Discus Throw,Girls,1,Finals,,Tracey-Ann Simms,16,3,St. Jago High School,[],41.52m,6
@@ -3719,11 +3747,10 @@ Long Jump,Girls,2,Finals,0.6,Trishauna Hemmings,15,2,Glengoffe High School,[],5.
 Long Jump,Girls,1,Finals,-2.1,Trishauna Hemmings,17,3,Hydel High School,[],5.96m,6
 Discus Throw,Boys,2,Finals,,Tristan Campbell,18,6,Bridgeport High School,[],45.11m ,3
 High Jump,Boys,2,Finals,,Triwayne Blake,12,12,Herbert Morrison Technical High,"[[], []]",1.75m,0
+Discus Throw,Girls,2,Finals,,Tsahai Ricketts,12,,Excelsior High School,[],FOUL,
 Long Jump,Girls,4,Finals,0.1,Tshani Armstrong,23,8,St. Catherine High School,"['FOUL', '4.24m(0.4)', '4.64m(0.1)', 'FOUL', '4.57m(-0.5)', '3.48m(-0.2)']",4.64m,1
 High Jump,Girls,4,Finals,,Tshani Armstrong,24,,St. Catherine High School,"[['1.40'], ['XXX']]",1.50m,
 Long Jump,Girls,4,Finals,-0.8,Tshani Armstrong,24,1,St. Catherine High School,"['4.99m(0.5)', '5.06m(-0.9)', '5.25m(-0.8)', '5.13m(3.0)', '4.01m(2.3)', 'FOUL']",5.25m,9
-Discus Throw,Boys,1,Finals,,Fabeon Tucker,12,15,Edwin Allen High School,[],41.20m,0
-Long Jump,Girls,4,Finals,-0.5,Sankyaw Tulloch,12,10,Tacius Golding High School,[],4.58m,0
 Shot Put,Girls,1,Finals,,Tyefah Saunders,16,11,Immaculate Conception High School,[],11.06m,0
 Shot Put,Girls,1,Finals,,Tyefah Saunders,17,10,Immaculate Conception High School,[],11.77m,0
 Javelin Throw,Girls,Open,Finals,,Tyefah Saunders,16,3,Immaculate Conception High School,[],38.59m,6
@@ -3773,7 +3800,6 @@ Triple Jump,Girls,Open,Finals,1.3,Velecia Williams,18,7,Hydel High School,[],12.
 Triple Jump,Girls,Open,Finals,2.7,Velecia Williams,21,2,Hydel High School,"['12.87m(2.7)', '12.47m(1.0)', '12.86m(2.6)', '12.65m(4.0)', 'FOUL', '12.49m(2.7)']",12.87m,7
 Long Jump,Girls,3,Finals,0.8,Velecia Williams,17,9,Hydel High School,[],5.27m,0
 Long Jump,Girls,1,Finals,3,Velecia Williams,21,3,Hydel High School,"['FOUL', '5.63m(1.3)', '5.80m(6.5)', 'PASS', '5.93m(3.0)', '5.32m(1.5)']",5.93m,6
-Long Jump,Girls,3,Finals,1.1, Ave-Anna Venair,12,11,Excelsior High School,[],5.14m,0
 Discus Throw,Girls,2,Finals,,Venique Harris,12,11,St. Andrew High School for Girls,[],35.29m,0
 Discus Throw,Girls,1,Finals,,Venique Harris,15,7,Ardenne High School,[],39.76m,2
 Shot Put,Girls,1,Finals,,Venique Harris,15,14,Ardenne High School,[],9.83m,0
@@ -3782,25 +3808,16 @@ High Jump,Boys,1,Finals,,Verrol Sam,22,1,Kingston College,"[['1.85', '1.90', '1.
 Pole Vault,Boys,Open,Finals,,Verrol Sam,21,8,Kingston College,"[['2.70', '2.80', '2.90', '3.00', '3.10', '3.20', '3.30', '3.40', '3.50', '3.60'], ['P', 'P', 'P', 'O', 'P', 'P', 'O', 'P', 'O', 'XXX']]",3.50m,1
 Shot Put,Girls,2,Finals,,Victoria Christie,22,1,Camperdown High School,"['13.61m', '14.35m', '13.84m', '13.18m', '14.12m', '14.59m']",14.59m,9
 Discus Throw,Girls,2,Finals,,Victoria Christie,22,3,Camperdown High School,"['38.74m', '40.64m', '40.37m', '42.27m', '43.09m', 'FOUL']",43.09m,6
-High Jump,Girls,2,Finals,,Jehvania Vidal-Whyte,12,3,Vere Technical High School,"[[], []]",J1.71m,6
 Shot Put,Boys,2,Finals,,Vikarie Elliott,13,9,Munro College,[],13.72m,0
 Shot Put,Boys,2,Finals,,Vikarie Elliott,14,9,Munro College,[],13.72m,0
 Discus Throw,Boys,2,Finals,,Vikarie Elliott,14,8,Munro College,[],40.15m,1
 Discus Throw,Boys,1,Finals,,Vikarie Elliott,15,11,Munro College,[],44.38m,0
-Long Jump,Boys,2,Finals,-0.2,Jordaine Waite,12,8,St. Jago High School,[],6.34m,1
-Discus Throw,Girls,2,Finals,,Shannique Waite,12,2,St. Jago High School,[],42.72m,7
-Long Jump,Boys,2,Finals,-1.1,Jullane Walker,12,2,Calabar High School,[],6.85m,7
-High Jump,Girls,2,Finals,,Michellae Walker,12,11,St. Andrew High School for Girls,"[[], []]",J1.58m,0
-High Jump,Boys,3,Finals,,Luke Walters,12,3,Kingston College,"[[], []]",J1.75m,6
-Triple Jump,Girls,Open,Finals,0.9,Tamoya Walters,12,9,St. Jago High School,[],11.49m,0
-High Jump,Girls,1,Finals,,Tamoya Walters,12,4,St. Jago High School,"[[], []]",J1.67m,5
 Shot Put,Boys,1,Finals,,Warren Barrett,15,2,Calabar High School,[],18.75m,7
 Discus Throw,Boys,1,Finals,,Warren Barrett,15,2,Calabar High School,[],49.95m,7
 Discus Throw,Boys,1,Finals,,Warren Barrett,16,3,Calabar High School,[],52.88m,6
 Shot Put,Boys,2,Finals,9,Warren Barrett,13,1,Cornwall College,[],18.18mR,9
 Shot Put,Boys,2,Finals,9,Warren Barrett,14,1,Cornwall College,[],18.18mR,9
 Discus Throw,Boys,2,Finals,,Warren Barrett,14,1,Cornwall College,[],50.90m,9
-Discus Throw,Boys,1,Finals,,Glenford Watson,12,6,Petersfield High School,[],48.35m,3
 High Jump,Boys,2,Finals,,Waukeem Walters,18,5,Wolmer's Boys' School,"[['1.80', '1.85', '1.90', '1.95'], ['O', 'XO', 'O', 'XXX']]",J1.90m ,3.5
 Triple Jump,Boys,1,Finals,-1.1,Waukeem Walters,19,10,Wolmer's Boys' School,"['13.60m(-0.8)', 'FOUL', '13.93m(-1.1)']",13.93m,0
 Long Jump,Boys,1,Finals,-0.4,Waukeem Walters,19,6,Wolmer's Boys' School,"['6.65m(-0.7)', '6.94m(-0.4)', '7.01m(-0.4)', '6.64m(-0.1)', '7.01m(-0.1)', 'FOUL(-0.9)']",7.01m ,3
@@ -3811,31 +3828,10 @@ Long Jump,Boys,1,Finals,-0.8,Wayne Pinnock,19,1,Kingston College,"['7.78m(-0.1)'
 Long Jump,Boys,3,Finals,4.7,Wayne Pinnock,14,8,Kingston College,[],6.01m,1
 Long Jump,Boys,3,Finals,4.5,Wayne Pinnock,15,3,Kingston College,[],6.51m,6
 Long Jump,Boys,2,Finals,0.5,Wayne Pinnock,17,4,Kingston College,[],6.73m,5
-Shot Put,Boys,1,Finals,,Orega Welch,12,12,Lacovia High School,[],13.75m,0
-High Jump,Boys,3,Finals,,Sammawi Welington,12,1,Kingston College,"[[], []]",1.75m,9
-Long Jump,Boys,3,Finals,2.9,Sammawi Welington,12,1,Kingston College,[],6.88m,9
 Discus Throw,Boys,2,Finals,,Wensett Brown,22,8,William Knibb Memorial High School,"['FOUL', 'FOUL', '40.45m', '39.94m', 'FOUL', 'FOUL']",40.45m,1
-High Jump,Girls,4,Finals,,Anthonette White,12,4,Holy Childhood High School,"[[], []]",1.59m,5
-Long Jump,Girls,4,Finals,-0.2,Anthonette White,12,5,Holy Childhood High School,[],4.92m,4
 Pole Vault,Boys,Open,Finals,,Wikenson Fenelon,19,7,Jamaica College,"[['8', '#', '1583', 'Aaron-john', 'Edward', ""Wolmer's"", 'Hig', '3.30m', '1'], ['9', '#', '447', 'Gregory', 'Degouth', 'Excelsior', 'High', '3.00m']]",J3.50m,2
-Long Jump,Boys,1,Finals,-1.1,Akiem Williams,12,9,Holmwood Technical High School,[],6.66m,0
-Discus Throw,Girls,1,Finals,,Aprell Williams,12,10,Wolmer's Trust High School For Girls,[],34.10m,0
-High Jump,Girls,1,Finals,,Georgia Williams,12,8,St. Andrew High School for Girls,"[[], []]",1.59m,1
-Discus Throw,Girls,1,Finals,,Georgia Williams,12,12,St. Andrew High School for Girls,[],30.55m,0
-High Jump,Boys,3,Finals,,Peter Williams,12,4,Calabar High School,"[[], []]",1.70m,4.5
-Triple Jump,Girls,Open,Finals,NWI,Shantal Williams,12,15,Excelsior High School,[],11.20m,0
-High Jump,Girls,1,Finals,,Kimberly Williamson,12,2,Edwin Allen High School,"[[], []]",1.84mR   7,7
-Triple Jump,Girls,Open,Finals,NWI,Kimberly Williamson,12,8,Edwin Allen High School,[],11.55m,1
-Shot Put,Boys,2,Finals,,Romario Willis,12,17,Buff Bay High School,[],12.29m,0
-High Jump,Boys,3,Finals,,Lushane Wilson,12,10,St. Jago High School,"[[], []]",J1.65m,0
 High Jump,Boys,3,Finals,,Winaldo Faulknor,24,6,St. Jago High School,"[['1.60', '1.65', '1.70', '1.75'], ['O', 'XO', 'O', 'XXX']]",1.70m,3
 Long Jump,Boys,3,Finals,0.2,Winaldo Faulknor,24,1,St. Jago High School,"['6.51m(0.2)', '6.37m(1.0)', '6.32m(1.8)', '6.27m(3.1)', '6.22m(1.8)', '6.11m(2.5)']",6.51m,9
-Discus Throw,Girls,3,Finals,,Nicole Windross,12,3,St. Hughs High School,[],34.86m,6
-Long Jump,Girls,2,Finals,-0.9,Tatiana Wolfe,12,6,Convent of Mercy Academy (ALPHA),[],J5.68m,3
-High Jump,Boys,1,Finals,,Ashani Wright,12,7,Jamaica College,"[[], []]",J1.99m,2
-Long Jump,Boys,2,Finals,-1.6,Sean Wright,12,12,Kingston College,[],5.66m,0
-Long Jump,Girls,3,Finals,4.3,Shanique Wright,12,5,Manchester High School (MHS),[],5.53m,4
-High Jump,Girls,4,Finals,,Melanie Wynter,12,10,Convent of Mercy Academy (ALPHA),"[[], []]",1.45m,0
 Long Jump,Girls,2,Finals,0.1,Xavi Harvey,24,10,Excelsior High School,"['4.88m(-0.4)', '4.98m(0.1)', '4.95m(-0.6)']",4.98m,0
 Long Jump,Girls,4,Finals,0.2,Xavi Harvey,21,12,Excelsior High School,"['4.27m(-2.9)', '4.37m(0.2)', 'FOUL']",4.37m,0
 Long Jump,Girls,3,Finals,4.7,Xavi Harvey,23,11,Excelsior High School,"['FOUL', '4.92m(4.7)', '4.58m(1.4)']",4.92m,0
@@ -3867,12 +3863,14 @@ High Jump,Girls,3,Finals,,Yoanna Luke,23,9,Convent of Mercy Academy (ALPHA),"[['
 High Jump,Girls,4,Finals,,Yoanna Luke,22,,Convent of Mercy Academy (ALPHA),"[['1.45'], ['XXX']]",NH,
 High Jump,Boys,3,Finals,,Yogay Barrett,22,11,Rhodes Hall High School,"[['1.45', '1.50', '1.55'], ['O', 'O', 'XXX']]",1.50m,0
 Discus Throw,Girls,2,Finals,,Yuleeana Parchmen,23,12,St. Elizabeth Technical High School,"['FOUL', '31.03m', '33.64m']",33.64m,0
+Javelin Throw,Boys,Open,Finals,,Zaavan Richards,12,6,Kingston College,[],52.10m,3
 Discus Throw,Boys,1,Finals,,Zachary Campbell,23,6,Jamaica College,"['52.77m', 'FOUL', '50.71m', '51.13m', '48.83m', '50.54m']",52.77m,3
 Shot Put,Boys,2,Finals,,Zachary Campbell,21,3,Jamaica College,"['15.69m', '15.50m', '13.79m', '15.13m', '16.64m', 'FOUL']",16.64m,6
 Shot Put,Boys,2,Finals,,Zachary Campbell,22,1,Jamaica College,"['16.18m', '16.66m', '16.94m', '19.13m', 'FOUL', 'FOUL']",19.13m,9
 Discus Throw,Boys,2,Finals,,Zachary Campbell,21,2,Jamaica College,"['47.53m', '49.33m', '50.37m', '49.78m', '51.86m', '52.50m']",52.50m,7
 Discus Throw,Boys,2,Finals,,Zachary Campbell,22,1,Jamaica College,"['55.22m', 'FOUL', '52.42m', '56.49m', '55.21m', '55.49m']",56.49mR,9
 Long Jump,Boys,3,Finals,0.1,Zachary Gordon,18,7,Jamaica College,[],5.80m,2
+Discus Throw,Boys,2,Finals,,Zachary Leod,12,10,Kingston College,[],38.73m,0
 High Jump,Boys,3,Finals,,Zachary Merchant,22,3,Kingston College,"[['1.45', '1.50', '1.55', '1.60', '1.65', '1.70', '1.75'], ['P', 'P', 'O', 'O', 'O', 'O', 'XXX']]",1.70m,6
 High Jump,Boys,2,Finals,,Zachary Merchant,24,6,Kingston College,"[['1.75', '1.80', '1.85', '1.90', '1.95'], ['O', 'XO', 'O', 'XO', 'XXX']]",1.90m,3
 Triple Jump,Boys,2,Finals,-1.1,Zachary Merchant,23,10,Kingston College,"['FOUL', 'FOUL', '12.36m(-1.1)']",12.36m,0
@@ -3905,6 +3903,8 @@ Discus Throw,Boys,1,Finals,,Zico Campbell,18,6,Kingston College,[],53.17m ,3
 Shot Put,Boys,2,Finals,,Zico Campbell,15,5,Glenmuir High School,[],14.36m,4
 Shot Put,Boys,1,Finals,,Zico Campbell,17,3,Kingston College,[],17.52m,6
 Discus Throw,Boys,1,Finals,,Zico Campbell,17,7,Kingston College,[],47.45m,2
+High Jump,Girls,4,Finals,,Zinedine Russell,12,3,Convent of Mercy Academy (ALPHA),"[[], []]",1.61m,6
+Long Jump,Girls,4,Finals,-0.2,Zinedine Russell,12,7,Convent of Mercy Academy (ALPHA),[],4.78m,2
 High Jump,Girls,3,Finals,,Zinedine Russell,13,7,Convent of Mercy Academy (ALPHA),"[[], []]",1.60m,1.5
 High Jump,Girls,3,Finals,,Zinedine Russell,14,7,Convent of Mercy Academy (ALPHA),"[[], []]",1.60m,1.5
 High Jump,Girls,2,Finals,,Zinedine Russell,15,7,Convent of Mercy Academy (ALPHA),"[[], []]",J1.65m,2
