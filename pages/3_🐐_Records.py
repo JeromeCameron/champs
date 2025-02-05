@@ -8,7 +8,9 @@ st.html("<br>")
 df = pd.read_csv("./working_files/champs_records.csv")
 df["mark"] = df["mark"].str.strip("x")
 
-tab1, tab2 = st.tabs(["Records", "Most Records"])
+df["record_age"] = 2025 - df["year"]
+
+tab1, tab2 = st.tabs(["Records", "Schools with Most Records"])
 
 with tab1:
     # Get Filters
@@ -45,7 +47,8 @@ with tab1:
         f"<td style='border: none; padding: 8px; color: #030303; text-align: center; background-color: #eaeaea;'>{row['mark']}</td>"
         f"<td style='border: none; padding: 8px; color: #5b5b5b;'><strong>{row['athlete']}</strong></td>"
         f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['year']}</td>"
-        f"<td style='border: none; padding: 8px; color: #5b5b5b;'>{row['school']}</td></tr>"
+        f"<td style='border: none; padding: 8px; color: #5b5b5b;'>{row['school']}</td>"
+        f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['record_age']}</td></tr>"
         for _, row in records.iterrows()
     )
 
@@ -57,6 +60,7 @@ with tab1:
         <th style="padding: 8px; text-align: left;">ATHLETE</th>
         <th style="padding: 8px;">YEAR</th>
         <th style="padding: 8px; text-align: left;">SCHOOL</th>
+        <th style="padding: 8px; text-align: center;">RECORD AGE</th>
     </tr>
     {table_rows}
     </table>

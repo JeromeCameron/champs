@@ -20,7 +20,9 @@ st.text("Filter Results")
 with st.container(border=True):
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        year = st.text_input("Year", value=24, max_chars=2)
+        year_series = df["year"].unique()
+        year_series = np.sort(year_series)
+        year = st.selectbox("Year", year_series)
     with col2:
         gender = st.selectbox("Gender", ("Boys", "Girls"))
     with col3:
