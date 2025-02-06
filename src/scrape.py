@@ -28,7 +28,7 @@ async def get_links(year: str, client) -> dict[str, str]:
             if substring not in href:  # type: ignore
                 links[href] = tag.text()
     except:
-        print(f"error getting page")
+        print("error getting page")
 
     return links
 
