@@ -11,6 +11,9 @@ df["note"] = df["note"].apply(
     lambda x: "" if pd.isna(x) else x
 )  # Replace NaN values with an empty string
 df["mark"] = df["mark"].str.rstrip("x")
+df["position"] = pd.to_numeric(df["position"], errors="coerce").astype(
+    "Int64"
+)  # convert position to int ignoring nan values
 
 records = pd.read_csv("./working_files/champs_records.csv")
 records["mark"] = records["mark"].str.rstrip("x")
@@ -22,6 +25,7 @@ with st.container(border=True):
     with col1:
         year_series = df["year"].unique()
         year_series = np.sort(year_series)[::-1]
+        year_series = year_series[year_series != 13]
         year = st.selectbox("Year", year_series)
     with col2:
         gender = st.selectbox("Gender", ("Boys", "Girls"))
@@ -40,9 +44,7 @@ results = df[
     & (df["clas_s"] == clas_s)
     & (df["event"] == discipline)
 ]
-results.drop(
-    ["event", "gender", "clas_s", "year"], axis=1, inplace=True
-)  # drop unwanted columns
+
 results.sort_values(by="position", inplace=True)  # sort by position finished
 wind = results["wind"].iloc[0]  # grap wind data
 
@@ -75,7 +77,7 @@ st.markdown(result_header, unsafe_allow_html=True)
 table_rows = "".join(
     f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['position']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b;'>{row['school']}</td>"
-    f"<td style='border: none; padding: 8px; color: #5b5b5b;'><strong>{row['name']}</strong></td>"
+    f"<td style='border: none; padding: 8px; color: #5b5b5b;'><strong>{row['athlete']}</strong></td>"
     f"<td style='border: none; padding: 8px; color: #030303; text-align: center; background-color: #eaeaea;'>{row['mark']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['points']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b;'>{row['note']}</td></tr>"

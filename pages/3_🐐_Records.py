@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from datetime import datetime
 
 st.header("Boy and Girls Champs Records 🐐")
 st.html("<br>")
@@ -8,7 +9,7 @@ st.html("<br>")
 df = pd.read_csv("./working_files/champs_records.csv")
 df["mark"] = df["mark"].str.strip("x")
 
-df["record_age"] = 2025 - df["year"]
+df["record_age"] = datetime.now().year - df["year"]
 
 tab1, tab2, tab3, tab4 = st.tabs(
     [
