@@ -188,10 +188,14 @@ with tab3:
         """
     st.markdown(result_header, unsafe_allow_html=True)
 
+    schools = records_df["school"].unique()
+
     athlete_records = records_df.groupby("athlete")["event"].count()
     athlete_records = athlete_records.sort_values(ascending=False)
     athlete_records = athlete_records.reset_index()
     athlete_records = athlete_records[athlete_records["event"] > 1]
+    athlete_records = athlete_records[~athlete_records["athlete"].isin(schools)]
+
     athlete_records = athlete_records.head(15)
 
     # Create HTML table with results
