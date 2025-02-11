@@ -10,6 +10,7 @@ df = pd.read_csv("./working_files/champs_results.csv")
 df["note"] = df["note"].apply(
     lambda x: "" if pd.isna(x) else x
 )  # Replace NaN values with an empty string
+df["points"] = df["points"].fillna(0)
 df["mark"] = df["mark"].str.rstrip("x")
 df["position"] = pd.to_numeric(df["position"], errors="coerce").astype(
     "Int64"
@@ -17,6 +18,7 @@ df["position"] = pd.to_numeric(df["position"], errors="coerce").astype(
 
 records = pd.read_csv("./working_files/champs_records.csv")
 records["mark"] = records["mark"].str.rstrip("x")
+
 
 # Get Filters
 st.text("Filter Results")
@@ -30,9 +32,15 @@ with st.container(border=True):
     with col2:
         gender = st.selectbox("Gender", ("Boys", "Girls"))
     with col3:
-        clas_s = st.selectbox("Class", ("1", "2", "3", "4", "Open"))
+        clas_series = df[["gender", "clas_s"]].copy()
+        clas_series = clas_series[clas_series["gender"] == gender]
+        clas_series = clas_series["clas_s"].unique()
+        clas_series = np.sort(clas_series)
+        clas_s = st.selectbox("Class", clas_series)
     with col4:
-        events_df = df[(df["gender"] == gender) & (df["clas_s"] == clas_s)]
+        events_df = df[
+            (df["gender"] == gender) & (df["clas_s"] == clas_s) * (df["year"] == year)
+        ]
         events = events_df["event"].unique()
         events = np.sort(events)
         discipline = st.selectbox("Discipline", events)
@@ -46,7 +54,12 @@ results = df[
 ]
 
 results.sort_values(by="position", inplace=True)  # sort by position finished
-wind = results["wind"].iloc[0]  # grap wind data
+# wind = results["wind"].iloc[0]  # grap wind data
+
+try:
+    wind = results["wind"].iloc[0]  # grap wind data
+except IndexError:
+    wind = "nil"
 
 record = records[
     (records["event"] == discipline)

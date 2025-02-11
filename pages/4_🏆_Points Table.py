@@ -6,7 +6,7 @@ import plotly.express as px
 
 warnings.filterwarnings("ignore")
 
-st.header("Boys and Girls Champs Winners 🏃🏾")
+st.header("Boys and Girls Champs Point Table | Historical 🏃🏾")
 st.caption("2012 ➡️ Present")
 st.html("<br>")
 
@@ -239,6 +239,7 @@ with tab2:
                     names=category,
                     title=title,
                     color_discrete_sequence=px.colors.qualitative.Pastel,
+                    hole=0.3,
                 )
 
                 # Update layout for better appearance
@@ -290,3 +291,4 @@ with tab2:
 
 # Total potential points based on number of athletes that got into the finals
 # Points lost
+# make graph colours standard across events in charts
