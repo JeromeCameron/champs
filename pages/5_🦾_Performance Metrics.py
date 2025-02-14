@@ -1,0 +1,168 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
+import re
+import plotly_express as px
+
+st.header("Boys and Girls Champs Results 🏃🏾")
+st.caption("2012 ➡️ Present")
+st.html("<br>")
+
+
+# Functions ----------------------------------------------------------------------
+def time_to_seconds(time_str):
+    """Converts a time string (H:MM:SS.mmm or MM:SS.mmm or SS.mmm) to seconds."""
+
+    parts = re.split(r":|\.", time_str)  # Split by ":" and "."
+
+    if len(parts) >= 3:  # H:MM:SS.mmm or MM:SS.mmm
+        if len(parts[0]) > 1:  # H:MM:SS.mmm
+            hours = int(parts[0])
+            minutes = int(parts[1])
+            seconds = float(parts[2] + "." + parts[3])
+            total_seconds = hours * 3600 + minutes * 60 + seconds
+        else:  # MM:SS.mmm
+            minutes = int(parts[0])
+            seconds = float(parts[1] + "." + parts[2])
+            total_seconds = minutes * 60 + seconds
+
+    elif len(parts) == 2:  # SS.mmm
+        seconds = float(parts[0] + "." + parts[1])  # join back the split seconds
+        total_seconds = seconds
+    else:
+        raise ValueError("Invalid time format.  Use H:MM:SS.mmm, MM:SS.mmm, or SS.mmm")
+
+    return total_seconds
+
+
+# ------------------------------------------------------------------------------------
+
+# Import data
+df = pd.read_csv("./working_files/champs_results.csv")
+df["note"] = df["note"].apply(
+    lambda x: "" if pd.isna(x) else x
+)  # Replace NaN values with an empty string
+
+df["mark"] = df["mark"].str.rstrip("x R X m M")  # Strip str from mark
+df["position"] = pd.to_numeric(df["position"], errors="coerce").astype(
+    "Int64"
+)  # convert position to int ignoring nan values
+
+
+# ------------------------------------------------------------------------------------
+
+# Get DF Filters from user
+st.text("Filter Results")
+with st.container(border=True):
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        gender = st.selectbox("Gender", ("Boys", "Girls"))
+    with col2:
+        clas_series = df[["gender", "clas_s"]].copy()
+        clas_series = clas_series[clas_series["gender"] == gender]
+        clas_series = clas_series["clas_s"].unique()
+        clas_series = np.sort(clas_series)
+        clas_s = st.selectbox("Class", clas_series)
+    with col3:
+        events_df = df[(df["gender"] == gender) & (df["clas_s"] == clas_s)]
+        events = events_df["event"].unique()
+        events = np.sort(events)
+        discipline = st.selectbox("Discipline", events)
+
+# Fiter results based on user input
+track_events = df[
+    (df["gender"] == gender)
+    & (df["clas_s"] == clas_s)
+    & (df["event"] == discipline)
+    & (df["category"] == "Track Event")
+    & (df["mark"].notna())
+].copy()
+track_events["mark"] = track_events["mark"].astype(str)
+
+field_events = df[
+    (df["gender"] == gender)
+    & (df["clas_s"] == clas_s)
+    & (df["event"] == discipline)
+    & (df["category"] == "Field Event")
+    & (df["mark"].notna())
+].copy()
+field_events["mark"] = field_events["mark"].astype(str)
+
+# -------------------------------------------------------------------------------------
+
+# Top 10 best performances in a finals over the years from 2012
+track_events["time_seconds"] = track_events["mark"].apply(time_to_seconds)
+track_events.sort_values(by="time_seconds", inplace=True)  # sort by time
+field_events.sort_values(
+    by="mark", inplace=True, ascending=False
+)  # sort by distance or height
+all_events = pd.concat([track_events, field_events])
+
+
+st.html("<br>")
+
+# Results Header Row
+result_header = f"""
+<div style='display: inline-block;'>
+    <h3 style='color: #5b5859; border-collapse: collapse; border-top: 4px solid #a7225f; padding-top: 2px;'>Top Perfomances</h3>
+</div>
+<div style="background-color: #a7225f; padding: 6px; padding-left: 15px;">
+    <div style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 0;">
+        <h4 style='color: white; display: inline-block; padding-bottom: 0;'> Top 10 Perfomaces in CLASS {clas_s} {gender.upper()} {discipline.upper()} Finals since 2012*</h4>
+    </div>
+    <div>
+        <p style='color: white;'>*2013 data is missing, and there was no championship in 2020 due to COVID</p>
+        </div>
+</div>
+"""
+st.markdown(result_header, unsafe_allow_html=True)
+
+# Create HTML table with results
+table_rows = "".join(
+    f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'><strong>{row['athlete']}</strong></td>"
+    f"<td style='border: none; padding: 8px; color: #5b5b5b;'>{row['school']}</td>"
+    f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center; background-color: #eaeaea;'>{row['mark']}</td>"
+    f"<td style='border: none; padding: 8px; color: #030303; text-align: center;'>{row['year']}</td>"
+    f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['wind']}</td></tr>"
+    for _, row in all_events.head(10).iterrows()
+)
+
+table_html = f"""
+<table style="width:100%; border: none; border-collapse: collapse;">
+  <tr style="background-color: #403f40; text-align: center; color: white;">
+    <th style="padding: 8px;">ATHLETE</th>
+    <th style="padding: 8px; text-align: left;">SCHOOL</th>
+    <th style="padding: 8px; text-align: left;">MARK</th>
+    <th style="padding: 8px;">YEAR</th>
+    <th style="padding: 8px;">WIND</th>
+  </tr>
+  {table_rows}
+</table>
+"""
+
+st.markdown(table_html, unsafe_allow_html=True)
+
+# ----------------------------------------------------------------------------------------------
+
+# avg performance
+
+avg_performance_track = track_events[track_events["position"] <= 5].copy()
+avg_performance_track = (
+    avg_performance_track.groupby(["year", "clas_s"])["time_seconds"]
+    .agg(["mean", "min"])
+    .reset_index()
+)
+
+st.dataframe(avg_performance_track)
+
+fig = px.line(
+    avg_performance_track,
+    x="year",
+    y="mean",
+    title="Avg. Performances",
+    markers=True,
+    template="seaborn",
+)
+
+
+st.plotly_chart(fig)
