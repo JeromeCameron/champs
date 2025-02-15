@@ -2,9 +2,22 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+
+# -------------------- Settings -------------------------------#
+
+primary_color: str = "#182536"
+secondary_color: str = "#1874d0"
+primary_text: str = "#fafbfd"
+secondary_text: str = ""
+
 st.header("Boys and Girls Champs Results 🏃🏾")
 st.caption("2012 ➡️ Present")
 st.html("<br>")
+
+with open("css/style.css") as css:
+    st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
+
+# ----------------------------------------------------------------
 
 df = pd.read_csv("./working_files/champs_results.csv")
 df["note"] = df["note"].apply(
@@ -72,15 +85,15 @@ st.html("<br>")
 # Results Header Row
 result_header = f"""
 <div style='display: inline-block;'>
-    <h3 style='color: #5b5859; border-collapse: collapse; border-top: 4px solid #a7225f; padding-top: 2px;'>Results</h3>
+    <h3 style='color: #5b5859; border-collapse: collapse; border-top: 4px solid {secondary_color}; padding-top: 2px;'>Results</h3>
 </div>
-<div style="background-color: #a7225f; padding: 6px; padding-left: 15px;">
+<div style="background-color: {primary_color}; padding: 6px; padding-left: 15px;">
     <div style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 0;">
-        <h4 style='color: white; display: inline-block; padding-bottom: 0;'>{discipline.upper()} {gender.upper()} CLASS {clas_s} | 20{year}</h4>
-        <h4 style='color: white; display: inline-block; padding-bottom: 0;'>WIND: {wind} 🍃</h4>
+        <h4 style='color: {primary_text}; display: inline-block; padding-bottom: 0;'>{discipline.upper()} {gender.upper()} CLASS {clas_s} | 20{year}</h4>
+        <h4 style='color: {primary_text}; display: inline-block; padding-bottom: 0;'>WIND: {wind} 🍃</h4>
     </div>
     <div style="margin-top: 0; padding-top: 1px;">
-        <h6 style='color: #e0e1e1; margin-top:0; padding-top: 1px'>Record: <span style="font-weight: bold; color: white;">{record["mark"].iloc[0] }</span> by {record["athlete"].iloc[0] } of {record["school"].iloc[0] } | Set in {record["year"].iloc[0] }</h6>
+        <h6 style='color: {primary_text}; margin-top:0; padding-top: 1px'>Record: <span style="font-weight: bold; color: white;">{record["mark"].iloc[0] }</span> by {record["athlete"].iloc[0] } of {record["school"].iloc[0] } | Set in {record["year"].iloc[0] }</h6>
     </div>
 </div>
 """
@@ -91,7 +104,7 @@ table_rows = "".join(
     f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['position']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b;'>{row['school']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b;'><strong>{row['athlete']}</strong></td>"
-    f"<td style='border: none; padding: 8px; color: #030303; text-align: center; background-color: #eaeaea;'>{row['mark']}</td>"
+    f"<td style='border: none; padding: 8px; color: {primary_text}; text-align: center; background-color: {secondary_color};'><strong>{row['mark']}</strong></td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['points']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b;'>{row['note']}</td></tr>"
     for _, row in results.iterrows()
@@ -99,7 +112,7 @@ table_rows = "".join(
 
 table_html = f"""
 <table style="width:100%; border: none; border-collapse: collapse;">
-  <tr style="background-color: #403f40; text-align: center; color: white;">
+  <tr style="background-color: {primary_color}; text-align: center; color: {primary_text};">
     <th style="padding: 8px;">POSITION</th>
     <th style="padding: 8px; text-align: left;">SCHOOL</th>
     <th style="padding: 8px; text-align: left;">ATHLETE</th>

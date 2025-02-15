@@ -3,9 +3,21 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
+# ---------------- Settings ------------------------------------
+
+primary_color: str = "#182536"
+secondary_color: str = "#1874d0"
+primary_text: str = "#fafbfd"
+secondary_text: str = ""
+
+with open("css/style.css") as css:
+    st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
+
 # Page header
-st.header("Boy and Girls Champs Records 🐐")
+st.header("Boys and Girls Champs Records 🐐")
 st.html("<br>")
+
+# --------------------------------------------------------------
 
 # Read csv file into dataframe
 records_df = pd.read_csv("./working_files/champs_records.csv")
@@ -25,6 +37,8 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(
         "Top Performers",
     ]
 )
+
+# --------------------------------------------- Tab Records --------------------------------------------------------------------------------------------
 
 with tab1:
     # Get Filters
@@ -49,10 +63,10 @@ with tab1:
     # Results Header Row
     result_header = f"""
     <div style='display: inline-block;'>
-        <h3 style='color: #5b5859; border-collapse: collapse; border-top: 4px solid #029568; padding-top: 2px;'>Records</h3>
+        <h3 style='color: #5b5859; border-collapse: collapse; border-top: 4px solid {secondary_color}; padding-top: 2px;'>Records</h3>
     </div>
-    <div style="background-color: #029568; padding: 6px; padding-left: 15px; display: flex; align-items: center; justify-content: space-between;">
-        <h4 style='color: white; display: inline-block;'>{gender.upper()} CLASS {clas_s} RECORDS </h4>
+    <div style="background-color: {primary_color}; padding: 6px; padding-left: 15px; display: flex; align-items: center; justify-content: space-between;">
+        <h4 style='color: {primary_text}; display: inline-block;'>{gender.upper()} CLASS {clas_s} RECORDS </h4>
     </div>
     """
     st.markdown(result_header, unsafe_allow_html=True)
@@ -60,7 +74,7 @@ with tab1:
     # Create HTML table with results
     table_rows = "".join(
         f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['event']}</td>"
-        f"<td style='border: none; padding: 8px; color: #030303; text-align: center; background-color: #eaeaea;'>{row['mark']}</td>"
+        f"<td style='border: none; padding: 8px; color: white; text-align: center; background-color: {secondary_color};'><strong>{row['mark']}</strong></td>"
         f"<td style='border: none; padding: 8px; color: #5b5b5b;'><strong>{row['athlete']}</strong></td>"
         f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['year']}</td>"
         f"<td style='border: none; padding: 8px; color: #5b5b5b;'>{row['school']}</td>"
@@ -70,7 +84,7 @@ with tab1:
 
     table_html = f"""
     <table style="width:100%; border: none; border-collapse: collapse;">
-    <tr style="background-color: #403f40; text-align: center; color: white;">
+    <tr style="background-color: {primary_color}; text-align: center; color: {primary_text};">
         <th style="padding: 8px;">EVENT</th>
         <th style="padding: 8px;">PERFORMANCE</th>
         <th style="padding: 8px; text-align: left;">ATHLETE</th>
@@ -84,17 +98,19 @@ with tab1:
     # Show html table
     st.markdown(table_html, unsafe_allow_html=True)
 
+# --------------------------------------------- Tab Schools with Most Records ---------------------------------------------------------------------------------
+
 with tab2:
     # Schools with the most records
     st.html("<br>")
 
     # Results Header Row
-    result_header = """
+    result_header = f"""
     <div style='display: inline-block;'>
-        <h3 style='color: #5b5859; border-collapse: collapse; border-top: 4px solid #029568; padding-top: 2px;'>Most Records</h3>
+        <h3 style='color: #5b5859; border-collapse: collapse; border-top: 4px solid {secondary_color}; padding-top: 2px;'>Most Records</h3>
     </div>
-    <div style="background-color: #029568; padding: 6px; padding-left: 15px; display: flex; align-items: center; justify-content: space-between;">
-        <h4 style='color: white; display: inline-block;'>Top 10 schools with the most records </h4>
+    <div style="background-color: {primary_color}; padding: 6px; padding-left: 15px; display: flex; align-items: center; justify-content: space-between;">
+        <h4 style='color: {primary_text}; display: inline-block;'>Top 10 schools with the most records </h4>
     </div>
     """
 
@@ -108,13 +124,13 @@ with tab2:
     # Create HTML table with results
     table_rows = "".join(
         f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['school']}</td>"
-        f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['event']}</td></tr>"
+        f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'><strong>{row['event']}</strong></td></tr>"
         for _, row in top_ten.iterrows()
     )
 
     table_html = f"""
     <table style="width:100%; border: none; border-collapse: collapse;">
-    <tr style="background-color: #403f40; text-align: center; color: white;">
+    <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text};">
         <th style="padding: 8px; text-align: left;">SCHOOL</th>
         <th style="padding: 8px;">TOTAL RECORDS</th>
     </tr>
@@ -124,17 +140,19 @@ with tab2:
     # Show html table
     st.markdown(table_html, unsafe_allow_html=True)
 
+    # --------------------------------------------- Oldest Records ---------------------------------------------------------------------------------
+
     with tab4:
         # Oldest Records (Top 10)
         st.html("<br>")
 
         # Results Header Row
-        result_header = """
+        result_header = f"""
         <div style='display: inline-block;'>
-            <h3 style='color: #5b5859; border-collapse: collapse; border-top: 4px solid #029568; padding-top: 2px;'>Oldest Records</h3>
+            <h3 style='color: #5b5859; border-collapse: collapse; border-top: 4px solid {secondary_color}; padding-top: 2px;'>Oldest Records</h3>
         </div>
-        <div style="background-color: #029568; padding: 6px; padding-left: 15px; display: flex; align-items: center; justify-content: space-between;">
-            <h4 style='color: white; display: inline-block;'>Top 15 oldest records </h4>
+        <div style="background-color: {primary_color}; padding: 6px; padding-left: 15px; display: flex; align-items: center; justify-content: space-between;">
+            <h4 style='color: {primary_text}; display: inline-block;'>Top 15 oldest records </h4>
         </div>
         """
         st.markdown(result_header, unsafe_allow_html=True)
@@ -147,7 +165,7 @@ with tab2:
             f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['event']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['clas_s']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['gender']}</td>"
-            f"<td style='border: none; padding: 8px; color: #030303; text-align: center; background-color: #eaeaea;'>{row['mark']}</td>"
+            f"<td style='border: none; padding: 8px; color: {primary_text}; text-align: center; background-color: {secondary_color};'><strong>{row['mark']}</strong></td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b;'><strong>{row['athlete']}</strong></td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['year']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b;'>{row['school']}</td>"
@@ -157,7 +175,7 @@ with tab2:
 
         table_html = f"""
         <table style="width:100%; border: none; border-collapse: collapse;">
-        <tr style="background-color: #403f40; text-align: center; color: white;">
+        <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text};">
             <th style="padding: 8px; text-align: left;">EVENT</th>
             <th style="padding: 8px;">CLASS</th>
             <th style="padding: 8px;">GENDER</th>

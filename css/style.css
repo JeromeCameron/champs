@@ -1,0 +1,31 @@
+
+:root{
+    --background_colour: #fafbfd;
+    --primary_colour: #182536;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+[data-testid="stMainBlockContainer"]{
+    background-color: var(--background_colour);
+}
+
+[data-testid="stHeader"]{
+    background-color: rgba(0,0,0,0); /* make header background transparent*/
+}
+
+[data-testid="stSidebarContent"]{
+    background-color: var(--primary_colour);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+[data-testid="stSidebarNavItems"] span {
+    color: white;
+}
+[data-testid="stHeadingWithActionElements"]{
+    color: var(primary_colour);
+    font-family: "Noto Sans Mono", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}

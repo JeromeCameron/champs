@@ -145,6 +145,7 @@ st.markdown(table_html, unsafe_allow_html=True)
 # ----------------------------------------------------------------------------------------------
 
 # avg performance
+track_events["mark"] = track_events["mark"].astype(str)
 
 avg_performance_track = track_events[track_events["position"] <= 5].copy()
 avg_performance_track = (
@@ -153,7 +154,8 @@ avg_performance_track = (
     .reset_index()
 )
 
-st.dataframe(avg_performance_track)
+avg_performance_track = avg_performance_track.reset_index()
+
 
 fig = px.line(
     avg_performance_track,
@@ -162,6 +164,7 @@ fig = px.line(
     title="Avg. Performances",
     markers=True,
     template="seaborn",
+    color="clas_s",
 )
 
 
