@@ -38,8 +38,8 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs(
     ]
 )
 
-# --------------------------------------------- Tab Records --------------------------------------------------------------------------------------------
-
+# --------------------------------------------- Tab | Records --------------------------------------------------------------------------------------------
+# TODO: Best Year for records
 with tab1:
     # Get Filters
     st.text("Filter Results")
@@ -84,7 +84,7 @@ with tab1:
 
     table_html = f"""
     <table style="width:100%; border: none; border-collapse: collapse;">
-    <tr style="background-color: {primary_color}; text-align: center; color: {primary_text};">
+    <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text};">
         <th style="padding: 8px;">EVENT</th>
         <th style="padding: 8px;">PERFORMANCE</th>
         <th style="padding: 8px; text-align: left;">ATHLETE</th>
@@ -98,7 +98,7 @@ with tab1:
     # Show html table
     st.markdown(table_html, unsafe_allow_html=True)
 
-# --------------------------------------------- Tab Schools with Most Records ---------------------------------------------------------------------------------
+# --------------------------------------------- Tab | Schools with Most Records ---------------------------------------------------------------------------------
 
 with tab2:
     # Schools with the most records
@@ -140,7 +140,7 @@ with tab2:
     # Show html table
     st.markdown(table_html, unsafe_allow_html=True)
 
-    # --------------------------------------------- Oldest Records ---------------------------------------------------------------------------------
+    # --------------------------------------------- Tab | Oldest Records ---------------------------------------------------------------------------------
 
     with tab4:
         # Oldest Records (Top 10)
@@ -191,17 +191,19 @@ with tab2:
         # Show html table
         st.markdown(table_html, unsafe_allow_html=True)
 
+# --------------------------------------------- Tab | Athletes with Most Records ---------------------------------------------------------------------------------
+
 with tab3:
     # Athletes with Most Records
     st.html("<br>")
 
     # Results Header Row
-    result_header = """
+    result_header = f"""
         <div style='display: inline-block;'>
-            <h3 style='color: #5b5859; border-collapse: collapse; border-top: 4px solid #029568; padding-top: 2px;'>Athlete Records</h3>
+            <h3 style='color: #5b5859; border-collapse: collapse; border-top: 4px solid {secondary_color}; padding-top: 2px;'>Athlete Records</h3>
         </div>
-        <div style="background-color: #029568; padding: 6px; padding-left: 15px; display: flex; align-items: center; justify-content: space-between;">
-            <h4 style='color: white; display: inline-block;'>Athlete with most records</h4>
+        <div style="background-color: {primary_color}; padding: 6px; padding-left: 15px; display: flex; align-items: center; justify-content: space-between;">
+            <h4 style='color: {primary_text}; display: inline-block;'>Athlete with most records</h4>
         </div>
         """
     st.markdown(result_header, unsafe_allow_html=True)
@@ -219,13 +221,13 @@ with tab3:
     # Create HTML table with results
     table_rows = "".join(
         f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['athlete']}</td>"
-        f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['event']}</td></tr>"
+        f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'><strong>{row['event']}</strong></td></tr>"
         for _, row in athlete_records.iterrows()
     )
 
     table_html = f"""
         <table style="width:100%; border: none; border-collapse: collapse;">
-        <tr style="background-color: #403f40; text-align: center; color: white;">
+        <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text};">
             <th style="padding: 8px; text-align: left;">ATHLETE</th>
             <th style="padding: 8px; text-align: center;"># OF RECORDS</th>
         </tr>
@@ -235,24 +237,25 @@ with tab3:
     # Show html table
     st.markdown(table_html, unsafe_allow_html=True)
 
-    # Best Year for records
-    # ----------------------------------------------------------------------------------------------------------------------
+    # --------------------------------------------- Tab | Top Performances ---------------------------------------------------------------------------------
+
     with tab5:
-        col1, col2 = st.columns(2)
-        with col1:
-            st.html("<br>")
-            sort_by = st.selectbox(
-                "Sort by",
-                ["Total Points Earned", "Quality of Medals Won"],
-                key="sort",
-            )
-        with col2:
-            st.html("<br>")
-            filter_by = st.selectbox(
-                "Filter by",
-                ["Boys", "Girls"],
-                key="filter",
-            )
+        # Get Filters
+        st.text("Filter Results")
+        with st.container(border=True):
+            col1, col2 = st.columns(2)
+            with col1:
+                sort_by = st.selectbox(
+                    "Sort by",
+                    ["Total Points Earned", "Quality of Medals Won"],
+                    key="sort",
+                )
+            with col2:
+                filter_by = st.selectbox(
+                    "Filter by",
+                    ["Boys", "Girls"],
+                    key="filter",
+                )
 
         def show_data() -> None:
 
@@ -305,9 +308,13 @@ with tab3:
             # ---------------------------------------------------------------------------------------------------------
 
             # Header Row
+            st.html("<br>")
             result_header = f"""
-            <div style="background-color: #3856b2; padding: 6px; padding-left: 15px;">
-                <h4 style='color: white; padding-bottom: 0; margin-bottom:0;'>Top Athlete Performers🏆</h4>
+            <div style='display: inline-block;'>
+                <h3 style='color: #5b5859; border-collapse: collapse; border-top: 4px solid {secondary_color}; padding-top: 2px;'>Top 10 Performers</h3>
+            </div>
+            <div style="background-color: {primary_color}; padding: 6px; padding-left: 15px;">
+                <h4 style='color: {primary_text}; padding-bottom: 0; margin-bottom:0;'>Top Athlete Performers🏆</h4>
                 <h6 style='color: #e0e1e1; padding-top: 0; margin-top: 0;'>by {sort_by}</h6>
             </div>
             """
@@ -321,13 +328,13 @@ with tab3:
                 f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['gold']}</td>"
                 f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['silver']}</td>"
                 f"<td style='border: none; padding: 8px; color: #030303; text-align: center;'>{row['bronze']}</td>"
-                f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center; background-color: #eaeaea; font-weight: bold;'>{row['points']}</td></tr>"
+                f"<td style='border: none; padding: 8px; color: {primary_text}; text-align: center; background-color: {secondary_color}; font-weight: bold;'><strong>{row['points']}</strong></td></tr>"
                 for _, row in medalTable.head(10).iterrows()
             )
 
             table_html = f"""
             <table style="width:100%; border: none; border-collapse: collapse;">
-            <tr style="background-color: #403f40; text-align: center; color: white;">
+            <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text};">
                 <th style="padding: 8px; text-align: center;">#</th>
                 <th style="padding: 8px; text-align: left;">ATHLETE</th>
                 <th style="padding: 8px; text-align: left;">SCHOOL</th>
@@ -342,4 +349,4 @@ with tab3:
 
             st.markdown(table_html, unsafe_allow_html=True)
 
-        show_data()  # display table data
+        show_data()  # Display table data

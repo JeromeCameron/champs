@@ -63,11 +63,10 @@ results = df[
     (df["year"] == int(year))
     & (df["gender"] == gender)
     & (df["clas_s"] == clas_s)
-    & (df["event"] == discipline)
+    & (df["event"] == discipline).copy()
 ]
 
-results.sort_values(by="position", inplace=True)  # sort by position finished
-# wind = results["wind"].iloc[0]  # grap wind data
+results = results.sort_values(by="position").copy()  # sort by position finished
 
 try:
     wind = results["wind"].iloc[0]  # grap wind data

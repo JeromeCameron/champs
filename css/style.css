@@ -22,10 +22,31 @@
 [data-testid="stSidebarNavItems"] span {
     color: white;
 }
+
 [data-testid="stHeadingWithActionElements"]{
-    color: var(primary_colour);
+    color: var(--primary_colour);
     font-family: "Noto Sans Mono", serif;
     font-optical-sizing: auto;
     font-style: normal;
     
+}
+
+[data-baseweb="tab"]{
+    background-color: var(--primary_colour);
+    padding: 12px;
+    color: white;
+    font-weight: 500;   
+}
+
+[data-baseweb="tab-list"]{
+    gap: .3rem;
+}
+
+[data-testid="stVerticalBlockBorderWrapper"] .st-emotion-cache-4uzi61{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+    background-color: var(--background_colour);
+}
+
+.stPlotlyChart{
+    background-color: var(--background_colour);
 }

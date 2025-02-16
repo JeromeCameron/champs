@@ -6,9 +6,21 @@ import plotly.express as px
 
 warnings.filterwarnings("ignore")
 
+# ------------------------ Settings -------------------------------------
+
+primary_color: str = "#182536"
+secondary_color: str = "#1874d0"
+primary_text: str = "#fafbfd"
+secondary_text: str = ""
+
+with open("css/style.css") as css:
+    st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
+
 st.header("Boys and Girls Champs Point Table | Historical 🏃🏾")
 st.caption("2012 ➡️ Present")
 st.html("<br>")
+
+# ----------------------------------------------------------------------
 
 df = pd.read_csv("./working_files/champs_results.csv")
 
@@ -83,9 +95,9 @@ with tab1:
 
         # Header Row
         result_header = f"""
-        <div style="background-color: #3856b2; padding: 6px; padding-left: 15px;">
+        <div style="background-color: {primary_color}; padding: 6px; padding-left: 15px;">
             <h4 style='color: white; padding-bottom: 0; margin-bottom:0;'>{gender} Championship Winners 20{year} 🏆</h4>
-            <h6 style='color: #e0e1e1; padding-top: 0; margin-top: 0;'>by {sort_by}</h6>
+            <h6 style='color: {primary_text}; padding-top: 0; margin-top: 0;'>by {sort_by}</h6>
         </div>
         """
         st.markdown(result_header, unsafe_allow_html=True)
@@ -97,13 +109,13 @@ with tab1:
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['gold']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'><strong>{row['silver']}</strong></td>"
             f"<td style='border: none; padding: 8px; color: #030303; text-align: center;'>{row['bronze']}</td>"
-            f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center; background-color: #eaeaea; font-weight: bold;'>{row['points']}</td></tr>"
+            f"<td style='border: none; padding: 8px; color: {primary_text}; text-align: center; background-color: {secondary_color};'><strong>{row['points']}</strong></td></tr>"
             for _, row in medalTable.iterrows()
         )
 
         table_html = f"""
         <table style="width:100%; border: none; border-collapse: collapse;">
-        <tr style="background-color: #403f40; text-align: center; color: white;">
+        <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text};">
             <th style="padding: 8px; text-align: center;">#</th>
             <th style="padding: 8px; text-align: left;">SCHOOL</th>
             <th style="padding: 8px;">GOLD 🥇</th>
@@ -118,6 +130,8 @@ with tab1:
         st.markdown(table_html, unsafe_allow_html=True)
 
     show_data()  # display table data
+
+# --------------------------------------------------- Tab | Points Breakdown -------------------------------------------------------
 
 with tab2:
     with st.container():
@@ -155,9 +169,9 @@ with tab2:
 
         # Header Row
         result_header = f"""
-        <div style="background-color: #3856b2; padding: 6px; padding-left: 15px;">
+        <div style="background-color: {primary_color}; padding: 6px; padding-left: 15px;">
             <h4 style='color: white; padding-bottom: 0; margin-bottom:0;'>{gender} Championship Winners 20{year} 🏆</h4>
-            <h6 style='color: #e0e1e1; padding-top: 0; margin-top: 0;'>by {sort_by}</h6>
+            <h6 style='color: {primary_text}; padding-top: 0; margin-top: 0;'>by {sort_by}</h6>
         </div>
         """
         st.markdown(result_header, unsafe_allow_html=True)
@@ -174,13 +188,13 @@ with tab2:
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['Jumps']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['Throws']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['Combined Events']}</td>"
-            f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center; background-color: #eaeaea; font-weight: bold;'>{row['total_points']}</td></tr>"
+            f"<td style='border: none; padding: 8px; color: {primary_text}; text-align: center; background-color: {secondary_color};'><strong>{row['total_points']}</strong</td></tr>"
             for _, row in points_df.head(15).iterrows()
         )
 
         table_html = f"""
         <table style="width:100%; border: none; border-collapse: collapse;">
-        <tr style="background-color: #403f40; text-align: center; color: white;">
+        <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text};">
             <th style="padding: 8px; text-align: center;">#</th>
             <th style="padding: 8px; text-align: left;">SCHOOL</th>
             <th style="padding: 8px;">SPRINTS</th>
@@ -291,4 +305,4 @@ with tab2:
 
 # Total potential points based on number of athletes that got into the finals
 # Points lost
-# make graph colours standard across events in charts
+## make graph colours standard across events in charts
