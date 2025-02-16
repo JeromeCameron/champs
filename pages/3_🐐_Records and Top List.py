@@ -17,6 +17,8 @@ with open("css/style.css") as css:
 st.header("Boys and Girls Champs Records 🐐")
 st.html("<br>")
 
+"---"
+
 # --------------------------------------------------------------
 
 # Read csv file into dataframe
@@ -165,11 +167,11 @@ with tab2:
             f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['event']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['clas_s']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['gender']}</td>"
-            f"<td style='border: none; padding: 8px; color: {primary_text}; text-align: center; background-color: {secondary_color};'><strong>{row['mark']}</strong></td>"
+            f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['mark']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b;'><strong>{row['athlete']}</strong></td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['year']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b;'>{row['school']}</td>"
-            f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['record_age']}</td></tr>"
+            f"<td style='border: none; padding: 8px; color: {primary_text}; text-align: center; background-color: {secondary_color};'><strong>{row['record_age']}</strong></td></tr>"
             for _, row in oldest_records.iterrows()
         )
 

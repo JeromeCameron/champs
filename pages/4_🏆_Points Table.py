@@ -19,7 +19,7 @@ with open("css/style.css") as css:
 st.header("Boys and Girls Champs Point Table | Historical 🏃🏾")
 st.caption("2012 ➡️ Present")
 st.html("<br>")
-
+"---"
 # ----------------------------------------------------------------------
 
 df = pd.read_csv("./working_files/champs_results.csv")

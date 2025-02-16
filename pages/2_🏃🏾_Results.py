@@ -17,6 +17,7 @@ st.html("<br>")
 with open("css/style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
 
+"---"
 # ----------------------------------------------------------------
 
 df = pd.read_csv("./working_files/champs_results.csv")

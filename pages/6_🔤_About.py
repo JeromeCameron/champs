@@ -1,5 +1,16 @@
 import streamlit as st
 
+
+# ------------------------ Settings -------------------------------------
+
+primary_color: str = "#182536"
+secondary_color: str = "#1874d0"
+primary_text: str = "#fafbfd"
+secondary_text: str = ""
+
+with open("css/style.css") as css:
+    st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
+
 st.header("About")
 "---"
 
