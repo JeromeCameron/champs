@@ -14,7 +14,7 @@ secondary_text: str = ""
 with open("css/style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
 
-st.header("Boys and Girls Champs Results 🏃🏾")
+st.header("Faster, Higher, Stronger: Performance Over the Years 📈")
 st.caption("2012 ➡️ Present")
 "---"
 
@@ -156,13 +156,13 @@ st.markdown(table_html, unsafe_allow_html=True)
 
 
 "---"
-st.subheader("Performances Charted")
+st.subheader("Performance Progression")
 st.write(
     "How have athlete performances changed over the years? Are athletes, on average, performing better than in previous years?"
 )
 number = st.number_input(
     "Select the top # of finishers to calculate averages. The top 5 is recommended to exclude athletes who may not be competing competitively and are participating just for points.",
-    value=1,
+    value=5,
     max_value=8,
     min_value=1,
 )
@@ -192,7 +192,7 @@ avg_performance_track["clas_s"] = avg_performance_track["clas_s"].astype(str)
 
 options = ["1", "2", "3", "4"]
 selection = st.segmented_control(
-    "Classes", options, selection_mode="multi", default=["1", "2"]
+    "Compare Classes", options, selection_mode="multi", default=["1", "2"]
 )
 
 avg_performance_track = avg_performance_track[
