@@ -25,8 +25,8 @@ with open("css/style.css") as css:
 # -------------------------------------------------------------------
 
 # Data
-points_system = pd.read_csv("working_files/points_system.csv")
-total_points = pd.read_csv("working_files/total_points.csv")
+points_system = pd.read_csv("working_files/champs_points.csv")
+# total_points = pd.read_csv("working_files/total_points.csv")
 
 # ------------------------------------------------------------------
 
@@ -39,24 +39,46 @@ intro: str = """
 """
 st.markdown(intro, unsafe_allow_html=True)
 
+points_columns = [
+    "first",
+    "second",
+    "third",
+    "fourth",
+    "fifth",
+    "sixth",
+    "seventh",
+    "eighth",
+]
+points_distribution = points_system.groupby("type", as_index=False)[
+    points_columns
+].mean()
+
 # ------------------- Calculate total points up for grabs ------------------
-# Boys
-total_points_boys = (
-    total_points.loc[total_points["gender"] == "Boys", ["one", "two", "three", "open"]]
-    .sum()
-    .sum()
-)
 
-# Girls
-total_points_girls = (
-    total_points.loc[
-        total_points["gender"] == "Girls", ["one", "two", "three", "four", "open"]
-    ]
-    .sum()
-    .sum()
-)
-no_events = total_points["event"].nunique()  # number of events competed in at champs
 
+def calc_total_points(gender: str) -> int:
+    points = (
+        points_system.loc[
+            points_system["gender"] == gender,
+            [
+                "first",
+                "second",
+                "third",
+                "fourth",
+                "fifth",
+                "sixth",
+                "seventh",
+                "eighth",
+            ],
+        ]
+        .sum()
+        .sum()
+    )
+    return points
+
+
+no_events = points_system[points_system["gender"] == "boys"]
+no_events = no_events["event"].nunique()  # number of events competed in at champs
 
 # ----------------------------- Get max points for boys -------------------------------
 
@@ -64,34 +86,32 @@ no_events = total_points["event"].nunique()  # number of events competed in at c
 def max_points(gender: str) -> int:
     individual_points = (
         points_system.loc[
-            points_system["event_type"] == "Individual Events", ["first", "second"]
+            (points_system["type"] != "relay") & (points_system["gender"] == gender),
+            ["first", "second"],
+        ]
+        .sum()
+        .sum()
+    )
+    relay_points = (
+        points_system.loc[
+            (points_system["type"] == "relay") & (points_system["gender"] == gender),
+            ["first"],
         ]
         .sum()
         .sum()
     )
 
-    other_points = (
-        points_system.loc[points_system["event_type"] != "Individual Events", ["first"]]
-        .sum()
-        .sum()
-    )
+    return individual_points + relay_points
 
-    events = total_points[
-        (total_points["gender"] == gender)
-        & (total_points["event_type"] != "relay")
-        & (total_points["event_type"] != "combine events")
-    ]
-    events = events["event"].nunique()
-    points = (individual_points + other_points) * events
 
-    return points
+st.write(max_points("girls"))
 
 
 # ----------------------------------------------------------------------------------------------
 
 # Create HTML table with results
 table_rows = "".join(
-    f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['event_type']}</td>"
+    f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['type']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['first']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['second']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['third']}</td>"
@@ -100,7 +120,7 @@ table_rows = "".join(
     f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['sixth']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['seventh']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['eighth']}</td></tr>"
-    for _, row in points_system.iterrows()
+    for _, row in points_distribution.iterrows()
 )
 
 points_system_txt: str = f"""
@@ -124,10 +144,10 @@ points_system_txt: str = f"""
     {table_rows}
     </table>
 
-    <p> A total of <strong>{total_points_boys:,}</strong> points is up for grabs for the males and <strong>{total_points_girls:,}</strong> for the females across <strong>{no_events}</strong> events.</p>
+    <p> A total of <strong>{calc_total_points("boys"):,}</strong> points is up for grabs for the males and <strong>{calc_total_points("girls"):,}</strong> for the females across <strong>{no_events}</strong> events each.</p>
 """
 st.markdown(points_system_txt, unsafe_allow_html=True)
-st.write(max_points("Girls"))
+# st.write(max_points("girls"))
 
 # intro -- what is champs
 # some champs stats
@@ -142,3 +162,4 @@ st.write(max_points("Girls"))
 
 # Insights into the athletes and stats behind Champs victories.
 # A deep dive into the history and performances of Boys and Girls Champs.
+# % of how each class is performing of total possible points
