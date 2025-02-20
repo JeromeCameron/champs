@@ -1,0 +1,89 @@
+event,category,type,gender,class,first,second,third,fourth,fifth,sixth,seventh,eighth
+110 Meter Hurdles,hurdles,individual,boys,1,9,7,6,5,4,3,2,1
+400 Meter Hurdles,hurdles,individual,boys,1,9,7,6,5,4,3,2,1
+High Jump,jump,individual,boys,1,9,7,6,5,4,3,2,1
+Long Jump,jump,individual,boys,1,9,7,6,5,4,3,2,1
+Triple Jump,jump,individual,boys,1,9,7,6,5,4,3,2,1
+1500 Meter,middle distance,individual,boys,1,9,7,6,5,4,3,2,1
+800 Meter,middle distance,individual,boys,1,9,7,6,5,4,3,2,1
+4X100 Meter Relay,relay,relay,boys,1,12,10,8,6,5,4,3,2
+100 Meter,sprint,individual,boys,1,9,7,6,5,4,3,2,1
+200 Meter,sprint,individual,boys,1,9,7,6,5,4,3,2,1
+400 Meter,sprint,individual,boys,1,9,7,6,5,4,3,2,1
+Discus Throw,throw,individual,boys,1,9,7,6,5,4,3,2,1
+Shot Put,throw,individual,boys,1,9,7,6,5,4,3,2,1
+110 Meter Hurdles,hurdles,individual,boys,2,9,7,6,5,4,3,2,1
+400 Meter Hurdles,hurdles,individual,boys,2,9,7,6,5,4,3,2,1
+High Jump,jump,individual,boys,2,9,7,6,5,4,3,2,1
+Long Jump,jump,individual,boys,2,9,7,6,5,4,3,2,1
+Triple Jump,jump,individual,boys,2,9,7,6,5,4,3,2,1
+1500 Meter,middle distance,individual,boys,2,9,7,6,5,4,3,2,1
+800 Meter,middle distance,individual,boys,2,9,7,6,5,4,3,2,1
+4X100 Meter Relay,relay,relay,boys,2,12,10,8,6,5,4,3,2
+100 Meter,sprint,individual,boys,2,9,7,6,5,4,3,2,1
+200 Meter,sprint,individual,boys,2,9,7,6,5,4,3,2,1
+400 Meter,sprint,individual,boys,2,9,7,6,5,4,3,2,1
+Discus Throw,throw,individual,boys,2,9,7,6,5,4,3,2,1
+Shot Put,throw,individual,boys,2,9,7,6,5,4,3,2,1
+100 Meter Hurdles,hurdles,individual,boys,3,9,7,6,5,4,3,2,1
+High Jump,jump,individual,boys,3,9,7,6,5,4,3,2,1
+Long Jump,jump,individual,boys,3,9,7,6,5,4,3,2,1
+1500 Meter,middle distance,individual,boys,3,9,7,6,5,4,3,2,1
+800 Meter,middle distance,individual,boys,3,9,7,6,5,4,3,2,1
+4X100 Meter Relay,relay,relay,boys,3,12,10,8,6,5,4,3,2
+100 Meter,sprint,individual,boys,3,9,7,6,5,4,3,2,1
+200 Meter,sprint,individual,boys,3,9,7,6,5,4,3,2,1
+400 Meter,sprint,individual,boys,3,9,7,6,5,4,3,2,1
+Decathlon,combine event,combine event,boys,open,12,10,8,6,5,4,3,2
+Pole Vault,jump,individual,boys,open,9,7,6,5,4,3,2,1
+5000 Meter,long distance,individual,boys,open,9,7,6,5,4,3,2,1
+2000 Meter Steeplechase,middle distance,individual,boys,open,9,7,6,5,4,3,2,1
+1600 Sprint Medley,relay,relay,boys,open,12,10,8,6,5,4,3,2
+4X400 Meter Relay,relay,relay,boys,open,12,10,8,6,5,4,3,2
+Javelin Throw,throw,individual,boys,open,9,7,6,5,4,3,2,1
+100 Meter Hurdles,hurdles,individual,girls,1,9,7,6,5,4,3,2,1
+High Jump,jump,individual,girls,1,9,7,6,5,4,3,2,1
+Long Jump,jump,individual,girls,1,9,7,6,5,4,3,2,1
+1500 Meter,middle distance,individual,girls,1,9,7,6,5,4,3,2,1
+800 Meter,middle distance,individual,girls,1,9,7,6,5,4,3,2,1
+4X100 Meter Relay,relay,relay,girls,1,12,10,8,6,5,4,3,2
+100 Meter,sprint,individual,girls,1,9,7,6,5,4,3,2,1
+200 Meter,sprint,individual,girls,1,9,7,6,5,4,3,2,1
+400 Meter,sprint,individual,girls,1,9,7,6,5,4,3,2,1
+Discus Throw,throw,individual,girls,1,9,7,6,5,4,3,2,1
+Shot Put,throw,individual,girls,1,9,7,6,5,4,3,2,1
+100 Meter Hurdles,hurdles,individual,girls,2,9,7,6,5,4,3,2,1
+High Jump,jump,individual,girls,2,9,7,6,5,4,3,2,1
+Long Jump,jump,individual,girls,2,9,7,6,5,4,3,2,1
+1500 Meter,middle distance,individual,girls,2,9,7,6,5,4,3,2,1
+800 Meter,middle distance,individual,girls,2,9,7,6,5,4,3,2,1
+4X100 Meter Relay,relay,relay,girls,2,12,10,8,6,5,4,3,2
+100 Meter,sprint,individual,girls,2,9,7,6,5,4,3,2,1
+200 Meter,sprint,individual,girls,2,9,7,6,5,4,3,2,1
+400 Meter,sprint,individual,girls,2,9,7,6,5,4,3,2,1
+Discus Throw,throw,individual,girls,2,9,7,6,5,4,3,2,1
+Shot Put,throw,individual,girls,2,9,7,6,5,4,3,2,1
+80 Meter Hurdles,hurdles,individual,girls,3,9,7,6,5,4,3,2,1
+High Jump,jump,individual,girls,3,9,7,6,5,4,3,2,1
+Long Jump,jump,individual,girls,3,9,7,6,5,4,3,2,1
+Triple Jump,jump,individual,girls,3,9,7,6,5,4,3,2,1
+1500 Meter,middle distance,individual,girls,3,9,7,6,5,4,3,2,1
+800 Meter,middle distance,individual,girls,3,9,7,6,5,4,3,2,1
+4X100 Meter Relay,relay,relay,girls,3,12,10,8,6,5,4,3,2
+100 Meter,sprint,individual,girls,3,9,7,6,5,4,3,2,1
+200 Meter,sprint,individual,girls,3,9,7,6,5,4,3,2,1
+400 Meter,sprint,individual,girls,3,9,7,6,5,4,3,2,1
+Discus Throw,throw,individual,girls,3,9,7,6,5,4,3,2,1
+70 Meter Hurdles,hurdles,individual,girls,4,9,7,6,5,4,3,2,1
+High Jump,jump,individual,girls,4,9,7,6,5,4,3,2,1
+Long Jump,jump,individual,girls,4,9,7,6,5,4,3,2,1
+4X100 Meter Relay,relay,relay,girls,4,12,10,8,6,5,4,3,2
+100 Meter,sprint,individual,girls,4,9,7,6,5,4,3,2,1
+200 Meter,sprint,individual,girls,4,9,7,6,5,4,3,2,1
+2000 Meter Steeplechase,middle distance,individual,girls,open,9,7,6,5,4,3,2,1
+3000 Meter,middle distance,individual,girls,open,9,7,6,5,4,3,2,1
+1600 Sprint Medley,relay,relay,girls,open,12,10,8,6,5,4,3,2
+4X400 Meter Relay,relay,relay,girls,open,12,10,8,6,5,4,3,2
+Javelin Throw,throw,individual,girls,open,9,7,6,5,4,3,2,1
+Heptathlon,combine event,combine event,girls,open,12,10,8,6,5,4,3,2
+400 Meter Hurdles,hurdles,individual,girls,open,9,7,6,5,4,3,2,1
