@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import plotly.express as px
 
 # ---------------------- SETTINGS -----------------------------------#
 
@@ -26,7 +27,6 @@ with open("css/style.css") as css:
 
 # Data
 points_system = pd.read_csv("working_files/champs_points.csv")
-# total_points = pd.read_csv("working_files/total_points.csv")
 
 # ------------------------------------------------------------------
 
@@ -104,9 +104,6 @@ def max_points(gender: str) -> int:
     return individual_points + relay_points
 
 
-st.write(max_points("girls"))
-
-
 # ----------------------------------------------------------------------------------------------
 
 # Create HTML table with results
@@ -145,16 +142,110 @@ points_system_txt: str = f"""
     </table>
 
     <p> A total of <strong>{calc_total_points("boys"):,}</strong> points is up for grabs for the males and <strong>{calc_total_points("girls"):,}</strong> for the females across <strong>{no_events}</strong> events each.</p>
+    <p>Each school is allowed to enter two athletes per individual event. The maximum possible points across all events and age categories are <strong>{max_points("boys")}</strong> for boys and <strong>{max_points("girls")}</strong> for girls. This assumes a school finishes first and second in individual events and secures first place in team events such as relays.</p>
 """
 st.markdown(points_system_txt, unsafe_allow_html=True)
-# st.write(max_points("girls"))
+
+
+# get total points possible for each age category
+def age_group_points(gender: str):
+    points = (
+        points_system[points_system["gender"] == gender]
+        .groupby(["gender", "class"])[
+            [
+                "first",
+                "second",
+                "third",
+                "fourth",
+                "fifth",
+                "sixth",
+                "seventh",
+                "eighth",
+            ]
+        ]
+        .sum()
+        .reset_index()
+    )
+
+    points["total_points"] = points[
+        ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth"]
+    ].sum(axis=1)
+
+    return points
+
+
+st.write(age_group_points("girls"))
+
+
+col3, col4 = st.columns(2)
+
+
+# Create the plot
+def draw_plot(category, title, d_frame) -> None:
+
+    if not d_frame.empty and (d_frame["points"] > 0).any():
+        fig = px.pie(
+            d_frame,
+            values="points",
+            names=category,
+            title=title,
+            color_discrete_sequence=px.colors.qualitative.Pastel,
+            hole=0.3,
+        )
+
+        # Update layout for better appearance
+        fig.update_layout(
+            title_x=0.2,  # Center the title
+            title_font_size=16,
+            showlegend=True,
+            height=400,  # Control height
+            width=400,  # Control width
+            margin=dict(t=40, b=0, l=0, r=0),  # Adjust margins
+        )
+
+        return fig
+    else:
+        st.write("No data to plot or all values are zero")
+
+        # First school for comparison
+        with col3:
+            st.html("<br>")
+            fig2 = draw_plot(
+                "category",
+                "Distribution of Points Track Events VS Field Events",
+                chart_df_1,
+            )
+            st.plotly_chart(fig2, use_container_width=True, key=1)
+
+            st.html("<br>")
+            fig1 = draw_plot(
+                "sub_category", "Distribution of Points Event Type", chart_df_1
+            )
+            st.plotly_chart(fig1, use_container_width=True, key=2)
+
+        # Second school for comparison
+        with col4:
+            st.html("<br>")
+            fig2 = draw_plot(
+                "category",
+                "Distribution of Points Track Events VS Field Events",
+                chart_df_2,
+            )
+            st.plotly_chart(fig2, use_container_width=True, key=3)
+
+            st.html("<br>")
+            fig1 = draw_plot(
+                "sub_category", "Distribution of Points Event Type", chart_df_2
+            )
+            st.plotly_chart(fig1, use_container_width=True, key=4)
+
 
 # intro -- what is champs
 # some champs stats
 # of events
-# Top times / distances
+
 # division of points among top school
-# total possible points
+
 # points lost
 # % of athletes in finals from schools
 # of schools that make finals
