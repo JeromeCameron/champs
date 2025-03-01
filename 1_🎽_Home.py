@@ -12,8 +12,8 @@ secondary_text: str = "#536878"
 
 header = f"""
     <div style='display: flex; align-items: baseline;'>
-        <h1 style='color: {primary_color};'>Faster, Higher, Stronger:</h1>
-        <h3 style='color: {secondary_text};'>Analyzing the Athletes and Stats Behind Champs Glory</h3>
+        <h1 style='color: {primary_color}; font-size: 2rem;'>Faster, Higher, Stronger:</h1>
+        <h3 style='color: {secondary_text}; font-size: 1.4rem;'>Analyzing the Athletes and Stats Behind Champs Glory</h3>
     </div>
 """
 st.set_page_config(layout="wide")
@@ -132,7 +132,7 @@ def get_avg_winning_point(gender: str):
 
 # Create HTML table with results
 table_rows = "".join(
-    f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['type']}</td>"
+    f"<tr style='font-size: 0.8rem;'><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['type']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['first']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['second']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['third']}</td>"
@@ -145,13 +145,13 @@ table_rows = "".join(
 )
 
 points_system_txt: str = f"""
-    <h4 style='color: {secondary_text};'>Points System</h4>
+    <h4 style='color: {primary_color};'>💯 Points System</h4>
     Athletes are awarded 9 points for winning an individual event, 7 points for finishing second, and 6 points for finishing third.
     For relays and combined events, winners are awarded 12 points, while second and third place earn 10 and 8 points, respectively.
     See table below for full points system.
     <p></p>
-    <table style="width:50%; border: none; border-collapse: collapse;">
-    <tr style="background-color: {primary_color}; text-align: center; color: {primary_text};">
+    <table style="width:70%; border: none; border-collapse: collapse;">
+    <tr style="background-color: {primary_color}; text-align: center; color: {primary_text}; font-size: 0.8rem;">
         <th style="padding: 8px; text-align: left;">EVENT TYPE</th>
         <th style="padding: 8px; text-align: center;">FIRST</th>
         <th style="padding: 8px; text-align: center;">SECOND</th>
@@ -167,16 +167,15 @@ points_system_txt: str = f"""
 
     <p> A total of <strong>{calc_total_points("boys"):,}</strong> points is up for grabs for the males and <strong>{calc_total_points("girls"):,}</strong> for the females across <strong>{no_events}</strong> events each.</p>
     <p>Each school is allowed to enter two athletes per individual event. The maximum possible points across all events and age categories are <strong>{max_points("boys")}</strong> for boys and <strong>{max_points("girls")}</strong> for girls. This assumes a school finishes first and second in individual events and secures first place in team events such as relays.</p>
-    <p>On average, the winning team for Girls Champs averages <strong>{get_avg_winning_point("Girls"):.2f}</strong> points for victory, and the boys tend to average <strong>{get_avg_winning_point("Boys"):.2f}</strong> to claim the Boys Champs title.</p> 
+    <p>On average, the winning team in the Girls Champs scores <strong>{get_avg_winning_point("Girls"):.2f}</strong> points for victory, while the boys average <strong>{get_avg_winning_point("Boys"):.2f}</strong> points to claim the Boys Champs title.</p> 
 """
 st.markdown(points_system_txt, unsafe_allow_html=True)
 
 
 # get total points possible for each age category
-def age_group_points(gender: str):
+def age_group_points():
     points = (
-        points_system[points_system["gender"] == gender]
-        .groupby(["gender", "class"])[
+        points_system.groupby(["gender", "class"])[
             [
                 "first",
                 "second",
@@ -199,20 +198,36 @@ def age_group_points(gender: str):
     return points
 
 
-# st.write(age_group_points("girls"))
+colors = ["#1249a1", "#1657c1", "#1863da", "#2871e7", "#4282ea"]
+fig = px.bar(
+    age_group_points(),
+    y="total_points",
+    x="gender",
+    color="class",
+    text_auto=True,
+    title="      Possbile Points from Each Class",
+    width=600,
+    height=400,
+)
+# fig.update_traces(marker=dict(color=colors))
+st.plotly_chart(
+    fig,
+    use_container_width=False,
+)
 
 # ---------------------------------- Historical Winners ---------------------------------------
 # Data
 
 
 def get_most_wins(gender: str):
+    most_wins = historical_winners[historical_winners["gender"] == gender]
+
     most_wins = (
-        historical_winners[historical_winners["gender"] == gender]
-        .groupby("school")["year"]
-        .count()
+        most_wins.groupby("school")
+        .agg(wins=("year", "count"), years_won=("year", list))
         .reset_index()
     )
-    most_wins.sort_values(by="year", ascending=False, inplace=True)
+    most_wins.sort_values(by="wins", ascending=False, inplace=True)
     return most_wins
 
 
@@ -231,35 +246,37 @@ girls_wins = get_most_wins("Girls")
 
 # Paragraph historical winners of boys and girls champs
 hist_winners: str = f"""
-    <h4 style='color: {secondary_text};'>Historical Winners</h4>
+    <h4 style='color: {primary_color};'>📜 Past Winners</h4>
     <p>Historically, only <strong>{winners_boys}</strong> schools have ever won the Boys Championship, with <strong>{get_most_wins("Boys").head(1)["school"].values[0]}</strong> having the most titles. On the girls' side, <strong>{winners_girls}</strong> schools have won the coveted title, with <strong>{get_most_wins("Girls").head(1)["school"].values[0]}</strong> having the most wins.</p>
 """
 st.markdown(hist_winners, unsafe_allow_html=True)
-
-col3, col4 = st.columns(2)
 
 
 def create_table(df, gender):
     # Create HTML table with results
     table_rows = "".join(
-        f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['school']}</td>"
-        f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['year']}</td></tr>"
-        for _, row in df.head(5).iterrows()
+        f"<tr style='font-size: 0.8rem;'><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['school']}</td>"
+        f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'><strong>{row['wins']}</strong></td>"
+        f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['years_won']}</td></tr>"
+        for _, row in df.head(10).iterrows()
     )
 
     past_winners_txt: str = f"""
-        <h6 style='color: {secondary_text}; padding-bottom: 0;'>Top 5 schools with most winners | {gender} Champs</h6>
+        <h6 style='color: {secondary_text}; padding-bottom: 0;'>Top 10 schools with most wins | {gender} Champs</h6>
         <p></p>
-        <table style="width:80%; border: none; border-collapse: collapse;">
-        <tr style="background-color: {primary_color}; text-align: center; color: {primary_text};">
+        <table style="width:100%; border: none; border-collapse: collapse;">
+        <tr style="background-color: {primary_color}; text-align: center; color: {primary_text}; font-size: 0.8rem;">
             <th style="padding: 8px; text-align: left;">SCHOOL</th>
             <th style="padding: 8px; text-align: center;"># OF TITLES</th>
+            <th style="padding: 8px; text-align: center;">YEARS</th>
         </tr>
         {table_rows}
         </table>
     """
     return past_winners_txt
 
+
+col3, col4 = st.columns(2)
 
 with st.container():
     with col3:
@@ -270,12 +287,6 @@ with st.container():
 # -----------------------------------------------------------------------------------------
 
 
-grouped_df = (
-    historical_winners.groupby("school")
-    .agg(wins=("year", "count"), years_won=("year", list))
-    .reset_index()
-)
-st.write(grouped_df)
 # Create the plot
 # def draw_plot(category, title, d_frame):
 
