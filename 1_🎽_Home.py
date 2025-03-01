@@ -145,6 +145,7 @@ table_rows = "".join(
 )
 
 points_system_txt: str = f"""
+    <br>
     <h4 style='color: {primary_color};'>💯 Points System</h4>
     Athletes are awarded 9 points for winning an individual event, 7 points for finishing second, and 6 points for finishing third.
     For relays and combined events, winners are awarded 12 points, while second and third place earn 10 and 8 points, respectively.
@@ -165,7 +166,7 @@ points_system_txt: str = f"""
     {table_rows}
     </table>
 
-    <p> A total of <strong>{calc_total_points("boys"):,}</strong> points is up for grabs for the males and <strong>{calc_total_points("girls"):,}</strong> for the females across <strong>{no_events}</strong> events each.</p>
+    <p> A total of <strong>{calc_total_points("boys"):,}</strong> points is up for grabs for the males and <strong>{calc_total_points("girls"):,}</strong> for the females across <strong>{no_events}</strong> events each. The opportunities for points are spread across several classes and age groups, with the older student-athletes doing most of the heavy lifting. See graph 1 below. </p>
     <p>Each school is allowed to enter two athletes per individual event. The maximum possible points across all events and age categories are <strong>{max_points("boys")}</strong> for boys and <strong>{max_points("girls")}</strong> for girls. This assumes a school finishes first and second in individual events and secures first place in team events such as relays.</p>
     <p>On average, the winning team in the Girls Champs scores <strong>{get_avg_winning_point("Girls"):.2f}</strong> points for victory, while the boys average <strong>{get_avg_winning_point("Boys"):.2f}</strong> points to claim the Boys Champs title.</p> 
 """
@@ -246,6 +247,7 @@ girls_wins = get_most_wins("Girls")
 
 # Paragraph historical winners of boys and girls champs
 hist_winners: str = f"""
+    <br>
     <h4 style='color: {primary_color};'>📜 Past Winners</h4>
     <p>Historically, only <strong>{winners_boys}</strong> schools have ever won the Boys Championship, with <strong>{get_most_wins("Boys").head(1)["school"].values[0]}</strong> having the most titles. On the girls' side, <strong>{winners_girls}</strong> schools have won the coveted title, with <strong>{get_most_wins("Girls").head(1)["school"].values[0]}</strong> having the most wins.</p>
 """
@@ -287,64 +289,19 @@ with st.container():
 # -----------------------------------------------------------------------------------------
 
 
-# Create the plot
-# def draw_plot(category, title, d_frame):
+final_section = """
+    <br>
+    <p>The ultimate winner of the respective championship ultimately comes down to the following:</p>
+    <ul>
+        <li><strong>Active Recruiting:</strong> The top-performing schools are always actively recruiting student-athletes from less local traditional schools, other Caribbean countries, and even as far away as African countries like Kenya."</li>
+        <li><strong>Numbers:</strong> Champs, in its purest form, is a numbers game. Winning schools need a large number of athletes to participate in each event to maximize points. For smaller schools, this can be difficult to achieve.</li>
+        <li><strong>Diversity across the deciplines:</strong>  niche events like pole vault, equipment availabity for less traditional schools</li>
+        <li><strong>Financial Support:</strong></li>
+    </ul>
+    <p>Boys and Girls Champs is regarded as the birthplace of many great Jamaican talents, including Usain Bolt, Shelly-Ann Fraser-Price, Veronica Campbell Brown, Michael Frater, and Melaine Walker, to name a few.</p>
+"""
 
-#     if not d_frame.empty and (d_frame["total_points"] > 0).any():
-#         fig = px.pie(
-#             d_frame,
-#             values="total_points",
-#             names=category,
-#             title=title,
-#             color_discrete_sequence=px.colors.qualitative.Pastel,
-#             hole=0.3,
-#         )
-
-#         # Update layout for better appearance
-#         fig.update_layout(
-#             title_x=0.2,  # Center the title
-#             title_font_size=16,
-#             showlegend=True,
-#             height=400,  # Control height
-#             width=400,  # Control width
-#             margin=dict(t=40, b=0, l=0, r=0),  # Adjust margins
-#         )
-
-#         return fig
-#     else:
-#         st.write("No data to plot or all values are zero")
-
-#     # First school for comparison
-#     with col3:
-#         st.html("<br>")
-#         fig2 = draw_plot(
-#             "category",
-#             "Distribution of Points Track Events VS Field Events",
-#             chart_df_1,
-#         )
-#         st.plotly_chart(fig2, use_container_width=True, key=1)
-
-#         st.html("<br>")
-#         fig1 = draw_plot(
-#             "sub_category", "Distribution of Points Event Type", chart_df_1
-#         )
-#         st.plotly_chart(fig1, use_container_width=True, key=2)
-
-#     # Second school for comparison
-#     with col4:
-#         st.html("<br>")
-#         fig2 = draw_plot(
-#             "category",
-#             "Distribution of Points Track Events VS Field Events",
-#             chart_df_2,
-#         )
-#         st.plotly_chart(fig2, use_container_width=True, key=3)
-
-#         st.html("<br>")
-#         fig1 = draw_plot(
-#             "sub_category", "Distribution of Points Event Type", chart_df_2
-#         )
-#         st.plotly_chart(fig1, use_container_width=True, key=4)
+st.markdown(final_section, unsafe_allow_html=True)
 
 
 # intro -- what is champs
