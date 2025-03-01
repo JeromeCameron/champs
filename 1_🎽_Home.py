@@ -28,6 +28,7 @@ with open("css/style.css") as css:
 # Data
 points_system = pd.read_csv("working_files/champs_points.csv")
 champs_results = pd.read_csv("working_files/champs_results.csv")
+historical_winners = pd.read_csv("working_files/historical_winners.csv")
 
 # ------------------------------------------------------------------
 
@@ -202,7 +203,6 @@ def age_group_points(gender: str):
 
 # ---------------------------------- Historical Winners ---------------------------------------
 # Data
-historical_winners = pd.read_csv("working_files/historical_winners.csv")
 
 
 def get_most_wins(gender: str):
@@ -230,11 +230,11 @@ boys_wins = get_most_wins("Boys")
 girls_wins = get_most_wins("Girls")
 
 # Paragraph historical winners of boys and girls champs
-historical_winners: str = f"""
+hist_winners: str = f"""
     <h4 style='color: {secondary_text};'>Historical Winners</h4>
     <p>Historically, only <strong>{winners_boys}</strong> schools have ever won the Boys Championship, with <strong>{get_most_wins("Boys").head(1)["school"].values[0]}</strong> having the most titles. On the girls' side, <strong>{winners_girls}</strong> schools have won the coveted title, with <strong>{get_most_wins("Girls").head(1)["school"].values[0]}</strong> having the most wins.</p>
 """
-st.markdown(historical_winners, unsafe_allow_html=True)
+st.markdown(hist_winners, unsafe_allow_html=True)
 
 col3, col4 = st.columns(2)
 
@@ -248,9 +248,9 @@ def create_table(df, gender):
     )
 
     past_winners_txt: str = f"""
-        <h6 style='color: {secondary_text};'>Top 5 schools with most winners | {gender} Champs</h6>
+        <h6 style='color: {secondary_text}; padding-bottom: 0;'>Top 5 schools with most winners | {gender} Champs</h6>
         <p></p>
-        <table style="width:50%; border: none; border-collapse: collapse;">
+        <table style="width:80%; border: none; border-collapse: collapse;">
         <tr style="background-color: {primary_color}; text-align: center; color: {primary_text};">
             <th style="padding: 8px; text-align: left;">SCHOOL</th>
             <th style="padding: 8px; text-align: center;"># OF TITLES</th>
@@ -270,6 +270,12 @@ with st.container():
 # -----------------------------------------------------------------------------------------
 
 
+grouped_df = (
+    historical_winners.groupby("school")
+    .agg(wins=("year", "count"), years_won=("year", list))
+    .reset_index()
+)
+st.write(grouped_df)
 # Create the plot
 # def draw_plot(category, title, d_frame):
 
