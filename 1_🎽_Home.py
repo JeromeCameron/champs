@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
+import plotly.graph_objects as go
 
 # ---------------------- SETTINGS -----------------------------------#
 
@@ -17,6 +18,7 @@ header = f"""
     </div>
 """
 st.set_page_config(layout="wide")
+st.logo("assets/logo.jpeg", size="large")
 st.markdown(header, unsafe_allow_html=True)
 "---"
 
@@ -26,17 +28,21 @@ with open("css/style.css") as css:
 # -------------------------------------------------------------------
 
 # Data
-points_system = pd.read_csv("working_files/champs_points.csv")
-champs_results = pd.read_csv("working_files/champs_results.csv")
-historical_winners = pd.read_csv("working_files/historical_winners.csv")
+points_system: pd.DataFrame = pd.read_csv("working_files/champs_points.csv")
+champs_results: pd.DataFrame = pd.read_csv("working_files/champs_results.csv")
+historical_winners: pd.DataFrame = pd.read_csv("working_files/historical_winners.csv")
 
 # ------------------------------------------------------------------
 
 intro: str = """
     <p>
-    The <strong>Boys and Girls Championship</strong> is an annual track and field event in Jamaica held by Jamaica's Inter-Secondary Schools Sports Association. Here, over five days high schools 
-    across the country come together in march and compete in an array of disciplines spanning across several age groups. The winning schools are determind 
-    by a points system where points awareded for position finished in the finals of each event. These championships are the biggest track and field event involving high school students anywhere in the world.
+    The <strong>Boys' and Girls' Championships</strong> is an annual track and field event in Jamaica, organized by the Inter-Secondary Schools Sports Association (ISSA). Over five days in March, high schools from across the country compete in a wide range of disciplines spanning multiple age groups. The winning schools are determined by a points system, with points awarded based on final placements in each event.
+    </p>
+    <p>
+    Champs is the largest high school track and field competition in the world and is widely regarded as the breeding ground for many of Jamaica’s greatest athletes. Legendary sprinters such as Usain Bolt, Shelly-Ann Fraser-Pryce, Veronica Campbell-Brown, Michael Frater, and Melaine Walker all honed their talents on this stage.
+    </p>
+    <p>
+    As a track and field fan and data enthusiast, I’ve always wanted to undertake a project focused on Champs. The purpose of this app is to dive deep into Champs data, examining schools and athlete performances, and sharing my insights. You can find more details about this project on the About page.
     </p>
 """
 st.markdown(intro, unsafe_allow_html=True)
@@ -215,9 +221,27 @@ st.plotly_chart(
     fig,
     use_container_width=False,
 )
+# ---------------------------------- How to Win -----------------------------------------------
 
-# ---------------------------------- Historical Winners ---------------------------------------
-# Data
+how_to_win = """
+    <br>
+    <h4 style='color: {primary_color};'>🏆 How to Win</h4>
+    <p>The ultimate winner of the championship is determined by several key factors:</p>
+    <ul>
+        <li><strong>Active Recruiting:</strong> Top-performing schools actively recruit student-athletes from smaller, less traditional schools, other Caribbean nations, and even as far as African countries like Kenya. This approach helps them secure top-tier talent across multiple disciplines."</li>
+        <li><strong>Numbers:</strong> Champs, at its core, is a numbers game. Winning schools must have a large pool of athletes competing in various events to maximize points. For smaller schools, this can be a major challenge, as depth across multiple disciplines is crucial for overall success.</li>
+        <li><strong>Diversity Across Diciplines:</strong> A strong pipeline of athletes across all event types is essential. Sprint dominance alone is not enough—winning requires strength in middle and long-distance races, throws, jumps, and niche events like the pole vault. However, access to specialized equipment, such as pole vault gear and javelins, remains a significant barrier for non-traditional schools.</li>
+        <li><strong>Financial Support:</strong> Any successful track and field program requires a steady influx of funding to cover essential expenses such as coaching salaries, gear and equipment, meal plans, and transportation to development meets. Without a significant and reliable source of funds, securing a Champs victory becomes nearly impossible. Schools that consistently perform well often have strong financial backing, whether through sponsorships, alumni support, allowing them to invest in athlete development and long-term success.</li>
+        <li><strong>Elite Coaching & Training Facilities: </strong> Having experienced coaches who can refine technique, develop race strategies, and maximize athlete potential is crucial. Schools with access to high-quality training facilities, including modern gyms, recovery centers, and synthetic tracks, often have a competitive edge over those with limited resources.</li>
+        <li><strong>Athlete Development & Injury Management:</strong>Longevity in the sport requires proper athlete development and injury prevention strategies. Schools with dedicated physiotherapists, nutritionists, and structured training programs can better maintain their athletes' peak performance throughout the season, reducing the risk of injuries that could derail their Champs campaign.</li>
+    </ul>
+
+    <p>Along with a solid strategy, the factors listed above cover most of what is required to win the Boys' or Girls' Championship. Until more of these hurdles—such as financial constraints, access to specialized equipment, and recruiting limitations—are overcome, the Champs titles will likely remain in the hands of the traditional powerhouse schools.</p>
+"""
+
+st.markdown(how_to_win, unsafe_allow_html=True)
+
+# ---------------------------------- Past Winners ---------------------------------------
 
 
 def get_most_wins(gender: str):
@@ -249,7 +273,7 @@ girls_wins = get_most_wins("Girls")
 hist_winners: str = f"""
     <br>
     <h4 style='color: {primary_color};'>📜 Past Winners</h4>
-    <p>Historically, only <strong>{winners_boys}</strong> schools have ever won the Boys Championship, with <strong>{get_most_wins("Boys").head(1)["school"].values[0]}</strong> having the most titles. On the girls' side, <strong>{winners_girls}</strong> schools have won the coveted title, with <strong>{get_most_wins("Girls").head(1)["school"].values[0]}</strong> having the most wins.</p>
+    <p>Historically, only <strong>{winners_boys}</strong> schools have ever won the Boys' Championship, with <strong>{get_most_wins("Boys").head(1)["school"].values[0]}</strong> holding the most titles. On the girls' side, <strong>{winners_girls}</strong> schools have won the coveted title, with <strong>{get_most_wins("Girls").head(1)["school"].values[0]}</strong> leading the count for the most wins.</p>
 """
 st.markdown(hist_winners, unsafe_allow_html=True)
 
@@ -260,11 +284,11 @@ def create_table(df, gender):
         f"<tr style='font-size: 0.8rem;'><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['school']}</td>"
         f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'><strong>{row['wins']}</strong></td>"
         f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['years_won']}</td></tr>"
-        for _, row in df.head(10).iterrows()
+        for _, row in df.iterrows()
     )
 
     past_winners_txt: str = f"""
-        <h6 style='color: {secondary_text}; padding-bottom: 0;'>Top 10 schools with most wins | {gender} Champs</h6>
+        <h6 style='color: {secondary_text}; padding-bottom: 0;'> Schools with Champs Victories | {gender} Champs</h6>
         <p></p>
         <table style="width:100%; border: none; border-collapse: collapse;">
         <tr style="background-color: {primary_color}; text-align: center; color: {primary_text}; font-size: 0.8rem;">
@@ -288,22 +312,6 @@ with st.container():
 
 # -----------------------------------------------------------------------------------------
 
-
-final_section = """
-    <br>
-    <p>The ultimate winner of the respective championship ultimately comes down to the following:</p>
-    <ul>
-        <li><strong>Active Recruiting:</strong> The top-performing schools are always actively recruiting student-athletes from less local traditional schools, other Caribbean countries, and even as far away as African countries like Kenya."</li>
-        <li><strong>Numbers:</strong> Champs, in its purest form, is a numbers game. Winning schools need a large number of athletes to participate in each event to maximize points. For smaller schools, this can be difficult to achieve.</li>
-        <li><strong>Diversity across the deciplines:</strong>  niche events like pole vault, equipment availabity for less traditional schools</li>
-        <li><strong>Financial Support:</strong></li>
-    </ul>
-    <p>Boys and Girls Champs is regarded as the birthplace of many great Jamaican talents, including Usain Bolt, Shelly-Ann Fraser-Price, Veronica Campbell Brown, Michael Frater, and Melaine Walker, to name a few.</p>
-"""
-
-st.markdown(final_section, unsafe_allow_html=True)
-
-
 # intro -- what is champs
 # some champs stats
 # of events
@@ -311,7 +319,7 @@ st.markdown(final_section, unsafe_allow_html=True)
 # division of points among top school
 
 # points lost
-# % of athletes in finals from schools
+# % of athletes in finals from school
 # of schools that make finals
 # are athletes running faster today
 
