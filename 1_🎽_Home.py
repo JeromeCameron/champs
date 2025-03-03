@@ -4,7 +4,7 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 
-# ---------------------- SETTINGS -----------------------------------#
+# -------------------------- SETTINGS -------------------------------#
 
 primary_color: str = "#182536"
 secondary_color: str = "#1874d0"
@@ -32,7 +32,7 @@ points_system: pd.DataFrame = pd.read_csv("working_files/champs_points.csv")
 champs_results: pd.DataFrame = pd.read_csv("working_files/champs_results.csv")
 historical_winners: pd.DataFrame = pd.read_csv("working_files/historical_winners.csv")
 
-# ------------------------------------------------------------------
+# -------------------------------------------------------------------
 
 intro: str = """
     <p>
@@ -318,7 +318,7 @@ with st.container():
 
 # division of points among top school
 
-# points lost
+# points lost - total points - actual points
 # % of athletes in finals from school
 # of schools that make finals
 # are athletes running faster today

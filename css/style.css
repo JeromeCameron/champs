@@ -16,7 +16,7 @@
 
 [data-testid="stSidebarContent"]{
     background-color: var(--primary_colour);
-    font-size: .3rem;
+    font-size: .2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -51,3 +51,14 @@
 .stPlotlyChart{
     background-color: var(--background_colour);
 }
+
+[data-testid="stSidebarHeader"] > img{
+    height: 10rem;
+    width: auto;
+}
+
+div[data-testid="stSidebarHeader"], div[data-testid="stSidebarHeader"] > *,
+  div[data-testid="collapsedControl"], div[data-testid="collapsedControl"] > * {
+      display: flex;
+      align-items: center;
+  }
