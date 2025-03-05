@@ -23,7 +23,7 @@ def genearate_df(
                     and file.find(race_stage) >= 0
                 ):
                     filename = os.path.join(subdir, file)
-                    # rich.print(f"Parsing {filename} for results")
+                    rich.print(f"Parsing {filename} for results")
 
                     with open(filename) as file:
                         page = file.read()
