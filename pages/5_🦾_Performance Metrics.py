@@ -30,7 +30,7 @@ with open("css/style.css") as css:
 def time_to_seconds(time_str):
     """Converts a time string (H:MM:SS.mmm or MM:SS.mmm or SS.mmm) to seconds."""
 
-    parts = re.split(r":|\.", time_str)  # Split by ":" and "."
+    parts = re.split(r":|\.", time_str)  # Split by ": " and "."
 
     if len(parts) >= 3:  # H:MM:SS.mmm or MM:SS.mmm
         if len(parts[0]) > 1:  # H:MM:SS.mmm
