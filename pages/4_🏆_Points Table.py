@@ -13,13 +13,21 @@ secondary_color: str = "#1874d0"
 primary_text: str = "#fafbfd"
 secondary_text: str = ""
 
+header = f"""
+    <div style='display: flex; align-items: baseline;'>
+        <h1 style='color: {primary_color}; font-size: 2rem;'>Boys and Girls Champs Point Table | Historical 🏃🏾</h1>
+    </div>
+"""
+
+st.logo("assets/logo.jpeg", size="large")
+st.markdown(header, unsafe_allow_html=True)
+st.caption("2012 ➡️ Present")
+"---"
+
 with open("css/style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
 
-st.header("Boys and Girls Champs Point Table | Historical 🏃🏾")
-st.caption("2012 ➡️ Present")
-st.html("<br>")
-"---"
+
 # ----------------------------------------------------------------------
 
 df = pd.read_csv("./working_files/champs_results.csv")
@@ -104,7 +112,7 @@ with tab1:
 
         # Create HTML table with results
         table_rows = "".join(
-            f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{_ + 1}</td>"
+            f"<tr style='font-size: 0.8rem;'><td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{_ + 1}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['school']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['gold']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'><strong>{row['silver']}</strong></td>"
@@ -115,7 +123,7 @@ with tab1:
 
         table_html = f"""
         <table style="width:100%; border: none; border-collapse: collapse;">
-        <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text};">
+        <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text}; font-size: 0.8rem;">
             <th style="padding: 8px; text-align: center;">#</th>
             <th style="padding: 8px; text-align: left;">SCHOOL</th>
             <th style="padding: 8px;">GOLD 🥇</th>
@@ -178,7 +186,7 @@ with tab2:
 
         # Create HTML table with results
         table_rows = "".join(
-            f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{_ + 1}</td>"
+            f"<tr style='font-size: 0.8rem;'><td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{_ + 1}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['school']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['Sprints']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['Hurdles']}</td>"
@@ -194,7 +202,7 @@ with tab2:
 
         table_html = f"""
         <table style="width:100%; border: none; border-collapse: collapse;">
-        <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text};">
+        <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text}; font-size: 0.8rem;">
             <th style="padding: 8px; text-align: center;">#</th>
             <th style="padding: 8px; text-align: left;">SCHOOL</th>
             <th style="padding: 8px;">SPRINTS</th>

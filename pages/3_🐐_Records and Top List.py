@@ -10,14 +10,19 @@ secondary_color: str = "#1874d0"
 primary_text: str = "#fafbfd"
 secondary_text: str = ""
 
+header = f"""
+    <div style='display: flex; align-items: baseline;'>
+        <h1 style='color: {primary_color}; font-size: 2rem;'>Records and Top Performers 🐐</h1>
+    </div>
+"""
+st.set_page_config(layout="wide")
+st.logo("assets/logo.jpeg", size="large")
+st.markdown(header, unsafe_allow_html=True)
+"---"
+
 with open("css/style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
 
-# Page header
-st.header("Boys and Girls Champs Records 🐐")
-st.html("<br>")
-
-"---"
 
 # --------------------------------------------------------------
 
@@ -75,7 +80,7 @@ with tab1:
 
     # Create HTML table with results
     table_rows = "".join(
-        f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['event']}</td>"
+        f"<tr style='font-size: 0.8rem;'><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['event']}</td>"
         f"<td style='border: none; padding: 8px; color: white; text-align: center; background-color: {secondary_color};'><strong>{row['mark']}</strong></td>"
         f"<td style='border: none; padding: 8px; color: #5b5b5b;'><strong>{row['athlete']}</strong></td>"
         f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['year']}</td>"
@@ -86,7 +91,7 @@ with tab1:
 
     table_html = f"""
     <table style="width:100%; border: none; border-collapse: collapse;">
-    <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text};">
+    <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text}; font-size: 0.8rem;">
         <th style="padding: 8px;">EVENT</th>
         <th style="padding: 8px;">PERFORMANCE</th>
         <th style="padding: 8px; text-align: left;">ATHLETE</th>
@@ -125,14 +130,14 @@ with tab2:
 
     # Create HTML table with results
     table_rows = "".join(
-        f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['school']}</td>"
+        f"<tr style='font-size: 0.8rem;'><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['school']}</td>"
         f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'><strong>{row['event']}</strong></td></tr>"
         for _, row in top_ten.iterrows()
     )
 
     table_html = f"""
     <table style="width:100%; border: none; border-collapse: collapse;">
-    <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text};">
+    <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text}; font-size: 0.8rem;">
         <th style="padding: 8px; text-align: left;">SCHOOL</th>
         <th style="padding: 8px;">TOTAL RECORDS</th>
     </tr>
@@ -164,7 +169,7 @@ with tab2:
 
         # Create HTML table with results
         table_rows = "".join(
-            f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['event']}</td>"
+            f"<tr style='font-size: 0.8rem;'><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['event']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['clas_s']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['gender']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['mark']}</td>"
@@ -177,7 +182,7 @@ with tab2:
 
         table_html = f"""
         <table style="width:100%; border: none; border-collapse: collapse;">
-        <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text};">
+        <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text}; font-size: 0.8rem;">
             <th style="padding: 8px; text-align: left;">EVENT</th>
             <th style="padding: 8px;">CLASS</th>
             <th style="padding: 8px;">GENDER</th>
@@ -222,14 +227,14 @@ with tab3:
 
     # Create HTML table with results
     table_rows = "".join(
-        f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['athlete']}</td>"
+        f"<tr style='font-size: 0.8rem;'><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['athlete']}</td>"
         f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'><strong>{row['event']}</strong></td></tr>"
         for _, row in athlete_records.iterrows()
     )
 
     table_html = f"""
         <table style="width:100%; border: none; border-collapse: collapse;">
-        <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text};">
+        <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text}; font-size: 0.8rem;">
             <th style="padding: 8px; text-align: left;">ATHLETE</th>
             <th style="padding: 8px; text-align: center;"># OF RECORDS</th>
         </tr>
@@ -324,7 +329,7 @@ with tab3:
 
             # Create HTML table with results
             table_rows = "".join(
-                f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{_ + 1}</td>"
+                f"<tr style='font-size: 0.8rem;'><td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{_ + 1}</td>"
                 f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['athlete']}</td>"
                 f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['school']}</td>"
                 f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['gold']}</td>"
@@ -336,7 +341,7 @@ with tab3:
 
             table_html = f"""
             <table style="width:100%; border: none; border-collapse: collapse;">
-            <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text};">
+            <tr style="background-color: {secondary_color}; text-align: center; color: {primary_text}; font-size: 0.8rem;">
                 <th style="padding: 8px; text-align: center;">#</th>
                 <th style="padding: 8px; text-align: left;">ATHLETE</th>
                 <th style="padding: 8px; text-align: left;">SCHOOL</th>

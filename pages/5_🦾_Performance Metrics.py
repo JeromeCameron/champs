@@ -11,12 +11,19 @@ secondary_color: str = "#1874d0"
 primary_text: str = "#fafbfd"
 secondary_text: str = ""
 
-with open("css/style.css") as css:
-    st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
-
-st.header("Faster, Higher, Stronger: Performance Over the Years 📈")
+header = f"""
+    <div style='display: flex; align-items: baseline;'>
+        <h1 style='color: {primary_color}; font-size: 2rem;'>Faster, Higher, Stronger: Performance Over the Years 📈</h1>
+    </div>
+"""
+st.set_page_config(layout="wide")
+st.logo("assets/logo.jpeg", size="large")
+st.markdown(header, unsafe_allow_html=True)
 st.caption("2012 ➡️ Present")
 "---"
+
+with open("css/style.css") as css:
+    st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
 
 
 # Functions ----------------------------------------------------------------------
@@ -129,7 +136,7 @@ st.markdown(result_header, unsafe_allow_html=True)
 
 # Create HTML table with results
 table_rows = "".join(
-    f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'><strong>{row['athlete']}</strong></td>"
+    f"<tr style='font-size: 0.8rem;'><td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'><strong>{row['athlete']}</strong></td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b;'>{row['school']}</td>"
     f"<td style='border: none; padding: 8px; color: {primary_text}; text-align: center; background-color: {secondary_color};'><strong>{row['mark']}</strong></td>"
     f"<td style='border: none; padding: 8px; color: #030303; text-align: center;'>{row['year']}</td>"
@@ -139,7 +146,7 @@ table_rows = "".join(
 
 table_html = f"""
 <table style="width:100%; border: none; border-collapse: collapse;">
-  <tr style="background-color: {secondary_color}; text-align: left; color: {primary_text};">
+  <tr style="background-color: {secondary_color}; text-align: left; color: {primary_text}; font-size: 0.8rem;">
     <th style="padding: 8px;">ATHLETE</th>
     <th style="padding: 8px; text-align: left;">SCHOOL</th>
     <th style="padding: 8px; text-align: center;">MARK</th>

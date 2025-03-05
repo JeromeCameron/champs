@@ -10,14 +10,21 @@ secondary_color: str = "#1874d0"
 primary_text: str = "#fafbfd"
 secondary_text: str = ""
 
-st.header("Boys and Girls Champs Results 🏃🏾")
+header = f"""
+    <div style='display: flex; align-items: baseline;'>
+        <h1 style='color: {primary_color}; font-size: 2rem;'>Results Over The Years</h1>
+    </div>
+"""
+st.set_page_config(layout="wide")
+st.logo("assets/logo.jpeg", size="large")
+st.markdown(header, unsafe_allow_html=True)
 st.caption("2012 ➡️ Present")
-st.html("<br>")
+"---"
+
 
 with open("css/style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
 
-"---"
 # ----------------------------------------------------------------
 
 df = pd.read_csv("./working_files/champs_results.csv")
@@ -101,7 +108,7 @@ st.markdown(result_header, unsafe_allow_html=True)
 
 # Create HTML table with results
 table_rows = "".join(
-    f"<tr><td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['position']}</td>"
+    f"<tr style='font-size: 0.8rem;'><td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['position']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b;'>{row['school']}</td>"
     f"<td style='border: none; padding: 8px; color: #5b5b5b;'><strong>{row['athlete']}</strong></td>"
     f"<td style='border: none; padding: 8px; color: {primary_text}; text-align: center; background-color: {secondary_color};'><strong>{row['mark']}</strong></td>"
@@ -112,7 +119,7 @@ table_rows = "".join(
 
 table_html = f"""
 <table style="width:100%; border: none; border-collapse: collapse;">
-  <tr style="background-color: {primary_color}; text-align: center; color: {primary_text};">
+  <tr style="background-color: {primary_color}; text-align: center; color: {primary_text}; font-size: 0.8rem;">
     <th style="padding: 8px;">POSITION</th>
     <th style="padding: 8px; text-align: left;">SCHOOL</th>
     <th style="padding: 8px; text-align: left;">ATHLETE</th>

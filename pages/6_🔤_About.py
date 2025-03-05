@@ -14,7 +14,7 @@ header = f"""
         <h1 style='color: {primary_color}; font-size: 2rem;'>What is this all about and how did i do it...? 🤔</h1>
     </div>
 """
-st.set_page_config(layout="wide")
+
 st.logo("assets/logo.jpeg", size="large")
 st.markdown(header, unsafe_allow_html=True)
 "---"
@@ -120,10 +120,6 @@ with st.expander("See the code snippet used to parse athlete names below:"):
 
             athlete_name = athlete_name[-2:][0] + " " + athlete_name[-2:][1]
 
-            # if len(athlete_name) >= 5:
-            #     athlete_name = " ".join(athlete_name[3:])
-            # else:
-            #     athlete_name = " ".join(athlete_name[1:])
     except IndexError:
         athlete_name = "nil"
 
@@ -218,6 +214,9 @@ with st.expander("See the code snippet used to parse athlete names below:"):
     return lst
 """
     st.code(code_sample_2, language="python")
+
+st.video("assets/parser_running.mov", muted=True, autoplay=True)
+
 st.markdown(
     "<p>All of this made the next step—data cleaning—very time-consuming.</p>",
     unsafe_allow_html=True,
@@ -225,13 +224,26 @@ st.markdown(
 
 data_cleaning = """
     <h5 style='color: #879596;'>Data Cleaning</h5>
-    <p></p>
+    <p>
+    The data cleaning process was both tedious and time-consuming, and it remains an ongoing effort. The bulk of the editing was carried out in Excel, where I used a variety of functions to remove unwanted characters, standardize formatting, and organize the data chronologically. It was a bit like piecing together a puzzle, with days spent combing through the internet to correct athlete names, fill in missing performance data, and track down information for events that were completely missing. To ensure the data's accuracy, I cross-referenced it with trusted sources, including the official ISSA results, which are available in PDF format. Along the way, I also had to standardize several data points, as there were inconsistencies scattered throughout the dataset, which made it even more challenging. Despite the difficulties, I’m determined to ensure the data is as reliable and comprehensive as possible, as this forms the foundation of my analysis.
+    </p>
 """
 st.markdown(data_cleaning, unsafe_allow_html=True)
 
+presenting_data = """
+    <h5 style='color: #879596;'>Data Presentation</h5>
+    <p>
+    I chose to present this data using Streamlit, as it allowed me to leverage my favourite language, Python, and host it for free! 😁 The data is organized across several pages, each designed to group the information for easier navigation. Each page focuses on a different aspect of the data, making it more accessible and user-friendly.
+    </p>
+    <ul>
+        <li><strong>Home:</strong> A brief introduction to Champs and some general information.</li>
+        <li><strong>Results:</strong> Filterable results for all events over the years</li>
+        <li><strong>Records and Top List:</strong> Current Champs records and the top athletes with the most points and records.</li>
+        <li><strong>Points Table:</strong> Displays schools and their respective points over the years.</li>
+        <li><strong>Performance Metrics:</strong> A comparative analysis of race performances across the years.</li>
+        <li><strong>About:</strong> An overview of the project and its current progress.</li>
+    </ul>
 
-st.markdown(
-    """
-        presenting data  
-    """
-)
+    <p>I hope you find it insightful!</p>
+"""
+st.markdown(presenting_data, unsafe_allow_html=True)
