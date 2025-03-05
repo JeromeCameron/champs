@@ -215,7 +215,7 @@ with st.expander("See the code snippet used to parse athlete names below:"):
 """
     st.code(code_sample_2, language="python")
 
-st.video("assets/parser_running.mov", muted=True, autoplay=True)
+# st.video("assets/parser_running.mov", muted=True, autoplay=True)
 
 st.markdown(
     "<p>All of this made the next step—data cleaning—very time-consuming.</p>",
