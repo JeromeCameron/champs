@@ -104,8 +104,8 @@ with tab1:
         # Header Row
         result_header = f"""
         <div style="background-color: {primary_color}; padding: 6px; padding-left: 15px;">
-            <h4 style='color: white; padding-bottom: 0; margin-bottom:0;'>{gender} Championship Winners 20{year} 🏆</h4>
-            <h6 style='color: {primary_text}; padding-top: 0; margin-top: 0;'>by {sort_by}</h6>
+            <h4 style='color: white; padding-bottom: 0; margin-bottom:0;'>{gender} Championship Points/Medal Table 20{year} 🏆</h4>
+            <h6 style='color: {primary_text}; padding-top: 0; margin-top: 0;'>Sorted by {sort_by}</h6>
         </div>
         """
         st.markdown(result_header, unsafe_allow_html=True)
@@ -114,8 +114,8 @@ with tab1:
         table_rows = "".join(
             f"<tr style='font-size: 0.8rem;'><td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{_ + 1}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: left;'>{row['school']}</td>"
-            f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['gold']}</td>"
-            f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'><strong>{row['silver']}</strong></td>"
+            f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'><strong>{row['gold']}</strong></td>"
+            f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['silver']}</td>"
             f"<td style='border: none; padding: 8px; color: #030303; text-align: center;'>{row['bronze']}</td>"
             f"<td style='border: none; padding: 8px; color: {primary_text}; text-align: center; background-color: {secondary_color};'><strong>{row['points']}</strong></td></tr>"
             for _, row in medalTable.iterrows()

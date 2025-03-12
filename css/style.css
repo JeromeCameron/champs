@@ -8,6 +8,9 @@
 
 [data-testid="stMainBlockContainer"]{
     background-color: var(--background_colour);
+    padding-top: 80px;
+    /* background-image: "assets/logo.jpeg";
+    background-size: cover; */
 }
 
 [data-testid="stHeader"]{

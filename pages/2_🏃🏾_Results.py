@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-
+import plotly_express as px
 
 # -------------------- Settings -------------------------------#
 
@@ -207,4 +207,23 @@ with tab2:
     """
     st.markdown(table_athlete_events, unsafe_allow_html=True)
 
-    # show athlete progression with graph
+    # show  athlete progression with graph
+    selected_event = st.selectbox("Event", athlete_events["event"].unique())
+    athlete_sel_event = athlete_events[athlete_events["event"] == selected_event].copy()
+    athlete_sel_event.sort_values(by="mark", inplace=True)  # sort by time
+
+    fig = px.line(
+        athlete_sel_event,
+        x="year",
+        y="mark",
+        title="Performance Progression",
+        markers=True,
+        template="seaborn",
+    )
+
+    # Force the x-axis to be categorical
+    fig.update_xaxes(type="category")
+
+    st.plotly_chart(fig)
+
+# noteee
