@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import warnings
 import plotly.express as px
+import plotly.graph_objects as go
 
 warnings.filterwarnings("ignore")
 
@@ -252,45 +253,82 @@ with tab2:
         col3, col4 = st.columns(2)
 
         # Create the plot
-        def draw_plot(category, title, d_frame) -> None:
+        def draw_plot(category, title, d_frame):
+
+            color_map = {
+                "Relay": "#001219",  # Orange-red
+                "Hurdles": "#005f73",  # Green
+                "Jumps": "#0a9396",  # Blue
+                "Sprints": "#94d2bd",  # Purple
+                "Combined Events": "#e9d8a6",  # Purple
+                "Throws": "#ee9b00",  # Purple
+                "Middle Distance": "#ca6702",  # Purple
+                "Long Distance": "#bb3e03",  # Purple
+                "Track Event": "#0a9396",  # Purple
+                "Field Event": "#bb3e03",  # Purple
+            }
 
             if not d_frame.empty and (d_frame["points"] > 0).any():
+
                 fig = px.pie(
                     d_frame,
                     values="points",
                     names=category,
                     title=title,
-                    color_discrete_sequence=px.colors.qualitative.Pastel,
+                    color=category,
+                    color_discrete_map=color_map,
                     hole=0.3,
                 )
 
+                # # Get the chart data
+                # chart_labels = fig.data[0].labels
+                # chart_values = fig.data[0].values
+
+                # if len(chart_values) > 0:
+                #     # Find index of largest slice
+                #     max_index = np.argmax(chart_values)
+
+                #     # Create pull effect (explode largest slice)
+                #     pull_list = [0] * len(chart_labels)
+                #     pull_list[max_index] = 0.1  # Pull out largest slice
+
                 # Update layout for better appearance
                 fig.update_layout(
-                    title_x=0.2,  # Center the title
+                    title_x=0.1,  # Center the title
                     title_font_size=16,
-                    showlegend=True,
+                    showlegend=False,
                     height=400,  # Control height
-                    width=400,  # Control width
+                    width=400,
                     margin=dict(t=40, b=0, l=0, r=0),  # Adjust margins
                 )
 
+                fig.update_traces(
+                    textposition="inside",  # Options: 'inside', 'outside', 'auto', 'none'
+                    textinfo="percent+label",  # Options: 'label', 'percent', 'value', 'text' or combinations
+                    textfont_size=14,  # Font size
+                    hoverinfo="skip",
+                    # pull=pull_list,  # Pull out the first slice
+                    marker=dict(
+                        line=dict(color="#FFFFFF", width=2)
+                    ),  # White borders between slices
+                )
                 return fig
             else:
-                st.write("No data to plot or all values are zero")
+                return st.write("No data to plot or all values are zero")
 
         # First school for comparison
         with col3:
             st.html("<br>")
             fig2 = draw_plot(
                 "category",
-                "Distribution of Points Track Events VS Field Events",
+                f"Track Events VS Field Events | {school_1}",
                 chart_df_1,
             )
             st.plotly_chart(fig2, use_container_width=True, key=1)
 
             st.html("<br>")
             fig1 = draw_plot(
-                "sub_category", "Distribution of Points Event Type", chart_df_1
+                "sub_category", f"Points by Event Type | {school_1}", chart_df_1
             )
             st.plotly_chart(fig1, use_container_width=True, key=2)
 
@@ -299,17 +337,16 @@ with tab2:
             st.html("<br>")
             fig2 = draw_plot(
                 "category",
-                "Distribution of Points Track Events VS Field Events",
+                f"Track Events VS Field Events | {school_2}",
                 chart_df_2,
             )
             st.plotly_chart(fig2, use_container_width=True, key=3)
 
             st.html("<br>")
             fig1 = draw_plot(
-                "sub_category", "Distribution of Points Event Type", chart_df_2
+                "sub_category", f"Points by Event Type | {school_2}", chart_df_2
             )
             st.plotly_chart(fig1, use_container_width=True, key=4)
-
 
 # Total potential points based on number of athletes that got into the finals
 # Points lost

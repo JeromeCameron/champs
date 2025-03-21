@@ -52,6 +52,15 @@ def time_to_seconds(time_str):
     return total_seconds
 
 
+def seconds_to_minutes(time_in_seconds):
+    if time_in_seconds >= 60:
+        minutes = int(time_in_seconds // 60)
+        seconds = time_in_seconds - (minutes * 60)  # time_in_seconds % 60
+        return f"{minutes}:{seconds:05.2f}"
+    else:
+        return f"{time_in_seconds:.2f}"
+
+
 # ------------------------------------------------------------------------------------
 
 # Import data
@@ -121,11 +130,11 @@ st.html("<br>")
 # Results Header Row
 result_header = f"""
 <div style='display: inline-block;'>
-    <h3 style='color: #5b5859; border-collapse: collapse; border-top: 4px solid {secondary_color}; padding-top: 2px;'>Top Perfomances</h3>
+    <h3 style='color: #5b5859; border-collapse: collapse; border-top: 4px solid {secondary_color}; padding-top: 2px;'>Top Performances</h3>
 </div>
 <div style="background-color: {primary_color}; padding: 6px; padding-left: 15px;">
     <div style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 0;">
-        <h4 style='color: {primary_text}; display: inline-block; padding-bottom: 0;'> Top 10 Perfomaces in CLASS {clas_s} {gender.upper()} {discipline.upper()} Finals since 2012*</h4>
+        <h4 style='color: {primary_text}; display: inline-block; padding-bottom: 0;'> Top 10 Performances in CLASS {clas_s} {gender.upper()} {discipline.upper()} Finals since 2012*</h4>
     </div>
     <div>
         <p style='color: white;'>*2013 data is missing, and there was no championship in 2020 due to COVID</p>
@@ -196,6 +205,9 @@ avg_performance_track = (
 
 avg_performance_track = avg_performance_track.reset_index()
 avg_performance_track["clas_s"] = avg_performance_track["clas_s"].astype(str)
+avg_performance_track["avg_mark"] = avg_performance_track["mean"].apply(
+    seconds_to_minutes
+)
 
 options = ["1", "2", "3", "4"]
 selection = st.segmented_control(
@@ -214,7 +226,13 @@ fig = px.line(
     title="Avg. Performances",
     markers=True,
     template="seaborn",
+    hover_data=["avg_mark"],
     color=avg_performance_track["clas_s"].astype(str),
 )
+fig.update_traces(mode="markers+lines")
+fig.update_layout(yaxis_title="Time in Seconds")
+# fig.update_layout(hovermode="x")
 
 st.plotly_chart(fig)
+
+st.write(avg_performance_track)
