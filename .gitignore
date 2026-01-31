@@ -2,6 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
 
 .vscode/
+.python-version
+/uv.lock
 
 ### Python ###
 # Byte-compiled / optimized / DLL files

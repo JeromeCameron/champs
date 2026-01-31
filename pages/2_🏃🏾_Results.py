@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly_express as px
+import plotly.express as px
 
 # -------------------- Settings -------------------------------#
 
@@ -210,7 +210,9 @@ with tab2:
     # show  athlete progression with graph
     selected_event = st.selectbox("Event", athlete_events["event"].unique())
     athlete_sel_event = athlete_events[athlete_events["event"] == selected_event].copy()
-    athlete_sel_event.sort_values(by="mark", inplace=True)  # sort by time
+    athlete_sel_event["year"] = athlete_sel_event["year"].astype(int)
+    athlete_sel_event.sort_values(by="year", inplace=True)  # sort by year
+    athlete_sel_event.sort_values(by="mark", inplace=True)
 
     fig = px.line(
         athlete_sel_event,
@@ -222,7 +224,15 @@ with tab2:
     )
 
     # Force the x-axis to be categorical
-    fig.update_xaxes(type="category")
+    # fig.update_xaxes(type="category")
+    # fig.update_yaxes(autorange="reversed")
+
+    # Force integer year ticks
+    fig.update_xaxes(
+        tickmode="array",
+        tickvals=athlete_sel_event["year"].unique(),
+        ticktext=athlete_sel_event["year"].unique(),
+    )
 
     st.plotly_chart(fig)
 
