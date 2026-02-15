@@ -34,6 +34,10 @@
     font-style: normal; */
     
 }
+.stLogo{
+    margin-bottom:1rem;
+    /* margin-top: 8rem; */
+}
 
 [data-baseweb="tab"]{
     background-color: var(--primary_colour);
@@ -56,7 +60,7 @@
 }
 
 [data-testid="stSidebarHeader"] > img{
-    height: 10rem;
+    height: 6rem;
     width: auto;
 }
 

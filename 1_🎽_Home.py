@@ -310,18 +310,3 @@ with st.container():
         st.markdown(create_table(girls_wins, "Girls"), unsafe_allow_html=True)
 
 # -----------------------------------------------------------------------------------------
-
-# intro -- what is champs
-# some champs stats
-# of events
-
-# division of points among top school
-
-# points lost - total points - actual points
-# % of athletes in finals from school
-# of schools that make finals
-# are athletes running faster today
-
-# Insights into the athletes and stats behind Champs victories.
-# A deep dive into the history and performances of Boys and Girls Champs.
-# % of how each class is performing of total possible points

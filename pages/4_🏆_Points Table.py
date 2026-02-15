@@ -20,7 +20,7 @@ header = f"""
     </div>
 """
 
-st.logo("assets/logo.jpeg", size="large")
+# st.logo("assets/logo.jpeg", size="small")
 st.markdown(header, unsafe_allow_html=True)
 st.caption("2012 ➡️ Present")
 "---"
@@ -234,11 +234,17 @@ with tab2:
 
             with school_l_col:
                 school_1 = st.selectbox(
-                    "School 1", school_series, placeholder="Choose a school to compare"
+                    "School 1",
+                    school_series,
+                    placeholder="Choose a school to compare",
+                    index=21,
                 )
             with school_2_col:
                 school_2 = st.selectbox(
-                    "School 2", school_series, placeholder="Choose a school to compare"
+                    "School 2",
+                    school_series,
+                    placeholder="Choose a school to compare",
+                    index=19,
                 )
 
             chart_df = df_points.fillna(0)
@@ -347,7 +353,3 @@ with tab2:
                 "sub_category", f"Points by Event Type | {school_2}", chart_df_2
             )
             st.plotly_chart(fig1, use_container_width=True, key=4)
-
-# Total potential points based on number of athletes that got into the finals
-# Points lost
-## make graph colours standard across events in charts

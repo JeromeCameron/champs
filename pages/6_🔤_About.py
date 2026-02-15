@@ -15,7 +15,7 @@ header = f"""
     </div>
 """
 
-st.logo("assets/logo.jpeg", size="large")
+# st.logo("assets/logo.jpeg", size="small")
 st.markdown(header, unsafe_allow_html=True)
 "---"
 
@@ -100,7 +100,7 @@ with st.container():
             use_container_width=True,
         )
 
-with st.expander("See the code snippet used to parse athlete names below:"):
+with st.expander("See the code snippet used to parse each event data below:"):
     code_sample_2 = """
     def get_athlete_name(result: list) -> str:
     '''Returns athlete name'''
@@ -219,6 +219,10 @@ with st.expander("See the code snippet used to parse athlete names below:"):
 
 st.markdown(
     "<p>All of this made the next step—data cleaning—very time-consuming.</p>",
+    unsafe_allow_html=True,
+)
+st.markdown(
+    "<p>You can find the rest of the code here <a href='https://github.com/JeromeCameron/champs.git'>https://github.com/JeromeCameron/champs.git</a>.</p>",
     unsafe_allow_html=True,
 )
 

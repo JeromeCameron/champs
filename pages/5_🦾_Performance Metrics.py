@@ -17,7 +17,7 @@ header = f"""
     </div>
 """
 st.set_page_config(layout="wide")
-st.logo("assets/logo.jpeg", size="large")
+# st.logo("assets/logo.jpeg", size="small")
 st.markdown(header, unsafe_allow_html=True)
 st.caption("2012 ➡️ Present")
 "---"
@@ -235,4 +235,4 @@ fig.update_layout(yaxis_title="Time in Seconds")
 
 st.plotly_chart(fig)
 
-st.write(avg_performance_track)
+# st.write(avg_performance_track)
