@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import re
 import plotly.express as px
+from utils import time_to_seconds, seconds_to_minutes
 
 # ---------------- Settings ------------------------------------
 
@@ -19,47 +19,11 @@ header = f"""
 st.set_page_config(layout="wide")
 # st.logo("assets/logo.jpeg", size="small")
 st.markdown(header, unsafe_allow_html=True)
-st.caption("2012 ➡️ Present")
+st.caption("2012 ➡️ Present (excluding 2013 and 2020)")
 "---"
 
 with open("css/style.css") as css:
     st.markdown(f"<style>{css.read()}</style>", unsafe_allow_html=True)
-
-
-# Functions ----------------------------------------------------------------------
-def time_to_seconds(time_str):
-    """Converts a time string (H:MM:SS.mmm or MM:SS.mmm or SS.mmm) to seconds."""
-
-    parts = re.split(r":|\.", time_str)  # Split by ": " and "."
-
-    if len(parts) >= 3:  # H:MM:SS.mmm or MM:SS.mmm
-        if len(parts[0]) > 1:  # H:MM:SS.mmm
-            hours = int(parts[0])
-            minutes = int(parts[1])
-            seconds = float(parts[2] + "." + parts[3])
-            total_seconds = hours * 3600 + minutes * 60 + seconds
-        else:  # MM:SS.mmm
-            minutes = int(parts[0])
-            seconds = float(parts[1] + "." + parts[2])
-            total_seconds = minutes * 60 + seconds
-
-    elif len(parts) == 2:  # SS.mmm
-        seconds = float(parts[0] + "." + parts[1])  # join back the split seconds
-        total_seconds = seconds
-    else:
-        raise ValueError("Invalid time format.  Use H:MM:SS.mmm, MM:SS.mmm, or SS.mmm")
-
-    return total_seconds
-
-
-def seconds_to_minutes(time_in_seconds):
-    if time_in_seconds >= 60:
-        minutes = int(time_in_seconds // 60)
-        seconds = time_in_seconds - (minutes * 60)  # time_in_seconds % 60
-        return f"{minutes}:{seconds:05.2f}"
-    else:
-        return f"{time_in_seconds:.2f}"
-
 
 # ------------------------------------------------------------------------------------
 
@@ -91,9 +55,27 @@ with st.container(border=True):
         clas_s = st.selectbox("Class", clas_series)
     with col3:
         events_df = df[(df["gender"] == gender) & (df["clas_s"] == clas_s)]
-        events = events_df["event"].unique()
-        events = np.sort(events)
-        discipline = st.selectbox("Discipline", events)
+
+        events = sorted(events_df["event"].unique())
+
+        if "discipline_2" not in st.session_state:
+            st.session_state.discipline_2 = None
+
+        # If no events available
+        if len(events) == 0:
+            discipline = None
+            st.selectbox("Discipline", ["No events"], disabled=True)
+        else:
+            # If previous discipline not valid, reset
+            if st.session_state.discipline_2 not in events:
+                st.session_state.discipline_2 = events[0]
+
+            current_index = events.index(st.session_state.discipline_2)
+
+            discipline = st.selectbox("Discipline", events, index=current_index)
+
+            st.session_state.discipline_2 = discipline
+
 
 # Fiter results based on user input
 track_events = df[
@@ -110,7 +92,7 @@ field_events = df[
     & (df["clas_s"] == clas_s)
     & (df["event"] == discipline)
     & (df["category"] == "Field Event")
-    & (df["mark"].notna())
+    | (df["category"] == "Combined Events") & (df["mark"].notna())
 ].copy()
 field_events["mark"] = field_events["mark"].astype(str)
 
@@ -123,7 +105,6 @@ field_events.sort_values(
     by="mark", inplace=True, ascending=False
 )  # sort by distance or height
 all_events = pd.concat([track_events, field_events])
-
 
 st.html("<br>")
 
@@ -184,6 +165,8 @@ number = st.number_input(
 )
 
 # Fiter results based on user input
+
+# ---------------- Track Events -----------------------------------------
 tr_events = df[
     (df["gender"] == gender)
     & (df["event"] == discipline)
@@ -198,7 +181,7 @@ tr_events.sort_values(by="time_seconds", inplace=True)  # sort by time
 # avg performance
 avg_performance_track = tr_events[tr_events["position"] <= number].copy()
 avg_performance_track = (
-    avg_performance_track.groupby(["year", "clas_s"])["time_seconds"]
+    avg_performance_track.groupby(["year", "clas_s", "category"])["time_seconds"]
     .agg(["mean", "min"])
     .reset_index()
 )
@@ -209,30 +192,104 @@ avg_performance_track["avg_mark"] = avg_performance_track["mean"].apply(
     seconds_to_minutes
 )
 
-options = ["1", "2", "3", "4"]
+# ---------------------- Field Events --------------------------------------
+fi_events = df[
+    (df["gender"] == gender)
+    & (df["event"] == discipline)
+    & (df["category"] == "Field Event")
+    | (df["category"] == "Combined Events") & (df["mark"].notna())
+].copy()
+
+fi_events["mark"] = pd.to_numeric(fi_events["mark"], errors="coerce")
+fi_events.sort_values(by="mark", inplace=True)  # sort by distance
+
+# avg performance
+avg_performance_field = fi_events[fi_events["position"] <= number].copy()
+avg_performance_field = (
+    avg_performance_field.groupby(["year", "clas_s", "category"])["mark"]
+    .agg(["mean", "min"])
+    .reset_index()
+)
+
+avg_performance_field = avg_performance_field.reset_index()
+avg_performance_field["clas_s"] = avg_performance_field["clas_s"].astype(str)
+avg_performance_field["avg_mark"] = avg_performance_field["mean"]
+
+# --------------------------------------------------------------------------
+
+avg_performances = pd.concat([avg_performance_track, avg_performance_field])
+
+options = sorted(avg_performances["clas_s"].unique())
 selection = st.segmented_control(
-    "Compare Classes", options, selection_mode="multi", default=["1", "2"]
+    "Compare Classes", options, selection_mode="multi", default=options[:1]
 )
 
-avg_performance_track = avg_performance_track[
-    avg_performance_track["clas_s"].isin(selection)
-]
+avg_performances = avg_performances[avg_performances["clas_s"].isin(selection)]
 
 
-fig = px.line(
-    avg_performance_track,
-    x="year",
-    y="mean",
-    title="Avg. Performances",
-    markers=True,
-    template="seaborn",
-    hover_data=["avg_mark"],
-    color=avg_performance_track["clas_s"].astype(str),
-)
-fig.update_traces(mode="markers+lines")
-fig.update_layout(yaxis_title="Time in Seconds")
-# fig.update_layout(hovermode="x")
+# Calculate buffers for the y-axis (from earlier)
+ymin, ymax = avg_performances["mean"].min(), avg_performances["mean"].max()
+padding = (ymax - ymin) * 0.2
 
-st.plotly_chart(fig)
+if not selection:
+    st.warning("Please select at least one class!")
+else:
+    # 1. Create the base chart
+    fig = px.line(
+        avg_performances,
+        x="year",
+        y="mean",
+        color=avg_performances["clas_s"].astype(str),
+        markers=True,
+        template="simple_white",
+        labels={"color": "Class", "mean": "Performance", "year": "Year"},
+        hover_data={
+            "avg_mark": False,  # we'll control this manually
+        },
+    )
 
-# st.write(avg_performance_track)
+    # 2. Add dynamic flare: Smooth lines and donut markers
+    fig.update_traces(
+        line_shape="linear",
+        line_width=4,
+        marker=dict(size=12, line=dict(width=2, color="white")),
+        cliponaxis=False,
+        hovertemplate="<b>Year:</b> %{x}<br>"
+        "<b>Avg. Performance:</b> %{y:.2f}s<br>"
+        "<extra></extra>",
+    )
+
+    # 3. Dynamic Annotation: Auto-locate the overall best point
+    if not avg_performance_track.empty:
+        best_idx = avg_performances["mean"].idxmin()
+        fig.update_yaxes(autorange="reversed")
+    else:
+        best_idx = avg_performances["mean"].idxmax()
+
+    best_val = avg_performances.loc[best_idx]
+
+    fig.update_xaxes(
+        tickmode="linear",
+        tick0=avg_performances["year"].min(),
+        dtick=1,
+        fixedrange=True,
+        gridcolor="whitesmoke",
+    )
+
+    # 4. Cleanup and Spacing
+    fig.update_layout(
+        title={
+            "text": f"<b>Performance Analysis: {discipline}</b>",
+            "x": 0.05,
+            "y": 0.95,
+        },
+        margin=dict(l=20, r=20, t=100, b=100),
+        yaxis=dict(range=[ymin - padding, ymax + padding], fixedrange=True),
+        xaxis=dict(fixedrange=True),
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+    )
+    # Adds a subtle fill under the lines
+    # fig.update_traces(fill="tonexty", fillcolor="rgba(100, 100, 100, 0.1)")
+    fig.update_layout(legend_title_text="Class")
+
+    st.plotly_chart(fig, config={"displayModeBar": False})

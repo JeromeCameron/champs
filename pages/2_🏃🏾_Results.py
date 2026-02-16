@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
+from utils import seconds_to_minutes, time_to_seconds
 
 # -------------------- Settings -------------------------------#
 
@@ -18,7 +19,7 @@ header = f"""
 st.set_page_config(layout="wide")
 # st.logo("assets/logo.jpeg", size="small")
 st.markdown(header, unsafe_allow_html=True)
-st.caption("2012 ➡️ Present")
+st.caption("2012 ➡️ Present (excluding 2013 and 2020)")
 
 
 with open("css/style.css") as css:
@@ -61,11 +62,29 @@ with tab1:
         with col4:
             events_df = df[
                 (df["gender"] == gender)
-                & (df["clas_s"] == clas_s) * (df["year"] == year)
+                & (df["clas_s"] == clas_s)
+                & (df["year"] == year)
             ]
-            events = events_df["event"].unique()
-            events = np.sort(events)
-            discipline = st.selectbox("Discipline", events)
+
+            events = sorted(events_df["event"].unique())
+
+            if "discipline" not in st.session_state:
+                st.session_state.discipline = None
+
+            # If no events available
+            if len(events) == 0:
+                discipline = None
+                st.selectbox("Discipline", ["No events"], disabled=True)
+            else:
+                # If previous discipline not valid, reset
+                if st.session_state.discipline not in events:
+                    st.session_state.discipline = events[0]
+
+                current_index = events.index(st.session_state.discipline)
+
+                discipline = st.selectbox("Discipline", events, index=current_index)
+
+                st.session_state.discipline = discipline
 
     # Fiter results based on user input
     results = df[
@@ -214,24 +233,147 @@ with tab2:
     athlete_sel_event.sort_values(by="year", inplace=True)  # sort by year
     athlete_sel_event.sort_values(by="mark", inplace=True)
 
+    athlete_sel_event["mark"] = athlete_sel_event["mark"].str.rstrip(
+        "x R X m M"
+    )  # Strip str from mark
+
+    # ---------------- Track Events -----------------------------------------
+    tr_events = athlete_sel_event[(df["category"] == "Track Event")].copy()
+
+    tr_events["mark"] = tr_events["mark"].astype(str)
+
+    tr_events["time_seconds"] = tr_events["mark"].apply(time_to_seconds)
+    tr_events.sort_values(by="time_seconds", inplace=True)  # sort by time
+
+    tr_events["mark"] = tr_events["time_seconds"].apply(seconds_to_minutes)
+
+    # ---------------------- Field Events --------------------------------------
+    fi_events = athlete_sel_event[(df["category"] == "Field Event")].copy()
+
+    fi_events["mark"] = pd.to_numeric(fi_events["mark"], errors="coerce")
+    fi_events.sort_values(by="mark", inplace=True)  # sort by distance
+
+    # --------------------------------------------------------------------------
+
+    tr_events["mark"] = pd.to_numeric(tr_events["mark"], errors="coerce")
+    fi_events["mark"] = pd.to_numeric(fi_events["mark"], errors="coerce")
+
+    performances = pd.concat([tr_events, fi_events])
+    performances = performances.sort_values("year")
+
+    # Calculate buffers for the y-axis (from earlier)
+    ymin, ymax = performances["mark"].min(), performances["mark"].max()
+    padding = (ymax - ymin) * 0.1
+
+    x = performances["year"]
+    y = performances["mark"]
+
+    z = np.polyfit(x, y, 1)
+    p = np.poly1d(z)
+
+    trend_y = p(x)
+
+    # 1. Create the base chart
     fig = px.line(
-        athlete_sel_event,
+        performances,
         x="year",
         y="mark",
-        title="Performance Progression",
+        # color=performances["clas_s"].astype(str),
         markers=True,
-        template="seaborn",
+        template="simple_white",
+        labels={"mark": "Performance", "year": "Year"},
+        hover_data={
+            "wind": True,
+            "position": True,
+            "school": True,
+            "mark": False,  # we'll control this manually
+        },
     )
 
-    # Force the x-axis to be categorical
-    # fig.update_xaxes(type="category")
-    # fig.update_yaxes(autorange="reversed")
+    # 2. Add dynamic flare: Smooth lines and donut markers
+    fig.update_traces(
+        line_shape="linear",
+        line_width=4,
+        marker=dict(size=12, line=dict(width=2, color="white")),
+        cliponaxis=False,
+        customdata=performances[["wind", "position"]].values,
+        hovertemplate="<b>Year:</b> %{x}<br>"
+        "<b>Performance:</b> %{y:.2f}s<br>"
+        "<b>Wind:</b> %{customdata[0]} m/s<br>"
+        "<b>Position:</b> %{customdata[1]}<br>"
+        "<extra></extra>",
+    )
 
-    # Force integer year ticks
+    # 3. Dynamic Annotation: Auto-locate the overall best point
+    if not tr_events.empty:
+        best_idx = performances["mark"].idxmin()
+        fig.update_yaxes(autorange="reversed")
+    else:
+        best_idx = performances["mark"].idxmax()
+
+    best_val = performances.loc[best_idx]
+
+    if not tr_events.empty:
+        best_label = f"<b>All-Time Best</b><br>{best_val['mark']}"
+    else:
+        best_label = f"<b>All-Time Best</b><br>{best_val['mark']:.2f}"
+
+    fig.add_annotation(
+        x=best_val["year"],
+        y=best_val["mark"],
+        text=best_label,
+        showarrow=True,
+        arrowhead=3,
+        arrowsize=1.5,
+        arrowwidth=2,
+        ax=0,
+        ay=-50,
+        bgcolor="white",
+        bordercolor="black",
+        borderpad=4,
+    )
+
     fig.update_xaxes(
-        tickmode="array",
-        tickvals=athlete_sel_event["year"].unique(),
-        ticktext=athlete_sel_event["year"].unique(),
+        tickmode="linear",
+        tick0=performances["year"].min(),
+        dtick=1,
+        fixedrange=True,
+        gridcolor="whitesmoke",
     )
 
-    st.plotly_chart(fig)
+    # 4. Cleanup and Spacing
+    fig.update_layout(
+        title={
+            "text": f"<b>Performance Analysis: {selected_event}</b>",
+            "x": 0.05,
+            "y": 0.95,
+        },
+        margin=dict(l=20, r=20, t=100, b=100),
+        yaxis=dict(range=[ymin - padding, ymax + padding], fixedrange=True),
+        xaxis=dict(fixedrange=True),
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+    )
+    # Adds a subtle fill under the lines
+    # fig.update_traces(fill="tonexty", fillcolor="rgba(100, 100, 100, 0.1)")
+
+    fig.add_scatter(
+        x=[best_val["year"]],
+        y=[best_val["mark"]],
+        mode="markers",
+        marker=dict(size=20, symbol="circle", line=dict(width=4), color="orange"),
+        showlegend=False,
+    )
+
+    fig.add_scatter(
+        x=x,
+        y=trend_y,
+        mode="lines",
+        line=dict(
+            dash="dot",
+            width=2,
+        ),
+        name="Trend",
+        showlegend=False,
+    )
+
+    st.plotly_chart(fig, config={"displayModeBar": False})

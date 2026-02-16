@@ -11,9 +11,9 @@ primary_text: str = "#fafbfd"
 secondary_text: str = "#536878"
 
 header = f"""
-    <div style='display: flex; align-items: baseline;'>
-        <h1 style='color: {primary_color}; font-size: 2rem;'>Faster, Higher, Stronger:</h1>
-        <h3 style='color: {secondary_text}; font-size: 1.4rem;'>Analyzing the Athletes and Stats Behind Champs Glory</h3>
+    <div style='display: flex; align-items: baseline; flex-direction: column; width: 100%;'>
+        <h1 style='color: {primary_color}; font-size: 2rem; margin-bottom: 0; padding-bottom: 0;'>Faster, Higher, Stronger:</h1>
+        <h3 style='color: {secondary_text}; font-size: 1.4rem; padding-top: 6px;'>Analyzing the Athletes and Stats Behind Champs Glory</h3>
     </div>
 """
 st.set_page_config(layout="wide")
@@ -42,6 +42,8 @@ intro: str = """
     </p>
     <p>
     As a track and field fan and data enthusiast, I’ve always wanted to undertake a project focused on Champs. The purpose of this app is to dive deep into Champs data, examining schools and athlete performances, and sharing my insights. You can find more details about this project on the About page.
+    </p>
+    <p><Strong>Just a heads-up: the data currently runs from 2012 to 2024. 2013 is missing because I haven’t sourced that dataset yet, and there was no Champs in 2020 due to COVID-19.</Strong>
     </p>
 """
 st.markdown(intro, unsafe_allow_html=True)

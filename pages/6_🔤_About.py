@@ -11,7 +11,7 @@ secondary_text: str = ""
 
 header = f"""
     <div>
-        <h1 style='color: {primary_color}; font-size: 2rem;'>What is this all about and how did i do it...? 🤔</h1>
+        <h1 style='color: {primary_color}; font-size: 2rem;'>What is this all about and how did I do it...? 🤔</h1>
     </div>
 """
 
