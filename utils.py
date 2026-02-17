@@ -31,10 +31,17 @@ def time_to_seconds(time_str):
         return None
 
 
-def seconds_to_minutes(time_in_seconds):
+def seconds_to_minutes(time_in_seconds: float):
     if time_in_seconds >= 60:
         minutes = int(time_in_seconds // 60)
         seconds = time_in_seconds - (minutes * 60)  # time_in_seconds % 60
         return f"{minutes}:{seconds:05.2f}"
     else:
         return f"{time_in_seconds:.2f}"
+
+
+if __name__ == "__main__":
+    user_input = input("Enter string time... ")
+
+    tm = seconds_to_minutes(float(user_input))
+    print(type(tm))

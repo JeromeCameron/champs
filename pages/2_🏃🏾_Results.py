@@ -245,21 +245,23 @@ with tab2:
     tr_events["time_seconds"] = tr_events["mark"].apply(time_to_seconds)
     tr_events.sort_values(by="time_seconds", inplace=True)  # sort by time
 
-    tr_events["mark"] = tr_events["time_seconds"].apply(seconds_to_minutes)
+    tr_events["mark"] = tr_events["time_seconds"]
+    # tr_events["mark"] = tr_events["time_seconds"].apply(seconds_to_minutes)
 
     # ---------------------- Field Events --------------------------------------
-    fi_events = athlete_sel_event[(df["category"] == "Field Event")].copy()
+    fi_events = athlete_sel_event[
+        (df["category"] == "Field Event")
+        | (df["category"] == "Combined Events") & (df["mark"].notna())
+    ].copy()
 
     fi_events["mark"] = pd.to_numeric(fi_events["mark"], errors="coerce")
     fi_events.sort_values(by="mark", inplace=True)  # sort by distance
 
     # --------------------------------------------------------------------------
 
-    tr_events["mark"] = pd.to_numeric(tr_events["mark"], errors="coerce")
-    fi_events["mark"] = pd.to_numeric(fi_events["mark"], errors="coerce")
-
     performances = pd.concat([tr_events, fi_events])
     performances = performances.sort_values("year")
+    performances["mark"] = pd.to_numeric(performances["mark"], errors="coerce")
 
     # Calculate buffers for the y-axis (from earlier)
     ymin, ymax = performances["mark"].min(), performances["mark"].max()
@@ -267,6 +269,10 @@ with tab2:
 
     x = performances["year"]
     y = performances["mark"]
+
+    performances["formatted_mark"] = [
+        seconds_to_minutes(v) for v in performances["mark"]
+    ]
 
     z = np.polyfit(x, y, 1)
     p = np.poly1d(z)
@@ -296,9 +302,9 @@ with tab2:
         line_width=4,
         marker=dict(size=12, line=dict(width=2, color="white")),
         cliponaxis=False,
-        customdata=performances[["wind", "position"]].values,
+        customdata=performances[["wind", "position", "formatted_mark"]].values,
         hovertemplate="<b>Year:</b> %{x}<br>"
-        "<b>Performance:</b> %{y:.2f}s<br>"
+        "<b>Performance:</b> %{customdata[2]}s<br>"
         "<b>Wind:</b> %{customdata[0]} m/s<br>"
         "<b>Position:</b> %{customdata[1]}<br>"
         "<extra></extra>",
@@ -308,15 +314,22 @@ with tab2:
     if not tr_events.empty:
         best_idx = performances["mark"].idxmin()
         fig.update_yaxes(autorange="reversed")
+        tick_vals = np.linspace(ymin, ymax, 6)  # 6 clean ticks
+        tick_text = [seconds_to_minutes(val) for val in tick_vals]
+        fig.update_yaxes(tickvals=tick_vals, ticktext=tick_text)
+
     else:
         best_idx = performances["mark"].idxmax()
+        fig.update_yaxes(tickformat=".2f")
 
     best_val = performances.loc[best_idx]
 
     if not tr_events.empty:
-        best_label = f"<b>All-Time Best</b><br>{best_val['mark']}"
+        best_display = seconds_to_minutes(best_val["mark"])
     else:
-        best_label = f"<b>All-Time Best</b><br>{best_val['mark']:.2f}"
+        best_display = f"{best_val['mark']:.2f}"
+
+    best_label = f"<b>All-Time Best</b><br>{best_display}"
 
     fig.add_annotation(
         x=best_val["year"],
@@ -353,8 +366,6 @@ with tab2:
         xaxis=dict(fixedrange=True),
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
     )
-    # Adds a subtle fill under the lines
-    # fig.update_traces(fill="tonexty", fillcolor="rgba(100, 100, 100, 0.1)")
 
     fig.add_scatter(
         x=[best_val["year"]],
