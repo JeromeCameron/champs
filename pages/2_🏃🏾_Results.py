@@ -271,7 +271,12 @@ with tab2:
     y = performances["mark"]
 
     performances["formatted_mark"] = [
-        seconds_to_minutes(v) for v in performances["mark"]
+        (
+            seconds_to_minutes(row["mark"])
+            if row["category"] == "Track Event"
+            else f"{row['mark']:.2f}"
+        )
+        for _, row in performances.iterrows()
     ]
 
     z = np.polyfit(x, y, 1)
@@ -304,7 +309,7 @@ with tab2:
         cliponaxis=False,
         customdata=performances[["wind", "position", "formatted_mark"]].values,
         hovertemplate="<b>Year:</b> %{x}<br>"
-        "<b>Performance:</b> %{customdata[2]}s<br>"
+        "<b>Performance:</b> %{customdata[2]}<br>"
         "<b>Wind:</b> %{customdata[0]} m/s<br>"
         "<b>Position:</b> %{customdata[1]}<br>"
         "<extra></extra>",

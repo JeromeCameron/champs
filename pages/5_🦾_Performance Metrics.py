@@ -196,8 +196,8 @@ avg_performance_track["avg_mark"] = avg_performance_track["mean"].apply(
 fi_events = df[
     (df["gender"] == gender)
     & (df["event"] == discipline)
-    & (df["category"] == "Field Event")
-    | (df["category"] == "Combined Events") & (df["mark"].notna())
+    & ((df["category"] == "Field Event") | (df["category"] == "Combined Events"))
+    & (df["mark"].notna())
 ].copy()
 
 fi_events["mark"] = pd.to_numeric(fi_events["mark"], errors="coerce")
@@ -226,10 +226,18 @@ selection = st.segmented_control(
 
 avg_performances = avg_performances[avg_performances["clas_s"].isin(selection)]
 
-
 # Calculate buffers for the y-axis (from earlier)
 ymin, ymax = avg_performances["mean"].min(), avg_performances["mean"].max()
 padding = (ymax - ymin) * 0.2
+
+avg_performances["formatted_mark"] = [
+    (
+        seconds_to_minutes(row["mean"])
+        if row["category"] == "Track Event"
+        else f"{row['mean']:.2f}"
+    )
+    for _, row in avg_performances.iterrows()
+]
 
 if not selection:
     st.warning("Please select at least one class!")
@@ -254,8 +262,9 @@ else:
         line_width=4,
         marker=dict(size=12, line=dict(width=2, color="white")),
         cliponaxis=False,
+        customdata=avg_performances[["formatted_mark"]].values,
         hovertemplate="<b>Year:</b> %{x}<br>"
-        "<b>Avg. Performance:</b> %{y:.2f}s<br>"
+        "<b>Avg. Performance:</b> %{customdata[0]}<br>"
         "<extra></extra>",
     )
 
@@ -263,8 +272,12 @@ else:
     if not avg_performance_track.empty:
         best_idx = avg_performances["mean"].idxmin()
         fig.update_yaxes(autorange="reversed")
+        tick_vals = np.linspace(ymin, ymax, 6)  # 6 clean ticks
+        tick_text = [seconds_to_minutes(val) for val in tick_vals]
+        fig.update_yaxes(tickvals=tick_vals, ticktext=tick_text)
     else:
         best_idx = avg_performances["mean"].idxmax()
+        fig.update_yaxes(tickformat=".2f")
 
     best_val = avg_performances.loc[best_idx]
 
@@ -289,7 +302,7 @@ else:
         legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
     )
     # Adds a subtle fill under the lines
-    # fig.update_traces(fill="tonexty", fillcolor="rgba(100, 100, 100, 0.1)")
+
     fig.update_layout(legend_title_text="Class")
 
     st.plotly_chart(fig, config={"displayModeBar": False})

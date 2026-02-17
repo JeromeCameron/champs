@@ -219,8 +219,7 @@ fig = px.bar(
 )
 # fig.update_traces(marker=dict(color=colors))
 st.plotly_chart(
-    fig,
-    use_container_width=False,
+    fig, use_container_width=False, config={"staticPlot": True, "displayModeBar": False}
 )
 # ---------------------------------- How to Win -----------------------------------------------
 
