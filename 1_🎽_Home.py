@@ -207,6 +207,7 @@ def age_group_points():
 
 
 colors = ["#1249a1", "#1657c1", "#1863da", "#2871e7", "#4282ea"]
+
 fig = px.bar(
     age_group_points(),
     y="total_points",
@@ -221,7 +222,8 @@ fig = px.bar(
 st.plotly_chart(
     fig, use_container_width=False, config={"staticPlot": True, "displayModeBar": False}
 )
-# ---------------------------------- How to Win -----------------------------------------------
+
+# ---------------------------------- How to Win ----------------------------------------
 
 how_to_win = """
     <br>
