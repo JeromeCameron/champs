@@ -1,5 +1,7 @@
 import httpx
 from get_events_2025 import parse_results
+
+# from get_relays_2025 import parse_relays
 import pandas as pd
 import os
 import time
@@ -122,7 +124,7 @@ if __name__ == "__main__":
     ]
 
     results_25 = []
-    file_path = "csv_files/champs_2025-results.csv"
+    file_path = "csv_files/champs_2025_2_results.csv"
 
     for event_id in event_ids:
         print(f"Getting page {event_id}")
@@ -132,20 +134,9 @@ if __name__ == "__main__":
         file_exists = os.path.isfile(file_path)
         results_25.to_csv(file_path, mode="a", header=not file_exists, index=False)
 
-        print("Pausing for 5 seconds...")
-        time.sleep(5)
+        time.sleep(2)
 
     print("Done!")
 
-    # [288310,
-    #     288312,
-    #     288314,
-    #     288316,
-    #     288318,
-    #     288320,
-    #     288322,
-    #     288324,
-    #     288326,
-    #     288328,
-    #     288330,
-    #     288332]
+    # relays - https://athleticlive.blob.core.windows.net/$web/rel_res_list/_doc/
+    # individual - https://athleticlive.blob.core.windows.net/$web/ind_res_list/_doc/1700923

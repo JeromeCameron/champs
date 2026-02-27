@@ -1,14 +1,14 @@
 import pandas as pd
 
 
-def parse_results(json_path) -> pd.DataFrame:
+def parse_relays(json_path) -> pd.DataFrame:
 
     results = []
 
     for item in json_path:
         source = item.get("_source", {})
 
-        event_name = source.get("sn")
+        event_name = source.get("n")
         gender = source.get("gl")
         clas_s = source.get("eo")
 
@@ -18,21 +18,18 @@ def parse_results(json_path) -> pd.DataFrame:
             else None
         )
 
-        for result in source.get("r", []):
+        for result in source.get("rts", []):
             results.append(
                 {
                     "event": event_name,
                     "gender": gender,
                     "clas_s": clas_s,
-                    "category": "",
-                    "sub_category": "",
                     "wind": wind,
-                    "athlete": result.get("a", {}).get("n"),
+                    "athlete": result.get("t", {}).get("n"),
                     "year": 25,
                     "position": result.get("p"),
-                    "school": result.get("a", {}).get("t", {}).get("f"),
-                    "series": "",
-                    "mark": str(result.get("m", "")) + "X",
+                    "school": result.get("t", {}).get("f"),
+                    "mark": result.get("m"),
                     "points": result.get("pt"),
                 }
             )
