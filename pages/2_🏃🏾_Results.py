@@ -32,13 +32,13 @@ df["note"] = df["note"].apply(
     lambda x: "" if pd.isna(x) else x
 )  # Replace NaN values with an empty string
 df["points"] = df["points"].fillna(0)
-df["mark"] = df["mark"].str.rstrip("x")
+df["mark"] = df["mark"].str.rstrip("x R X m M")
 df["position"] = pd.to_numeric(df["position"], errors="coerce").astype(
     "Int64"
 )  # convert position to int ignoring nan values
 
 records = pd.read_csv("./working_files/champs_records.csv")
-records["mark"] = records["mark"].str.rstrip("x")
+records["mark"] = records["mark"].str.rstrip("x R X m M")
 
 tab1, tab2 = st.tabs(["Filter By Event", "Filter by Athlete"])
 
