@@ -43,7 +43,15 @@ intro: str = """
     <p>
     As a track and field fan and data enthusiast, I’ve always wanted to undertake a project focused on Champs. The purpose of this app is to dive deep into Champs data, examining schools and athlete performances, and sharing my insights. You can find more details about this project on the About page.
     </p>
-    <p><Strong>Just a heads-up: the data currently runs from 2012 to 2025. 2013 is missing because I haven’t sourced that dataset yet, and there were no championships in 2020 due to COVID-19.</Strong>
+    <p>
+    <Strong>
+        <ul>
+            <li>Just a heads-up: the data currently spans 2012 to 2025.</li>
+            <li>2013 is missing, as I haven’t sourced that dataset yet.</li>
+            <li>2020 is excluded because there were no championships due to COVID-19.</li>
+            <li>The dataset is focused exclusively on finals.</li>
+        </ul>
+    </Strong>
     </p>
 """
 st.markdown(intro, unsafe_allow_html=True)
