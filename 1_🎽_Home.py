@@ -16,7 +16,7 @@ header = f"""
         <h3 style='color: {secondary_text}; font-size: 1.4rem; padding-top: 6px;'>Analyzing the Athletes and Stats Behind Champs Glory</h3>
     </div>
 """
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_icon="🏃🏾‍♂️", page_title="Champs Insights")
 # st.logo("assets/logo.jpeg", size="small")
 st.markdown(header, unsafe_allow_html=True)
 "---"
