@@ -9,6 +9,10 @@ primary_color: str = "#182536"
 secondary_color: str = "#1874d0"
 primary_text: str = "#fafbfd"
 secondary_text: str = "#536878"
+
+
+st.set_page_config(layout="wide", page_icon="🏃🏾‍♂️", page_title="Champs Insights")
+
 st.image("assets/logo.jpeg", width=140)
 header = f"""
     <div style='display: flex; align-items: center; flex-direction: column; width: 100%;'>
@@ -16,7 +20,7 @@ header = f"""
         <h3 style='color: {secondary_text}; font-size: 1.4rem; padding-top: 6px;'>Breaking down the data behind Champs glory</h3>
     </div>
 """
-st.set_page_config(layout="wide", page_icon="🏃🏾‍♂️", page_title="Champs Insights")
+
 # st.logo("assets/logo.jpeg", size="small")
 st.markdown(header, unsafe_allow_html=True)
 "---"
