@@ -75,6 +75,8 @@ points_distribution = points_system.groupby("type", as_index=False)[
     points_columns
 ].mean()
 
+points_distribution["type"] = points_distribution["type"].str.title()
+
 # ------------------- Calculate total points up for grabs ------------------
 
 

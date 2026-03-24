@@ -34,7 +34,7 @@ Long Jump,jump,individual,boys,3,9,7,6,5,4,3,2,1
 100 Meter,sprint,individual,boys,3,9,7,6,5,4,3,2,1
 200 Meter,sprint,individual,boys,3,9,7,6,5,4,3,2,1
 400 Meter,sprint,individual,boys,3,9,7,6,5,4,3,2,1
-Decathlon,combine event,combine event,boys,open,12,10,8,6,5,4,3,2
+Decathlon,combine event,combined events,boys,open,12,10,8,6,5,4,3,2
 Pole Vault,jump,individual,boys,open,9,7,6,5,4,3,2,1
 5000 Meter,long distance,individual,boys,open,9,7,6,5,4,3,2,1
 2000 Meter Steeplechase,middle distance,individual,boys,open,9,7,6,5,4,3,2,1
@@ -85,5 +85,5 @@ Long Jump,jump,individual,girls,4,9,7,6,5,4,3,2,1
 1600 Sprint Medley,relay,relay,girls,open,12,10,8,6,5,4,3,2
 4X400 Meter Relay,relay,relay,girls,open,12,10,8,6,5,4,3,2
 Javelin Throw,throw,individual,girls,open,9,7,6,5,4,3,2,1
-Heptathlon,combine event,combine event,girls,open,12,10,8,6,5,4,3,2
+Heptathlon,combine event,combined events,girls,open,12,10,8,6,5,4,3,2
 400 Meter Hurdles,hurdles,individual,girls,open,9,7,6,5,4,3,2,1
