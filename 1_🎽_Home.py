@@ -9,11 +9,11 @@ primary_color: str = "#182536"
 secondary_color: str = "#1874d0"
 primary_text: str = "#fafbfd"
 secondary_text: str = "#536878"
-
+st.image("assets/logo.jpeg", width=140)
 header = f"""
-    <div style='display: flex; align-items: baseline; flex-direction: column; width: 100%;'>
+    <div style='display: flex; align-items: center; flex-direction: column; width: 100%;'>
         <h1 style='color: {primary_color}; font-size: 2rem; margin-bottom: 0; padding-bottom: 0;'>Faster, Higher, Stronger:</h1>
-        <h3 style='color: {secondary_text}; font-size: 1.4rem; padding-top: 6px;'>Analyzing the Athletes and Stats Behind Champs Glory</h3>
+        <h3 style='color: {secondary_text}; font-size: 1.4rem; padding-top: 6px;'>Breaking down the data behind Champs glory</h3>
     </div>
 """
 st.set_page_config(layout="wide", page_icon="🏃🏾‍♂️", page_title="Champs Insights")
@@ -241,7 +241,7 @@ how_to_win = """
     <ul>
         <li><strong>Active Recruiting:</strong> Top-performing schools actively recruit student-athletes from smaller, less traditional schools, other Caribbean nations, and even as far as African countries like Kenya. This approach helps them secure top-tier talent across multiple disciplines."</li>
         <li><strong>Numbers:</strong> Champs, at its core, is a numbers game. Winning schools must have a large pool of athletes competing in various events to maximize points. For smaller schools, this can be a major challenge, as depth across multiple disciplines is crucial for overall success.</li>
-        <li><strong>Diversity Across Diciplines:</strong> A strong pipeline of athletes across all event types is essential. Sprint dominance alone is not enough—winning requires strength in middle and long-distance races, throws, jumps, and niche events like the pole vault. However, access to specialized equipment, such as pole vault gear and javelins, remains a significant barrier for non-traditional schools.</li>
+        <li><strong>Diversity Across Diciplines:</strong> A strong pipeline of athletes across all event types is essential. Sprint dominance alone is not enough—winning requires strength in middle and long-distance races, throws, jumps, and niche events like the pole vault. However, access to specialized equipment, such as pole vault and high jump gear, remains a significant barrier for non-traditional schools.</li>
         <li><strong>Financial Support:</strong> Any successful track and field program requires a steady influx of funding to cover essential expenses such as coaching salaries, gear and equipment, meal plans, and transportation to development meets. Without a significant and reliable source of funds, securing a Champs victory becomes nearly impossible. Schools that consistently perform well often have strong financial backing, whether through sponsorships, alumni support, allowing them to invest in athlete development and long-term success.</li>
         <li><strong>Elite Coaching & Training Facilities: </strong> Having experienced coaches who can refine technique, develop race strategies, and maximize athlete potential is crucial. Schools with access to high-quality training facilities, including modern gyms, recovery centers, and synthetic tracks, often have a competitive edge over those with limited resources.</li>
         <li><strong>Athlete Development & Injury Management:</strong>Longevity in the sport requires proper athlete development and injury prevention strategies. Schools with dedicated physiotherapists, nutritionists, and structured training programs can better maintain their athletes' peak performance throughout the season, reducing the risk of injuries that could derail their Champs campaign.</li>
