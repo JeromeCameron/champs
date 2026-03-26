@@ -15,7 +15,7 @@ header = f"""
         <h1 style='color: {primary_color}; font-size: 2rem;'>Records and Top Performers 🐐</h1>
     </div>
 """
-st.set_page_config(layout="wide")
+
 # st.logo("assets/logo.jpeg", size="small")
 st.markdown(header, unsafe_allow_html=True)
 "---"

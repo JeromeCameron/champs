@@ -11,7 +11,12 @@ primary_text: str = "#fafbfd"
 secondary_text: str = "#536878"
 
 
-st.set_page_config(layout="wide", page_icon="🏃🏾‍♂️", page_title="Champs Insights")
+st.set_page_config(
+    layout="wide",
+    page_icon="🏃🏾‍♂️",
+    page_title="Champs Insights",
+    initial_sidebar_state="expanded",
+)
 
 st.image("assets/logo.jpeg", width=140)
 header = f"""

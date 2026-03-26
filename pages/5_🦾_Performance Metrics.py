@@ -16,7 +16,7 @@ header = f"""
         <h1 style='color: {primary_color}; font-size: 2rem;'>Faster, Higher, Stronger: Performance Over the Years 📈</h1>
     </div>
 """
-st.set_page_config(layout="wide")
+
 # st.logo("assets/logo.jpeg", size="small")
 st.markdown(header, unsafe_allow_html=True)
 st.caption("2012 ➡️ Present (excluding 2013 and 2020)")
