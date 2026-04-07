@@ -26,7 +26,7 @@ def parse_relays(json_path) -> pd.DataFrame:
                     "clas_s": clas_s,
                     "wind": wind,
                     "athlete": result.get("t", {}).get("n"),
-                    "year": 25,
+                    "year": 26,
                     "position": result.get("p"),
                     "school": result.get("t", {}).get("f"),
                     "mark": result.get("m"),

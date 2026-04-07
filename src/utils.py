@@ -6,6 +6,7 @@ from typing import Callable
 import asyncio
 import rich
 import csv
+import json
 
 
 def genearate_df(
@@ -72,6 +73,31 @@ def get_file_names() -> None:
         writer.writerows([file_lst])
 
 
+def get_event_ids(json_path, output_path):
+
+    ids = []
+
+    with open(json_path, "r") as f:
+        data = json.load(f)
+
+    ws_list = data.get("_source", {}).get("ws", [])
+
+    for item in ws_list:
+        v_obj = item.get("v", {})
+        event_id = v_obj.get("i")
+
+        if event_id is not None:
+            ids.append(event_id)
+
+    # save to JSON file
+    with open(output_path, "w") as f:
+        json.dump(ids, f, indent=4)
+
+    return ids
+
+
 if __name__ == "__main__":
     """main starts here"""
-    raise NotImplementedError()
+    # raise NotImplementedError()
+
+    print(get_event_ids("raw_event_ids.json", "event_ids.json"))
