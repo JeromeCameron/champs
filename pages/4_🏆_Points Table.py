@@ -22,7 +22,7 @@ header = f"""
 
 # st.logo("assets/logo.jpeg", size="small")
 st.markdown(header, unsafe_allow_html=True)
-st.caption("2012 ➡️ Present")
+st.caption("2012 ➡️ Present (excluding 2013 and 2020)")
 "---"
 
 with open("css/style.css") as css:

@@ -56,7 +56,7 @@ intro: str = """
     <Strong>
     Just a heads-up:
         <ul>
-            <li>The data currently spans 2012 to 2025.</li>
+            <li>The data currently spans 2012 to 2026.</li>
             <li>2013 is missing, as I haven’t sourced that dataset yet.</li>
             <li>2020 is excluded because there were no championships due to COVID-19.</li>
             <li>The dataset is focused exclusively on finals.</li>
