@@ -118,7 +118,7 @@ with tab1:
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'><strong>{row['gold']}</strong></td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['silver']}</td>"
             f"<td style='border: none; padding: 8px; color: #030303; text-align: center;'>{row['bronze']}</td>"
-            f"<td style='border: none; padding: 8px; color: {primary_text}; text-align: center; background-color: {secondary_color};'><strong>{row['points']}</strong></td></tr>"
+            f"<td style='border: none; padding: 8px; color: {primary_text}; text-align: center; background-color: {secondary_color};'><strong>{round(row['points'],2)}</strong></td></tr>"
             for _, row in medalTable.iterrows()
         )
 
@@ -197,7 +197,7 @@ with tab2:
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['Jumps']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['Throws']}</td>"
             f"<td style='border: none; padding: 8px; color: #5b5b5b; text-align: center;'>{row['Combined Events']}</td>"
-            f"<td style='border: none; padding: 8px; color: {primary_text}; text-align: center; background-color: {secondary_color};'><strong>{row['total_points']}</strong</td></tr>"
+            f"<td style='border: none; padding: 8px; color: {primary_text}; text-align: center; background-color: {secondary_color};'><strong>{round(row['total_points'],2)}</strong</td></tr>"
             for _, row in points_df.head(15).iterrows()
         )
 

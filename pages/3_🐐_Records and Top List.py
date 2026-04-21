@@ -322,7 +322,7 @@ with tab3:
             </div>
             <div style="background-color: {primary_color}; padding: 6px; padding-left: 15px;">
                 <h4 style='color: {primary_text}; padding-bottom: 0; margin-bottom:0;'>Top Athlete Performers🏆</h4>
-                <h6 style='color: #e0e1e1; padding-top: 0; margin-top: 0;'>by {sort_by}</h6>
+                <h6 style='color: #e0e1e1; padding-top: 0; margin-top: 0;'>by {sort_by}  (Individual)</h6>
             </div>
             """
             st.markdown(result_header, unsafe_allow_html=True)
